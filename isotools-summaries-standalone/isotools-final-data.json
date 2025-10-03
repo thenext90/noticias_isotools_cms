@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "title": "ISOTools - Artículos Procesados con IA",
+    "source": "ISOTools Corporate Blog (isotools.us)",
+    "generated_at": "2025-10-03T01:48:47.313Z",
+    "total_articles": 5,
+    "ai_model": "OpenAI GPT-3.5-turbo",
+    "processing_status": "completed",
+    "version": "1.0.0",
+    "purpose": "Consumo externo via GitHub RAW",
+    "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-final-data.json",
+    "scraping_source": "https://www.isotools.us/blog-corporativo/",
+    "language": "español"
+  },
+  "configuration": {
+    "auto_summaries_enabled": true,
+    "ai_summaries_generated": 5,
+    "max_articles_processed": 5,
+    "summary_max_length": 200,
+    "categories_auto_assigned": true,
+    "fallback_data_available": true
+  },
+  "data": [
+    {
+      "id": 1,
+      "title": "¿Cómo decidir si la certificación del estándar ISO 42001 es la opción adecuada para su organización?",
+      "url": "https://www.isotools.us/2025/09/25/como-decidir-si-la-certificacion-del-estandar-iso-42001-es-la-opcion-adecuada-para-su-organizacion/",
+      "ai_summary": "La certificación del estándar ISO 42001 puede ofrecer a las organizaciones beneficios clave como mejorar la eficiencia operativa y la gestión de riesgos, así como aumentar la satisfacción de los clientes. Al implementar este estándar, las organizaciones pueden establecer un sistema de gestión eficaz para optimizar sus procesos y asegurar la continuidad de sus operaciones, lo que puede resultar en una mayor competitividad en el mercado y una mejora en la reputación de la empresa.",
+      "summary_length": 483,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": true,
+      "extracted_at": "2025-10-03T01:48:36.618Z",
+      "processed_at": "2025-10-03T01:48:38.167Z"
+    },
+    {
+      "id": 2,
+      "title": "Calidad 5.0: cómo la inteligencia artificial y el factor humano transforman la excelencia operativa",
+      "url": "https://www.isotools.us/2025/09/23/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa/",
+      "ai_summary": "La evolución hacia la Calidad 5.0 implica la integración de la inteligencia artificial y el factor humano para lograr la excelencia operativa en las organizaciones. Esta combinación permite mejorar la eficiencia, la precisión y la toma de decisiones, así como optimizar los procesos de control de calidad y la gestión de riesgos. Implementar esta estrategia puede resultar en una mayor competitividad, mejora continua y satisfacción del cliente, posicionando a la empresa como líder en su industria.",
+      "summary_length": 499,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": true,
+      "extracted_at": "2025-10-03T01:48:36.651Z",
+      "processed_at": "2025-10-03T01:48:40.492Z"
+    },
+    {
+      "id": 3,
+      "title": "Cumplimiento ISO 27001: los 9 pasos esenciales para preparar tu certificación",
+      "url": "https://www.isotools.us/2025/09/16/cumplimiento-iso-27001-los-9-pasos-esenciales-para-preparar-tu-certificacion/",
+      "ai_summary": "El cumplimiento de la norma ISO 27001 es crucial para garantizar la seguridad de la información en las organizaciones. Los 9 pasos esenciales descritos en el artículo proporcionan una guía práctica para preparar la certificación, mejorando la gestión de riesgos y la protección de datos. Implementar estos pasos no solo garantiza el cumplimiento normativo, sino que también fortalece la reputación de la empresa y genera confianza entre los clientes y socios comerciales.",
+      "summary_length": 471,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": true,
+      "extracted_at": "2025-10-03T01:48:36.651Z",
+      "processed_at": "2025-10-03T01:48:42.680Z"
+    },
+    {
+      "id": 4,
+      "title": "¿Cuáles son los beneficios de la ISO 9001 2026?",
+      "url": "https://www.isotools.us/2025/09/15/cuales-son-los-beneficios-de-la-iso-9001-2026/",
+      "ai_summary": "La actualización de la norma ISO 9001 en 2026 ofrece beneficios clave para las organizaciones, como la mejora de la satisfacción del cliente, la eficiencia operativa y la gestión del riesgo. Al aplicar los requisitos actualizados, las empresas pueden garantizar una mayor calidad en sus productos y servicios, así como una mayor competitividad en el mercado. Implementar la ISO 9001:2026 proporciona un marco sólido para la excelencia operativa y la mejora continua, lo que se traduce en un mayor valor agregado para los clientes y una mayor rentabilidad para la empresa.",
+      "summary_length": 571,
+      "category": "ISO_9001_Gestion_Calidad",
+      "ai_generated": true,
+      "extracted_at": "2025-10-03T01:48:36.651Z",
+      "processed_at": "2025-10-03T01:48:44.905Z"
+    },
+    {
+      "id": 5,
+      "title": "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
+      "url": "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
+      "ai_summary": "La elección de un software de gestión medioambiental adecuado puede ayudar a las organizaciones a cumplir con los requisitos de las normas ISO y mejorar su desempeño ambiental. Al seleccionar una solución que cumpla con los 7 requisitos clave mencionados en el artículo, las empresas pueden optimizar sus procesos, reducir costos relacionados con el cumplimiento ambiental y fortalecer su reputación en el mercado. Implementar una solución de gestión medioambiental efectiva no solo garantiza el cumplimiento de las regulaciones ambientales, sino que también contribuye a la sostenibilidad y al éxito a largo plazo de la organización.",
+      "summary_length": 634,
+      "category": "ISO_14001_Gestion_Ambiental",
+      "ai_generated": true,
+      "extracted_at": "2025-10-03T01:48:36.651Z",
+      "processed_at": "2025-10-03T01:48:47.310Z"
+    }
+  ],
+  "statistics": {
+    "total_processed": 5,
+    "successful_ai_summaries": 5,
+    "ai_success_rate": "100%",
+    "avg_summary_length": 532,
+    "categories_identified": [
+      "ISO_42001_Inteligencia_Artificial",
+      "ISO_9001_Gestion_Calidad",
+      "ISO_14001_Gestion_Ambiental"
+    ],
+    "total_categories": 3,
+    "processing_time_seconds": 14,
+    "last_updated": "2025-10-03T01:48:47.313Z"
+  },
+  "usage_instructions": {
+    "consume_url": "Sube este JSON a GitHub y usa la URL RAW",
+    "fetch_example": "const data = await fetch('https://raw.githubusercontent.com/user/repo/main/isotools-final-data.json').then(r => r.json())",
+    "update_frequency": "Ejecuta este script diariamente para datos frescos",
+    "cache_recommendation": "Cachea los datos por 1 hora para mejor performance"
+  }
+}

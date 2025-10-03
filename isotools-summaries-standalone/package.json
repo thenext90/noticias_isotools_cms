@@ -1,0 +1,29 @@
+{
+  "name": "isotools-final-json-generator",
+  "version": "1.0.0",
+  "description": "Generador de JSON con scraping de ISOTools + resúmenes de IA para consumo externo",
+  "main": "generate-final-json.js",
+  "scripts": {
+    "start": "node generate-final-json.js",
+    "generate": "node generate-final-json.js",
+    "test": "node -e \"console.log('Testing dependencies...'); require('./generate-final-json.js')\""
+  },
+  "keywords": [
+    "isotools",
+    "scraping",
+    "openai", 
+    "json-generator",
+    "iso-standards",
+    "ai-summaries"
+  ],
+  "author": "ISOTools Data Generator",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^2.6.12",
+    "openai": "^4.20.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
