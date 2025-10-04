@@ -1,4 +1,4 @@
-﻿name: Daily News Update
+name: Daily News Update
 
 permissions:
   contents: write
@@ -31,7 +31,7 @@ jobs:
         
     - name: Generate daily news
       run: |
-        echo "Generating 3 random articles..."
+        echo "Generating 3 random articles with jq..."
         
         SOURCE_FILE="isotools-summaries-standalone/isotools-final-data.json"
         OUTPUT_FILE="isotools-daily-news.json"
@@ -48,12 +48,12 @@ jobs:
         echo "Date: $TODAY"
         echo "Processing: $SOURCE_FILE"
         
-        SELECTED_ARTICLES=$(jq '.data | sort_by(now * 1000 | tostring | tonumber) | .[0:3] | to_entries | map(.value + {"news_priority": (.key + 1), "selected_date": "'$CURRENT_ISO'", "rotation_id": ("'$TODAY'-" + (.key + 1 | tostring))}) | map(.value)' "$SOURCE_FILE")
+        SELECTED_ARTICLES=$(jq '.data | shuffle | .[0:3] | to_entries | map(.value + {"news_priority": (.key + 1), "selected_date": "'$CURRENT_ISO'", "rotation_id": ("'$TODAY'-" + (.key + 1 | tostring))}) | map(.value)' "$SOURCE_FILE")
         
         ORIGINAL_SOURCE=$(jq -r '.metadata.source // "ISOTools Corporate Blog"' "$SOURCE_FILE")
         TOTAL_ARTICLES=$(jq -r '.data | length' "$SOURCE_FILE")
         
-        jq -n --arg today "$TODAY" --arg tomorrow "$TOMORROW" --arg current_iso "$CURRENT_ISO" --arg original_source "$ORIGINAL_SOURCE" --arg total_articles "$TOTAL_ARTICLES" --arg repo "${{ github.repository }}" --argjson selected_articles "$SELECTED_ARTICLES" '{metadata: {title: "ISOTools - Noticias Diarias", description: "Seleccion diaria de 3 articulos destacados sobre normas ISO", source: "ISOTools Corporate Blog (isotools.us)", generated_date: $today, generated_at: $current_iso, next_update: $tomorrow, total_articles: 3, rotation_type: "daily_random_selection", version: "1.0.0", purpose: "Noticias diarias para seccion web", github_raw_example: ("https://raw.githubusercontent.com/" + $repo + "/main/isotools-daily-news.json"), parent_source: $original_source, language: "espanol"}, configuration: {daily_rotation: true, articles_per_day: 3, selection_method: "timestamp_based_random_with_jq", auto_update: true, github_action_enabled: true, cache_duration_hours: 24, rotation_on_each_execution: true}, daily_news: $selected_articles, generation_info: {selected_at: $current_iso, next_rotation: ($tomorrow + "T12:00:00.000Z"), algorithm: "jq_timestamp_sort_selection", total_available_articles: ($total_articles | tonumber), rotation_guaranteed: true}}' > "$OUTPUT_FILE"
+        jq -n --arg today "$TODAY" --arg tomorrow "$TOMORROW" --arg current_iso "$CURRENT_ISO" --arg original_source "$ORIGINAL_SOURCE" --arg total_articles "$TOTAL_ARTICLES" --arg repo "${{ github.repository }}" --argjson selected_articles "$SELECTED_ARTICLES" '{metadata: {title: "ISOTools - Noticias Diarias", description: "Seleccion diaria de 3 articulos destacados sobre normas ISO", source: "ISOTools Corporate Blog (isotools.us)", generated_date: $today, generated_at: $current_iso, next_update: $tomorrow, total_articles: 3, rotation_type: "daily_random_selection", version: "1.0.0", purpose: "Noticias diarias para seccion web", github_raw_example: ("https://raw.githubusercontent.com/" + $repo + "/main/isotools-daily-news.json"), parent_source: $original_source, language: "espanol"}, configuration: {daily_rotation: true, articles_per_day: 3, selection_method: "jq_shuffle_random_selection", auto_update: true, github_action_enabled: true, cache_duration_hours: 24, rotation_on_each_execution: true}, daily_news: $selected_articles, generation_info: {selected_at: $current_iso, next_rotation: ($tomorrow + "T12:00:00.000Z"), algorithm: "jq_shuffle_selection", total_available_articles: ($total_articles | tonumber), rotation_guaranteed: true}}' > "$OUTPUT_FILE"
         
         if [ -f "$OUTPUT_FILE" ]; then
           echo "File generated successfully"
@@ -75,13 +75,13 @@ jobs:
         git config --local user.name "GitHub Action"
         
         if git diff --quiet && git diff --staged --quiet; then
-          echo "No changes"
+          echo "No changes to commit"
         else
           git add isotools-daily-news.json
           git add isotools-summaries-standalone/isotools-daily-news.json
-          git commit -m "Daily news updated - ${{ steps.date.outputs.TODAY }}"
+          git commit -m "Daily news updated - ${{ steps.date.outputs.TODAY }} - jq/shell algorithm"
           git push origin main
-          echo "Changes pushed"
+          echo "Changes pushed successfully"
         fi
         
     - name: Summary
