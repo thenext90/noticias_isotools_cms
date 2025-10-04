@@ -6,9 +6,9 @@ permissions:
   actions: read
 
 on:
-  # Se ejecuta todos los días a las 6:00 UTC (12:00 PM en España)
+  # Se ejecuta todos los días a las 12:00 UTC (9:00 AM en Chile)
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 12 * * *'
   
   # También permite ejecución manual
   workflow_dispatch:
