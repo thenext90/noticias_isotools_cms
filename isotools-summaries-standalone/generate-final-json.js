@@ -8,69 +8,94 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY || 'tu_api_key_aqui'
 });
 
-// 1. FUNCIÓN DE SCRAPING
-async function scrapingISOTools() {
-    console.log('🕷️ Iniciando scraping de ISOTools...');
+// 1. FUNCIÓN DE SCRAPING CON PAGINACIÓN
+async function scrapingISOTools(maxArticles = 8, maxPages = 3) {
+    console.log(`🕷️ Iniciando scraping de ISOTools (hasta ${maxArticles} artículos de ${maxPages} páginas)...`);
+    
+    const articles = [];
+    let currentPage = 1;
     
     try {
-        const response = await fetch('https://www.isotools.us/blog-corporativo/', {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-            },
-            timeout: 15000
-        });
-
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const html = await response.text();
-        const $ = cheerio.load(html);
-        const articles = [];
-
-        // Múltiples selectores para mayor robustez
-        const selectors = [
-            'article h2 a',
-            'article h3 a', 
-            '.post-title a',
-            '.entry-title a',
-            'h2.entry-title a',
-            '.blog-post h2 a',
-            '.post-item h2 a'
-        ];
-
-        for (const selector of selectors) {
-            $(selector).each((index, element) => {
-                const title = $(element).text().trim();
-                let url = $(element).attr('href');
-                
-                if (title && url && title.length > 20 && title.length < 200) {
-                    // Completar URL si es relativa
-                    if (!url.startsWith('http')) {
-                        url = 'https://www.isotools.us' + (url.startsWith('/') ? url : '/' + url);
-                    }
-                    
-                    // Filtrar por contenido ISO
-                    const isoKeywords = ['iso', 'calidad', 'gestión', 'auditoría', 'certificación', 'compliance', 'estándar', 'norma'];
-                    const hasISOContent = isoKeywords.some(keyword => 
-                        title.toLowerCase().includes(keyword.toLowerCase())
-                    );
-                    
-                    if (hasISOContent && !articles.some(article => article.url === url)) {
-                        articles.push({
-                            title: title,
-                            url: url,
-                            extracted_at: new Date().toISOString()
-                        });
-                    }
-                }
-            });
+        while (articles.length < maxArticles && currentPage <= maxPages) {
+            console.log(`📄 Scrapeando página ${currentPage}/${maxPages}...`);
             
-            // Parar cuando tengamos 5 artículos
-            if (articles.length >= 5) break;
+            const baseUrl = currentPage === 1 
+                ? 'https://www.isotools.us/blog-corporativo/' 
+                : `https://www.isotools.us/blog-corporativo/page/${currentPage}/`;
+            
+            const response = await fetch(baseUrl, {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+                },
+                timeout: 15000
+            });
+
+            if (!response.ok) {
+                console.log(`⚠️ Error en página ${currentPage}: ${response.status}`);
+                currentPage++;
+                continue;
+            }
+
+            const html = await response.text();
+            const $ = cheerio.load(html);
+            let pageArticles = 0;
+
+            // Múltiples selectores para mayor robustez
+            const selectors = [
+                'article h2 a',
+                'article h3 a', 
+                '.post-title a',
+                '.entry-title a',
+                'h2.entry-title a',
+                '.blog-post h2 a',
+                '.post-item h2 a'
+            ];
+
+            for (const selector of selectors) {
+                $(selector).each((index, element) => {
+                    const title = $(element).text().trim();
+                    let url = $(element).attr('href');
+                    
+                    if (title && url && title.length > 20 && title.length < 200) {
+                        // Completar URL si es relativa
+                        if (!url.startsWith('http')) {
+                            url = 'https://www.isotools.us' + (url.startsWith('/') ? url : '/' + url);
+                        }
+                        
+                        // Filtrar por contenido ISO
+                        const isoKeywords = ['iso', 'calidad', 'gestión', 'auditoría', 'certificación', 'compliance', 'estándar', 'norma', 'seguridad', 'ambiental', 'riesgo'];
+                        const hasISOContent = isoKeywords.some(keyword => 
+                            title.toLowerCase().includes(keyword.toLowerCase())
+                        );
+                        
+                        if (hasISOContent && !articles.some(article => article.url === url)) {
+                            articles.push({
+                                title: title,
+                                url: url,
+                                page_found: currentPage,
+                                extracted_at: new Date().toISOString()
+                            });
+                            pageArticles++;
+                        }
+                    }
+                });
+                
+                // Parar cuando tengamos suficientes artículos
+                if (articles.length >= maxArticles) break;
+            }
+            
+            console.log(`✅ Página ${currentPage}: ${pageArticles} artículos nuevos encontrados (Total: ${articles.length})`);
+            
+            // Pausa entre páginas para ser amigable con el servidor
+            if (currentPage < maxPages && articles.length < maxArticles) {
+                console.log('⏳ Pausa de 2 segundos antes de la siguiente página...');
+                await new Promise(resolve => setTimeout(resolve, 2000));
+            }
+            
+            currentPage++;
         }
 
-        console.log(`✅ Scraping completado: ${articles.length} artículos extraídos`);
+        console.log(`✅ Scraping completado: ${articles.length} artículos extraídos de ${currentPage - 1} páginas`);
         
         // Si no hay artículos, forzar el uso de fallback
         if (articles.length === 0) {
@@ -79,32 +104,55 @@ async function scrapingISOTools() {
                 {
                     title: "¿Cómo decidir si la certificación del estándar ISO 42001 es la opción adecuada para su organización?",
                     url: "https://www.isotools.us/2025/09/25/como-decidir-si-la-certificacion-del-estandar-iso-42001-es-la-opcion-adecuada-para-su-organizacion/",
+                    page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Calidad 5.0: cómo la inteligencia artificial y el factor humano transforman la excelencia operativa",
                     url: "https://www.isotools.us/2025/09/23/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa/",
+                    page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Cumplimiento ISO 27001: los 9 pasos esenciales para preparar tu certificación",
                     url: "https://www.isotools.us/2025/09/16/cumplimiento-iso-27001-los-9-pasos-esenciales-para-preparar-tu-certificacion/",
+                    page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "¿Cuáles son los beneficios de la ISO 9001 2026?",
                     url: "https://www.isotools.us/2025/09/15/cuales-son-los-beneficios-de-la-iso-9001-2026/",
+                    page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
                     url: "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
+                    page_found: 1,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 45001: mejores prácticas para la gestión de la seguridad y salud en el trabajo",
+                    url: "https://www.isotools.us/2025/09/05/iso-45001-mejores-practicas-para-la-gestion-de-la-seguridad-y-salud-en-el-trabajo/",
+                    page_found: 2,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Automatización de procesos ISO: cómo las herramientas digitales transforman la gestión de calidad",
+                    url: "https://www.isotools.us/2025/08/30/automatizacion-de-procesos-iso-como-las-herramientas-digitales-transforman-la-gestion-de-calidad/",
+                    page_found: 2,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 50001: estrategias avanzadas para optimizar la gestión energética empresarial",
+                    url: "https://www.isotools.us/2025/08/25/iso-50001-estrategias-avanzadas-para-optimizar-la-gestion-energetica-empresarial/",
+                    page_found: 2,
                     extracted_at: new Date().toISOString()
                 }
             ];
         }
         
-        return articles.slice(0, 5);
+        return articles.slice(0, maxArticles);
 
     } catch (error) {
         console.error('❌ Error en scraping:', error.message);
@@ -115,26 +163,49 @@ async function scrapingISOTools() {
             {
                 title: "¿Cómo decidir si la certificación del estándar ISO 42001 es la opción adecuada para su organización?",
                 url: "https://www.isotools.us/2025/09/25/como-decidir-si-la-certificacion-del-estandar-iso-42001-es-la-opcion-adecuada-para-su-organizacion/",
+                page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "Calidad 5.0: cómo la inteligencia artificial y el factor humano transforman la excelencia operativa",
                 url: "https://www.isotools.us/2025/09/23/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa/",
+                page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "Cumplimiento ISO 27001: los 9 pasos esenciales para preparar tu certificación",
                 url: "https://www.isotools.us/2025/09/16/cumplimiento-iso-27001-los-9-pasos-esenciales-para-preparar-tu-certificacion/",
+                page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "¿Cuáles son los beneficios de la ISO 9001 2026?",
                 url: "https://www.isotools.us/2025/09/15/cuales-son-los-beneficios-de-la-iso-9001-2026/",
+                page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
                 url: "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
+                page_found: 1,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 45001: mejores prácticas para la gestión de la seguridad y salud en el trabajo",
+                url: "https://www.isotools.us/2025/09/05/iso-45001-mejores-practicas-para-la-gestion-de-la-seguridad-y-salud-en-el-trabajo/",
+                page_found: 2,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Automatización de procesos ISO: cómo las herramientas digitales transforman la gestión de calidad",
+                url: "https://www.isotools.us/2025/08/30/automatizacion-de-procesos-iso-como-las-herramientas-digitales-transforman-la-gestion-de-calidad/",
+                page_found: 2,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 50001: estrategias avanzadas para optimizar la gestión energética empresarial",
+                url: "https://www.isotools.us/2025/08/25/iso-50001-estrategias-avanzadas-para-optimizar-la-gestion-energetica-empresarial/",
+                page_found: 2,
                 extracted_at: new Date().toISOString()
             }
         ];
@@ -196,24 +267,39 @@ function categorizarArticulo(title) {
     if (titleLower.includes('14001') || titleLower.includes('medioambiental') || titleLower.includes('ambiental') || titleLower.includes('sostenibilidad')) {
         return 'ISO_14001_Gestion_Ambiental';
     }
-    if (titleLower.includes('software') || titleLower.includes('herramientas') || titleLower.includes('digital')) {
+    if (titleLower.includes('45001') || titleLower.includes('seguridad y salud') || titleLower.includes('trabajo') || titleLower.includes('salud ocupacional')) {
+        return 'ISO_45001_Seguridad_Salud_Trabajo';
+    }
+    if (titleLower.includes('50001') || titleLower.includes('energética') || titleLower.includes('energía') || titleLower.includes('eficiencia energética')) {
+        return 'ISO_50001_Gestion_Energetica';
+    }
+    if (titleLower.includes('software') || titleLower.includes('herramientas') || titleLower.includes('digital') || titleLower.includes('automatización')) {
         return 'Herramientas_Digitales_ISO';
     }
     
     return 'ISO_Normas_Generales';
 }
 
-// 4. FUNCIÓN PRINCIPAL PARA GENERAR JSON FINAL
-async function generateFinalJSON() {
+// 4. FUNCIÓN PRINCIPAL PARA GENERAR JSON FINAL CON PAGINACIÓN
+async function generateFinalJSON(options = {}) {
     console.log('🚀 INICIANDO PROCESO COMPLETO: Scraping + IA + JSON');
     console.log('==================================================');
+    
+    // Configuración personalizable
+    const config = {
+        maxArticles: options.maxArticles || 8,
+        maxPages: options.maxPages || 3,
+        ...options
+    };
+    
+    console.log(`⚙️ Configuración: ${config.maxArticles} artículos, máximo ${config.maxPages} páginas`);
     
     const startTime = Date.now();
     
     try {
         // Paso 1: Scraping
-        console.log('\n📡 PASO 1: Extrayendo 5 artículos de ISOTools...');
-        const articles = await scrapingISOTools();
+        console.log(`\n📡 PASO 1: Extrayendo ${config.maxArticles} artículos de ISOTools (máximo ${config.maxPages} páginas)...`);
+        const articles = await scrapingISOTools(config.maxArticles, config.maxPages);
         
         if (articles.length === 0) {
             console.log('⚠️ Scraping sin resultados, pero continuando con datos de fallback...');
@@ -244,6 +330,7 @@ async function generateFinalJSON() {
                 summary_length: summary.length,
                 category: category,
                 ai_generated: isAIGenerated,
+                page_found: article.page_found || 1,
                 extracted_at: article.extracted_at,
                 processed_at: new Date().toISOString()
             });
@@ -270,19 +357,24 @@ async function generateFinalJSON() {
                 total_articles: processedArticles.length,
                 ai_model: "OpenAI GPT-3.5-turbo",
                 processing_status: "completed",
-                version: "1.0.0",
+                version: "1.1.0",
                 purpose: "Consumo externo via GitHub RAW",
                 github_raw_example: "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-final-data.json",
                 scraping_source: "https://www.isotools.us/blog-corporativo/",
+                pagination_enabled: true,
+                max_pages_scraped: config.maxPages,
                 language: "español"
             },
             configuration: {
                 auto_summaries_enabled: true,
                 ai_summaries_generated: successfulSummaries,
-                max_articles_processed: 5,
+                max_articles_processed: config.maxArticles,
+                max_pages_scraped: config.maxPages,
+                pagination_enabled: true,
                 summary_max_length: 200,
                 categories_auto_assigned: true,
-                fallback_data_available: true
+                fallback_data_available: true,
+                enhanced_keyword_filtering: true
             },
             data: processedArticles,
             statistics: {
@@ -329,6 +421,7 @@ async function generateFinalJSON() {
         finalJSON.data.forEach((article, index) => {
             console.log(`\n${index + 1}. 📰 ${article.title}`);
             console.log(`   🏷️ Categoría: ${article.category}`);
+            console.log(`   📄 Página encontrada: ${article.page_found}`);
             console.log(`   🤖 IA Generado: ${article.ai_generated ? '✅ Sí' : '❌ Fallback'}`);
             console.log(`   📝 Resumen: ${article.ai_summary.substring(0, 100)}...`);
             console.log(`   🔗 URL: ${article.url}`);
@@ -341,6 +434,7 @@ async function generateFinalJSON() {
         console.log('3. 🌐 Usa la URL RAW para consumir los datos:');
         console.log('   https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-final-data.json');
         console.log('4. 🔄 Ejecuta este script diariamente para datos frescos');
+        console.log('5. ⚙️ Personaliza: generateFinalJSON({ maxArticles: 15, maxPages: 5 })');
         
         return finalJSON;
         
@@ -364,10 +458,11 @@ if (require.main === module) {
     console.log('🎯 ISOTools Scraping + IA + JSON Generator');
     console.log('===========================================');
     console.log('📋 Este script va a:');
-    console.log('   1. 🕷️ Hacer scraping de 5 artículos de ISOTools');
+    console.log('   1. 🕷️ Hacer scraping de 8 artículos de ISOTools (máximo 3 páginas)');
     console.log('   2. 🤖 Generar resúmenes con OpenAI GPT-3.5-turbo');
     console.log('   3. 📄 Crear JSON estructurado para consumo externo');
     console.log('   4. 💾 Guardar archivo isotools-final-data.json');
+    console.log('   5. 📄 Soporte para múltiples páginas automáticamente');
     console.log('');
     
     generateFinalJSON()
