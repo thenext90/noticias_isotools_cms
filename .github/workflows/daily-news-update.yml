@@ -1,5 +1,10 @@
 name: 🗞️ Actualización Diaria de Noticias ISO
 
+# Permisos necesarios para el GitHub Action
+permissions:
+  contents: write
+  actions: read
+
 on:
   # Se ejecuta todos los días a las 6:00 UTC (12:00 PM en España)
   schedule:
@@ -11,7 +16,7 @@ on:
       force_update:
         description: 'Forzar actualización aunque ya exista archivo de hoy'
         required: false
-        default: 'false'
+        default: false
         type: boolean
 
 jobs:
@@ -64,8 +69,6 @@ jobs:
       run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
       
     - name: 📝 Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         # Configurar git
         git config --local user.email "action@github.com"
@@ -95,8 +98,8 @@ jobs:
           📊 Archivo actualizado: isotools-daily-news.json
           🌐 Consumible vía: GitHub RAW URL"
           
-          # Push al repositorio
-          git push
+          # Push al repositorio usando el token por defecto
+          git push origin main
           
           echo "✅ Cambios pusheados exitosamente"
         fi
