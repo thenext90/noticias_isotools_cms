@@ -4,7 +4,7 @@
     "description": "Selección diaria de 4 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-04",
-    "generated_at": "2025-10-04T03:05:31.927Z",
+    "generated_at": "2025-10-04T03:07:09.234Z",
     "next_update": "2025-10-05",
     "total_articles": 4,
     "rotation_type": "daily_random_selection",
@@ -35,7 +35,7 @@
       "extracted_at": "2025-10-04T02:16:40.541Z",
       "processed_at": "2025-10-04T02:16:52.640Z",
       "news_priority": 1,
-      "selected_date": "2025-10-04T03:05:31.927Z",
+      "selected_date": "2025-10-04T03:07:09.234Z",
       "rotation_id": "2025-10-4-1"
     },
     {
@@ -50,7 +50,7 @@
       "extracted_at": "2025-10-04T02:16:40.541Z",
       "processed_at": "2025-10-04T02:16:56.825Z",
       "news_priority": 2,
-      "selected_date": "2025-10-04T03:05:31.927Z",
+      "selected_date": "2025-10-04T03:07:09.234Z",
       "rotation_id": "2025-10-4-2"
     },
     {
@@ -65,7 +65,7 @@
       "extracted_at": "2025-10-04T02:16:40.541Z",
       "processed_at": "2025-10-04T02:16:56.118Z",
       "news_priority": 3,
-      "selected_date": "2025-10-04T03:05:31.927Z",
+      "selected_date": "2025-10-04T03:07:09.234Z",
       "rotation_id": "2025-10-4-3"
     },
     {
@@ -80,7 +80,7 @@
       "extracted_at": "2025-10-04T02:16:40.541Z",
       "processed_at": "2025-10-04T02:17:01.709Z",
       "news_priority": 4,
-      "selected_date": "2025-10-04T03:05:31.927Z",
+      "selected_date": "2025-10-04T03:07:09.234Z",
       "rotation_id": "2025-10-4-4"
     }
   ],
