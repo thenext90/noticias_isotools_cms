@@ -1,79 +1,37 @@
 {
   "metadata": {
     "title": "ISOTools - Noticias Diarias",
-    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
+    "description": "Seleccion diaria de 3 articulos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-04",
-    "generated_at": "2025-10-04T14:38:45.603179",
+    "generated_at": "2025-10-04T14:54:12.584Z",
     "next_update": "2025-10-05",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
-    "purpose": "Noticias diarias para sección web",
-    "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
+    "purpose": "Noticias diarias para seccion web",
+    "github_raw_example": "https://raw.githubusercontent.com/thenext90/manu2/main/isotools-daily-news.json",
     "parent_source": "ISOTools Corporate Blog (isotools.us)",
-    "language": "español"
+    "language": "espanol"
   },
   "configuration": {
     "daily_rotation": true,
     "articles_per_day": 3,
-    "selection_method": "true_random_with_timestamp",
+    "selection_method": "timestamp_based_random_with_jq",
     "auto_update": true,
     "github_action_enabled": true,
     "cache_duration_hours": 24,
     "rotation_on_each_execution": true
   },
   "daily_news": [
-    {
-      "id": 9,
-      "title": "Gestión de riesgos ISO 31000: metodología integral para la identificación y mitigación",
-      "url": "https://www.isotools.us/2025/08/20/gestion-de-riesgos-iso-31000-metodologia-integral-para-la-identificacion-y-mitigacion/",
-      "ai_summary": "ISO 31000 proporciona principios y directrices para la gestión integral de riesgos organizacionales, mejorando la toma de decisiones estratégicas. Su aplicación permite identificar, evaluar y mitigar riesgos de manera sistemática, protegiendo objetivos empresariales y creando valor sostenible. Las organizaciones desarrollan mayor resiliencia y capacidad de adaptación ante incertidumbres del mercado.",
-      "summary_length": 402,
-      "category": "ISO_31000_Gestion_Riesgos",
-      "ai_generated": true,
-      "page_found": 3,
-      "extracted_at": "2025-10-04T11:32:39.846Z",
-      "processed_at": "2025-10-04T11:32:43.994Z",
-      "news_priority": 1,
-      "selected_date": "2025-10-04T14:38:45.603142",
-      "rotation_id": "2025-10-04-1"
-    },
-    {
-      "id": 5,
-      "title": "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
-      "url": "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
-      "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
-      "summary_length": 433,
-      "category": "ISO_14001_Gestion_Ambiental",
-      "ai_generated": true,
-      "page_found": 1,
-      "extracted_at": "2025-10-04T11:32:39.846Z",
-      "processed_at": "2025-10-04T11:32:41.928Z",
-      "news_priority": 2,
-      "selected_date": "2025-10-04T14:38:45.603167",
-      "rotation_id": "2025-10-04-2"
-    },
-    {
-      "id": 22,
-      "title": "ISO 39001: gestión de la seguridad vial en el transporte y logística empresarial",
-      "url": "https://www.isotools.us/2025/06/15/iso-39001-gestion-de-la-seguridad-vial-en-el-transporte-y-logistica-empresarial/",
-      "ai_summary": "La norma ISO 9001 proporciona un sistema de gestión de calidad probado que mejora la satisfacción del cliente y la eficiencia operativa. Su implementación genera procesos más consistentes, reduce costos por fallos de calidad y fortalece la competitividad en el mercado. Las organizaciones certificadas experimentan mayor productividad y reconocimiento internacional por su compromiso con la excelencia.",
-      "summary_length": 402,
-      "category": "ISO_42001_Inteligencia_Artificial",
-      "ai_generated": true,
-      "page_found": 7,
-      "extracted_at": "2025-10-04T11:32:39.846Z",
-      "processed_at": "2025-10-04T11:32:50.760Z",
-      "news_priority": 3,
-      "selected_date": "2025-10-04T14:38:45.603174",
-      "rotation_id": "2025-10-04-3"
-    }
+    null,
+    null,
+    null
   ],
   "generation_info": {
-    "selected_at": "2025-10-04T14:38:45.603179",
-    "next_rotation": "2025-10-05T14:38:45.603179",
-    "algorithm": "python_random_sample",
+    "selected_at": "2025-10-04T14:54:12.584Z",
+    "next_rotation": "2025-10-05T12:00:00.000Z",
+    "algorithm": "jq_timestamp_sort_selection",
     "total_available_articles": 31,
     "rotation_guaranteed": true
   }
