@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISOTools - Noticias Diarias Dinámicas</title>
+    
+    <!-- 🎨 Estilos dinámicos generados automáticamente -->
+    <link rel="stylesheet" href="./generated-styles/dynamic-styles.css">
+    
+    <!-- 📱 Meta tags adicionales -->
+    <meta name="description" content="Noticias diarias sobre normas ISO con diseño dinámico basado en fechas especiales">
+    <meta name="keywords" content="ISO, normas, calidad, seguridad, medio ambiente">
+    
+    <style>
+        /* 🎨 Estilos base que se complementan con los dinámicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            flex: 1;
+        }
+        
+        header {
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.1rem;
+            opacity: 0.8;
+            margin-bottom: 1rem;
+        }
+        
+        .date-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            backdrop-filter: blur(10px);
+        }
+        
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .article-title {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+        
+        .article-summary {
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        
+        .read-more {
+            display: inline-block;
+            padding: 0.7rem 1.5rem;
+            background: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        .read-more:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .theme-indicator {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            z-index: 1000;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            border-top: 1px solid rgba(0,0,0,0.1);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 3rem 0;
+        }
+        
+        .error {
+            background: #fee;
+            border: 1px solid #fcc;
+            padding: 1rem;
+            border-radius: 6px;
+            color: #c33;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body class="matrix-bg">
+    <!-- 🎭 Indicador de tema actual -->
+    <div class="theme-indicator" id="themeIndicator">
+        🎨 Cargando tema...
+    </div>
+    
+    <div class="container">
+        <header>
+            <h1 class="logo">📊 ISOTools</h1>
+            <p class="tagline">Noticias Diarias con Diseño Dinámico</p>
+            <div class="date-info" id="dateInfo">
+                <strong>📅 Hoy:</strong> <span id="currentDate"></span>
+            </div>
+        </header>
+        
+        <main>
+            <div class="news-container">
+                <h2>🗞️ Noticias del Día</h2>
+                <div id="articlesContainer" class="loading">
+                    <p>⏳ Cargando noticias y aplicando tema dinámico...</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 ISOTools - Sistema de Noticias Dinámicas</p>
+            <p>🎨 Diseño que cambia según fechas especiales ISO</p>
+        </footer>
+    </div>
+
+    <script>
+        // 🚀 Script principal para cargar noticias y aplicar tema
+        document.addEventListener('DOMContentLoaded', async function() {
+            try {
+                // Mostrar fecha actual
+                const now = new Date();
+                document.getElementById('currentDate').textContent = now.toLocaleDateString('es-ES', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+                
+                // Cargar configuración del tema actual
+                const themeResponse = await fetch('./generated-styles/current-theme.json');
+                if (themeResponse.ok) {
+                    const themeConfig = await themeResponse.json();
+                    updateThemeIndicator(themeConfig);
+                    updateDateInfo(themeConfig);
+                }
+                
+                // Cargar noticias diarias
+                const newsResponse = await fetch('./isotools-daily-news.json');
+                if (newsResponse.ok) {
+                    const newsData = await newsResponse.json();
+                    renderArticles(newsData.daily_articles);
+                } else {
+                    throw new Error('No se pudieron cargar las noticias');
+                }
+                
+            } catch (error) {
+                console.error('Error cargando contenido:', error);
+                document.getElementById('articlesContainer').innerHTML = `
+                    <div class="error">
+                        <h3>❌ Error al cargar contenido</h3>
+                        <p>No se pudieron cargar las noticias. ${error.message}</p>
+                        <button onclick="location.reload()">🔄 Reintentar</button>
+                    </div>
+                `;
+            }
+        });
+        
+        // 🎨 Actualizar indicador de tema
+        function updateThemeIndicator(themeConfig) {
+            const indicator = document.getElementById('themeIndicator');
+            if (themeConfig.special_date && themeConfig.special_date.name) {
+                indicator.innerHTML = `🎨 ${themeConfig.special_date.name}`;
+                indicator.title = themeConfig.special_date.description || '';
+            } else {
+                indicator.innerHTML = `🎨 ${themeConfig.theme_applied}`;
+            }
+        }
+        
+        // 📅 Actualizar información de fecha especial
+        function updateDateInfo(themeConfig) {
+            const dateInfo = document.getElementById('dateInfo');
+            if (themeConfig.special_date && themeConfig.special_date.name) {
+                dateInfo.innerHTML = `
+                    <strong>🎉 Fecha Especial:</strong> ${themeConfig.special_date.name}<br>
+                    <small>${themeConfig.special_date.description}</small><br>
+                    <small>📋 Normas: ${themeConfig.special_date.iso_standards?.join(', ') || 'Varias'}</small>
+                `;
+            }
+        }
+        
+        // 📰 Renderizar artículos
+        function renderArticles(articles) {
+            const container = document.getElementById('articlesContainer');
+            
+            if (!articles || articles.length === 0) {
+                container.innerHTML = '<p>📭 No hay artículos disponibles hoy.</p>';
+                return;
+            }
+            
+            const articlesHTML = `
+                <div class="articles-grid">
+                    ${articles.map((article, index) => `
+                        <article class="article-card iso-badge quality-indicator eco-element" data-priority="${article.news_priority}">
+                            <div class="category-badge">${formatCategory(article.category)}</div>
+                            <h3 class="article-title">${article.title}</h3>
+                            <p class="article-summary">${article.ai_summary}</p>
+                            <div class="article-meta">
+                                <span>📍 Prioridad: ${article.news_priority}</span>
+                                <span>🕒 ${new Date(article.selected_date).toLocaleDateString()}</span>
+                            </div>
+                            <a href="${article.url}" target="_blank" class="read-more">
+                                📖 Leer completo
+                            </a>
+                        </article>
+                    `).join('')}
+                </div>
+            `;
+            
+            container.innerHTML = articlesHTML;
+        }
+        
+        // 🏷️ Formatear categorías
+        function formatCategory(category) {
+            if (!category) return 'General';
+            return category.replace(/_/g, ' ')
+                          .replace(/ISO/g, 'ISO')
+                          .replace(/([A-Z])/g, ' $1')
+                          .trim();
+        }
+        
+        // ✨ Efectos adicionales cuando la página está lista
+        window.addEventListener('load', function() {
+            // Agregar clases para animaciones
+            document.querySelectorAll('.article-card').forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(30px)';
+                    card.style.transition = 'all 0.6s ease';
+                    
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 100);
+                }, index * 200);
+            });
+        });
+    </script>
+</body>
+</html>

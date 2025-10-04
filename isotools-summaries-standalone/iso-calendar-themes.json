@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "title": "ISO Calendar - Fechas Especiales y Temas Visuales",
+    "description": "Base de datos de fechas importantes del mundo ISO para transformaciones visuales automáticas",
+    "version": "1.0.0",
+    "created_at": "2025-10-04",
+    "total_dates": 12
+  },
+  "special_dates": {
+    "01-15": {
+      "name": "Mes de la Calidad Total",
+      "description": "Inicio del año con enfoque en mejora continua",
+      "iso_standards": ["ISO 9001", "ISO 9004"],
+      "theme": {
+        "name": "excellence_start",
+        "colors": {
+          "primary": "#1e3a8a",
+          "secondary": "#3b82f6",
+          "accent": "#fbbf24",
+          "background": "#f8fafc",
+          "text": "#1e293b"
+        },
+        "typography": {
+          "primary_font": "Inter, sans-serif",
+          "heading_font": "Poppins, sans-serif",
+          "weight": "clean_professional"
+        },
+        "layout": "minimalist_grid",
+        "animations": ["fade_up", "scale_badges"],
+        "special_elements": ["quality_badges", "improvement_arrows"]
+      }
+    },
+    "03-15": {
+      "name": "Día Mundial de los Derechos del Consumidor",
+      "description": "Enfoque en protección y satisfacción del cliente",
+      "iso_standards": ["ISO 9001", "ISO 10002"],
+      "theme": {
+        "name": "consumer_focus",
+        "colors": {
+          "primary": "#059669",
+          "secondary": "#10b981",
+          "accent": "#f59e0b",
+          "background": "#ecfdf5",
+          "text": "#064e3b"
+        },
+        "typography": {
+          "primary_font": "Open Sans, sans-serif",
+          "heading_font": "Montserrat, sans-serif",
+          "weight": "friendly_approachable"
+        },
+        "layout": "customer_centered",
+        "animations": ["heart_pulse", "satisfaction_stars"],
+        "special_elements": ["customer_testimonials", "trust_indicators"]
+      }
+    },
+    "04-28": {
+      "name": "Día Mundial de la Seguridad y Salud en el Trabajo",
+      "description": "Promoción de entornos laborales seguros",
+      "iso_standards": ["ISO 45001", "ISO 14001"],
+      "theme": {
+        "name": "workplace_safety",
+        "colors": {
+          "primary": "#dc2626",
+          "secondary": "#f97316",
+          "accent": "#fbbf24",
+          "background": "#fef2f2",
+          "text": "#7f1d1d"
+        },
+        "typography": {
+          "primary_font": "Roboto, sans-serif",
+          "heading_font": "Source Sans Pro, sans-serif",
+          "weight": "bold_industrial"
+        },
+        "layout": "safety_dashboard",
+        "animations": ["alert_pulse", "protection_shield"],
+        "special_elements": ["safety_icons", "warning_badges", "helmet_graphics"]
+      }
+    },
+    "06-05": {
+      "name": "Día Mundial del Medio Ambiente",
+      "description": "Conciencia ambiental y sostenibilidad",
+      "iso_standards": ["ISO 14001", "ISO 14064", "ISO 50001"],
+      "theme": {
+        "name": "environmental_focus",
+        "colors": {
+          "primary": "#166534",
+          "secondary": "#22c55e",
+          "accent": "#84cc16",
+          "background": "#f0fdf4",
+          "text": "#052e16"
+        },
+        "typography": {
+          "primary_font": "Nunito, sans-serif",
+          "heading_font": "Lato, sans-serif",
+          "weight": "organic_natural"
+        },
+        "layout": "eco_friendly",
+        "animations": ["leaf_grow", "wave_flow", "earth_rotate"],
+        "special_elements": ["nature_patterns", "sustainability_icons", "green_metrics"]
+      }
+    },
+    "09-12": {
+      "name": "Día de la Ciberseguridad",
+      "description": "Protección de información y sistemas",
+      "iso_standards": ["ISO 27001", "ISO 27002", "ISO 27035"],
+      "theme": {
+        "name": "cybersecurity",
+        "colors": {
+          "primary": "#1e1b4b",
+          "secondary": "#3730a3",
+          "accent": "#06ffa5",
+          "background": "#0f0f23",
+          "text": "#e2e8f0"
+        },
+        "typography": {
+          "primary_font": "Fira Code, monospace",
+          "heading_font": "JetBrains Mono, monospace",
+          "weight": "tech_secure"
+        },
+        "layout": "security_matrix",
+        "animations": ["matrix_code", "lock_secure", "data_encrypt"],
+        "special_elements": ["binary_background", "security_shields", "encryption_graphics"]
+      }
+    },
+    "10-14": {
+      "name": "Día Mundial de la Normalización",
+      "description": "Celebración oficial de las normas ISO",
+      "iso_standards": ["ISO 9001", "ISO 14001", "ISO 45001", "ISO 27001"],
+      "theme": {
+        "name": "official_iso",
+        "colors": {
+          "primary": "#003366",
+          "secondary": "#0066cc",
+          "accent": "#ffcc00",
+          "background": "#ffffff",
+          "text": "#333333"
+        },
+        "typography": {
+          "primary_font": "Arial, sans-serif",
+          "heading_font": "Helvetica, sans-serif",
+          "weight": "official_formal"
+        },
+        "layout": "institutional_elegant",
+        "animations": ["certificate_stamp", "standard_shine", "quality_seal"],
+        "special_elements": ["iso_logos", "certification_badges", "standard_numbers"]
+      }
+    },
+    "11-20": {
+      "name": "Día Mundial de la Calidad",
+      "description": "Promoción de la excelencia y mejora continua",
+      "iso_standards": ["ISO 9001", "ISO 9004"],
+      "theme": {
+        "name": "quality_excellence",
+        "colors": {
+          "primary": "#7c2d12",
+          "secondary": "#ea580c",
+          "accent": "#fbbf24",
+          "background": "#fef7ed",
+          "text": "#431407"
+        },
+        "typography": {
+          "primary_font": "Merriweather, serif",
+          "heading_font": "Playfair Display, serif",
+          "weight": "premium_luxury"
+        },
+        "layout": "excellence_showcase",
+        "animations": ["premium_glow", "excellence_rise", "quality_sparkle"],
+        "special_elements": ["award_ribbons", "excellence_medals", "premium_borders"]
+      }
+    },
+    "12-31": {
+      "name": "Fin de Año - Evaluación de Gestión",
+      "description": "Cierre anual y planificación de mejoras",
+      "iso_standards": ["ISO 9001", "ISO 19011"],
+      "theme": {
+        "name": "year_review",
+        "colors": {
+          "primary": "#581c87",
+          "secondary": "#8b5cf6",
+          "accent": "#f59e0b",
+          "background": "#faf5ff",
+          "text": "#3c1361"
+        },
+        "typography": {
+          "primary_font": "Georgia, serif",
+          "heading_font": "Times New Roman, serif",
+          "weight": "reflective_elegant"
+        },
+        "layout": "report_summary",
+        "animations": ["year_countdown", "chart_reveal", "progress_fill"],
+        "special_elements": ["annual_charts", "achievement_timeline", "future_goals"]
+      }
+    }
+  },
+  "fallback_themes": {
+    "default": {
+      "name": "professional_daily",
+      "colors": {
+        "primary": "#374151",
+        "secondary": "#6b7280",
+        "accent": "#3b82f6",
+        "background": "#f9fafb",
+        "text": "#111827"
+      },
+      "typography": {
+        "primary_font": "Inter, sans-serif",
+        "heading_font": "Inter, sans-serif",
+        "weight": "professional_clean"
+      },
+      "layout": "standard_grid",
+      "animations": ["subtle_fade"],
+      "special_elements": ["clean_cards", "professional_spacing"]
+    }
+  }
+}

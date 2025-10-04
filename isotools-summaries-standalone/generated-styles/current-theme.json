@@ -1,0 +1,42 @@
+{
+  "generated_at": "2025-10-04T12:12:02.515Z",
+  "special_date": {
+    "date": "10-14",
+    "name": "Día Mundial de la Normalización",
+    "description": "Celebración oficial de las normas ISO",
+    "iso_standards": [
+      "ISO 9001",
+      "ISO 14001",
+      "ISO 45001",
+      "ISO 27001"
+    ],
+    "theme": {
+      "name": "official_iso",
+      "colors": {
+        "primary": "#003366",
+        "secondary": "#0066cc",
+        "accent": "#ffcc00",
+        "background": "#ffffff",
+        "text": "#333333"
+      },
+      "typography": {
+        "primary_font": "Arial, sans-serif",
+        "heading_font": "Helvetica, sans-serif",
+        "weight": "official_formal"
+      },
+      "layout": "institutional_elegant",
+      "animations": [
+        "certificate_stamp",
+        "standard_shine",
+        "quality_seal"
+      ],
+      "special_elements": [
+        "iso_logos",
+        "certification_badges",
+        "standard_numbers"
+      ]
+    }
+  },
+  "theme_applied": "official_iso",
+  "css_file": "dynamic-styles.css"
+}

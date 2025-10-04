@@ -1,0 +1,49 @@
+{
+  "execution_summary": {
+    "timestamp": "2025-10-04T12:07:43.292Z",
+    "execution_time_seconds": 0.153,
+    "success": true,
+    "news_generated": true,
+    "styles_generated": true
+  },
+  "files_generated": [
+    {
+      "path": "./isotools-daily-news.json",
+      "size": "6.36 KB",
+      "created": "2025-10-04T10:42:42.860Z"
+    },
+    {
+      "path": "../isotools-daily-news.json",
+      "size": "6.36 KB",
+      "created": "2025-10-04T10:42:42.829Z"
+    },
+    {
+      "path": "./generated-styles/dynamic-styles.css",
+      "size": "2.55 KB",
+      "created": "2025-10-04T12:05:01.995Z"
+    },
+    {
+      "path": "./generated-styles/current-theme.json",
+      "size": "0.68 KB",
+      "created": "2025-10-04T12:05:01.999Z"
+    }
+  ],
+  "errors": [],
+  "system_info": {
+    "node_version": "v22.16.0",
+    "platform": "win32",
+    "memory_usage": {
+      "rss": 37187584,
+      "heapTotal": 6877184,
+      "heapUsed": 4683656,
+      "external": 1663821,
+      "arrayBuffers": 11315
+    },
+    "working_directory": "C:\\Users\\jp200\\MANU3444\\manu2\\isotools-summaries-standalone"
+  },
+  "next_execution": {
+    "next_run_iso": "2025-10-05T12:00:00.000Z",
+    "next_run_local": "5/10/2025, 9:00:00",
+    "hours_until": 24
+  }
+}
