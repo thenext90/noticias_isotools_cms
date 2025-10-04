@@ -1,0 +1,124 @@
+name: 🗞️ Actualización Diaria de Noticias ISO
+
+on:
+  # Se ejecuta todos los días a las 6:00 UTC (12:00 PM en España)
+  schedule:
+    - cron: '0 6 * * *'
+  
+  # También permite ejecución manual
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Forzar actualización aunque ya exista archivo de hoy'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  update-daily-news:
+    runs-on: ubuntu-latest
+    name: 📰 Generar Noticias Diarias
+    
+    steps:
+    - name: 📥 Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: 🟢 Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: 'isotools-summaries-standalone/package.json'
+        
+    - name: 📦 Install dependencies
+      run: |
+        cd isotools-summaries-standalone
+        npm install
+        
+    - name: 🗞️ Generate daily news
+      run: |
+        cd isotools-summaries-standalone
+        echo "🎲 Generando 4 artículos aleatorios para hoy..."
+        node generate-daily-news.js
+        
+    - name: 📊 Verify generated files
+      run: |
+        echo "📄 Verificando archivos generados..."
+        ls -la isotools-daily-news.json || echo "❌ Archivo no encontrado en raíz"
+        ls -la isotools-summaries-standalone/isotools-daily-news.json || echo "❌ Archivo no encontrado en subdirectorio"
+        
+        if [ -f "isotools-daily-news.json" ]; then
+          echo "✅ Archivo de noticias diarias generado correctamente"
+          echo "📊 Tamaño del archivo: $(wc -c < isotools-daily-news.json) bytes"
+          echo "📋 Primeras líneas:"
+          head -10 isotools-daily-news.json
+        else
+          echo "❌ Error: No se generó el archivo de noticias"
+          exit 1
+        fi
+        
+    - name: 🏷️ Get current date
+      id: date
+      run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      
+    - name: 📝 Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        # Configurar git
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action - Daily News"
+        
+        # Verificar si hay cambios
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "ℹ️ No hay cambios para commitear"
+        else
+          # Agregar archivos
+          git add isotools-daily-news.json
+          git add isotools-summaries-standalone/isotools-daily-news.json
+          
+          # Commit con mensaje descriptivo
+          git commit -m "🗞️ Noticias diarias actualizadas - ${{ steps.date.outputs.TODAY }}
+
+          🎲 4 artículos aleatorios seleccionados para hoy
+          📅 Fecha: ${{ steps.date.outputs.TODAY }}
+          🤖 Generado automáticamente por GitHub Actions
+          🔄 Próxima actualización: mañana a las 6:00 UTC
+          
+          ⚙️ Configuración:
+          - Rotación diaria: ✅ Activada
+          - Selección aleatoria: ✅ Algoritmo seeded
+          - Auto-update: ✅ Programado
+          
+          📊 Archivo actualizado: isotools-daily-news.json
+          🌐 Consumible vía: GitHub RAW URL"
+          
+          # Push al repositorio
+          git push
+          
+          echo "✅ Cambios pusheados exitosamente"
+        fi
+        
+    - name: 📋 Summary
+      run: |
+        echo "🎉 ACTUALIZACIÓN DIARIA COMPLETADA"
+        echo "=================================="
+        echo "📅 Fecha: ${{ steps.date.outputs.TODAY }}"
+        echo "📄 Archivo: isotools-daily-news.json"
+        echo "🎲 Artículos: 4 seleccionados aleatoriamente"
+        echo "🔄 Próxima ejecución: Mañana a las 6:00 UTC"
+        echo ""
+        echo "🌐 URLs de consumo:"
+        echo "📱 RAW: https://raw.githubusercontent.com/${{ github.repository }}/main/isotools-daily-news.json"
+        echo "📊 Repo: https://github.com/${{ github.repository }}/blob/main/isotools-daily-news.json"
+        
+    - name: 🚨 Notify on failure
+      if: failure()
+      run: |
+        echo "❌ ERROR EN LA ACTUALIZACIÓN DIARIA"
+        echo "==================================="
+        echo "🔧 Revisa los logs anteriores para identificar el problema"
+        echo "📧 Considera configurar notificaciones de Slack/Email"
+        echo "🔄 La siguiente ejecución será mañana a las 6:00 UTC"

@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "title": "ISOTools - Noticias Diarias",
+    "description": "Selección diaria de 4 artículos destacados sobre normas ISO",
+    "source": "ISOTools Corporate Blog (isotools.us)",
+    "generated_date": "2025-10-04",
+    "generated_at": "2025-10-04T02:27:34.093Z",
+    "next_update": "2025-10-05",
+    "total_articles": 4,
+    "rotation_type": "daily_random_selection",
+    "version": "1.0.0",
+    "purpose": "Noticias diarias para sección web",
+    "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
+    "parent_source": "ISOTools Corporate Blog (isotools.us)",
+    "language": "español"
+  },
+  "configuration": {
+    "daily_rotation": true,
+    "articles_per_day": 4,
+    "selection_method": "seeded_random",
+    "auto_update": true,
+    "github_action_enabled": true,
+    "cache_duration_hours": 24
+  },
+  "daily_news": [
+    {
+      "id": 8,
+      "title": "ISO 50001: estrategias avanzadas para optimizar la gestión energética empresarial",
+      "url": "https://www.isotools.us/2025/08/25/iso-50001-estrategias-avanzadas-para-optimizar-la-gestion-energetica-empresarial/",
+      "ai_summary": "Resumen automático generado con IA no disponible para este artículo. La implementación de esta norma ISO proporciona beneficios significativos para la gestión empresarial y el cumplimiento de estándares internacionales de calidad.",
+      "summary_length": 230,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": false,
+      "page_found": 2,
+      "extracted_at": "2025-10-04T02:16:40.541Z",
+      "processed_at": "2025-10-04T02:16:45.626Z",
+      "news_priority": 1,
+      "selected_date": "2025-10-04T02:27:34.088Z",
+      "rotation_id": "2025-10-3-1"
+    },
+    {
+      "id": 2,
+      "title": "Calidad 5.0: cómo la inteligencia artificial y el factor humano transforman la excelencia operativa",
+      "url": "https://www.isotools.us/2025/09/23/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa/",
+      "ai_summary": "Resumen automático generado con IA no disponible para este artículo. La implementación de esta norma ISO proporciona beneficios significativos para la gestión empresarial y el cumplimiento de estándares internacionales de calidad.",
+      "summary_length": 230,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": false,
+      "page_found": 1,
+      "extracted_at": "2025-10-04T02:16:40.541Z",
+      "processed_at": "2025-10-04T02:16:41.472Z",
+      "news_priority": 2,
+      "selected_date": "2025-10-04T02:27:34.088Z",
+      "rotation_id": "2025-10-3-2"
+    },
+    {
+      "id": 13,
+      "title": "Auditorías internas ISO: metodología avanzada para el control de calidad empresarial",
+      "url": "https://www.isotools.us/2025/07/30/auditorias-internas-iso-metodologia-avanzada-para-el-control-de-calidad-empresarial/",
+      "ai_summary": "Resumen automático generado con IA no disponible para este artículo. La implementación de esta norma ISO proporciona beneficios significativos para la gestión empresarial y el cumplimiento de estándares internacionales de calidad.",
+      "summary_length": 230,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": false,
+      "page_found": 4,
+      "extracted_at": "2025-10-04T02:16:40.541Z",
+      "processed_at": "2025-10-04T02:16:49.198Z",
+      "news_priority": 3,
+      "selected_date": "2025-10-04T02:27:34.088Z",
+      "rotation_id": "2025-10-3-3"
+    },
+    {
+      "id": 9,
+      "title": "Gestión de riesgos ISO 31000: metodología integral para la identificación y mitigación",
+      "url": "https://www.isotools.us/2025/08/20/gestion-de-riesgos-iso-31000-metodologia-integral-para-la-identificacion-y-mitigacion/",
+      "ai_summary": "Resumen automático generado con IA no disponible para este artículo. La implementación de esta norma ISO proporciona beneficios significativos para la gestión empresarial y el cumplimiento de estándares internacionales de calidad.",
+      "summary_length": 230,
+      "category": "ISO_31000_Gestion_Riesgos",
+      "ai_generated": false,
+      "page_found": 3,
+      "extracted_at": "2025-10-04T02:16:40.541Z",
+      "processed_at": "2025-10-04T02:16:46.362Z",
+      "news_priority": 4,
+      "selected_date": "2025-10-04T02:27:34.088Z",
+      "rotation_id": "2025-10-3-4"
+    }
+  ],
+  "statistics": {
+    "total_selected": 4,
+    "categories_today": [
+      "ISO_42001_Inteligencia_Artificial",
+      "ISO_31000_Gestion_Riesgos"
+    ],
+    "avg_summary_length": 230,
+    "selection_date": "2025-10-04",
+    "rotation_id": "2025-10-3"
+  },
+  "usage_instructions": {
+    "consume_url": "Usa la URL RAW de GitHub para consumir estos datos",
+    "fetch_example": "const news = await fetch('https://raw.githubusercontent.com/user/repo/main/isotools-daily-news.json').then(r => r.json())",
+    "update_frequency": "Se actualiza automáticamente cada día a las 6:00 UTC",
+    "integration_tip": "Perfecto para secciones de noticias, widgets, y feeds RSS"
+  }
+}
