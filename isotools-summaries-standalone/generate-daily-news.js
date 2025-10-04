@@ -88,19 +88,27 @@ function selectRandomArticles(articles, count) {
     const availableArticles = [...articles];
     const selectedArticles = [];
     
-    // Usar fecha como semilla para garantizar diferentes selecciones cada día
-    const today = new Date().toDateString();
-    const seed = today.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    // Usar timestamp actual + fecha para verdadera aleatoriedad en cada ejecución
+    const now = new Date();
+    const timeBasedSeed = now.getTime() + now.getDate() + now.getHours() + now.getMinutes();
     
-    // Función de random seeded para consistencia diaria
-    let randomSeed = seed;
-    function seededRandom() {
+    console.log(`🎲 Usando semilla aleatoria: ${timeBasedSeed}`);
+    
+    // Función de random mejorada que cambia en cada ejecución
+    let randomSeed = timeBasedSeed;
+    function improvedRandom() {
         randomSeed = (randomSeed * 9301 + 49297) % 233280;
         return randomSeed / 233280;
     }
     
+    // Mezclar el array primero para mayor aleatoriedad
+    for (let i = availableArticles.length - 1; i > 0; i--) {
+        const j = Math.floor(improvedRandom() * (i + 1));
+        [availableArticles[i], availableArticles[j]] = [availableArticles[j], availableArticles[i]];
+    }
+    
     for (let i = 0; i < count && availableArticles.length > 0; i++) {
-        const randomIndex = Math.floor(seededRandom() * availableArticles.length);
+        const randomIndex = Math.floor(improvedRandom() * availableArticles.length);
         const selectedArticle = availableArticles.splice(randomIndex, 1)[0];
         
         // Agregar información extra para noticias
@@ -108,7 +116,7 @@ function selectRandomArticles(articles, count) {
             ...selectedArticle,
             news_priority: i + 1,
             selected_date: new Date().toISOString(),
-            rotation_id: `${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}-${i + 1}`
+            rotation_id: `${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}-${new Date().getHours()}-${new Date().getMinutes()}-${i + 1}`
         });
     }
     
@@ -140,10 +148,11 @@ function createNewsJson(selectedArticles, originalMetadata) {
         configuration: {
             daily_rotation: true,
             articles_per_day: 4,
-            selection_method: "seeded_random",
+            selection_method: "true_random_with_timestamp",
             auto_update: true,
             github_action_enabled: true,
-            cache_duration_hours: 24
+            cache_duration_hours: 24,
+            rotation_on_each_execution: true
         },
         daily_news: selectedArticles,
         statistics: {
