@@ -4,7 +4,7 @@
     "description": "Seleccion diaria de 3 articulos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-04",
-    "generated_at": "2025-10-04T14:54:12.584Z",
+    "generated_at": "2025-10-04T15:16:35.062Z",
     "next_update": "2025-10-05",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -17,7 +17,7 @@
   "configuration": {
     "daily_rotation": true,
     "articles_per_day": 3,
-    "selection_method": "timestamp_based_random_with_jq",
+    "selection_method": "jq_time_based_random_selection",
     "auto_update": true,
     "github_action_enabled": true,
     "cache_duration_hours": 24,
@@ -29,9 +29,9 @@
     null
   ],
   "generation_info": {
-    "selected_at": "2025-10-04T14:54:12.584Z",
+    "selected_at": "2025-10-04T15:16:35.062Z",
     "next_rotation": "2025-10-05T12:00:00.000Z",
-    "algorithm": "jq_timestamp_sort_selection",
+    "algorithm": "jq_time_based_selection",
     "total_available_articles": 31,
     "rotation_guaranteed": true
   }
