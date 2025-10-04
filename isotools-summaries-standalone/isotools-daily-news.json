@@ -1,12 +1,12 @@
 {
   "metadata": {
     "title": "ISOTools - Noticias Diarias",
-    "description": "Selección diaria de 4 artículos destacados sobre normas ISO",
+    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-04",
-    "generated_at": "2025-10-04T11:04:22.268Z",
+    "generated_at": "2025-10-04T08:33:28.258179",
     "next_update": "2025-10-05",
-    "total_articles": 4,
+    "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
     "purpose": "Noticias diarias para sección web",
@@ -16,7 +16,7 @@
   },
   "configuration": {
     "daily_rotation": true,
-    "articles_per_day": 4,
+    "articles_per_day": 3,
     "selection_method": "true_random_with_timestamp",
     "auto_update": true,
     "github_action_enabled": true,
@@ -25,81 +25,56 @@
   },
   "daily_news": [
     {
-      "id": 5,
-      "title": "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
-      "url": "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
-      "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
-      "summary_length": 433,
-      "category": "ISO_14001_Gestion_Ambiental",
+      "id": 11,
+      "title": "Transformación digital en la gestión ISO: herramientas y mejores prácticas 2025",
+      "url": "https://www.isotools.us/2025/08/10/transformacion-digital-en-la-gestion-iso-herramientas-y-mejores-practicas-2025/",
+      "ai_summary": "La automatización de procesos ISO mediante herramientas digitales transforma la gestión de calidad, mejorando la eficiencia y reduciendo errores manuales. Esta digitalización facilita el monitoreo en tiempo real, optimiza flujos de trabajo y mejora la trazabilidad de procesos. Las organizaciones tecnológicamente avanzadas logran mayor competitividad y capacidad de respuesta ante cambios del mercado.",
+      "summary_length": 402,
+      "category": "Herramientas_Digitales_ISO",
       "ai_generated": true,
-      "page_found": 1,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:39.180Z",
+      "page_found": 3,
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:45.026Z",
       "news_priority": 1,
-      "selected_date": "2025-10-04T11:04:22.254Z",
-      "rotation_id": "2025-10-4-8-4-1"
+      "selected_date": "2025-10-04T08:33:28.257943",
+      "rotation_id": "2025-10-04-1"
     },
     {
-      "id": 8,
-      "title": "ISO 50001: estrategias avanzadas para optimizar la gestión energética empresarial",
-      "url": "https://www.isotools.us/2025/08/25/iso-50001-estrategias-avanzadas-para-optimizar-la-gestion-energetica-empresarial/",
-      "ai_summary": "ISO 50001 permite a las organizaciones desarrollar sistemas de gestión energética que optimizan el consumo y reducen costos operativos significativamente. Esta norma facilita la identificación de oportunidades de ahorro energético, mejora la eficiencia de procesos y contribuye a objetivos de sostenibilidad. Las empresas implementadoras logran ventajas competitivas y demuestran responsabilidad ambiental.",
-      "summary_length": 406,
-      "category": "ISO_42001_Inteligencia_Artificial",
-      "ai_generated": true,
-      "page_found": 2,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:40.725Z",
-      "news_priority": 2,
-      "selected_date": "2025-10-04T11:04:22.267Z",
-      "rotation_id": "2025-10-4-8-4-2"
-    },
-    {
-      "id": 26,
-      "title": "ISO 16949: sistemas de gestión de calidad automotriz y su certificación",
-      "url": "https://www.isotools.us/2025/05/25/iso-16949-sistemas-de-gestion-de-calidad-automotriz-y-su-certificacion/",
+      "id": 20,
+      "title": "ISO 21500: gestión de proyectos según estándares internacionales de calidad",
+      "url": "https://www.isotools.us/2025/06/25/iso-21500-gestion-de-proyectos-segun-estandares-internacionales-de-calidad/",
       "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
       "summary_length": 433,
       "category": "ISO_9001_Gestion_Calidad",
       "ai_generated": true,
-      "page_found": 8,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:50.047Z",
-      "news_priority": 3,
-      "selected_date": "2025-10-04T11:04:22.267Z",
-      "rotation_id": "2025-10-4-8-4-3"
+      "page_found": 6,
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:49.727Z",
+      "news_priority": 2,
+      "selected_date": "2025-10-04T08:33:28.258110",
+      "rotation_id": "2025-10-04-2"
     },
     {
-      "id": 2,
-      "title": "Calidad 5.0: cómo la inteligencia artificial y el factor humano transforman la excelencia operativa",
-      "url": "https://www.isotools.us/2025/09/23/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa/",
-      "ai_summary": "La convergencia de inteligencia artificial y gestión de calidad revoluciona los procesos empresariales, creando sistemas más inteligentes y adaptativos. Esta evolución hacia la Calidad 5.0 mejora la eficiencia operativa, reduce errores humanos y optimiza la toma de decisiones basada en datos. Las organizaciones pioneras obtienen ventajas competitivas significativas al integrar IA en sus sistemas de gestión de calidad.",
-      "summary_length": 421,
+      "id": 1,
+      "title": "¿Cómo decidir si la certificación del estándar ISO 42001 es la opción adecuada para su organización?",
+      "url": "https://www.isotools.us/2025/09/25/como-decidir-si-la-certificacion-del-estandar-iso-42001-es-la-opcion-adecuada-para-su-organizacion/",
+      "ai_summary": "La implementación de ISO 42001 permite a las organizaciones establecer sistemas de gestión de inteligencia artificial robustos y éticos. Esta norma facilita la integración responsable de tecnologías IA en procesos empresariales, mejorando la toma de decisiones mientras garantiza transparencia y cumplimiento normativo. Las empresas obtienen ventajas competitivas significativas al optimizar operaciones con IA de manera estructurada y segura.",
+      "summary_length": 443,
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 1,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:37.620Z",
-      "news_priority": 4,
-      "selected_date": "2025-10-04T11:04:22.267Z",
-      "rotation_id": "2025-10-4-8-4-4"
+      "extracted_at": "2025-10-04T11:32:39.787Z",
+      "processed_at": "2025-10-04T11:32:39.857Z",
+      "news_priority": 3,
+      "selected_date": "2025-10-04T08:33:28.258149",
+      "rotation_id": "2025-10-04-3"
     }
   ],
-  "statistics": {
-    "total_selected": 4,
-    "categories_today": [
-      "ISO_14001_Gestion_Ambiental",
-      "ISO_42001_Inteligencia_Artificial",
-      "ISO_9001_Gestion_Calidad"
-    ],
-    "avg_summary_length": 423,
-    "selection_date": "2025-10-04",
-    "rotation_id": "2025-10-4"
-  },
-  "usage_instructions": {
-    "consume_url": "Usa la URL RAW de GitHub para consumir estos datos",
-    "fetch_example": "const news = await fetch('https://raw.githubusercontent.com/user/repo/main/isotools-daily-news.json').then(r => r.json())",
-    "update_frequency": "Se actualiza automáticamente cada día a las 6:00 UTC",
-    "integration_tip": "Perfecto para secciones de noticias, widgets, y feeds RSS"
+  "generation_info": {
+    "selected_at": "2025-10-04T08:33:28.258179",
+    "next_rotation": "2025-10-05T08:33:28.258179",
+    "algorithm": "python_random_sample",
+    "total_available_articles": 31,
+    "rotation_guaranteed": true
   }
 }

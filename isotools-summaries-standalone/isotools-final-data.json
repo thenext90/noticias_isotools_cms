@@ -2,7 +2,7 @@
   "metadata": {
     "title": "ISOTools - Artículos Procesados con IA",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_at": "2025-10-04T10:54:52.652Z",
+    "generated_at": "2025-10-04T11:32:55.530Z",
     "total_articles": 31,
     "ai_model": "OpenAI GPT-3.5-turbo",
     "processing_status": "completed",
@@ -35,8 +35,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 1,
-      "extracted_at": "2025-10-04T10:54:37.087Z",
-      "processed_at": "2025-10-04T10:54:37.105Z"
+      "extracted_at": "2025-10-04T11:32:39.787Z",
+      "processed_at": "2025-10-04T11:32:39.857Z"
     },
     {
       "id": 2,
@@ -47,8 +47,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 1,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:37.620Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:40.376Z"
     },
     {
       "id": 3,
@@ -59,8 +59,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 1,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:38.140Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:40.895Z"
     },
     {
       "id": 4,
@@ -71,8 +71,8 @@
       "category": "ISO_9001_Gestion_Calidad",
       "ai_generated": true,
       "page_found": 1,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:38.656Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:41.411Z"
     },
     {
       "id": 5,
@@ -83,8 +83,8 @@
       "category": "ISO_14001_Gestion_Ambiental",
       "ai_generated": true,
       "page_found": 1,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:39.180Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:41.928Z"
     },
     {
       "id": 6,
@@ -95,8 +95,8 @@
       "category": "ISO_27001_Seguridad_Informacion",
       "ai_generated": true,
       "page_found": 2,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:39.695Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:42.444Z"
     },
     {
       "id": 7,
@@ -107,8 +107,8 @@
       "category": "ISO_9001_Gestion_Calidad",
       "ai_generated": true,
       "page_found": 2,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:40.212Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:42.961Z"
     },
     {
       "id": 8,
@@ -119,8 +119,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 2,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:40.725Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:43.482Z"
     },
     {
       "id": 9,
@@ -131,8 +131,8 @@
       "category": "ISO_31000_Gestion_Riesgos",
       "ai_generated": true,
       "page_found": 3,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:41.249Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:43.994Z"
     },
     {
       "id": 10,
@@ -143,8 +143,8 @@
       "category": "ISO_37001_Antisoborno",
       "ai_generated": true,
       "page_found": 3,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:41.764Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:44.511Z"
     },
     {
       "id": 11,
@@ -155,8 +155,8 @@
       "category": "Herramientas_Digitales_ISO",
       "ai_generated": true,
       "page_found": 3,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:42.285Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:45.026Z"
     },
     {
       "id": 12,
@@ -167,8 +167,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 4,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:42.800Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:45.541Z"
     },
     {
       "id": 13,
@@ -179,8 +179,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 4,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:43.316Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:46.096Z"
     },
     {
       "id": 14,
@@ -191,8 +191,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 4,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:43.832Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:46.624Z"
     },
     {
       "id": 15,
@@ -203,8 +203,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 5,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:44.350Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:47.142Z"
     },
     {
       "id": 16,
@@ -215,8 +215,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 5,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:44.866Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:47.657Z"
     },
     {
       "id": 17,
@@ -227,8 +227,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 5,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:45.390Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:48.174Z"
     },
     {
       "id": 18,
@@ -239,8 +239,8 @@
       "category": "ISO_55001_Gestion_Activos",
       "ai_generated": true,
       "page_found": 6,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:45.905Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:48.694Z"
     },
     {
       "id": 19,
@@ -251,8 +251,8 @@
       "category": "ISO_Normas_Generales",
       "ai_generated": true,
       "page_found": 6,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:46.428Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:49.210Z"
     },
     {
       "id": 20,
@@ -263,8 +263,8 @@
       "category": "ISO_9001_Gestion_Calidad",
       "ai_generated": true,
       "page_found": 6,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:46.940Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:49.727Z"
     },
     {
       "id": 21,
@@ -275,8 +275,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 7,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:47.456Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:50.243Z"
     },
     {
       "id": 22,
@@ -287,8 +287,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 7,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:47.972Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:50.760Z"
     },
     {
       "id": 23,
@@ -299,8 +299,8 @@
       "category": "ISO_9001_Gestion_Calidad",
       "ai_generated": true,
       "page_found": 7,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:48.494Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:51.276Z"
     },
     {
       "id": 24,
@@ -311,8 +311,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 8,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:49.015Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:51.799Z"
     },
     {
       "id": 25,
@@ -323,8 +323,8 @@
       "category": "ISO_Normas_Generales",
       "ai_generated": true,
       "page_found": 8,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:49.528Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:52.442Z"
     },
     {
       "id": 26,
@@ -335,8 +335,8 @@
       "category": "ISO_9001_Gestion_Calidad",
       "ai_generated": true,
       "page_found": 8,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:50.047Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:52.959Z"
     },
     {
       "id": 27,
@@ -347,8 +347,8 @@
       "category": "ISO_42001_Inteligencia_Artificial",
       "ai_generated": true,
       "page_found": 9,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:50.563Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:53.475Z"
     },
     {
       "id": 28,
@@ -359,8 +359,8 @@
       "category": "ISO_9001_Gestion_Calidad",
       "ai_generated": true,
       "page_found": 9,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:51.077Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:53.990Z"
     },
     {
       "id": 29,
@@ -371,8 +371,8 @@
       "category": "ISO_Normas_Generales",
       "ai_generated": true,
       "page_found": 9,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:51.602Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:54.495Z"
     },
     {
       "id": 30,
@@ -383,8 +383,8 @@
       "category": "ISO_27001_Seguridad_Informacion",
       "ai_generated": true,
       "page_found": 10,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:52.119Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:55.004Z"
     },
     {
       "id": 31,
@@ -395,8 +395,8 @@
       "category": "ISO_Normas_Generales",
       "ai_generated": true,
       "page_found": 10,
-      "extracted_at": "2025-10-04T10:54:37.097Z",
-      "processed_at": "2025-10-04T10:54:52.649Z"
+      "extracted_at": "2025-10-04T11:32:39.846Z",
+      "processed_at": "2025-10-04T11:32:55.524Z"
     }
   ],
   "statistics": {
@@ -417,7 +417,7 @@
     ],
     "total_categories": 9,
     "processing_time_seconds": 61,
-    "last_updated": "2025-10-04T10:54:52.652Z"
+    "last_updated": "2025-10-04T11:32:55.530Z"
   },
   "usage_instructions": {
     "consume_url": "Sube este JSON a GitHub y usa la URL RAW",
