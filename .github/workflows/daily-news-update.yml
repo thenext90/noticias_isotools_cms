@@ -30,38 +30,32 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: 🟢 Setup Node.js
-      uses: actions/setup-node@v4
+    - name: � Setup Python
+      uses: actions/setup-python@v4
       with:
-        node-version: '18'
-        cache: 'npm'
-        cache-dependency-path: 'isotools-summaries-standalone/package.json'
+        python-version: '3.x'
         
-    - name: 📦 Install dependencies
+    - name: ️ Generate daily news
       run: |
         cd isotools-summaries-standalone
-        npm install
-        
-    - name: 🗞️ Generate daily news
-      run: |
-        cd isotools-summaries-standalone
-        echo "🎲 Generando 4 artículos aleatorios para hoy..."
-        node generate-daily-news.js
+        echo "🎲 Generando 3 artículos aleatorios para hoy..."
+        python generate-daily-3-news.py
         
     - name: 📊 Verify generated files
       run: |
         echo "📄 Verificando archivos generados..."
-        ls -la isotools-daily-news.json || echo "❌ Archivo no encontrado en raíz"
-        ls -la isotools-summaries-standalone/isotools-daily-news.json || echo "❌ Archivo no encontrado en subdirectorio"
-        
         if [ -f "isotools-daily-news.json" ]; then
-          echo "✅ Archivo de noticias diarias generado correctamente"
+          echo "✅ Archivo de noticias diarias generado correctamente en raíz"
           echo "📊 Tamaño del archivo: $(wc -c < isotools-daily-news.json) bytes"
-          echo "📋 Primeras líneas:"
-          head -10 isotools-daily-news.json
+          echo "📋 Metadatos del archivo:"
+          head -20 isotools-daily-news.json | grep -E '"title"|"generated_date"|"total_articles"' || echo "Estructura básica verificada"
         else
-          echo "❌ Error: No se generó el archivo de noticias"
+          echo "❌ Error: No se generó el archivo de noticias en la raíz"
           exit 1
+        fi
+        
+        if [ -f "isotools-summaries-standalone/isotools-daily-news.json" ]; then
+          echo "✅ Archivo también disponible en subdirectorio"
         fi
         
     - name: 🏷️ Get current date
@@ -85,10 +79,10 @@ jobs:
           # Commit con mensaje descriptivo
           git commit -m "🗞️ Noticias diarias actualizadas - ${{ steps.date.outputs.TODAY }}
 
-          🎲 4 artículos aleatorios seleccionados para hoy
+          🎲 3 artículos aleatorios seleccionados para hoy
           📅 Fecha: ${{ steps.date.outputs.TODAY }}
           🤖 Generado automáticamente por GitHub Actions
-          🔄 Próxima actualización: mañana a las 6:00 UTC
+          🔄 Próxima actualización: mañana a las 12:00 UTC
           
           ⚙️ Configuración:
           - Rotación diaria: ✅ Activada
@@ -110,8 +104,8 @@ jobs:
         echo "=================================="
         echo "📅 Fecha: ${{ steps.date.outputs.TODAY }}"
         echo "📄 Archivo: isotools-daily-news.json"
-        echo "🎲 Artículos: 4 seleccionados aleatoriamente"
-        echo "🔄 Próxima ejecución: Mañana a las 6:00 UTC"
+        echo "🎲 Artículos: 3 seleccionados aleatoriamente"
+        echo "🔄 Próxima ejecución: Mañana a las 12:00 UTC"
         echo ""
         echo "🌐 URLs de consumo:"
         echo "📱 RAW: https://raw.githubusercontent.com/${{ github.repository }}/main/isotools-daily-news.json"
@@ -124,4 +118,4 @@ jobs:
         echo "==================================="
         echo "🔧 Revisa los logs anteriores para identificar el problema"
         echo "📧 Considera configurar notificaciones de Slack/Email"
-        echo "🔄 La siguiente ejecución será mañana a las 6:00 UTC"
+        echo "🔄 La siguiente ejecución será mañana a las 12:00 UTC"

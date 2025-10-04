@@ -72,11 +72,17 @@ def generate_daily_news():
         }
     }
     
-    # Guardar archivo
+    # Guardar archivo en directorio actual
     with open('isotools-daily-news.json', 'w', encoding='utf-8') as f:
         json.dump(daily_news, f, indent=2, ensure_ascii=False)
     
+    # También guardar en el directorio raíz del proyecto para GitHub Actions
+    root_path = os.path.join('..', 'isotools-daily-news.json')
+    with open(root_path, 'w', encoding='utf-8') as f:
+        json.dump(daily_news, f, indent=2, ensure_ascii=False)
+    
     print(f"✅ Generado isotools-daily-news.json con 3 artículos")
+    print(f"✅ Copiado a directorio raíz para GitHub Actions")
     print("\n📋 Artículos seleccionados:")
     for i, article in enumerate(selected_articles, 1):
         print(f"{i}. {article['title'][:60]}...")
