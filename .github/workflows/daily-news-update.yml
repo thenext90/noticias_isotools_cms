@@ -48,20 +48,70 @@ jobs:
         echo "Date: $TODAY"
         echo "Processing: $SOURCE_FILE"
         
-        SELECTED_ARTICLES=$(jq '.data | sort_by(.id * (now | floor)) | .[0:3] | to_entries | map(.value + {"news_priority": (.key + 1), "selected_date": "'$CURRENT_ISO'", "rotation_id": ("'$TODAY'-" + (.key + 1 | tostring))}) | map(.value)' "$SOURCE_FILE")
+        # Use a simpler, more reliable selection method
+        SELECTED_ARTICLES=$(jq --arg seed "$TODAY" '.data | sort_by(.id + ($seed | tonumber // 0)) | .[0:3] | to_entries | map(.value + {"news_priority": (.key + 1), "selected_date": "'$CURRENT_ISO'", "rotation_id": ("'$TODAY'-" + (.key + 1 | tostring))})' "$SOURCE_FILE")
         
         ORIGINAL_SOURCE=$(jq -r '.metadata.source // "ISOTools Corporate Blog"' "$SOURCE_FILE")
         TOTAL_ARTICLES=$(jq -r '.data | length' "$SOURCE_FILE")
         
-        jq -n --arg today "$TODAY" --arg tomorrow "$TOMORROW" --arg current_iso "$CURRENT_ISO" --arg original_source "$ORIGINAL_SOURCE" --arg total_articles "$TOTAL_ARTICLES" --arg repo "${{ github.repository }}" --argjson selected_articles "$SELECTED_ARTICLES" '{metadata: {title: "ISOTools - Noticias Diarias", description: "Seleccion diaria de 3 articulos destacados sobre normas ISO", source: "ISOTools Corporate Blog (isotools.us)", generated_date: $today, generated_at: $current_iso, next_update: $tomorrow, total_articles: 3, rotation_type: "daily_random_selection", version: "1.0.0", purpose: "Noticias diarias para seccion web", github_raw_example: ("https://raw.githubusercontent.com/" + $repo + "/main/isotools-daily-news.json"), parent_source: $original_source, language: "espanol"}, configuration: {daily_rotation: true, articles_per_day: 3, selection_method: "jq_time_based_random_selection", auto_update: true, github_action_enabled: true, cache_duration_hours: 24, rotation_on_each_execution: true}, daily_news: $selected_articles, generation_info: {selected_at: $current_iso, next_rotation: ($tomorrow + "T12:00:00.000Z"), algorithm: "jq_time_based_selection", total_available_articles: ($total_articles | tonumber), rotation_guaranteed: true}}' > "$OUTPUT_FILE"
+        # Debug: Show selected articles structure
+        echo "Debug: Total articles found: $TOTAL_ARTICLES"
+        echo "Debug: Selected articles preview:"
+        echo "$SELECTED_ARTICLES" | jq '.[0:2] | map({id, title: .title[0:50]})'
+        
+        # Generate the complete JSON
+        jq -n \
+          --arg today "$TODAY" \
+          --arg tomorrow "$TOMORROW" \
+          --arg current_iso "$CURRENT_ISO" \
+          --arg original_source "$ORIGINAL_SOURCE" \
+          --arg total_articles "$TOTAL_ARTICLES" \
+          --arg repo "${{ github.repository }}" \
+          --argjson selected_articles "$SELECTED_ARTICLES" \
+          '{
+            metadata: {
+              title: "ISOTools - Noticias Diarias",
+              description: "Seleccion diaria de 3 articulos destacados sobre normas ISO",
+              source: "ISOTools Corporate Blog (isotools.us)",
+              generated_date: $today,
+              generated_at: $current_iso,
+              next_update: $tomorrow,
+              total_articles: 3,
+              rotation_type: "daily_random_selection",
+              version: "1.0.0",
+              purpose: "Noticias diarias para seccion web",
+              github_raw_example: ("https://raw.githubusercontent.com/" + $repo + "/main/isotools-daily-news.json"),
+              parent_source: $original_source,
+              language: "espanol"
+            },
+            configuration: {
+              daily_rotation: true,
+              articles_per_day: 3,
+              selection_method: "jq_date_based_selection",
+              auto_update: true,
+              github_action_enabled: true,
+              cache_duration_hours: 24,
+              rotation_on_each_execution: true
+            },
+            daily_news: $selected_articles,
+            generation_info: {
+              selected_at: $current_iso,
+              next_rotation: ($tomorrow + "T12:00:00.000Z"),
+              algorithm: "jq_date_seed_selection",
+              total_available_articles: ($total_articles | tonumber),
+              rotation_guaranteed: true
+            }
+          }' > "$OUTPUT_FILE"
         
         if [ -f "$OUTPUT_FILE" ]; then
-          echo "File generated successfully"
+          echo "✅ File generated successfully"
+          echo "📋 Selected articles:"
           jq -r '.daily_news[] | "\(.news_priority). \(.title[0:60])..."' "$OUTPUT_FILE"
+          echo "📊 File size: $(wc -c < "$OUTPUT_FILE") bytes"
           cp "$OUTPUT_FILE" "isotools-summaries-standalone/"
-          echo "File copied to subdirectory"
+          echo "✅ File copied to subdirectory"
         else
-          echo "Error generating file"
+          echo "❌ Error generating file"
           exit 1
         fi
         
