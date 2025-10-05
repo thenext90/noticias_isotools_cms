@@ -1,37 +1,82 @@
 {
   "metadata": {
     "title": "ISOTools - Noticias Diarias",
-    "description": "Seleccion diaria de 3 articulos destacados sobre normas ISO",
+    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-05",
-    "generated_at": "2025-10-05T16:08:08.044Z",
+    "generated_at": "2025-10-05T17:32:07.223507",
     "next_update": "2025-10-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
-    "purpose": "Noticias diarias para seccion web",
-    "github_raw_example": "https://raw.githubusercontent.com/thenext90/manu2/main/isotools-daily-news.json",
+    "purpose": "Noticias diarias para sección web",
+    "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
     "parent_source": "ISOTools Corporate Blog (isotools.us)",
-    "language": "espanol"
+    "language": "español"
   },
   "configuration": {
     "daily_rotation": true,
     "articles_per_day": 3,
-    "selection_method": "jq_time_based_random_selection",
+    "selection_method": "true_random_with_timestamp",
     "auto_update": true,
     "github_action_enabled": true,
     "cache_duration_hours": 24,
     "rotation_on_each_execution": true
   },
   "daily_news": [
-    null,
-    null,
-    null
+    {
+      "id": 36,
+      "title": "ISO 17025: acreditación de laboratorios de ensayo y calibración para la excelencia técnica",
+      "url": "https://www.isotools.us/2025/04/05/iso-17025-acreditacion-de-laboratorios-de-ensayo-y-calibracion-para-la-excelencia-tecnica/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/iso-17025-laboratorios-ensayo.jpg",
+      "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
+      "summary_length": 433,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": true,
+      "page_found": 12,
+      "extracted_at": "2025-10-05T15:15:45.016Z",
+      "processed_at": "2025-10-05T15:16:03.858Z",
+      "news_priority": 1,
+      "selected_date": "2025-10-05T17:32:07.223464",
+      "rotation_id": "2025-10-05-1"
+    },
+    {
+      "id": 19,
+      "title": "Integración de sistemas de gestión ISO: metodología para el enfoque holístico",
+      "url": "https://www.isotools.us/2025/06/30/integracion-de-sistemas-de-gestion-iso-metodologia-para-el-enfoque-holistico/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/06/integracion-sistemas-iso.jpg",
+      "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
+      "summary_length": 433,
+      "category": "ISO_Normas_Generales",
+      "ai_generated": true,
+      "page_found": 6,
+      "extracted_at": "2025-10-05T15:15:45.016Z",
+      "processed_at": "2025-10-05T15:15:55.096Z",
+      "news_priority": 2,
+      "selected_date": "2025-10-05T17:32:07.223494",
+      "rotation_id": "2025-10-05-2"
+    },
+    {
+      "id": 31,
+      "title": "Innovación y mejora continua: metodologías ágiles aplicadas a sistemas ISO",
+      "url": "https://www.isotools.us/2025/04/30/innovacion-y-mejora-continua-metodologias-agiles-aplicadas-a-sistemas-iso/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/innovacion-mejora-continua-iso.jpg",
+      "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
+      "summary_length": 433,
+      "category": "ISO_Normas_Generales",
+      "ai_generated": true,
+      "page_found": 10,
+      "extracted_at": "2025-10-05T15:15:45.016Z",
+      "processed_at": "2025-10-05T15:16:01.273Z",
+      "news_priority": 3,
+      "selected_date": "2025-10-05T17:32:07.223501",
+      "rotation_id": "2025-10-05-3"
+    }
   ],
   "generation_info": {
-    "selected_at": "2025-10-05T16:08:08.044Z",
-    "next_rotation": "2025-10-06T12:00:00.000Z",
-    "algorithm": "jq_time_based_selection",
+    "selected_at": "2025-10-05T17:32:07.223507",
+    "next_rotation": "2025-10-06T17:32:07.223507",
+    "algorithm": "python_random_sample",
     "total_available_articles": 50,
     "rotation_guaranteed": true
   }
