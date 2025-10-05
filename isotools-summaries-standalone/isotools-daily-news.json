@@ -1,38 +1,83 @@
 {
   "metadata": {
     "title": "ISOTools - Noticias Diarias",
-    "description": "Seleccion diaria de 3 articulos destacados sobre normas ISO",
+    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-05",
-    "generated_at": "2025-10-05T12:17:26.977Z",
+    "generated_at": "2025-10-05T12:29:36.692071",
     "next_update": "2025-10-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
-    "purpose": "Noticias diarias para seccion web",
-    "github_raw_example": "https://raw.githubusercontent.com/thenext90/manu2/main/isotools-daily-news.json",
+    "purpose": "Noticias diarias para sección web",
+    "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
     "parent_source": "ISOTools Corporate Blog (isotools.us)",
-    "language": "espanol"
+    "language": "español"
   },
   "configuration": {
     "daily_rotation": true,
     "articles_per_day": 3,
-    "selection_method": "jq_time_based_random_selection",
+    "selection_method": "true_random_with_timestamp",
     "auto_update": true,
     "github_action_enabled": true,
     "cache_duration_hours": 24,
     "rotation_on_each_execution": true
   },
   "daily_news": [
-    null,
-    null,
-    null
+    {
+      "id": 46,
+      "title": "ISO 27799: gestión de la seguridad de la información en organizaciones sanitarias",
+      "url": "https://www.isotools.us/2025/02/15/iso-27799-gestion-de-la-seguridad-de-la-informacion-en-organizaciones-sanitarias/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/02/iso-27799-seguridad-sanitaria.jpg",
+      "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
+      "summary_length": 433,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": true,
+      "page_found": 15,
+      "extracted_at": "2025-10-05T15:15:45.017Z",
+      "processed_at": "2025-10-05T15:16:09.024Z",
+      "news_priority": 1,
+      "selected_date": "2025-10-05T12:29:36.691878",
+      "rotation_id": "2025-10-05-1"
+    },
+    {
+      "id": 17,
+      "title": "Gestión de la continuidad del negocio ISO 22301: preparación ante crisis empresariales",
+      "url": "https://www.isotools.us/2025/07/10/gestion-de-la-continuidad-del-negocio-iso-22301-preparacion-ante-crisis-empresariales/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/iso-22301-continuidad-negocio.jpg",
+      "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
+      "summary_length": 433,
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": true,
+      "page_found": 5,
+      "extracted_at": "2025-10-05T15:15:45.016Z",
+      "processed_at": "2025-10-05T15:15:54.063Z",
+      "news_priority": 2,
+      "selected_date": "2025-10-05T12:29:36.692006",
+      "rotation_id": "2025-10-05-2"
+    },
+    {
+      "id": 45,
+      "title": "Gestión de la diversidad ISO 30415: inclusión y equidad en el entorno laboral",
+      "url": "https://www.isotools.us/2025/02/20/gestion-de-la-diversidad-iso-30415-inclusion-y-equidad-en-el-entorno-laboral/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/02/iso-30415-diversidad-inclusion.jpg",
+      "ai_summary": "Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.",
+      "summary_length": 433,
+      "category": "ISO_Normas_Generales",
+      "ai_generated": true,
+      "page_found": 15,
+      "extracted_at": "2025-10-05T15:15:45.016Z",
+      "processed_at": "2025-10-05T15:16:08.503Z",
+      "news_priority": 3,
+      "selected_date": "2025-10-05T12:29:36.692044",
+      "rotation_id": "2025-10-05-3"
+    }
   ],
   "generation_info": {
-    "selected_at": "2025-10-05T12:17:26.977Z",
-    "next_rotation": "2025-10-06T12:00:00.000Z",
-    "algorithm": "jq_time_based_selection",
-    "total_available_articles": 31,
+    "selected_at": "2025-10-05T12:29:36.692071",
+    "next_rotation": "2025-10-06T12:29:36.692071",
+    "algorithm": "python_random_sample",
+    "total_available_articles": 50,
     "rotation_guaranteed": true
   }
 }

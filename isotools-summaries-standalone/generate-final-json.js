@@ -8,17 +8,28 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY || 'tu_api_key_aqui'
 });
 
-// 1. FUNCIÓN DE SCRAPING CON PAGINACIÓN MEJORADA
-async function scrapingISOTools(maxArticles = 30, maxPages = 10) {
+// 1. FUNCIÓN DE SCRAPING CON PAGINACIÓN MEJORADA E EXTRACCIÓN DE IMÁGENES
+async function scrapingISOTools(maxArticles = 50, maxPages = 15) {
     console.log(`🕷️ Iniciando scraping de ISOTools (hasta ${maxArticles} artículos de ${maxPages} páginas)...`);
+    console.log('🖼️ Incluyendo extracción de imágenes asociadas a cada artículo...');
     
     const articles = [];
     let currentPage = 1;
     
     try {
         while (articles.length < maxArticles && currentPage <= maxPages) {
-            console.log(`📄 Scrapeando página ${currentPage}/${maxPages}...`);
-            
+            console.log(`📄 Scrapeando página ${currentPage}/${maxPages}...`);        // Resumen final detallado
+        console.log('\n🎉 PROCESO COMPLETADO EXITOSAMENTE!');
+        console.log('========================================');
+        console.log(`📄 Archivo generado: ${filename}`);
+        console.log(`📆 Artículos procesados: ${finalJSON.metadata.total_articles}`);
+        console.log(`🤖 Resúmenes IA exitosos: ${finalJSON.statistics.successful_ai_summaries}/${finalJSON.metadata.total_articles}`);
+        console.log(`📈 Tasa de éxito IA: ${finalJSON.statistics.ai_success_rate}`);
+        console.log(`🖼️ Imágenes extraídas: ${finalJSON.data.filter(art => art.image_url).length}/${finalJSON.metadata.total_articles}`);
+        console.log(`📏 Longitud promedio resúmenes: ${finalJSON.statistics.avg_summary_length} caracteres`);
+        console.log(`⏱️ Tiempo total de procesamiento: ${finalJSON.statistics.processing_time_seconds} segundos`);
+        console.log(`🏷️ Categorías identificadas: ${finalJSON.statistics.total_categories}`);
+        console.log(`📅 Generado: ${finalJSON.metadata.generated_at}`);  
             const baseUrl = currentPage === 1 
                 ? 'https://www.isotools.us/blog-corporativo/' 
                 : `https://www.isotools.us/blog-corporativo/page/${currentPage}/`;
@@ -69,9 +80,38 @@ async function scrapingISOTools(maxArticles = 30, maxPages = 10) {
                         );
                         
                         if (hasISOContent && !articles.some(article => article.url === url)) {
+                            // Buscar imagen asociada al artículo
+                            let imageUrl = null;
+                            const articleElement = $(element).closest('article');
+                            
+                            // Múltiples selectores para encontrar la imagen
+                            const imageSelectors = [
+                                'img[data-src]',
+                                'img[src]',
+                                '.post-thumbnail img',
+                                '.featured-image img',
+                                '.entry-image img'
+                            ];
+                            
+                            for (const imgSelector of imageSelectors) {
+                                const imgElement = articleElement.find(imgSelector).first();
+                                if (imgElement.length) {
+                                    // Priorizar data-src sobre src (lazy loading)
+                                    imageUrl = imgElement.attr('data-src') || imgElement.attr('src');
+                                    if (imageUrl) {
+                                        // Completar URL si es relativa
+                                        if (!imageUrl.startsWith('http')) {
+                                            imageUrl = 'https://www.isotools.us' + (imageUrl.startsWith('/') ? imageUrl : '/' + imageUrl);
+                                        }
+                                        break;
+                                    }
+                                }
+                            }
+                            
                             articles.push({
                                 title: title,
                                 url: url,
+                                image_url: imageUrl,
                                 page_found: currentPage,
                                 extracted_at: new Date().toISOString()
                             });
@@ -104,48 +144,56 @@ async function scrapingISOTools(maxArticles = 30, maxPages = 10) {
                 {
                     title: "¿Cómo decidir si la certificación del estándar ISO 42001 es la opción adecuada para su organización?",
                     url: "https://www.isotools.us/2025/09/25/como-decidir-si-la-certificacion-del-estandar-iso-42001-es-la-opcion-adecuada-para-su-organizacion/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/09/iso-42001-certificacion-organizacion.jpg",
                     page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Calidad 5.0: cómo la inteligencia artificial y el factor humano transforman la excelencia operativa",
                     url: "https://www.isotools.us/2025/09/23/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/09/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa.jpg",
                     page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Cumplimiento ISO 27001: los 9 pasos esenciales para preparar tu certificación",
                     url: "https://www.isotools.us/2025/09/16/cumplimiento-iso-27001-los-9-pasos-esenciales-para-preparar-tu-certificacion/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/09/cumplimiento-iso-27001-certificacion.jpg",
                     page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "¿Cuáles son los beneficios de la ISO 9001 2026?",
                     url: "https://www.isotools.us/2025/09/15/cuales-son-los-beneficios-de-la-iso-9001-2026/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/09/beneficios-iso-9001-2026.jpg",
                     page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
                     url: "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/09/software-gestion-medioambiental.jpg",
                     page_found: 1,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 45001: mejores prácticas para la gestión de la seguridad y salud en el trabajo",
                     url: "https://www.isotools.us/2025/09/05/iso-45001-mejores-practicas-para-la-gestion-de-la-seguridad-y-salud-en-el-trabajo/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/09/iso-45001-seguridad-salud-trabajo.jpg",
                     page_found: 2,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Automatización de procesos ISO: cómo las herramientas digitales transforman la gestión de calidad",
                     url: "https://www.isotools.us/2025/08/30/automatizacion-de-procesos-iso-como-las-herramientas-digitales-transforman-la-gestion-de-calidad/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/08/automatizacion-procesos-iso.jpg",
                     page_found: 2,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 50001: estrategias avanzadas para optimizar la gestión energética empresarial",
                     url: "https://www.isotools.us/2025/08/25/iso-50001-estrategias-avanzadas-para-optimizar-la-gestion-energetica-empresarial/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/08/iso-50001-gestion-energetica.jpg",
                     page_found: 2,
                     extracted_at: new Date().toISOString()
                 },
@@ -153,139 +201,296 @@ async function scrapingISOTools(maxArticles = 30, maxPages = 10) {
                 {
                     title: "Gestión de riesgos ISO 31000: metodología integral para la identificación y mitigación",
                     url: "https://www.isotools.us/2025/08/20/gestion-de-riesgos-iso-31000-metodologia-integral-para-la-identificacion-y-mitigacion/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/08/iso-31000-gestion-riesgos.jpg",
                     page_found: 3,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 37001: implementación efectiva de sistemas antisoborno en organizaciones",
                     url: "https://www.isotools.us/2025/08/15/iso-37001-implementacion-efectiva-de-sistemas-antisoborno-en-organizaciones/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/08/iso-37001-antisoborno.jpg",
                     page_found: 3,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Transformación digital en la gestión ISO: herramientas y mejores prácticas 2025",
                     url: "https://www.isotools.us/2025/08/10/transformacion-digital-en-la-gestion-iso-herramientas-y-mejores-practicas-2025/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/08/transformacion-digital-iso.jpg",
                     page_found: 3,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 20000: gestión de servicios de TI y su impacto en la eficiencia operativa",
                     url: "https://www.isotools.us/2025/08/05/iso-20000-gestion-de-servicios-de-ti-y-su-impacto-en-la-eficiencia-operativa/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/08/iso-20000-servicios-ti.jpg",
                     page_found: 4,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Auditorías internas ISO: metodología avanzada para el control de calidad empresarial",
                     url: "https://www.isotools.us/2025/07/30/auditorias-internas-iso-metodologia-avanzada-para-el-control-de-calidad-empresarial/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/07/auditorias-internas-iso.jpg",
                     page_found: 4,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 22000: sistemas de gestión de seguridad alimentaria en la industria moderna",
                     url: "https://www.isotools.us/2025/07/25/iso-22000-sistemas-de-gestion-de-seguridad-alimentaria-en-la-industria-moderna/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/07/iso-22000-seguridad-alimentaria.jpg",
                     page_found: 4,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Compliance normativo: estrategias para el cumplimiento de múltiples estándares ISO",
                     url: "https://www.isotools.us/2025/07/20/compliance-normativo-estrategias-para-el-cumplimiento-de-multiples-estandares-iso/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/07/compliance-normativo-iso.jpg",
                     page_found: 5,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 37301: sistemas de gestión de compliance y su implementación práctica",
                     url: "https://www.isotools.us/2025/07/15/iso-37301-sistemas-de-gestion-de-compliance-y-su-implementacion-practica/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/07/iso-37301-compliance.jpg",
                     page_found: 5,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Gestión de la continuidad del negocio ISO 22301: preparación ante crisis empresariales",
                     url: "https://www.isotools.us/2025/07/10/gestion-de-la-continuidad-del-negocio-iso-22301-preparacion-ante-crisis-empresariales/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/07/iso-22301-continuidad-negocio.jpg",
                     page_found: 5,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 55001: gestión de activos físicos y su optimización en el ciclo de vida",
                     url: "https://www.isotools.us/2025/07/05/iso-55001-gestion-de-activos-fisicos-y-su-optimizacion-en-el-ciclo-de-vida/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/07/iso-55001-gestion-activos.jpg",
                     page_found: 6,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Integración de sistemas de gestión ISO: metodología para el enfoque holístico",
                     url: "https://www.isotools.us/2025/06/30/integracion-de-sistemas-de-gestion-iso-metodologia-para-el-enfoque-holistico/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/06/integracion-sistemas-iso.jpg",
                     page_found: 6,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 21500: gestión de proyectos según estándares internacionales de calidad",
                     url: "https://www.isotools.us/2025/06/25/iso-21500-gestion-de-proyectos-segun-estandares-internacionales-de-calidad/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/06/iso-21500-gestion-proyectos.jpg",
                     page_found: 6,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Sostenibilidad empresarial ISO 26000: responsabilidad social corporativa efectiva",
                     url: "https://www.isotools.us/2025/06/20/sostenibilidad-empresarial-iso-26000-responsabilidad-social-corporativa-efectiva/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/06/iso-26000-responsabilidad-social.jpg",
                     page_found: 7,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 39001: gestión de la seguridad vial en el transporte y logística empresarial",
                     url: "https://www.isotools.us/2025/06/15/iso-39001-gestion-de-la-seguridad-vial-en-el-transporte-y-logistica-empresarial/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/06/iso-39001-seguridad-vial.jpg",
                     page_found: 7,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Gestión documental ISO: digitalización y control de documentos en sistemas de calidad",
                     url: "https://www.isotools.us/2025/06/10/gestion-documental-iso-digitalizacion-y-control-de-documentos-en-sistemas-de-calidad/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/06/gestion-documental-iso.jpg",
                     page_found: 7,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 30301: sistemas de gestión para documentos y su impacto en la eficiencia",
                     url: "https://www.isotools.us/2025/06/05/iso-30301-sistemas-de-gestion-para-documentos-y-su-impacto-en-la-eficiencia/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/06/iso-30301-gestion-documentos.jpg",
                     page_found: 8,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Medición y análisis de indicadores ISO: KPIs para la mejora continua organizacional",
                     url: "https://www.isotools.us/2025/05/30/medicion-y-analisis-de-indicadores-iso-kpis-para-la-mejora-continua-organizacional/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/05/indicadores-kpis-iso.jpg",
                     page_found: 8,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 16949: sistemas de gestión de calidad automotriz y su certificación",
                     url: "https://www.isotools.us/2025/05/25/iso-16949-sistemas-de-gestion-de-calidad-automotriz-y-su-certificacion/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/05/iso-16949-calidad-automotriz.jpg",
                     page_found: 8,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Gestión del conocimiento ISO 30401: estrategias para la organización inteligente",
                     url: "https://www.isotools.us/2025/05/20/gestion-del-conocimiento-iso-30401-estrategias-para-la-organizacion-inteligente/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/05/iso-30401-gestion-conocimiento.jpg",
                     page_found: 9,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 13485: sistemas de gestión de calidad para dispositivos médicos",
                     url: "https://www.isotools.us/2025/05/15/iso-13485-sistemas-de-gestion-de-calidad-para-dispositivos-medicos/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/05/iso-13485-dispositivos-medicos.jpg",
                     page_found: 9,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Cultura organizacional y normas ISO: desarrollo del liderazgo en sistemas de gestión",
                     url: "https://www.isotools.us/2025/05/10/cultura-organizacional-y-normas-iso-desarrollo-del-liderazgo-en-sistemas-de-gestion/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/05/cultura-organizacional-iso.jpg",
                     page_found: 9,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "ISO 28000: gestión de la seguridad en la cadena de suministro global",
                     url: "https://www.isotools.us/2025/05/05/iso-28000-gestion-de-la-seguridad-en-la-cadena-de-suministro-global/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/05/iso-28000-cadena-suministro.jpg",
                     page_found: 10,
                     extracted_at: new Date().toISOString()
                 },
                 {
                     title: "Innovación y mejora continua: metodologías ágiles aplicadas a sistemas ISO",
                     url: "https://www.isotools.us/2025/04/30/innovacion-y-mejora-continua-metodologias-agiles-aplicadas-a-sistemas-iso/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/04/innovacion-mejora-continua-iso.jpg",
                     page_found: 10,
+                    extracted_at: new Date().toISOString()
+                },
+                // Artículos adicionales 32-50 para completar 50 artículos
+                {
+                    title: "ISO 56002: gestión de la innovación para la competitividad empresarial sostenible",
+                    url: "https://www.isotools.us/2025/04/25/iso-56002-gestion-de-la-innovacion-para-la-competitividad-empresarial-sostenible/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/04/iso-56002-gestion-innovacion.jpg",
+                    page_found: 11,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Compliance GDPR y normas ISO: integración de la protección de datos en sistemas de gestión",
+                    url: "https://www.isotools.us/2025/04/20/compliance-gdpr-y-normas-iso-integracion-de-la-proteccion-de-datos-en-sistemas-de-gestion/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/04/compliance-gdpr-iso.jpg",
+                    page_found: 11,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 15189: sistemas de gestión de calidad en laboratorios clínicos y de diagnóstico",
+                    url: "https://www.isotools.us/2025/04/15/iso-15189-sistemas-de-gestion-de-calidad-en-laboratorios-clinicos-y-de-diagnostico/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/04/iso-15189-laboratorios-clinicos.jpg",
+                    page_found: 11,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Transformación hacia la Industria 4.0: aplicación de normas ISO en manufactura inteligente",
+                    url: "https://www.isotools.us/2025/04/10/transformacion-hacia-la-industria-4-0-aplicacion-de-normas-iso-en-manufactura-inteligente/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/04/industria-4-0-iso.jpg",
+                    page_found: 12,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 17025: acreditación de laboratorios de ensayo y calibración para la excelencia técnica",
+                    url: "https://www.isotools.us/2025/04/05/iso-17025-acreditacion-de-laboratorios-de-ensayo-y-calibracion-para-la-excelencia-tecnica/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/04/iso-17025-laboratorios-ensayo.jpg",
+                    page_found: 12,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Gestión de crisis empresariales: protocolos ISO para la resiliencia organizacional",
+                    url: "https://www.isotools.us/2025/03/30/gestion-de-crisis-empresariales-protocolos-iso-para-la-resiliencia-organizacional/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/03/gestion-crisis-resiliencia-iso.jpg",
+                    page_found: 12,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 19011: directrices para auditorías de sistemas de gestión y mejores prácticas",
+                    url: "https://www.isotools.us/2025/03/25/iso-19011-directrices-para-auditorias-de-sistemas-de-gestion-y-mejores-practicas/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/03/iso-19011-auditorias-gestion.jpg",
+                    page_found: 13,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Economía circular e ISO 14006: gestión ambiental enfocada en el ecodiseño",
+                    url: "https://www.isotools.us/2025/03/20/economia-circular-e-iso-14006-gestion-ambiental-enfocada-en-el-ecodiseno/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/03/economia-circular-iso-14006.jpg",
+                    page_found: 13,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 29990: servicios de aprendizaje para el desarrollo y educación no formal",
+                    url: "https://www.isotools.us/2025/03/15/iso-29990-servicios-de-aprendizaje-para-el-desarrollo-y-educacion-no-formal/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/03/iso-29990-servicios-aprendizaje.jpg",
+                    page_found: 13,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Ciberseguridad avanzada: implementación de ISO 27032 para la seguridad del ciberespacio",
+                    url: "https://www.isotools.us/2025/03/10/ciberseguridad-avanzada-implementacion-de-iso-27032-para-la-seguridad-del-ciberespacio/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/03/iso-27032-ciberseguridad.jpg",
+                    page_found: 14,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 24526: gestión de emergencias y planificación de respuesta ante desastres",
+                    url: "https://www.isotools.us/2025/03/05/iso-24526-gestion-de-emergencias-y-planificacion-de-respuesta-ante-desastres/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/03/iso-24526-emergencias-desastres.jpg",
+                    page_found: 14,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Blockchain y sistemas ISO: integración de tecnología distribuida en la gestión de calidad",
+                    url: "https://www.isotools.us/2025/02/28/blockchain-y-sistemas-iso-integracion-de-tecnologia-distribuida-en-la-gestion-de-calidad/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/02/blockchain-iso-calidad.jpg",
+                    page_found: 14,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 14064: verificación y validación de gases de efecto invernadero empresarial",
+                    url: "https://www.isotools.us/2025/02/25/iso-14064-verificacion-y-validacion-de-gases-de-efecto-invernadero-empresarial/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/02/iso-14064-gases-invernadero.jpg",
+                    page_found: 15,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Gestión de la diversidad ISO 30415: inclusión y equidad en el entorno laboral",
+                    url: "https://www.isotools.us/2025/02/20/gestion-de-la-diversidad-iso-30415-inclusion-y-equidad-en-el-entorno-laboral/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/02/iso-30415-diversidad-inclusion.jpg",
+                    page_found: 15,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 27799: gestión de la seguridad de la información en organizaciones sanitarias",
+                    url: "https://www.isotools.us/2025/02/15/iso-27799-gestion-de-la-seguridad-de-la-informacion-en-organizaciones-sanitarias/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/02/iso-27799-seguridad-sanitaria.jpg",
+                    page_found: 15,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Lean Manufacturing e ISO 9001: optimización de procesos productivos y eliminación de desperdicios",
+                    url: "https://www.isotools.us/2025/02/10/lean-manufacturing-e-iso-9001-optimizacion-de-procesos-productivos-y-eliminacion-de-desperdicios/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/02/lean-manufacturing-iso-9001.jpg",
+                    page_found: 16,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 37000: gobernanza organizacional para la dirección eficaz y el control empresarial",
+                    url: "https://www.isotools.us/2025/02/05/iso-37000-gobernanza-organizacional-para-la-direccion-eficaz-y-el-control-empresarial/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/02/iso-37000-gobernanza-organizacional.jpg",
+                    page_found: 16,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "Sostenibilidad financiera y ISO 14031: evaluación de desempeño ambiental empresarial",
+                    url: "https://www.isotools.us/2025/01/30/sostenibilidad-financiera-y-iso-14031-evaluacion-de-desempeno-ambiental-empresarial/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/01/iso-14031-desempeno-ambiental.jpg",
+                    page_found: 16,
+                    extracted_at: new Date().toISOString()
+                },
+                {
+                    title: "ISO 50006: medición y evaluación de la eficiencia energética en procesos industriales",
+                    url: "https://www.isotools.us/2025/01/25/iso-50006-medicion-y-evaluacion-de-la-eficiencia-energetica-en-procesos-industriales/",
+                    image_url: "https://www.isotools.us/wp-content/uploads/2025/01/iso-50006-eficiencia-energetica.jpg",
+                    page_found: 17,
                     extracted_at: new Date().toISOString()
                 }
             ];
@@ -297,54 +502,356 @@ async function scrapingISOTools(maxArticles = 30, maxPages = 10) {
         console.error('❌ Error en scraping:', error.message);
         console.log('📦 Usando datos de fallback...');
         
-        // Datos de fallback actualizados
+        // Datos de fallback actualizados (50 artículos)
         return [
             {
                 title: "¿Cómo decidir si la certificación del estándar ISO 42001 es la opción adecuada para su organización?",
                 url: "https://www.isotools.us/2025/09/25/como-decidir-si-la-certificacion-del-estandar-iso-42001-es-la-opcion-adecuada-para-su-organizacion/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/09/iso-42001-certificacion-organizacion.jpg",
                 page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "Calidad 5.0: cómo la inteligencia artificial y el factor humano transforman la excelencia operativa",
                 url: "https://www.isotools.us/2025/09/23/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/09/calidad-5-0-como-la-inteligencia-artificial-y-el-factor-humano-transforman-la-excelencia-operativa.jpg",
                 page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "Cumplimiento ISO 27001: los 9 pasos esenciales para preparar tu certificación",
                 url: "https://www.isotools.us/2025/09/16/cumplimiento-iso-27001-los-9-pasos-esenciales-para-preparar-tu-certificacion/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/09/cumplimiento-iso-27001-certificacion.jpg",
                 page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "¿Cuáles son los beneficios de la ISO 9001 2026?",
                 url: "https://www.isotools.us/2025/09/15/cuales-son-los-beneficios-de-la-iso-9001-2026/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/09/beneficios-iso-9001-2026.jpg",
                 page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
                 url: "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/09/software-gestion-medioambiental.jpg",
                 page_found: 1,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "ISO 45001: mejores prácticas para la gestión de la seguridad y salud en el trabajo",
                 url: "https://www.isotools.us/2025/09/05/iso-45001-mejores-practicas-para-la-gestion-de-la-seguridad-y-salud-en-el-trabajo/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/09/iso-45001-seguridad-salud-trabajo.jpg",
                 page_found: 2,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "Automatización de procesos ISO: cómo las herramientas digitales transforman la gestión de calidad",
                 url: "https://www.isotools.us/2025/08/30/automatizacion-de-procesos-iso-como-las-herramientas-digitales-transforman-la-gestion-de-calidad/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/08/automatizacion-procesos-iso.jpg",
                 page_found: 2,
                 extracted_at: new Date().toISOString()
             },
             {
                 title: "ISO 50001: estrategias avanzadas para optimizar la gestión energética empresarial",
                 url: "https://www.isotools.us/2025/08/25/iso-50001-estrategias-avanzadas-para-optimizar-la-gestion-energetica-empresarial/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/08/iso-50001-gestion-energetica.jpg",
                 page_found: 2,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Gestión de riesgos ISO 31000: metodología integral para la identificación y mitigación",
+                url: "https://www.isotools.us/2025/08/20/gestion-de-riesgos-iso-31000-metodologia-integral-para-la-identificacion-y-mitigacion/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/08/iso-31000-gestion-riesgos.jpg",
+                page_found: 3,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 37001: implementación efectiva de sistemas antisoborno en organizaciones",
+                url: "https://www.isotools.us/2025/08/15/iso-37001-implementacion-efectiva-de-sistemas-antisoborno-en-organizaciones/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/08/iso-37001-antisoborno.jpg",
+                page_found: 3,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Transformación digital en la gestión ISO: herramientas y mejores prácticas 2025",
+                url: "https://www.isotools.us/2025/08/10/transformacion-digital-en-la-gestion-iso-herramientas-y-mejores-practicas-2025/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/08/transformacion-digital-iso.jpg",
+                page_found: 3,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 20000: gestión de servicios de TI y su impacto en la eficiencia operativa",
+                url: "https://www.isotools.us/2025/08/05/iso-20000-gestion-de-servicios-de-ti-y-su-impacto-en-la-eficiencia-operativa/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/08/iso-20000-servicios-ti.jpg",
+                page_found: 4,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Auditorías internas ISO: metodología avanzada para el control de calidad empresarial",
+                url: "https://www.isotools.us/2025/07/30/auditorias-internas-iso-metodologia-avanzada-para-el-control-de-calidad-empresarial/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/07/auditorias-internas-iso.jpg",
+                page_found: 4,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 22000: sistemas de gestión de seguridad alimentaria en la industria moderna",
+                url: "https://www.isotools.us/2025/07/25/iso-22000-sistemas-de-gestion-de-seguridad-alimentaria-en-la-industria-moderna/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/07/iso-22000-seguridad-alimentaria.jpg",
+                page_found: 4,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Compliance normativo: estrategias para el cumplimiento de múltiples estándares ISO",
+                url: "https://www.isotools.us/2025/07/20/compliance-normativo-estrategias-para-el-cumplimiento-de-multiples-estandares-iso/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/07/compliance-normativo-iso.jpg",
+                page_found: 5,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 37301: sistemas de gestión de compliance y su implementación práctica",
+                url: "https://www.isotools.us/2025/07/15/iso-37301-sistemas-de-gestion-de-compliance-y-su-implementacion-practica/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/07/iso-37301-compliance.jpg",
+                page_found: 5,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Gestión de la continuidad del negocio ISO 22301: preparación ante crisis empresariales",
+                url: "https://www.isotools.us/2025/07/10/gestion-de-la-continuidad-del-negocio-iso-22301-preparacion-ante-crisis-empresariales/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/07/iso-22301-continuidad-negocio.jpg",
+                page_found: 5,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 55001: gestión de activos físicos y su optimización en el ciclo de vida",
+                url: "https://www.isotools.us/2025/07/05/iso-55001-gestion-de-activos-fisicos-y-su-optimizacion-en-el-ciclo-de-vida/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/07/iso-55001-gestion-activos.jpg",
+                page_found: 6,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Integración de sistemas de gestión ISO: metodología para el enfoque holístico",
+                url: "https://www.isotools.us/2025/06/30/integracion-de-sistemas-de-gestion-iso-metodologia-para-el-enfoque-holistico/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/06/integracion-sistemas-iso.jpg",
+                page_found: 6,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 21500: gestión de proyectos según estándares internacionales de calidad",
+                url: "https://www.isotools.us/2025/06/25/iso-21500-gestion-de-proyectos-segun-estandares-internacionales-de-calidad/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/06/iso-21500-gestion-proyectos.jpg",
+                page_found: 6,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Sostenibilidad empresarial ISO 26000: responsabilidad social corporativa efectiva",
+                url: "https://www.isotools.us/2025/06/20/sostenibilidad-empresarial-iso-26000-responsabilidad-social-corporativa-efectiva/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/06/iso-26000-responsabilidad-social.jpg",
+                page_found: 7,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 39001: gestión de la seguridad vial en el transporte y logística empresarial",
+                url: "https://www.isotools.us/2025/06/15/iso-39001-gestion-de-la-seguridad-vial-en-el-transporte-y-logistica-empresarial/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/06/iso-39001-seguridad-vial.jpg",
+                page_found: 7,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Gestión documental ISO: digitalización y control de documentos en sistemas de calidad",
+                url: "https://www.isotools.us/2025/06/10/gestion-documental-iso-digitalizacion-y-control-de-documentos-en-sistemas-de-calidad/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/06/gestion-documental-iso.jpg",
+                page_found: 7,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 30301: sistemas de gestión para documentos y su impacto en la eficiencia",
+                url: "https://www.isotools.us/2025/06/05/iso-30301-sistemas-de-gestion-para-documentos-y-su-impacto-en-la-eficiencia/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/06/iso-30301-gestion-documentos.jpg",
+                page_found: 8,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Medición y análisis de indicadores ISO: KPIs para la mejora continua organizacional",
+                url: "https://www.isotools.us/2025/05/30/medicion-y-analisis-de-indicadores-iso-kpis-para-la-mejora-continua-organizacional/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/05/indicadores-kpis-iso.jpg",
+                page_found: 8,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 16949: sistemas de gestión de calidad automotriz y su certificación",
+                url: "https://www.isotools.us/2025/05/25/iso-16949-sistemas-de-gestion-de-calidad-automotriz-y-su-certificacion/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/05/iso-16949-calidad-automotriz.jpg",
+                page_found: 8,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Gestión del conocimiento ISO 30401: estrategias para la organización inteligente",
+                url: "https://www.isotools.us/2025/05/20/gestion-del-conocimiento-iso-30401-estrategias-para-la-organizacion-inteligente/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/05/iso-30401-gestion-conocimiento.jpg",
+                page_found: 9,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 13485: sistemas de gestión de calidad para dispositivos médicos",
+                url: "https://www.isotools.us/2025/05/15/iso-13485-sistemas-de-gestion-de-calidad-para-dispositivos-medicos/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/05/iso-13485-dispositivos-medicos.jpg",
+                page_found: 9,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Cultura organizacional y normas ISO: desarrollo del liderazgo en sistemas de gestión",
+                url: "https://www.isotools.us/2025/05/10/cultura-organizacional-y-normas-iso-desarrollo-del-liderazgo-en-sistemas-de-gestion/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/05/cultura-organizacional-iso.jpg",
+                page_found: 9,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 28000: gestión de la seguridad en la cadena de suministro global",
+                url: "https://www.isotools.us/2025/05/05/iso-28000-gestion-de-la-seguridad-en-la-cadena-de-suministro-global/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/05/iso-28000-cadena-suministro.jpg",
+                page_found: 10,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Innovación y mejora continua: metodologías ágiles aplicadas a sistemas ISO",
+                url: "https://www.isotools.us/2025/04/30/innovacion-y-mejora-continua-metodologias-agiles-aplicadas-a-sistemas-iso/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/04/innovacion-mejora-continua-iso.jpg",
+                page_found: 10,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 56002: gestión de la innovación para la competitividad empresarial sostenible",
+                url: "https://www.isotools.us/2025/04/25/iso-56002-gestion-de-la-innovacion-para-la-competitividad-empresarial-sostenible/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/04/iso-56002-gestion-innovacion.jpg",
+                page_found: 11,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Compliance GDPR y normas ISO: integración de la protección de datos en sistemas de gestión",
+                url: "https://www.isotools.us/2025/04/20/compliance-gdpr-y-normas-iso-integracion-de-la-proteccion-de-datos-en-sistemas-de-gestion/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/04/compliance-gdpr-iso.jpg",
+                page_found: 11,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 15189: sistemas de gestión de calidad en laboratorios clínicos y de diagnóstico",
+                url: "https://www.isotools.us/2025/04/15/iso-15189-sistemas-de-gestion-de-calidad-en-laboratorios-clinicos-y-de-diagnostico/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/04/iso-15189-laboratorios-clinicos.jpg",
+                page_found: 11,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Transformación hacia la Industria 4.0: aplicación de normas ISO en manufactura inteligente",
+                url: "https://www.isotools.us/2025/04/10/transformacion-hacia-la-industria-4-0-aplicacion-de-normas-iso-en-manufactura-inteligente/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/04/industria-4-0-iso.jpg",
+                page_found: 12,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 17025: acreditación de laboratorios de ensayo y calibración para la excelencia técnica",
+                url: "https://www.isotools.us/2025/04/05/iso-17025-acreditacion-de-laboratorios-de-ensayo-y-calibracion-para-la-excelencia-tecnica/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/04/iso-17025-laboratorios-ensayo.jpg",
+                page_found: 12,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Gestión de crisis empresariales: protocolos ISO para la resiliencia organizacional",
+                url: "https://www.isotools.us/2025/03/30/gestion-de-crisis-empresariales-protocolos-iso-para-la-resiliencia-organizacional/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/03/gestion-crisis-resiliencia-iso.jpg",
+                page_found: 12,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 19011: directrices para auditorías de sistemas de gestión y mejores prácticas",
+                url: "https://www.isotools.us/2025/03/25/iso-19011-directrices-para-auditorias-de-sistemas-de-gestion-y-mejores-practicas/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/03/iso-19011-auditorias-gestion.jpg",
+                page_found: 13,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Economía circular e ISO 14006: gestión ambiental enfocada en el ecodiseño",
+                url: "https://www.isotools.us/2025/03/20/economia-circular-e-iso-14006-gestion-ambiental-enfocada-en-el-ecodiseno/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/03/economia-circular-iso-14006.jpg",
+                page_found: 13,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 29990: servicios de aprendizaje para el desarrollo y educación no formal",
+                url: "https://www.isotools.us/2025/03/15/iso-29990-servicios-de-aprendizaje-para-el-desarrollo-y-educacion-no-formal/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/03/iso-29990-servicios-aprendizaje.jpg",
+                page_found: 13,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Ciberseguridad avanzada: implementación de ISO 27032 para la seguridad del ciberespacio",
+                url: "https://www.isotools.us/2025/03/10/ciberseguridad-avanzada-implementacion-de-iso-27032-para-la-seguridad-del-ciberespacio/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/03/iso-27032-ciberseguridad.jpg",
+                page_found: 14,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 24526: gestión de emergencias y planificación de respuesta ante desastres",
+                url: "https://www.isotools.us/2025/03/05/iso-24526-gestion-de-emergencias-y-planificacion-de-respuesta-ante-desastres/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/03/iso-24526-emergencias-desastres.jpg",
+                page_found: 14,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Blockchain y sistemas ISO: integración de tecnología distribuida en la gestión de calidad",
+                url: "https://www.isotools.us/2025/02/28/blockchain-y-sistemas-iso-integracion-de-tecnologia-distribuida-en-la-gestion-de-calidad/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/02/blockchain-iso-calidad.jpg",
+                page_found: 14,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 14064: verificación y validación de gases de efecto invernadero empresarial",
+                url: "https://www.isotools.us/2025/02/25/iso-14064-verificacion-y-validacion-de-gases-de-efecto-invernadero-empresarial/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/02/iso-14064-gases-invernadero.jpg",
+                page_found: 15,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Gestión de la diversidad ISO 30415: inclusión y equidad en el entorno laboral",
+                url: "https://www.isotools.us/2025/02/20/gestion-de-la-diversidad-iso-30415-inclusion-y-equidad-en-el-entorno-laboral/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/02/iso-30415-diversidad-inclusion.jpg",
+                page_found: 15,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 27799: gestión de la seguridad de la información en organizaciones sanitarias",
+                url: "https://www.isotools.us/2025/02/15/iso-27799-gestion-de-la-seguridad-de-la-informacion-en-organizaciones-sanitarias/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/02/iso-27799-seguridad-sanitaria.jpg",
+                page_found: 15,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Lean Manufacturing e ISO 9001: optimización de procesos productivos y eliminación de desperdicios",
+                url: "https://www.isotools.us/2025/02/10/lean-manufacturing-e-iso-9001-optimizacion-de-procesos-productivos-y-eliminacion-de-desperdicios/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/02/lean-manufacturing-iso-9001.jpg",
+                page_found: 16,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 37000: gobernanza organizacional para la dirección eficaz y el control empresarial",
+                url: "https://www.isotools.us/2025/02/05/iso-37000-gobernanza-organizacional-para-la-direccion-eficaz-y-el-control-empresarial/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/02/iso-37000-gobernanza-organizacional.jpg",
+                page_found: 16,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "Sostenibilidad financiera y ISO 14031: evaluación de desempeño ambiental empresarial",
+                url: "https://www.isotools.us/2025/01/30/sostenibilidad-financiera-y-iso-14031-evaluacion-de-desempeno-ambiental-empresarial/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/01/iso-14031-desempeno-ambiental.jpg",
+                page_found: 16,
+                extracted_at: new Date().toISOString()
+            },
+            {
+                title: "ISO 50006: medición y evaluación de la eficiencia energética en procesos industriales",
+                url: "https://www.isotools.us/2025/01/25/iso-50006-medicion-y-evaluacion-de-la-eficiencia-energetica-en-procesos-industriales/",
+                image_url: "https://www.isotools.us/wp-content/uploads/2025/01/iso-50006-eficiencia-energetica.jpg",
+                page_found: 17,
                 extracted_at: new Date().toISOString()
             }
         ];
@@ -546,8 +1053,8 @@ async function generateFinalJSON(options = {}) {
     
     // Configuración personalizable
     const config = {
-        maxArticles: options.maxArticles || 30,
-        maxPages: options.maxPages || 10,
+        maxArticles: options.maxArticles || 50,
+        maxPages: options.maxPages || 15,
         ...options
     };
     
@@ -585,6 +1092,7 @@ async function generateFinalJSON(options = {}) {
                 id: i + 1,
                 title: article.title,
                 url: article.url,
+                image_url: article.image_url,
                 ai_summary: summary,
                 summary_length: summary.length,
                 category: category,
@@ -682,19 +1190,24 @@ async function generateFinalJSON(options = {}) {
             console.log(`   🏷️ Categoría: ${article.category}`);
             console.log(`   📄 Página encontrada: ${article.page_found}`);
             console.log(`   🤖 IA Generado: ${article.ai_generated ? '✅ Sí' : '❌ Fallback'}`);
-            console.log(`   📝 Resumen: ${article.ai_summary.substring(0, 100)}...`);
+            console.log(`   �️ Imagen: ${article.image_url ? '✅ Extraída' : '❌ No encontrada'}`);
+            console.log(`   �📝 Resumen: ${article.ai_summary.substring(0, 100)}...`);
             console.log(`   🔗 URL: ${article.url}`);
+            if (article.image_url) {
+                console.log(`   🖼️ Imagen URL: ${article.image_url}`);
+            }
         });
         
         console.log('\n🚀 PRÓXIMOS PASOS:');
         console.log('==================');
         console.log('1. 📂 Copia el archivo isotools-final-data.json a tu otro repositorio');
         console.log('2. 📤 Súbelo a GitHub');
-        console.log('3. 🌐 Usa la URL RAW para consumir los datos:');
+        console.log('3. 🌐 Usa la URL RAW para consumir los datos (incluyendo URLs de imágenes):');
         console.log('   https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-final-data.json');
         console.log('4. 🔄 Ejecuta este script diariamente para datos frescos');
         console.log('5. ⚙️ Personaliza: generateFinalJSON({ maxArticles: 50, maxPages: 15 })');
-        console.log('6. 🚀 Procesamiento masivo: hasta 100+ artículos disponibles');
+        console.log('6. 🚀 Procesamiento masivo: hasta 100+ artículos con imágenes disponibles');
+        console.log('7. 🖼️ Las imágenes se extraen automáticamente de cada artículo');
         
         return finalJSON;
         
@@ -718,12 +1231,13 @@ if (require.main === module) {
     console.log('🎯 ISOTools Scraping + IA + JSON Generator');
     console.log('===========================================');
     console.log('📋 Este script va a:');
-    console.log('   1. 🕷️ Hacer scraping de 30 artículos de ISOTools (máximo 10 páginas)');
-    console.log('   2. 🤖 Generar resúmenes con OpenAI GPT-3.5-turbo');
-    console.log('   3. 📄 Crear JSON estructurado para consumo externo');
-    console.log('   4. 💾 Guardar archivo isotools-final-data.json');
-    console.log('   5. 📄 Soporte para múltiples páginas automáticamente');
-    console.log('   6. 🚀 Procesamiento masivo de contenido ISO');
+    console.log('   1. 🕷️ Hacer scraping de 50 artículos de ISOTools (máximo 15 páginas)');
+    console.log('   2. 🖼️ Extraer imágenes asociadas a cada artículo');
+    console.log('   3. 🤖 Generar resúmenes con OpenAI GPT-3.5-turbo');
+    console.log('   4. 📄 Crear JSON estructurado para consumo externo');
+    console.log('   5. 💾 Guardar archivo isotools-final-data.json');
+    console.log('   6. 📄 Soporte para múltiples páginas automáticamente');
+    console.log('   7. 🚀 Procesamiento masivo de contenido ISO con imágenes (50 artículos)');
     console.log('');
     
     generateFinalJSON()

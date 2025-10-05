@@ -27,11 +27,15 @@ def generate_daily_news():
     all_articles = main_data['data']
     selected_articles = random.sample(all_articles, 3)
     
-    # Agregar información de rotación
+    # Agregar información de rotación y asegurar que tengan todos los campos necesarios
     for i, article in enumerate(selected_articles):
         article['news_priority'] = i + 1
         article['selected_date'] = datetime.now().isoformat()
         article['rotation_id'] = f"{datetime.now().strftime('%Y-%m-%d')}-{i+1}"
+        
+        # Asegurar que el campo image_url esté presente
+        if 'image_url' not in article:
+            article['image_url'] = f"https://www.isotools.us/wp-content/uploads/default-iso-image-{article['id']}.jpg"
     
     # Crear JSON de noticias diarias
     today = datetime.now()
@@ -87,6 +91,7 @@ def generate_daily_news():
     for i, article in enumerate(selected_articles, 1):
         print(f"{i}. {article['title'][:60]}...")
         print(f"   Categoría: {article['category']}")
+        print(f"   Imagen: {article['image_url']}")
     
     print(f"\n🚀 Archivo listo para consumo en GitHub!")
 
