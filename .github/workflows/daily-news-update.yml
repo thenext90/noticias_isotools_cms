@@ -26,42 +26,35 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         
-    - name: Install jq
-      run: sudo apt-get update && sudo apt-get install -y jq
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
         
     - name: Generate daily news
       run: |
-        echo "Generating 3 random articles with jq (time-based selection)..."
+        echo "🗞️ Generating 3 random articles with Python script..."
+        cd isotools-summaries-standalone
         
-        SOURCE_FILE="isotools-summaries-standalone/isotools-final-data.json"
-        OUTPUT_FILE="isotools-daily-news.json"
-        
-        if [ ! -f "$SOURCE_FILE" ]; then
-          echo "Error: $SOURCE_FILE not found"
+        if [ ! -f "isotools-final-data.json" ]; then
+          echo "❌ Error: isotools-final-data.json not found"
           exit 1
         fi
         
-        TODAY=$(date +'%Y-%m-%d')
-        TOMORROW=$(date -d '+1 day' +'%Y-%m-%d')
-        CURRENT_ISO=$(date -u +"%Y-%m-%dT%H:%M:%S.%3NZ")
+        if [ ! -f "generate-daily-3-news.py" ]; then
+          echo "❌ Error: generate-daily-3-news.py not found"
+          exit 1
+        fi
         
-        echo "Date: $TODAY"
-        echo "Processing: $SOURCE_FILE"
+        echo "📊 Running Python script..."
+        python generate-daily-3-news.py
         
-        SELECTED_ARTICLES=$(jq '.data | sort_by(.id * (now | floor)) | .[0:3] | to_entries | map(.value + {"news_priority": (.key + 1), "selected_date": "'$CURRENT_ISO'", "rotation_id": ("'$TODAY'-" + (.key + 1 | tostring))}) | map(.value)' "$SOURCE_FILE")
-        
-        ORIGINAL_SOURCE=$(jq -r '.metadata.source // "ISOTools Corporate Blog"' "$SOURCE_FILE")
-        TOTAL_ARTICLES=$(jq -r '.data | length' "$SOURCE_FILE")
-        
-        jq -n --arg today "$TODAY" --arg tomorrow "$TOMORROW" --arg current_iso "$CURRENT_ISO" --arg original_source "$ORIGINAL_SOURCE" --arg total_articles "$TOTAL_ARTICLES" --arg repo "${{ github.repository }}" --argjson selected_articles "$SELECTED_ARTICLES" '{metadata: {title: "ISOTools - Noticias Diarias", description: "Seleccion diaria de 3 articulos destacados sobre normas ISO", source: "ISOTools Corporate Blog (isotools.us)", generated_date: $today, generated_at: $current_iso, next_update: $tomorrow, total_articles: 3, rotation_type: "daily_random_selection", version: "1.0.0", purpose: "Noticias diarias para seccion web", github_raw_example: ("https://raw.githubusercontent.com/" + $repo + "/main/isotools-daily-news.json"), parent_source: $original_source, language: "espanol"}, configuration: {daily_rotation: true, articles_per_day: 3, selection_method: "jq_time_based_random_selection", auto_update: true, github_action_enabled: true, cache_duration_hours: 24, rotation_on_each_execution: true}, daily_news: $selected_articles, generation_info: {selected_at: $current_iso, next_rotation: ($tomorrow + "T12:00:00.000Z"), algorithm: "jq_time_based_selection", total_available_articles: ($total_articles | tonumber), rotation_guaranteed: true}}' > "$OUTPUT_FILE"
-        
-        if [ -f "$OUTPUT_FILE" ]; then
-          echo "File generated successfully"
-          jq -r '.daily_news[] | "\(.news_priority). \(.title[0:60])..."' "$OUTPUT_FILE"
-          cp "$OUTPUT_FILE" "isotools-summaries-standalone/"
-          echo "File copied to subdirectory"
+        if [ -f "isotools-daily-news.json" ]; then
+          echo "✅ Daily news generated successfully"
+          echo "📋 Articles generated:"
+          python -c "import json; data = json.load(open('isotools-daily-news.json', 'r', encoding='utf-8')); [print(f\"{article['news_priority']}. {article['title'][:60]}...\nImage: {article['image_url']}\") for article in data['daily_news']]"
         else
-          echo "Error generating file"
+          echo "❌ Error generating file"
           exit 1
         fi
         
@@ -79,7 +72,7 @@ jobs:
         else
           git add isotools-daily-news.json
           git add isotools-summaries-standalone/isotools-daily-news.json
-          git commit -m "Daily news updated - ${{ steps.date.outputs.TODAY }} - jq/shell algorithm"
+          git commit -m "📰 Daily news updated - ${{ steps.date.outputs.TODAY }} - Python algorithm with images"
           git push origin main
           echo "Changes pushed successfully"
         fi
