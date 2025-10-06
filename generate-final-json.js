@@ -1002,7 +1002,60 @@ function generateIntelligentSummary(title) {
         return `La gestión integral de riesgos permite a las organizaciones anticipar amenazas, proteger activos críticos y mantener continuidad operativa. Su implementación sistemática mejora la resiliencia empresarial, facilita la toma de decisiones informadas y optimiza la asignación de recursos. Las empresas con gestión de riesgos efectiva demuestran mayor estabilidad y confianza ante stakeholders.`;
     }
     
-    // Resumen genérico pero mejorado
+    // Más resúmenes específicos por normas
+    if (titleLower.includes('55001') || titleLower.includes('activos')) {
+        return `ISO 55001 optimiza la gestión de activos físicos durante todo su ciclo de vida, maximizando valor y minimizando costos operativos. Esta norma mejora la planificación de mantenimiento, reduce fallas imprevistas y extiende la vida útil de equipos críticos. Las organizaciones implementadoras logran mayor eficiencia operacional y retorno de inversión en infraestructura.`;
+    }
+    
+    if (titleLower.includes('21500') || titleLower.includes('proyectos')) {
+        return `ISO 21500 establece metodologías robustas para la gestión efectiva de proyectos, mejorando tasas de éxito y entrega de resultados. Su aplicación optimiza la planificación, ejecución y control de proyectos complejos, reduciendo sobrecostos y retrasos. Las organizaciones certificadas demuestran competencia en dirección de proyectos y capacidad de lograr objetivos estratégicos.`;
+    }
+    
+    if (titleLower.includes('26000') || titleLower.includes('responsabilidad social')) {
+        return `ISO 26000 guía a las organizaciones hacia prácticas de responsabilidad social que fortalecen la reputación corporativa y generan valor compartido. Su implementación mejora las relaciones con stakeholders, reduce riesgos reputacionales y contribuye al desarrollo sostenible. Las empresas socialmente responsables acceden a nuevos mercados y talentos comprometidos con valores éticos.`;
+    }
+    
+    if (titleLower.includes('37301') || titleLower.includes('compliance')) {
+        return `ISO 37301 establece sistemas robustos de gestión de compliance que aseguran el cumplimiento normativo y reducen riesgos legales. Su implementación fortalece la gobernanza corporativa, mejora la transparencia operativa y facilita el acceso a mercados regulados. Las organizaciones certificadas demuestran integridad y compromiso con el cumplimiento de todas las regulaciones aplicables.`;
+    }
+    
+    if (titleLower.includes('22301') || titleLower.includes('continuidad')) {
+        return `ISO 22301 desarrolla capacidades de continuidad del negocio que garantizan operaciones resilientes ante disrupciones críticas. Esta norma mejora la preparación ante crisis, reduce tiempos de recuperación y protege la reputación empresarial. Las organizaciones implementadoras mantienen servicios esenciales y demuestran confiabilidad ante clientes y stakeholders.`;
+    }
+    
+    if (titleLower.includes('39001') || titleLower.includes('seguridad vial')) {
+        return `ISO 39001 establece sistemas de gestión de seguridad vial que protegen vidas y reducen accidentes en operaciones de transporte. Su implementación mejora la cultura de seguridad, reduce costos asociados a siniestros y fortalece la responsabilidad social corporativa. Las empresas certificadas demuestran compromiso con la seguridad pública y operaciones de transporte responsables.`;
+    }
+    
+    if (titleLower.includes('gestión documental') || titleLower.includes('documentos')) {
+        return `Los sistemas de gestión documental ISO optimizan el control, acceso y trazabilidad de información crítica organizacional. Su implementación digitaliza procesos documentales, mejora la eficiencia administrativa y asegura el cumplimiento de requisitos normativos. Las empresas con gestión documental efectiva reducen errores, aceleran procesos y mantienen información siempre actualizada.`;
+    }
+    
+    if (titleLower.includes('indicadores') || titleLower.includes('kpis') || titleLower.includes('medición')) {
+        return `La medición y análisis de indicadores ISO proporciona datos objetivos para la mejora continua y toma de decisiones estratégicas. Su implementación identifica oportunidades de optimización, evalúa eficacia de procesos y demuestra el retorno de inversión en sistemas de gestión. Las organizaciones orientadas a datos logran mayor competitividad y capacidad de adaptación al mercado.`;
+    }
+    
+    if (titleLower.includes('16949') || titleLower.includes('automotriz')) {
+        return `ISO 16949 establece requisitos específicos de calidad para la industria automotriz, mejorando la confiabilidad de productos y procesos. Su implementación reduce defectos, optimiza la cadena de suministro y facilita el acceso a mercados automotrices globales. Las empresas certificadas demuestran capacidad de cumplir estándares exigentes y mantener relaciones sólidas con fabricantes automotrices.`;
+    }
+    
+    if (titleLower.includes('30401') || titleLower.includes('conocimiento')) {
+        return `ISO 30401 optimiza la gestión del conocimiento organizacional, capturando y compartiendo experiencias valiosas para la innovación. Su implementación acelera el aprendizaje, reduce la pérdida de conocimiento crítico y mejora la capacidad de adaptación. Las organizaciones inteligentes retienen talento, aceleran la innovación y mantienen ventajas competitivas sostenibles.`;
+    }
+    
+    if (titleLower.includes('13485') || titleLower.includes('médicos') || titleLower.includes('dispositivos')) {
+        return `ISO 13485 asegura la calidad y seguridad de dispositivos médicos mediante sistemas de gestión especializados. Su implementación facilita el acceso a mercados regulados, mejora la confianza de profesionales de salud y garantiza cumplimiento normativo estricto. Las empresas certificadas demuestran compromiso con la salud pública y excelencia en tecnología médica.`;
+    }
+    
+    if (titleLower.includes('cultura organizacional') || titleLower.includes('liderazgo')) {
+        return `El desarrollo de cultura organizacional alineada con normas ISO fortalece el liderazgo, compromiso de empleados y resultados empresariales. Su implementación mejora el clima laboral, aumenta la productividad y facilita la adopción de mejores prácticas. Las organizaciones con cultura sólida retienen talento, innovan continuamente y logran sostenibilidad a largo plazo.`;
+    }
+    
+    if (titleLower.includes('28000') || titleLower.includes('cadena de suministro')) {
+        return `ISO 28000 protege la cadena de suministro global mediante sistemas de gestión de seguridad que mitigan riesgos operativos. Su implementación mejora la trazabilidad, reduce vulnerabilidades y fortalece la confianza de socios comerciales. Las empresas certificadas acceden a mercados internacionales y demuestran capacidad de gestionar operaciones seguras y eficientes.`;
+    }
+
+    // Resumen genérico mejorado para casos no específicos
     return `Esta implementación normativa fortalece los sistemas de gestión organizacional, mejorando la eficiencia operativa y el cumplimiento de estándares internacionales. Su adopción genera ventajas competitivas sostenibles, optimiza procesos críticos y demuestra compromiso con la excelencia empresarial. Las organizaciones implementadoras experimentan mayor productividad, reducción de costos y mejor posicionamiento en mercados exigentes.`;
 }
 
