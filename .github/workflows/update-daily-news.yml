@@ -64,11 +64,19 @@ jobs:
         else
           echo "✅ Changes detected, committing..."
           
-          # Pull latest changes first to avoid conflicts
-          git pull origin main --rebase
-          
-          # Add and commit changes
+          # Stage changes first
           git add isotools-daily-news.json
+          
+          # Check if we need to pull first
+          git fetch origin main
+          if ! git diff --quiet HEAD origin/main; then
+            echo "🔄 Remote changes detected, pulling first..."
+            git stash push -m "Temporary stash for daily news update"
+            git pull origin main --rebase
+            git stash pop
+          fi
+          
+          # Commit changes
           git commit -m "📰 Daily news updated - $(date '+%Y-%m-%d') - Auto selection [skip ci]"
           
           # Push with retry logic
@@ -78,7 +86,10 @@ jobs:
               break
             else
               echo "⚠️ Push failed, attempt $i/3. Retrying..."
-              git pull origin main --rebase
+              git fetch origin main
+              if ! git diff --quiet HEAD origin/main; then
+                git pull origin main --rebase
+              fi
               if [ $i -eq 3 ]; then
                 echo "❌ Failed to push after 3 attempts"
                 exit 1
