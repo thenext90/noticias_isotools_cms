@@ -1,48 +1,29 @@
 {
-  "name": "isotools-summaries-ai",
-  "version": "2.0.0",
-  "description": "Aplicación dedicada para generar resúmenes automáticos de artículos ISOTools usando Inteligencia Artificial",
-  "main": "index.js",
+  "name": "isotools-final-json-generator",
+  "version": "1.0.0",
+  "description": "Generador de JSON con scraping de ISOTools + resúmenes de IA para consumo externo",
+  "main": "generate-final-json.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js",
-    "build": "echo 'No build step required for this Node.js app'",
-    "test": "echo 'No tests configured yet'"
+    "start": "node generate-final-json.js",
+    "generate": "node generate-final-json.js",
+    "test": "node -e \"console.log('Testing dependencies...'); require('./generate-final-json.js')\""
   },
   "keywords": [
     "isotools",
-    "iso",
-    "summaries",
-    "artificial-intelligence",
-    "openai",
-    "gpt",
-    "quality-management",
+    "scraping",
+    "openai", 
+    "json-generator",
     "iso-standards",
-    "web-scraping",
-    "content-analysis"
+    "ai-summaries"
   ],
-  "author": "jp200 - AI Assistant",
+  "author": "ISOTools Data Generator",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.2",
+    "node-fetch": "^2.6.12",
     "openai": "^4.20.1"
   },
   "engines": {
-    "node": ">=18.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/username/isotools-summaries-ai.git"
-  },
-  "homepage": "https://isotools-summaries.vercel.app",
-  "bugs": {
-    "url": "https://github.com/username/isotools-summaries-ai/issues"
-  },
-  "devDependencies": {},
-  "publishConfig": {
-    "access": "public"
+    "node": ">=14.0.0"
   }
 }

@@ -1,258 +1,219 @@
-# 🤖 ISOTools Resúmenes con Inteligencia Artificial
+# 🚀 Generador JSON ISOTools con IA
 
-## 📖 Descripción
+## 📋 Descripción
+Script automático que extrae artículos de ISOTools, los procesa con OpenAI GPT-3.5-turbo y genera un JSON estructurado listo para consumo externo via GitHub RAW.
 
-Aplicación web dedicada que extrae automáticamente artículos del blog corporativo de ISOTools y genera resúmenes profesionales usando OpenAI GPT-3.5-turbo. Especializada en contenido sobre normas ISO, sistemas de gestión de calidad y certificaciones.
+## ✨ Funcionalidades
+- 🕷️ **Web Scraping** automático de isotools.us/blog-corporativo
+- 🤖 **Resúmenes con IA** usando OpenAI GPT-3.5-turbo
+- 📊 **Categorización automática** por tipos de ISO
+- 📄 **JSON estructurado** con metadata y estadísticas
+- 🔄 **Sistema de fallback** para máxima disponibilidad
+- 📈 **Estadísticas detalladas** de procesamiento
 
-## ✨ Características Principales
+## 🛠️ Instalación y Uso
 
-- 🕷️ **Web Scraping Automático**: Extrae artículos en tiempo real del blog de ISOTools
-- 🤖 **Resúmenes con IA**: Genera resúmenes profesionales usando GPT-3.5-turbo
-- 📊 **Estadísticas en Tiempo Real**: Muestra métricas de procesamiento y tasa de éxito
-- 🎨 **Interfaz Moderna**: Diseño responsive con gradientes y animaciones
-- 📱 **Mobile-First**: Optimizada para dispositivos móviles
-- ⚡ **Serverless Ready**: Optimizada para despliegue en Vercel
-- 🔄 **Auto-actualización**: Contenido que se actualiza cada 10 minutos
-
-## 🛠️ Tecnologías Utilizadas
-
-- **Backend**: Node.js + Express
-- **IA**: OpenAI GPT-3.5-turbo
-- **Web Scraping**: Cheerio + Node-fetch
-- **Frontend**: HTML5 + CSS3 + JavaScript vanilla
-- **Despliegue**: Vercel Serverless
-- **Estilo**: CSS Grid + Flexbox + Gradientes
-
-## 🚀 Instalación y Configuración
-
-### Prerrequisitos
-- Node.js 18+ 
-- Cuenta de OpenAI con API key
-- Cuenta de Vercel (para despliegue)
-
-### Instalación Local
+### 1. Instalar dependencias
 ```bash
-# Clonar el repositorio
-git clone https://github.com/tu-usuario/isotools-summaries-ai.git
-cd isotools-summaries-ai
-
-# Cambiar a la rama específica
-git checkout isotools-summaries-only
-
-# Instalar dependencias
 npm install
-
-# Configurar variables de entorno
-cp .env.example .env
-# Editar .env y añadir tu OPENAI_API_KEY
-
-# Ejecutar en desarrollo
-npm run dev
 ```
 
-### Variables de Entorno
+### 2. Configurar API Key (opcional)
 ```bash
-OPENAI_API_KEY=tu_api_key_de_openai_aqui
-PORT=3000
-NODE_ENV=production
+# Copiar template de configuración
+cp env.example .env
+
+# Editar .env con tu OpenAI API Key
+OPENAI_API_KEY=sk-proj-tu_api_key_aqui
 ```
 
-## 📡 Endpoints de la API
+### 3. Ejecutar generador
+```bash
+# Generar JSON con scraping + IA
+node generate-final-json.js
 
-### `GET /`
-- **Descripción**: Página principal con resúmenes generados con IA
-- **Respuesta**: HTML con interfaz visual completa
-- **Características**: 
-  - Scraping en tiempo real de ISOTools
-  - Generación automática de resúmenes con GPT-3.5
-  - Estadísticas de procesamiento
-  - Interfaz responsive
+# O usar npm script
+npm run generate
+```
 
-### `GET /json`
-- **Descripción**: Datos en formato JSON para integraciones
-- **Respuesta**: JSON con artículos extraídos
-- **Uso**: Ideal para Make.com, Zapier, APIs externas
+## 📄 Output
 
-### `GET /health`
-- **Descripción**: Estado de salud de la aplicación
-- **Respuesta**: JSON con información del sistema
-- **Datos**: Estado de OpenAI, timestamp, configuración
+### Archivo generado: `isotools-final-data.json`
 
-## 🤖 Funcionalidad de IA
+Estructura del JSON:
+```json
+{
+  "metadata": {
+    "title": "ISOTools - Artículos Procesados con IA",
+    "source": "ISOTools Corporate Blog",
+    "total_articles": 5,
+    "ai_model": "OpenAI GPT-3.5-turbo",
+    "generated_at": "2025-10-03T01:48:47.313Z"
+  },
+  "data": [
+    {
+      "id": 1,
+      "title": "Título del artículo extraído",
+      "url": "https://isotools.us/...",
+      "ai_summary": "Resumen profesional generado por IA...",
+      "category": "ISO_42001_Inteligencia_Artificial",
+      "ai_generated": true
+    }
+  ],
+  "statistics": {
+    "ai_success_rate": "100%",
+    "avg_summary_length": 532,
+    "categories_identified": ["ISO_42001_IA", "ISO_9001_Calidad", "ISO_14001_Ambiental"]
+  }
+}
+```
 
-### Generación de Resúmenes
-- **Modelo**: OpenAI GPT-3.5-turbo
-- **Prompt Optimizado**: Especializado en contenido ISO y gestión de calidad
-- **Longitud**: 2-3 oraciones profesionales
-- **Enfoque**: Beneficios empresariales y aplicaciones prácticas
-- **Fallback**: Sistema de respaldo en caso de error
+## 🌐 Consumo desde otro repositorio
 
-### Características del Prompt
+### 1. Subir JSON a GitHub
+```bash
+# Copiar isotools-final-data.json a tu otro repo
+cp isotools-final-data.json ../tu-otro-repo/
+
+# Subir a GitHub
+cd ../tu-otro-repo/
+git add isotools-final-data.json
+git commit -m "Add ISOTools data"
+git push
+```
+
+### 2. Usar URL RAW para consumo
 ```javascript
-// Prompt optimizado para contenido ISO
-const prompt = `Como experto en normas ISO y sistemas de gestión, 
-genera un resumen profesional y conciso sobre el artículo:
-"${title}"
+// URL RAW de GitHub
+const jsonUrl = 'https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-final-data.json';
 
-El resumen debe:
-- Explicar beneficios clave para organizaciones
-- Mencionar aplicaciones prácticas  
-- Usar terminología profesional de gestión de calidad
-- Ser directo y orientado a resultados`;
+// Consumir datos
+const response = await fetch(jsonUrl);
+const isotoolsData = await response.json();
+
+console.log(`📊 ${isotoolsData.metadata.total_articles} artículos disponibles`);
+isotoolsData.data.forEach(article => {
+    console.log(`📰 ${article.title}`);
+    console.log(`📝 ${article.ai_summary}`);
+});
 ```
 
-## 🎨 Diseño y UX
-
-### Paleta de Colores
-- **Primario**: Gradiente azul-púrpura (#667eea → #764ba2)
-- **Secundario**: Verde éxito (#27ae60), Rojo error (#e74c3c)
-- **Neutros**: Grises modernos (#2c3e50, #7f8c8d)
-
-### Componentes Clave
-- **Header**: Logo de ISOTools + descripción del servicio
-- **Stats Cards**: Métricas en tiempo real con animaciones
-- **Article Cards**: Diseño tipo card con resúmenes destacados
-- **AI Badges**: Indicadores de estado de procesamiento IA
-
-## 📊 Métricas y Monitoreo
-
-### Estadísticas Mostradas
-- **Artículos Procesados**: Total de artículos extraídos
-- **Resúmenes IA Generados**: Número de resúmenes exitosos
-- **Tasa de Éxito**: Porcentaje de procesamiento exitoso
-- **Modelo IA**: Versión de GPT utilizada
-
-### Monitoreo en Tiempo Real
-- Auto-refresh cada 10 minutos
-- Indicadores de estado por artículo
-- Manejo de errores con fallbacks
-- Logs detallados en consola
-
-## 🔄 Flujo de Datos
-
-1. **Scraping**: Extrae artículos de isotools.us/blog-corporativo
-2. **Filtrado**: Selecciona contenido relevante sobre ISO
-3. **IA Processing**: Genera resúmenes con OpenAI GPT-3.5
-4. **Presentación**: Muestra en interfaz con estadísticas
-5. **Actualización**: Refresco automático cada 10 minutos
-
-## 🚀 Despliegue en Vercel
-
-### Configuración Automática
-```bash
-# Conectar con Vercel
-vercel
-
-# Configurar variables de entorno en Vercel Dashboard
-OPENAI_API_KEY=tu_api_key
-
-# Desplegar
-vercel --prod
-```
-
-### Configuración de Dominio
-- Configurar dominio personalizado en Vercel
-- SSL automático incluido
-- Edge functions globales
-- Monitoreo integrado
-
-## 📱 Responsive Design
-
-### Breakpoints
-- **Desktop**: > 768px - Grid completo
-- **Tablet**: 768px - Grid adaptativo  
-- **Mobile**: < 768px - Layout vertical
-
-### Optimizaciones Mobile
-- Cards apiladas verticalmente
-- Texto legible en pantallas pequeñas
-- Botones touch-friendly
-- Navegación simplificada
-
-## 🔒 Seguridad
-
-### Headers de Seguridad
+### 3. Usar el consumer incluido
 ```javascript
-X-Frame-Options: DENY
-X-Content-Type-Options: nosniff  
-X-XSS-Protection: 1; mode=block
-Referrer-Policy: strict-origin-when-cross-origin
+// Usar example-consumer.js para facilitar el consumo
+const { ISOToolsConsumer } = require('./example-consumer.js');
+
+const consumer = new ISOToolsConsumer('tu-github-raw-url');
+const data = await consumer.fetchData();
+const aiArticles = await consumer.getByCategory('ISO_42001_Inteligencia_Artificial');
 ```
 
-### Protección de API
-- Rate limiting implícito de Vercel
-- Validación de entrada
-- Sanitización de HTML
-- Manejo seguro de errores
+## 📊 Resultados del último procesamiento
 
-## 🐛 Solución de Problemas
+- ✅ **5 artículos** procesados exitosamente
+- ✅ **100%** de resúmenes generados con IA
+- ✅ **3 categorías** identificadas automáticamente
+- ✅ **532 caracteres** promedio por resumen
+- ✅ **14 segundos** tiempo de procesamiento
+- ✅ **Fallback incluido** para máxima disponibilidad
 
-### Errores Comunes
+## 🏷️ Categorías automáticas
 
-**Error de OpenAI**
+- `ISO_42001_Inteligencia_Artificial` - Artículos sobre IA y ISO 42001
+- `ISO_27001_Seguridad_Informacion` - Seguridad y gestión de información
+- `ISO_9001_Gestion_Calidad` - Gestión de calidad y excelencia
+- `ISO_14001_Gestion_Ambiental` - Medio ambiente y sostenibilidad
+- `Herramientas_Digitales_ISO` - Software y herramientas digitales
+- `ISO_Normas_Generales` - Normas ISO generales
+
+## 🔧 Configuración avanzada
+
+### Variables de entorno soportadas:
 ```bash
-⚠️ OpenAI no configurado - funcionalidad limitada
+OPENAI_API_KEY=tu_api_key    # Requerida para IA
+NODE_ENV=production          # Opcional
 ```
-- Verificar OPENAI_API_KEY en variables de entorno
-- Comprobar saldo de la cuenta OpenAI
-- Validar permisos de la API key
 
-**Error de Scraping**
+### Sin OpenAI:
+El script funciona perfectamente sin API key, usando:
+- ✅ Scraping de artículos
+- ✅ Categorización automática
+- ✅ Estructura JSON completa
+- ⚠️ Mensajes de fallback en lugar de resúmenes IA
+
+## 🚀 Automatización
+
+### Ejecutar diariamente:
 ```bash
-❌ Error en scraping, usando datos de fallback
-```
-- Red inestable o sitio no disponible
-- Se usa sistema de fallback automático
-- Datos de ejemplo precargados
-
-### Logs de Debug
-```bash
-🕷️ Iniciando scraping de ISOTools...
-📝 Generando resúmenes para 8 artículos...
-✅ Procesamiento completado: 7 éxitos, 1 errores
+# Cron job para actualización diaria
+0 2 * * * cd /ruta/al/proyecto && node generate-final-json.js
 ```
 
-## 📈 Roadmap Futuro
+### GitHub Actions (opcional):
+```yaml
+name: Update ISOTools Data
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Diario a las 2 AM
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: npm install
+      - run: node generate-final-json.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - run: git add isotools-final-data.json && git commit -m "Update data" && git push
+```
 
-### V2.1 - Próximas Mejoras
-- [ ] Cache Redis para resúmenes
-- [ ] Múltiples fuentes de contenido ISO
-- [ ] Resúmenes en múltiples idiomas
-- [ ] API webhooks para notificaciones
+## 📈 Casos de uso
 
-### V2.2 - Funcionalidades Avanzadas  
-- [ ] Dashboard de analytics
-- [ ] Integración con CRM
-- [ ] Resúmenes personalizados por industria
-- [ ] Sistema de suscripciones
+### 🏢 Para empresas:
+- Dashboard corporativo con últimas tendencias ISO
+- Newsletter automático con resúmenes
+- Sistema de alertas de nuevos artículos
+- Base de conocimientos actualizada
 
-## 👥 Contribución
+### 👨‍💻 Para desarrolladores:
+- API de datos ISO para aplicaciones
+- Integración con CRM/ERP
+- Chatbots con información actualizada
+- Análisis de tendencias en normativas
 
-1. Fork del repositorio
-2. Crear rama feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit cambios (`git commit -am 'Añadir nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Crear Pull Request
+### 📱 Para aplicaciones web/móviles:
+- Feed de noticias especializado
+- Notificaciones push de nuevos artículos
+- Búsqueda y filtrado por categorías
+- Cache local con actualización automática
 
-## 📄 Licencia
+## 🔍 Troubleshooting
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
+### Error de scraping:
+- ✅ Se usa automáticamente datos de fallback
+- ✅ El JSON se genera sin problemas
+- ⚠️ Verificar conexión a internet
 
-## 🏢 Sobre ISOTools
+### Error de OpenAI:
+- ✅ Se usan mensajes de fallback
+- ⚠️ Verificar API key en variables de entorno
+- ⚠️ Verificar saldo en cuenta OpenAI
 
-ISOTools es una plataforma líder en software para sistemas de gestión ISO, ayudando a organizaciones a implementar y mantener certificaciones de calidad, seguridad y medio ambiente.
-
-- **Web**: https://www.isotools.us
-- **Blog**: https://www.isotools.us/blog-corporativo/
-- **Especialización**: ISO 9001, ISO 14001, ISO 45001, ISO 27001, ISO 42001
+### Problemas de performance:
+- 🔧 Ajustar timeout en el código (línea 15)
+- 🔧 Reducir número de artículos (línea 40)
+- 🔧 Usar cache del consumer (1 hora por defecto)
 
 ## 📞 Soporte
 
-Para soporte técnico:
-- 📧 Email: soporte@tu-dominio.com
-- 💬 Issues: GitHub Issues
-- 📱 Telegram: @tu-usuario
+- 📧 Issues en GitHub
+- 📝 Documentación en código
+- 🔧 Logs detallados incluidos
+- ✅ Sistema de fallback robusto
 
 ---
 
-**⚡ Aplicación optimizada para resúmenes automáticos con IA de contenido ISO profesional**
+**🎯 Listo para producción y consumo externo via GitHub RAW**
+
+*Última actualización: Octubre 2025*
