@@ -80,30 +80,58 @@ async function scrapingISOTools(maxArticles = 50, maxPages = 15) {
                         );
                         
                         if (hasISOContent && !articles.some(article => article.url === url)) {
-                            // Buscar imagen asociada al artículo
+                            // Estrategia mejorada para buscar imagen asociada al artículo
                             let imageUrl = null;
-                            const articleElement = $(element).closest('article');
+                            const linkElement = $(element);
                             
-                            // Múltiples selectores para encontrar la imagen
+                            // Estrategia 1: Buscar en el elemento article más cercano
+                            const articleElement = linkElement.closest('article');
+                            
+                            // Estrategia 2: Buscar en contenedores padre alternativos
+                            const containerElement = linkElement.closest('.post-item, .blog-post, .entry, .post');
+                            
+                            // Selectores ampliados para encontrar imágenes
                             const imageSelectors = [
-                                'img[data-src]',
-                                'img[src]',
-                                '.post-thumbnail img',
-                                '.featured-image img',
-                                '.entry-image img'
+                                'img[data-src]',                    // Lazy loading (prioritario)
+                                'img[src]',                        // Imágenes normales
+                                '.post-thumbnail img',             // WordPress thumbnails
+                                '.featured-image img',             // Imágenes destacadas
+                                '.entry-image img',                // Imágenes de entrada
+                                '.wp-post-image',                  // WordPress post images
+                                'img.wpex-align-middle',           // Clase específica de ISOTools
+                                'img.lazyloaded'                   // Imágenes ya cargadas con lazy load
                             ];
                             
-                            for (const imgSelector of imageSelectors) {
-                                const imgElement = articleElement.find(imgSelector).first();
-                                if (imgElement.length) {
-                                    // Priorizar data-src sobre src (lazy loading)
-                                    imageUrl = imgElement.attr('data-src') || imgElement.attr('src');
-                                    if (imageUrl) {
-                                        // Completar URL si es relativa
-                                        if (!imageUrl.startsWith('http')) {
-                                            imageUrl = 'https://www.isotools.us' + (imageUrl.startsWith('/') ? imageUrl : '/' + imageUrl);
+                            // Buscar en múltiples contenedores
+                            const searchContainers = [articleElement, containerElement, linkElement.parent(), linkElement.parent().parent()];
+                            
+                            for (const container of searchContainers) {
+                                if (!container || !container.length) continue;
+                                
+                                for (const imgSelector of imageSelectors) {
+                                    const imgElement = container.find(imgSelector).first();
+                                    if (imgElement.length) {
+                                        // Priorizar data-src sobre src (lazy loading)
+                                        imageUrl = imgElement.attr('data-src') || imgElement.attr('src');
+                                        if (imageUrl && imageUrl.includes('isotools.us') && imageUrl.includes('.jpg')) {
+                                            // Completar URL si es relativa
+                                            if (!imageUrl.startsWith('http')) {
+                                                imageUrl = 'https://www.isotools.us' + (imageUrl.startsWith('/') ? imageUrl : '/' + imageUrl);
+                                            }
+                                            break;
                                         }
-                                        break;
+                                    }
+                                }
+                                if (imageUrl) break; // Si encontró imagen válida, salir del loop
+                            }
+                            
+                            // Si no encuentra imagen específica, buscar cualquier imagen cerca del título
+                            if (!imageUrl) {
+                                const nearbyImg = linkElement.siblings('img').first();
+                                if (nearbyImg.length) {
+                                    imageUrl = nearbyImg.attr('data-src') || nearbyImg.attr('src');
+                                    if (imageUrl && !imageUrl.startsWith('http')) {
+                                        imageUrl = 'https://www.isotools.us' + (imageUrl.startsWith('/') ? imageUrl : '/' + imageUrl);
                                     }
                                 }
                             }
@@ -113,7 +141,8 @@ async function scrapingISOTools(maxArticles = 50, maxPages = 15) {
                                 url: url,
                                 image_url: imageUrl,
                                 page_found: currentPage,
-                                extracted_at: new Date().toISOString()
+                                extracted_at: new Date().toISOString(),
+                                image_search_success: !!imageUrl
                             });
                             pageArticles++;
                         }
