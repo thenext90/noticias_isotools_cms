@@ -118,6 +118,9 @@ async function scrapingISOTools(maxArticles = 50, maxPages = 15) {
                                             if (!imageUrl.startsWith('http')) {
                                                 imageUrl = 'https://www.isotools.us' + (imageUrl.startsWith('/') ? imageUrl : '/' + imageUrl);
                                             }
+                                            
+                                            // USAR LA URL EXACTA TAL COMO VIENE DEL HTML
+                                            // No modificar dimensiones - usar la URL original
                                             break;
                                         }
                                     }
@@ -133,6 +136,8 @@ async function scrapingISOTools(maxArticles = 50, maxPages = 15) {
                                     if (imageUrl && !imageUrl.startsWith('http')) {
                                         imageUrl = 'https://www.isotools.us' + (imageUrl.startsWith('/') ? imageUrl : '/' + imageUrl);
                                     }
+                                    
+                                    // USAR LA URL EXACTA - no modificar dimensiones
                                 }
                             }
                             
