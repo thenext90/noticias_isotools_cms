@@ -34,7 +34,6 @@ jobs:
     - name: Generate daily news
       run: |
         echo "🗞️ Generating 3 random articles with Python script..."
-        cd isotools-summaries-standalone
         
         if [ ! -f "isotools-final-data.json" ]; then
           echo "❌ Error: isotools-final-data.json not found"
@@ -71,7 +70,6 @@ jobs:
           echo "No changes to commit"
         else
           git add isotools-daily-news.json
-          git add isotools-summaries-standalone/isotools-daily-news.json
           git commit -m "📰 Daily news updated - ${{ steps.date.outputs.TODAY }} - Python algorithm with images"
           git push origin main
           echo "Changes pushed successfully"
