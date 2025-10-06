@@ -21,11 +21,29 @@ def generate_daily_news():
         print(f"✅ Cargados {len(main_data['data'])} artículos")
     except FileNotFoundError:
         print("❌ No se encontró isotools-final-data.json")
-        return
+        print("💡 Asegúrate de que el archivo existe en el directorio actual")
+        return False
+    except json.JSONDecodeError as e:
+        print(f"❌ Error al leer isotools-final-data.json: {e}")
+        return False
+    except Exception as e:
+        print(f"❌ Error inesperado al cargar datos: {e}")
+        return False
+    
+    # Extraer artículos
+    all_articles = main_data['data']
+    
+    # Validar que tengamos suficientes artículos
+    if len(all_articles) < 3:
+        print(f"❌ No hay suficientes artículos ({len(all_articles)} disponibles, se necesitan al menos 3)")
+        return False
     
     # Seleccionar 3 artículos aleatorios
-    all_articles = main_data['data']
-    selected_articles = random.sample(all_articles, 3)
+    try:
+        selected_articles = random.sample(all_articles, 3)
+    except ValueError as e:
+        print(f"❌ Error al seleccionar artículos aleatorios: {e}")
+        return False
     
     # Agregar información de rotación y asegurar que tengan todos los campos necesarios
     for i, article in enumerate(selected_articles):
@@ -76,24 +94,31 @@ def generate_daily_news():
         }
     }
     
-    # Guardar archivo en directorio actual
+    # Guardar archivo JSON
     with open('isotools-daily-news.json', 'w', encoding='utf-8') as f:
         json.dump(daily_news, f, indent=2, ensure_ascii=False)
     
-    # También guardar en el directorio raíz del proyecto para GitHub Actions
-    root_path = os.path.join('..', 'isotools-daily-news.json')
-    with open(root_path, 'w', encoding='utf-8') as f:
-        json.dump(daily_news, f, indent=2, ensure_ascii=False)
-    
     print(f"✅ Generado isotools-daily-news.json con 3 artículos")
-    print(f"✅ Copiado a directorio raíz para GitHub Actions")
     print("\n📋 Artículos seleccionados:")
     for i, article in enumerate(selected_articles, 1):
         print(f"{i}. {article['title'][:60]}...")
         print(f"   Categoría: {article['category']}")
-        print(f"   Imagen: {article['image_url']}")
+        if 'image_url' in article and article['image_url']:
+            print(f"   Imagen: ✅")
+        else:
+            print(f"   Imagen: ❌")
     
     print(f"\n🚀 Archivo listo para consumo en GitHub!")
+    return True
 
 if __name__ == "__main__":
-    generate_daily_news()
+    try:
+        success = generate_daily_news()
+        if success:
+            print("✅ Proceso completado exitosamente")
+        else:
+            print("❌ Error en el proceso")
+            exit(1)
+    except Exception as e:
+        print(f"❌ Error inesperado: {e}")
+        exit(1)
