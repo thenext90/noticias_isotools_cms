@@ -1,9 +1,9 @@
 name: 📰 Daily News Generator
 
 on:
-  # Ejecutar automáticamente todos los días a las 9:00 AM (Chile)
+  # Ejecutar automáticamente de lunes a viernes a las 7:00 AM (Chile)
   schedule:
-    - cron: '0 12 * * *'  # 12:00 UTC = 9:00 AM Chile (UTC-3)
+    - cron: '0 10 * * 1-5'  # 10:00 UTC = 7:00 AM Chile (UTC-3), lunes a viernes
   
   # Permitir ejecución manual
   workflow_dispatch:
