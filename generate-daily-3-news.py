@@ -51,9 +51,9 @@ def generate_daily_news():
         article['selected_date'] = datetime.now().isoformat()
         article['rotation_id'] = f"{datetime.now().strftime('%Y-%m-%d')}-{i+1}"
         
-        # Asegurar que el campo image_url esté presente
-        if 'image_url' not in article:
-            article['image_url'] = f"https://www.isotools.us/wp-content/uploads/default-iso-image-{article['id']}.jpg"
+        # Asegurar que el campo image_url esté presente (pero sin generar automáticamente)
+        if 'image_url' not in article or not article['image_url']:
+            article['image_url'] = None  # Dejar como null en lugar de generar automáticamente
     
     # Crear JSON de noticias diarias
     today = datetime.now()
@@ -106,7 +106,7 @@ def generate_daily_news():
         if 'image_url' in article and article['image_url']:
             print(f"   Imagen: ✅")
         else:
-            print(f"   Imagen: ❌")
+            print(f"   Imagen: ❌ (sin imagen)")
     
     print(f"\n🚀 Archivo listo para consumo en GitHub!")
     return True
