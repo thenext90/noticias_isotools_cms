@@ -893,33 +893,89 @@ async function scrapingISOTools(maxArticles = 50, maxPages = 15) {
 }
 
 // 2. FUNCIÓN DE IA PARA RESÚMENES (Versión con resúmenes inteligentes simulados)
-async function generateAISummary(title) {
-    console.log(`🤖 Generando resumen IA para: "${title.substring(0, 50)}..."`);
+async function generateAISummary(title, articleIndex = 0) {
+    console.log(`🤖 Generando resumen IA #${articleIndex + 1} para: "${title.substring(0, 50)}..."`);
     
     try {
         // Si hay una API key válida, usar OpenAI
         if (process.env.OPENAI_API_KEY && process.env.OPENAI_API_KEY !== 'tu_api_key_aqui' && process.env.OPENAI_API_KEY.startsWith('sk-')) {
-            const prompt = `Como experto en normas ISO y sistemas de gestión empresarial, genera un resumen profesional y conciso de 2-3 oraciones sobre el siguiente artículo basándote únicamente en su título:
+            // Analizar el título para generar contexto específico
+            const titleLower = title.toLowerCase();
+            let specificContext = "";
+            let uniqueAngle = "";
+            
+            // Identificar norma ISO específica
+            const isoNumber = title.match(/ISO\s*(\d+)/i);
+            if (isoNumber) {
+                const isoCode = isoNumber[1];
+                const isoContexts = {
+                    '9001': 'gestión de calidad y satisfacción del cliente',
+                    '14001': 'gestión ambiental y sostenibilidad empresarial',
+                    '45001': 'seguridad y salud ocupacional en el trabajo',
+                    '27001': 'seguridad de la información y ciberseguridad',
+                    '50001': 'gestión energética y eficiencia en consumo',
+                    '22000': 'seguridad alimentaria y control de riesgos',
+                    '37001': 'sistemas anti-soborno y ética empresarial',
+                    '55001': 'gestión de activos físicos y optimización',
+                    '21500': 'dirección y gestión de proyectos exitosos',
+                    '26000': 'responsabilidad social corporativa',
+                    '37301': 'compliance management y cumplimiento normativo',
+                    '22301': 'continuidad del negocio y gestión de crisis',
+                    '39001': 'seguridad vial en transporte y logística',
+                    '30401': 'gestión del conocimiento organizacional',
+                    '16949': 'calidad automotriz y manufacturing',
+                    '13485': 'dispositivos médicos y regulación sanitaria',
+                    '28000': 'seguridad en cadena de suministro',
+                    '42001': 'inteligencia artificial y sistemas IA éticos'
+                };
+                specificContext = isoContexts[isoCode] || 'sistemas de gestión normalizados';
+            }
+            
+            // Generar ángulos únicos basados en palabras clave
+            if (titleLower.includes('digital') || titleLower.includes('automatización')) {
+                uniqueAngle = "transformación digital y automatización de procesos";
+            } else if (titleLower.includes('auditoria') || titleLower.includes('auditor')) {
+                uniqueAngle = "auditorías internas y control de cumplimiento";
+            } else if (titleLower.includes('kpi') || titleLower.includes('indicador') || titleLower.includes('medición')) {
+                uniqueAngle = "medición de indicadores y análisis de desempeño";
+            } else if (titleLower.includes('compliance') || titleLower.includes('cumplimiento')) {
+                uniqueAngle = "cumplimiento regulatorio y gestión de riesgos";
+            } else if (titleLower.includes('software') || titleLower.includes('herramienta')) {
+                uniqueAngle = "herramientas tecnológicas y software especializado";
+            } else if (titleLower.includes('industria 4.0') || titleLower.includes('blockchain')) {
+                uniqueAngle = "tecnologías emergentes e Industria 4.0";
+            } else if (titleLower.includes('laboratorio') || titleLower.includes('calibración')) {
+                uniqueAngle = "gestión de laboratorios y metrología";
+            } else if (titleLower.includes('riesgo') || titleLower.includes('crisis')) {
+                uniqueAngle = "gestión de riesgos y continuidad operacional";
+            } else {
+                uniqueAngle = "optimización operacional y mejora continua";
+            }
+            
+            const enhancedPrompt = `Eres un consultor senior especializado en ${specificContext}. Analiza este título de artículo #${articleIndex + 1} y genera un resumen ÚNICO y específico de exactamente 2-3 oraciones que se enfoque específicamente en ${uniqueAngle}:
 
-"${title}"
+TÍTULO: "${title}"
 
-El resumen debe:
-- Explicar los beneficios clave para las organizaciones
-- Mencionar aplicaciones prácticas específicas
-- Usar terminología profesional de gestión de calidad
-- Ser directo, orientado a resultados empresariales
-- Incluir el valor que aporta implementar lo descrito
+ARTÍCULO #${articleIndex + 1} - INSTRUCCIONES ESPECÍFICAS:
+1. Identifica QUÉ problema empresarial específico resuelve
+2. Menciona beneficios CUANTIFICABLES o resultados medibles
+3. Incluye el sector o tipo de organizaciones que más se benefician
+4. Usa terminología técnica específica de ${specificContext}
+5. Evita frases genéricas como "mejora la eficiencia" - sé específico
+6. Enfócate en el aspecto de ${uniqueAngle}
 
-Resumen profesional:`;
+FORMATO: Escribe exactamente 2-3 oraciones profesionales sin introducir con "Este artículo" o similar. Ve directo al contenido.`;
 
             const completion = await openai.chat.completions.create({
                 model: "gpt-3.5-turbo",
                 messages: [{ 
                     role: "user", 
-                    content: prompt 
+                    content: enhancedPrompt 
                 }],
-                max_tokens: 200,
-                temperature: 0.7
+                max_tokens: 280,
+                temperature: 0.95,  // Máxima creatividad
+                presence_penalty: 0.8,  // Evitar repetición de temas
+                frequency_penalty: 0.9  // Penalizar fuertemente palabras frecuentes
             });
 
             const summary = completion.choices[0].message.content.trim();
@@ -1168,7 +1224,7 @@ async function generateFinalJSON(options = {}) {
             console.log(`\n   📄 Procesando ${i + 1}/${articles.length}:`);
             console.log(`   📝 Título: ${article.title.substring(0, 70)}...`);
             
-            const summary = await generateAISummary(article.title);
+            const summary = await generateAISummary(article.title, i);
             const isAIGenerated = !summary.includes('no disponible');
             
             if (isAIGenerated) successfulSummaries++;
