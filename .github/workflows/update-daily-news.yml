@@ -70,33 +70,53 @@ jobs:
           # Check if we need to pull first
           git fetch origin main
           if ! git diff --quiet HEAD origin/main; then
-            echo "🔄 Remote changes detected, pulling first..."
-            git stash push -m "Temporary stash for daily news update"
-            git pull origin main --rebase
-            git stash pop
+            echo "🔄 Remote changes detected, handling conflicts..."
+            
+            # Instead of stash/pop, use a simpler approach
+            # Save our generated file
+            cp isotools-daily-news.json isotools-daily-news.json.new
+            
+            # Pull remote changes
+            git reset --hard origin/main
+            
+            # Restore our generated file (it's the latest)
+            cp isotools-daily-news.json.new isotools-daily-news.json
+            rm isotools-daily-news.json.new
+            
+            # Add the file again
+            git add isotools-daily-news.json
           fi
           
-          # Commit changes
-          git commit -m "📰 Daily news updated - $(date '+%Y-%m-%d') - Auto selection [skip ci]"
-          
-          # Push with retry logic
-          for i in {1..3}; do
-            if git push origin main; then
-              echo "🚀 Changes pushed successfully!"
-              break
-            else
-              echo "⚠️ Push failed, attempt $i/3. Retrying..."
-              git fetch origin main
-              if ! git diff --quiet HEAD origin/main; then
-                git pull origin main --rebase
+          # Check if there are still changes to commit after conflict resolution
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit after conflict resolution"
+          else
+            # Commit changes
+            git commit -m "📰 Daily news updated - $(date '+%Y-%m-%d') - Auto selection [skip ci]"
+            
+            # Push with retry logic
+            for i in {1..3}; do
+              if git push origin main; then
+                echo "🚀 Changes pushed successfully!"
+                break
+              else
+                echo "⚠️ Push failed, attempt $i/3. Retrying..."
+                git fetch origin main
+                git reset --hard origin/main
+                cp isotools-daily-news.json isotools-daily-news.json.temp
+                git pull origin main
+                cp isotools-daily-news.json.temp isotools-daily-news.json
+                rm isotools-daily-news.json.temp
+                git add isotools-daily-news.json
+                git commit -m "📰 Daily news updated - $(date '+%Y-%m-%d') - Auto selection [skip ci]" || true
+                if [ $i -eq 3 ]; then
+                  echo "❌ Failed to push after 3 attempts"
+                  exit 1
+                fi
+                sleep 2
               fi
-              if [ $i -eq 3 ]; then
-                echo "❌ Failed to push after 3 attempts"
-                exit 1
-              fi
-              sleep 2
-            fi
-          done
+            done
+          fi
         fi
     
     - name: 📊 Summary
