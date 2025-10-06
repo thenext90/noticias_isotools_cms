@@ -1,17 +1,15 @@
-name: 📰 Actualizar Noticias Diarias ISO
+name: 📰 Daily News Generator
 
 on:
-  # Ejecutar automáticamente todos los días a las 9:00 AM (Chile/Santiago)
+  # Ejecutar automáticamente todos los días a las 9:00 AM (Chile)
   schedule:
     - cron: '0 12 * * *'  # 12:00 UTC = 9:00 AM Chile (UTC-3)
   
   # Permitir ejecución manual
   workflow_dispatch:
-    inputs:
-      force_update:
-        description: 'Forzar actualización (true/false)'
-        required: false
-        default: 'false'
+
+permissions:
+  contents: write
 
 jobs:
   update-daily-news:
@@ -22,115 +20,55 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        fetch-depth: 0
     
     - name: 🐍 Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
     
-    - name: 📋 Verificar archivos existentes
+    - name: �️ Generate Daily News
       run: |
-        echo "📋 Archivos en directorio actual:"
-        ls -la
-        echo ""
-        echo "🔍 Verificando isotools-final-data.json:"
-        if [ -f "isotools-final-data.json" ]; then
-          echo "✅ isotools-final-data.json encontrado"
-          echo "📊 Tamaño: $(wc -c < isotools-final-data.json) bytes"
-        else
-          echo "❌ isotools-final-data.json NO encontrado"
+        echo "� Generating daily ISO news articles..."
+        
+        # Verify required files exist
+        if [ ! -f "isotools-final-data.json" ]; then
+          echo "❌ Error: isotools-final-data.json not found"
           exit 1
         fi
-    
-    - name: 🗞️ Generar Noticias Diarias
-      run: |
-        echo "🚀 Ejecutando generador de noticias diarias..."
+        
+        if [ ! -f "generate-daily-3-news.py" ]; then
+          echo "❌ Error: generate-daily-3-news.py not found"
+          exit 1
+        fi
+        
+        # Run the generator
         python generate-daily-3-news.py
         
-        echo ""
-        echo "📋 Verificando archivo generado:"
-        if [ -f "isotools-daily-news.json" ]; then
-          echo "✅ isotools-daily-news.json generado correctamente"
-          echo "📊 Tamaño: $(wc -c < isotools-daily-news.json) bytes"
-          echo ""
-          echo "📄 Primeras líneas del archivo:"
-          head -10 isotools-daily-news.json
-        else
-          echo "❌ Error: isotools-daily-news.json no fue generado"
+        # Verify output
+        if [ ! -f "isotools-daily-news.json" ]; then
+          echo "❌ Error: isotools-daily-news.json was not generated"
           exit 1
         fi
-    
-    - name: 📊 Mostrar estadísticas
-      run: |
-        echo "📊 ESTADÍSTICAS DE ACTUALIZACIÓN:"
-        echo "================================="
-        echo "📅 Fecha: $(date)"
-        echo "🔄 Ejecutado por: GitHub Actions"
-        echo "🎯 Archivo actualizado: isotools-daily-news.json"
         
-        if [ -f "isotools-daily-news.json" ]; then
-          echo "📋 Artículos seleccionados:"
-          # Extraer títulos de los artículos usando jq
-          python3 -c "
-import json
-try:
-    with open('isotools-daily-news.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    articles = data.get('daily_news', [])
-    for i, article in enumerate(articles, 1):
-        title = article.get('title', 'Sin título')[:60]
-        category = article.get('category', 'Sin categoría')
-        print(f'{i}. {title}...')
-        print(f'   Categoría: {category}')
-except Exception as e:
-    print(f'Error leyendo archivo: {e}')
-          "
-        fi
+        echo "✅ Daily news generated successfully"
     
-    - name: 📤 Commit y Push cambios
+    - name: 📤 Commit Changes
       run: |
-        # Configurar Git
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action - Daily News"
         
-        # Verificar si hay cambios
+        # Check if there are changes
         if git diff --quiet isotools-daily-news.json; then
-          echo "ℹ️ No hay cambios en isotools-daily-news.json"
+          echo "ℹ️ No changes detected"
         else
-          echo "✅ Detectados cambios en isotools-daily-news.json"
-          
-          # Agregar cambios
+          echo "✅ Changes detected, committing..."
           git add isotools-daily-news.json
-          
-          # Crear commit con información detallada
-          COMMIT_MSG="📰 Daily news updated - $(date '+%Y-%m-%d') - Auto selection
-
-🎯 Nuevas noticias diarias seleccionadas automáticamente
-🤖 Generado por: GitHub Actions
-📅 Fecha: $(date '+%Y-%m-%d %H:%M:%S UTC')
-🔄 Algoritmo: Python random selection
-📊 Total artículos disponibles: $(python3 -c "import json; data=json.load(open('isotools-final-data.json')); print(len(data['data']))" 2>/dev/null || echo 'unknown')
-
-[skip ci]"
-          
-          git commit -m "$COMMIT_MSG"
-          
-          # Push cambios
+          git commit -m "📰 Daily news updated - $(date '+%Y-%m-%d') - Auto selection [skip ci]"
           git push
-          
-          echo "🚀 Cambios enviados al repositorio!"
+          echo "🚀 Changes pushed successfully!"
         fi
     
-    - name: ✅ Resumen final
+    - name: 📊 Summary
       run: |
-        echo ""
-        echo "🎉 ACTUALIZACIÓN COMPLETADA"
-        echo "========================="
-        echo "✅ Noticias diarias actualizadas correctamente"
-        echo "📅 Próxima actualización: mañana a las 9:00 AM (Chile)"
-        echo "🔗 Archivo disponible en: https://raw.githubusercontent.com/${{ github.repository }}/main/isotools-daily-news.json"
-        echo ""
-        echo "📋 URLs de consumo:"
-        echo "• GitHub RAW: https://raw.githubusercontent.com/${{ github.repository }}/main/isotools-daily-news.json"
-        echo "• API GitHub: https://api.github.com/repos/${{ github.repository }}/contents/isotools-daily-news.json"
+        echo "🎉 Update completed for $(date '+%Y-%m-%d')"
+        echo "� Raw URL: https://raw.githubusercontent.com/${{ github.repository }}/main/isotools-daily-news.json"

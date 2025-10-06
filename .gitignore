@@ -1,8 +1,18 @@
-node_modules
+# Environment variables
 .env
+.env.local
 .env.production
-config.json
-VERCEL_COMPATIBILITY.md
-test_isotools.js
 
-.vercel
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log

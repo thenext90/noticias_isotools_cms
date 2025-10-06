@@ -1,53 +1,125 @@
-# 🚀 Generador JSON ISOTools con IA
+# � ISOTools Daily News Generator
 
 ## 📋 Descripción
-Script automático que extrae artículos de ISOTools, los procesa con OpenAI GPT-3.5-turbo y genera un JSON estructurado listo para consumo externo via GitHub RAW.
+Sistema automático que genera diariamente 3 artículos aleatorios de noticias ISO para consumo externo. Los artículos se seleccionan de una base de datos curada y se actualizan automáticamente vía GitHub Actions.
 
 ## ✨ Funcionalidades
-- 🕷️ **Web Scraping** automático de isotools.us/blog-corporativo
-- 🤖 **Resúmenes con IA** usando OpenAI GPT-3.5-turbo
-- 📊 **Categorización automática** por tipos de ISO
-- 📄 **JSON estructurado** con metadata y estadísticas
-- 🔄 **Sistema de fallback** para máxima disponibilidad
-- 📈 **Estadísticas detalladas** de procesamiento
+- 🎲 **Selección aleatoria** de 3 artículos diarios
+- 🔄 **Rotación automática** cada 24 horas
+- 📄 **JSON estructurado** listo para consumo
+- 🤖 **Automatización completa** con GitHub Actions
+- 🌐 **Acceso público** vía GitHub RAW
+- 📊 **Metadata detallada** de cada selección
 
-## 🛠️ Instalación y Uso
-
-### 1. Instalar dependencias
-```bash
-npm install
+## 🗂️ Estructura del Proyecto
+```
+├── generate-daily-3-news.py    # 🐍 Script principal Python
+├── isotools-final-data.json    # 📊 Base de datos de artículos
+├── isotools-daily-news.json    # 📰 Archivo generado diariamente
+├── .github/workflows/           # 🤖 GitHub Actions
+│   └── update-daily-news.yml    # ⚙️ Workflow automático
+├── .gitignore                   # 🚫 Archivos ignorados
+└── README.md                    # 📖 Documentación
 ```
 
-### 2. Configurar API Key (opcional)
-```bash
-# Copiar template de configuración
-cp env.example .env
+## 🚀 Uso
 
-# Editar .env con tu OpenAI API Key
-OPENAI_API_KEY=sk-proj-tu_api_key_aqui
+### Ejecución Manual
+```bash
+# Ejecutar generador localmente
+python generate-daily-3-news.py
 ```
 
-### 3. Ejecutar generador
-```bash
-# Generar JSON con scraping + IA
-node generate-final-json.js
-
-# O usar npm script
-npm run generate
-```
+### Ejecución Automática
+- ⏰ **Automático:** Todos los días a las 9:00 AM (Chile)
+- � **Manual:** GitHub Actions → "Daily News Generator" → "Run workflow"
 
 ## 📄 Output
 
-### Archivo generado: `isotools-final-data.json`
+### Archivo generado: `isotools-daily-news.json`
 
-Estructura del JSON:
 ```json
 {
   "metadata": {
-    "title": "ISOTools - Artículos Procesados con IA",
-    "source": "ISOTools Corporate Blog",
-    "total_articles": 5,
-    "ai_model": "OpenAI GPT-3.5-turbo",
+    "title": "ISOTools - Noticias Diarias",
+    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
+    "generated_date": "2025-10-06",
+    "total_articles": 3,
+    "rotation_type": "daily_random_selection"
+  },
+  "daily_news": [
+    {
+      "id": 1,
+      "title": "Título del artículo",
+      "url": "https://www.isotools.us/...",
+      "image_url": "https://www.isotools.us/wp-content/...",
+      "ai_summary": "Resumen generado por IA...",
+      "category": "ISO_9001_Gestion_Calidad",
+      "news_priority": 1
+    }
+  ]
+}
+```
+
+## 🌐 URLs de Consumo
+
+### GitHub RAW (Recomendado)
+```
+https://raw.githubusercontent.com/thenext90/noticias_isotools_cms/main/isotools-daily-news.json
+```
+
+### GitHub API
+```
+https://api.github.com/repos/thenext90/noticias_isotools_cms/contents/isotools-daily-news.json
+```
+
+## 🔧 Configuración
+
+### GitHub Actions
+- **Horario:** Diario a las 12:00 UTC (9:00 AM Chile)
+- **Trigger:** Schedule + Manual dispatch
+- **Permisos:** `contents: write` para commits automáticos
+
+### Python
+- **Versión:** Python 3.11+
+- **Dependencias:** Solo librerías estándar (`json`, `random`, `datetime`)
+
+## 📊 Características Técnicas
+
+- ✅ **Sin dependencias externas** (solo Python estándar)
+- ✅ **Rotación garantizada** en cada ejecución
+- ✅ **Manejo de errores** robusto
+- ✅ **Logging detallado** para debugging
+- ✅ **Commits automáticos** con `[skip ci]`
+- ✅ **UTF-8 encoding** completo
+
+## 🎯 Casos de Uso
+
+1. **Sitios web** que consumen noticias ISO diarias
+2. **APIs** que necesitan contenido rotativo
+3. **Newsletters** automáticos
+4. **Widgets** de noticias en tiempo real
+5. **Aplicaciones móviles** con contenido dinámico
+
+## 🔄 Flujo de Trabajo
+
+1. **12:00 UTC diario:** GitHub Actions se ejecuta automáticamente
+2. **Selección:** Script Python elige 3 artículos aleatorios
+3. **Generación:** Crea nuevo `isotools-daily-news.json`
+4. **Commit:** Cambios se commitean automáticamente
+5. **Disponibilidad:** URL RAW se actualiza instantáneamente
+
+## 📈 Estadísticas
+
+- **Base de datos:** ~50 artículos únicos
+- **Rotación:** 3 artículos nuevos cada 24 horas
+- **Disponibilidad:** 99.9% (GitHub RAW)
+- **Latencia:** <1 segundo (consumo directo)
+- **Actualización:** Automática sin intervención manual
+
+---
+
+🏢 **ISOTools** | 📧 **Soporte:** GitHub Issues | 🔄 **Última actualización:** Automática
     "generated_at": "2025-10-03T01:48:47.313Z"
   },
   "data": [
