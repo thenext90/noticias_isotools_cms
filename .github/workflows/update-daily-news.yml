@@ -122,4 +122,6 @@ jobs:
     - name: 📊 Summary
       run: |
         echo "🎉 Update completed for $(date '+%Y-%m-%d')"
-        echo "� Raw URL: https://raw.githubusercontent.com/${{ github.repository }}/main/isotools-daily-news.json"
+        echo "📁 Repository: https://github.com/${{ github.repository }}"
+        echo "� RAW URL: https://raw.githubusercontent.com/${{ github.repository }}/main/isotools-daily-news.json"
+        echo "� View file: https://github.com/${{ github.repository }}/blob/main/isotools-daily-news.json"
