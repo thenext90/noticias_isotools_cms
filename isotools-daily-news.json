@@ -4,14 +4,18 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
+<<<<<<< HEAD
     "generated_at": "2025-10-10T15:31:18.483823",
+=======
+    "generated_at": "2025-10-10T12:13:48.451862",
+>>>>>>> 1ee7527 (feat: logging de selección diaria y ajuste horario workflow a 5AM)
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
     "purpose": "Noticias diarias para sección web",
     "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
-    "parent_source": "ISOTools Corporate Blog (isotools.us)",
+    "parent_source": "isotools_blog_articles.json",
     "language": "español"
   },
   "configuration": {
@@ -25,6 +29,7 @@
   },
   "daily_news": [
     {
+<<<<<<< HEAD
       "id": 14,
       "title": "ISO 22000: sistemas de gestión de seguridad alimentaria en la industria moderna",
       "url": "https://www.isotools.us/2025/07/25/iso-22000-sistemas-de-gestion-de-seguridad-alimentaria-en-la-industria-moderna/",
@@ -70,14 +75,45 @@
       "processed_at": "2025-10-06T04:08:48.052Z",
       "news_priority": 3,
       "selected_date": "2025-10-10T15:31:18.483818",
+=======
+      "title": "¿Cómo se están alineando las Normas ISO con los ODS?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/02/Normas-ISO.jpg",
+      "image_exists": true,
+      "text": "Normas ISO En la actualidad, el desarrollo sostenible juega un papel de suma importancia en el mercado, donde…",
+      "news_priority": 1,
+      "selected_date": "2025-10-10T12:13:48.445418",
+      "rotation_id": "2025-10-10-1"
+    },
+    {
+      "title": "Software ISOTools COVID: ¿Cómo gestionar la vuelta al trabajo de forma segura?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/Software-ISOTools-COVID.jpg",
+      "image_exists": true,
+      "text": "Software ISOTools COVID Nuestro cliente César Matos, Gerente de QHSE de la compañía Talma, nos cuenta como ellos…",
+      "news_priority": 2,
+      "selected_date": "2025-10-10T12:13:48.445451",
+      "rotation_id": "2025-10-10-2"
+    },
+    {
+      "title": "Resumen de la norma ISO 22000. Principales características",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/05/5-ISo-22000-inocuidad.jpg",
+      "image_exists": true,
+      "text": "Norma ISO 22000 Sistemas de Gestión de Inocuidad Alimentaria  La norma ISO 22000, de Sistemas de Gestión de…",
+      "news_priority": 3,
+      "selected_date": "2025-10-10T12:13:48.445469",
+>>>>>>> 1ee7527 (feat: logging de selección diaria y ajuste horario workflow a 5AM)
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
+<<<<<<< HEAD
     "selected_at": "2025-10-10T15:31:18.483823",
     "next_rotation": "2025-10-11T15:31:18.483823",
+=======
+    "selected_at": "2025-10-10T12:13:48.451862",
+    "next_rotation": "2025-10-11T12:13:48.451862",
+>>>>>>> 1ee7527 (feat: logging de selección diaria y ajuste horario workflow a 5AM)
     "algorithm": "python_random_sample",
-    "total_available_articles": 50,
+    "total_available_articles": 2915,
     "rotation_guaranteed": true
   }
 }
