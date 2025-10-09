@@ -3,6 +3,7 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
+<<<<<<< HEAD
     "generated_date": "2025-10-10",
 <<<<<<< HEAD
     "generated_at": "2025-10-10T15:31:18.483823",
@@ -10,12 +11,21 @@
     "generated_at": "2025-10-10T12:13:48.451862",
 >>>>>>> 1ee7527 (feat: logging de selección diaria y ajuste horario workflow a 5AM)
     "next_update": "2025-10-11",
+=======
+    "generated_date": "2025-10-09",
+    "generated_at": "2025-10-09T00:06:59.925835",
+    "next_update": "2025-10-10",
+>>>>>>> e643716 (feat: actualizar isotools-final-data.json con image_url correcto para cada artículo y guardar todos los cambios del proyecto)
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
     "purpose": "Noticias diarias para sección web",
     "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
+<<<<<<< HEAD
     "parent_source": "isotools_blog_articles.json",
+=======
+    "parent_source": "ISOTools Corporate Blog (isotools.us)",
+>>>>>>> e643716 (feat: actualizar isotools-final-data.json con image_url correcto para cada artículo y guardar todos los cambios del proyecto)
     "language": "español"
   },
   "configuration": {
@@ -29,6 +39,7 @@
   },
   "daily_news": [
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "id": 14,
       "title": "ISO 22000: sistemas de gestión de seguridad alimentaria en la industria moderna",
@@ -76,6 +87,8 @@
       "news_priority": 3,
       "selected_date": "2025-10-10T15:31:18.483818",
 =======
+=======
+>>>>>>> 24ed1eb (feat: actualizar isotools-final-data.json con image_url correcto para cada artículo y guardar todos los cambios del proyecto)
       "title": "¿Cómo se están alineando las Normas ISO con los ODS?",
       "image_url": "https://www.isotools.us/wp-content/uploads/2021/02/Normas-ISO.jpg",
       "image_exists": true,
@@ -114,6 +127,61 @@
 >>>>>>> 1ee7527 (feat: logging de selección diaria y ajuste horario workflow a 5AM)
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
+=======
+      "id": 39,
+      "title": "Economía circular e ISO 14006: gestión ambiental enfocada en el ecodiseño",
+      "url": "https://www.isotools.us/2025/03/20/economia-circular-e-iso-14006-gestion-ambiental-enfocada-en-el-ecodiseno/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/03/economia-circular-iso-14006.jpg",
+      "ai_summary": "El uso de la norma ISO 14006 en la implementación de la economía circular permite a las organizaciones integrar el ecodiseño en sus procesos, lo que ayuda a optimizar operaciones y reducir el impacto ambiental. Este enfoque específico de gestión ambiental proporciona beneficios medibles como la reducción de residuos, el aumento de eficiencia energética y una mejora continua en la sostenibilidad para empresas del sector manufacturero y servicios.",
+      "summary_length": 449,
+      "category": "ISO_14001_Gestion_Ambiental",
+      "ai_generated": true,
+      "page_found": 13,
+      "extracted_at": "2025-10-06T04:08:31.607Z",
+      "processed_at": "2025-10-06T04:09:43.463Z",
+      "news_priority": 1,
+      "selected_date": "2025-10-09T00:06:59.922814",
+      "rotation_id": "2025-10-09-1"
+    },
+    {
+      "id": 5,
+      "title": "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
+      "url": "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/09/software-gestion-medioambiental.jpg",
+      "ai_summary": "Este artículo analiza los requisitos clave para elegir un software de gestión medioambiental, que puede resolver problemas específicos como la monitorización en tiempo real de emisiones y residuos. Al implementar una solución tecnológica especializada, las empresas pueden reducir sus costos operativos hasta un 20% gracias a una mayor eficiencia en la gestión medioambiental. Las industrias más beneficiadas suelen ser aquellas con procesos productivos intensivos en recursos naturales, como la industria manufacturera o química.",
+      "summary_length": 530,
+      "category": "ISO_14001_Gestion_Ambiental",
+      "ai_generated": true,
+      "page_found": 1,
+      "extracted_at": "2025-10-06T04:08:31.603Z",
+      "processed_at": "2025-10-06T04:08:41.165Z",
+      "news_priority": 2,
+      "selected_date": "2025-10-09T00:06:59.922845",
+      "rotation_id": "2025-10-09-2"
+    },
+    {
+      "id": 26,
+      "title": "ISO 16949: sistemas de gestión de calidad automotriz y su certificación",
+      "url": "https://www.isotools.us/2025/05/25/iso-16949-sistemas-de-gestion-de-calidad-automotriz-y-su-certificacion/",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/iso-16949-calidad-automotriz.jpg",
+      "ai_summary": "La certificación ISO 16949 en sistemas de gestión de calidad automotriz mejora la eficiencia operativa al reducir defectos y mejorar el control de procesos, lo que resulta en una mayor optimización operacional y reducción de costos. Las organizaciones del sector automotriz se benefician significativamente al implementar este estándar, ya que les permite mantener altos niveles de calidad y competir en un mercado cada vez más exigente.",
+      "summary_length": 437,
+      "category": "ISO_9001_Gestion_Calidad",
+      "ai_generated": true,
+      "page_found": 8,
+      "extracted_at": "2025-10-06T04:08:31.607Z",
+      "processed_at": "2025-10-06T04:09:20.301Z",
+      "news_priority": 3,
+      "selected_date": "2025-10-09T00:06:59.922861",
+      "rotation_id": "2025-10-09-3"
+    }
+  ],
+  "generation_info": {
+    "selected_at": "2025-10-09T00:06:59.925835",
+    "next_rotation": "2025-10-10T00:06:59.925835",
+    "algorithm": "python_random_sample",
+    "total_available_articles": 50,
+>>>>>>> e643716 (feat: actualizar isotools-final-data.json con image_url correcto para cada artículo y guardar todos los cambios del proyecto)
     "rotation_guaranteed": true
   }
 }
