@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T17:50:40.782433",
+    "generated_at": "2025-10-10T17:52:56.936968",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "RRZ Consulting, nuevo consultor homologado ISOTools en México",
-      "image_url": null,
-      "image_exists": false,
-      "text": "La consultora RRZ sita en Ciudad de México, ha firmado un acuerdo de colaboración con ISOTools como Consultores…",
+      "title": "ISOTools renueva su compromiso con el Pacto Mundial de Naciones Unidas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/Isotools-ODS.png",
+      "image_exists": true,
+      "text": "Pacto Mundial de Naciones Unidas En ISOTools hemos renovado un año más nuestro compromiso con el Pacto Mundial…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T17:50:40.782325",
+      "selected_date": "2025-10-10T17:52:56.936837",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "Gran éxito del evento Empresas Hacia la Calidad, organizado por ISOTools",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/empresas%20hacia%20la%20calidad.JPG",
-      "image_exists": false,
-      "text": "ISOTools realiza un encuentro en Colombia para los interesados en soluciones tecnológicas para la normalización.De forma exitosa se realizó el día 15 de noviembre el evento“Empresas Hacia la Calidad”organizado en laCámara de Comercio de Duitama, al cual asistieron un gran número de empresarios interesados en conocer las herramientas para la consolidación e implementación de susprogramas de calidad internapara el fortalecimiento de la labor empresarial.La apertura del evento fue realizada por elDr. José Orlando Manosalva, Presidente Ejecutivo de la Cámara de Comercio, quien resaltó la importancia de la calidad como factor clave en la competitividad de las empresas y también mencionó laforma de mejorar los sistemas de gestión con el apoyo de la tecnología, resaltando en especial lasatisfacciónque ha tenido la Cámara de Comercio con el empleo de laherramienta tecnológica ISOToolspara gestionar sus procesos, indicadores, documentos, acciones, auditorías, etc.Fredy Camacho,Gerente de la firmaE&F Global Consulting, Aliados deISOTools, realizó su intervención mostrando los beneficios de la integración de los sistemas de gestión en cuanto aoptimización, ahorros, incremento en la productividad, etc., así mismo resaltó lasventajas que tiene la automatizaciónde dichos sistemas con el fin de garantizar que los empresarios se dediquen a su razón de ser y no a gestionar en forma manual y operativa los resultados de su gestión.Como complemento a este contextoNatalia Petrelli –Country ManagerdeISOTools Colombia, realizó una presentación de laherramienta tecnológica ISOToolspara la gestión de la excelencia de las organizaciones, enseñando a los asistentes cómo gestionar en formapráctica y sencillasus diversos sistemas de gestión, apoyados en la tecnología y resaltó las distintas ventajas de la automatización, principalmente lograndola mejora notable en la eficiencia de la gestión diaria de la organización.Más informaciónaquí",
+      "title": "Sistemas de Gestión Integrados, ISO 9001 e ISO 14001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/03/sgi_21marzo.jpg",
+      "image_exists": true,
+      "text": "En la implantación de los Sistemas de Gestión la norma ISO 14001 no ha tenido tanto éxito como…",
       "news_priority": 2,
-      "selected_date": "2025-10-10T17:50:40.782332",
+      "selected_date": "2025-10-10T17:52:56.936844",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "El turismo de aventura según la norma ISO 21103 e ISO 21101",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/03/turismo-de-aventura.jpg",
-      "image_exists": true,
-      "text": "Turismo de aventura La última versión de la norma ISO 21103 se publicó en el año 2014, estableciendo…",
+      "title": "ISOTools les informa de la apertura del plazo de inscripción a la feria EcoFest.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/feria%20EcoFest.jpg",
+      "image_exists": false,
+      "text": "Ya está fechado el evento pro-medio ambiente de Páginas Verdes.El segundo fin de semana demarzodel año que viene, durantelos días 9 y 10, tendrá lugarla feria EcoFest, en México DF.Se trata del evento que organizaPáginas Verdespara difundir el respeto alMedio Ambientea los ciudadanos mexicanos.En el acto habrá multitud de expositores del país que darán a conocerproductos ecológicos junto con sus prácticas inócuas con elMedio Ambiente.Las ediciones anteriores fueron un éxito con60.000 asistentes y 183 expositores, y este año promete serlo también.Para inscribirse u obtener más  información haga clicaquí.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2025-10-10T17:50:40.782334",
+      "selected_date": "2025-10-10T17:52:56.936847",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T17:50:40.782433",
-    "next_rotation": "2025-10-11T17:50:40.782433",
+    "selected_at": "2025-10-10T17:52:56.936968",
+    "next_rotation": "2025-10-11T17:52:56.936968",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
