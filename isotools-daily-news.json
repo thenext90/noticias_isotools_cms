@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T15:58:50.272053",
+    "generated_at": "2025-10-10T16:01:45.161380",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Qué supone la norma ISO 37001 en la lucha contra el soborno?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/02/ISO-37001.jpg",
+      "title": "¿Cómo caracterizar un activo de Seguridad de la Información?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/02/caracterizar-activo-de-seguridad-de-la-informacion.webp",
       "image_exists": true,
-      "text": "Lucha contra el soborno La Organización Internacional de Normalización (ISO) publicó recientemente la norma ISO 37001 2016 “Sistemas…",
+      "text": "Un plan de Seguridad tiene como objetivo de seguridad los activos que crean el mando en estudio del…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T15:58:50.271962",
+      "selected_date": "2025-10-10T16:01:45.161239",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "BPM Alimentación.",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Las Buenas Prácticas de Manufactura (BPM) o Good Manufacturing Practices (GMP), son los principios establecidos por la legislación…",
+      "title": "Alcance en ISO 42001: objetivos y metas clave",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/08/alcance-en-iso-42001-objetivos-y-metas-clave.jpg",
+      "image_exists": true,
+      "text": "La definición del alcance en ISO 42001 tiene particularidades que no se encuentran en otros estándares ISO que…",
       "news_priority": 2,
-      "selected_date": "2025-10-10T15:58:50.271967",
+      "selected_date": "2025-10-10T16:01:45.161248",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "ISOTools le recomienda la Jornada ARADE: Gestión de la Calidad y RSE.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/calidad3_960_354.png",
-      "image_exists": false,
-      "text": "Tendrá lugar mañana de 10 a 13:00 en el Edificio de la CREA de Zaragoza.La Jornada ARADE: \"Gestión de la Calidady Responsabilidad Social Empresarial\"es una iniciativa de laAsociación Aragonesa para la Dependencia, ARADE.Este evento contará con la presencia deCristina Gavín, directora gerente delInstituto Aragonés de Servicios Socialesquién inaugurará el evento y con la deRicardo Oliván, consejero de Sanidad, responsable de la clausura.El programa del acto cuenta con diversas ponencias centradas básicamente en la implantación deSistemas de Gestión de Calidady Responsabilidad Social Empresarial en centros residenciales y su Certificación.Además, en el acto se dará a conocer laexperiencia realde laResidencia para la tercera edad Avenidala cual cuenta con la implantación de unSistema de Gestión.Más informaciónaquí.Más informaciónaquí",
+      "title": "I Summit ISOTools: Tips para abordar la Protección de Infraestructuras Críticas (CIP) garantizando continuidad operacional y cumplimiento regulatorio",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/olivares-summit.jpg",
+      "image_exists": true,
+      "text": "I Summit ISOTools ISOTools Excellence, parte del Grupo ESG Innova, con motivo de la celebración de su 25…",
       "news_priority": 3,
-      "selected_date": "2025-10-10T15:58:50.271970",
+      "selected_date": "2025-10-10T16:01:45.161250",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T15:58:50.272053",
-    "next_rotation": "2025-10-11T15:58:50.272053",
+    "selected_at": "2025-10-10T16:01:45.161380",
+    "next_rotation": "2025-10-11T16:01:45.161380",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
