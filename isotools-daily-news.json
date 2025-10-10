@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T16:01:45.161380",
+    "generated_at": "2025-10-10T16:10:55.238674",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo caracterizar un activo de Seguridad de la Información?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/02/caracterizar-activo-de-seguridad-de-la-informacion.webp",
+      "title": "¿Donde se utiliza el sistema PQRS según ISO 9001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Donde-se-utiliza-el-sistema-PQRS.png",
       "image_exists": true,
-      "text": "Un plan de Seguridad tiene como objetivo de seguridad los activos que crean el mando en estudio del…",
+      "text": "¿Donde se utiliza el sistema PQRS? En el complejo mundo empresarial actual, la calidad es una prioridad indiscutible.…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T16:01:45.161239",
+      "selected_date": "2025-10-10T16:10:55.238571",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "Alcance en ISO 42001: objetivos y metas clave",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/08/alcance-en-iso-42001-objetivos-y-metas-clave.jpg",
+      "title": "ISO 37301 – Apartado 4.3 Determinación del alcance del sistema de gestión del compliance",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/ISO-37301.jpg",
       "image_exists": true,
-      "text": "La definición del alcance en ISO 42001 tiene particularidades que no se encuentran en otros estándares ISO que…",
+      "text": "ISO 37301 Todo tiene su límite, y en el caso de las normas ISO esta aseveración es absolutamente…",
       "news_priority": 2,
-      "selected_date": "2025-10-10T16:01:45.161248",
+      "selected_date": "2025-10-10T16:10:55.238578",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "I Summit ISOTools: Tips para abordar la Protección de Infraestructuras Críticas (CIP) garantizando continuidad operacional y cumplimiento regulatorio",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/olivares-summit.jpg",
+      "title": "Cómo realizar la transición a la nueva ISO 9001:2015",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/Transición-ISO-9001.jpg",
       "image_exists": true,
-      "text": "I Summit ISOTools ISOTools Excellence, parte del Grupo ESG Innova, con motivo de la celebración de su 25…",
+      "text": "ISO 9001 2015 Muchas organizaciones quieren iniciar el proceso de transición a la nueva ISO 9001 2015, pero…",
       "news_priority": 3,
-      "selected_date": "2025-10-10T16:01:45.161250",
+      "selected_date": "2025-10-10T16:10:55.238580",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T16:01:45.161380",
-    "next_rotation": "2025-10-11T16:01:45.161380",
+    "selected_at": "2025-10-10T16:10:55.238674",
+    "next_rotation": "2025-10-11T16:10:55.238674",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
