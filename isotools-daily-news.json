@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T17:48:40.670651",
+    "generated_at": "2025-10-10T17:50:06.701040",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Checklist Navidad 2021",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/12/cabecera-navidad-2021.jpg",
-      "image_exists": true,
-      "text": "﻿ ¡Felices Fiestas y próspero Año Nuevo 2022! El año 2021 llega a su fin y con ello…",
+      "title": "El plan de marketing online",
+      "image_url": null,
+      "image_exists": false,
+      "text": "En la actualidad, debido al importante papel que juegan las redes sociales en la sociedad y en el…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T17:48:40.670525",
+      "selected_date": "2025-10-10T17:50:06.700938",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "IWA 48:2024 – Implementación de principios ambientales, sociales y de gobernanza (ESG)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/03/IWA-48_2024.jpg",
+      "title": "ISO 14001: El antes y el después de la normativa ambiental",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/ISO-14001-13.jpg",
       "image_exists": true,
-      "text": "En la actualidad, las organizaciones enfrentan una presión sin precedentes para integrar los factores ambientales, sociales...",
+      "text": "Normativa ambiental En toda organización deben llevarse a cabo actuaciones con carácter ambiental de una manera organizada, planificada…",
       "news_priority": 2,
-      "selected_date": "2025-10-10T17:48:40.670533",
+      "selected_date": "2025-10-10T17:50:06.700945",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "ISO 20245:2017, la nueva norma que regula el mercado de segunda mano",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/02/ISO-20245-2017.jpg",
+      "title": "El análisis del contexto mediante la matriz FODA",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/07/análisis-del-contexto.jpg",
       "image_exists": true,
-      "text": "ISO 20245:2017 El mercado de segunda mano se encuentra en auge con más y más consumidores comprando y…",
+      "text": "Análisis del contexto La cláusula 4 de la norma ISO 9001 2015 sobre el análisis del contexto de…",
       "news_priority": 3,
-      "selected_date": "2025-10-10T17:48:40.670535",
+      "selected_date": "2025-10-10T17:50:06.700947",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T17:48:40.670651",
-    "next_rotation": "2025-10-11T17:48:40.670651",
+    "selected_at": "2025-10-10T17:50:06.701040",
+    "next_rotation": "2025-10-11T17:50:06.701040",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
