@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T17:50:06.701040",
+    "generated_at": "2025-10-10T17:50:40.782433",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "El plan de marketing online",
+      "title": "RRZ Consulting, nuevo consultor homologado ISOTools en México",
       "image_url": null,
       "image_exists": false,
-      "text": "En la actualidad, debido al importante papel que juegan las redes sociales en la sociedad y en el…",
+      "text": "La consultora RRZ sita en Ciudad de México, ha firmado un acuerdo de colaboración con ISOTools como Consultores…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T17:50:06.700938",
+      "selected_date": "2025-10-10T17:50:40.782325",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "ISO 14001: El antes y el después de la normativa ambiental",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/ISO-14001-13.jpg",
-      "image_exists": true,
-      "text": "Normativa ambiental En toda organización deben llevarse a cabo actuaciones con carácter ambiental de una manera organizada, planificada…",
+      "title": "Gran éxito del evento Empresas Hacia la Calidad, organizado por ISOTools",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/empresas%20hacia%20la%20calidad.JPG",
+      "image_exists": false,
+      "text": "ISOTools realiza un encuentro en Colombia para los interesados en soluciones tecnológicas para la normalización.De forma exitosa se realizó el día 15 de noviembre el evento“Empresas Hacia la Calidad”organizado en laCámara de Comercio de Duitama, al cual asistieron un gran número de empresarios interesados en conocer las herramientas para la consolidación e implementación de susprogramas de calidad internapara el fortalecimiento de la labor empresarial.La apertura del evento fue realizada por elDr. José Orlando Manosalva, Presidente Ejecutivo de la Cámara de Comercio, quien resaltó la importancia de la calidad como factor clave en la competitividad de las empresas y también mencionó laforma de mejorar los sistemas de gestión con el apoyo de la tecnología, resaltando en especial lasatisfacciónque ha tenido la Cámara de Comercio con el empleo de laherramienta tecnológica ISOToolspara gestionar sus procesos, indicadores, documentos, acciones, auditorías, etc.Fredy Camacho,Gerente de la firmaE&F Global Consulting, Aliados deISOTools, realizó su intervención mostrando los beneficios de la integración de los sistemas de gestión en cuanto aoptimización, ahorros, incremento en la productividad, etc., así mismo resaltó lasventajas que tiene la automatizaciónde dichos sistemas con el fin de garantizar que los empresarios se dediquen a su razón de ser y no a gestionar en forma manual y operativa los resultados de su gestión.Como complemento a este contextoNatalia Petrelli –Country ManagerdeISOTools Colombia, realizó una presentación de laherramienta tecnológica ISOToolspara la gestión de la excelencia de las organizaciones, enseñando a los asistentes cómo gestionar en formapráctica y sencillasus diversos sistemas de gestión, apoyados en la tecnología y resaltó las distintas ventajas de la automatización, principalmente lograndola mejora notable en la eficiencia de la gestión diaria de la organización.Más informaciónaquí",
       "news_priority": 2,
-      "selected_date": "2025-10-10T17:50:06.700945",
+      "selected_date": "2025-10-10T17:50:40.782332",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "El análisis del contexto mediante la matriz FODA",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/07/análisis-del-contexto.jpg",
+      "title": "El turismo de aventura según la norma ISO 21103 e ISO 21101",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/03/turismo-de-aventura.jpg",
       "image_exists": true,
-      "text": "Análisis del contexto La cláusula 4 de la norma ISO 9001 2015 sobre el análisis del contexto de…",
+      "text": "Turismo de aventura La última versión de la norma ISO 21103 se publicó en el año 2014, estableciendo…",
       "news_priority": 3,
-      "selected_date": "2025-10-10T17:50:06.700947",
+      "selected_date": "2025-10-10T17:50:40.782334",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T17:50:06.701040",
-    "next_rotation": "2025-10-11T17:50:06.701040",
+    "selected_at": "2025-10-10T17:50:40.782433",
+    "next_rotation": "2025-10-11T17:50:40.782433",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
