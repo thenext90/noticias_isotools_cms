@@ -3,29 +3,15 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-<<<<<<< HEAD
     "generated_date": "2025-10-10",
-<<<<<<< HEAD
-    "generated_at": "2025-10-10T15:31:18.483823",
-=======
-    "generated_at": "2025-10-10T12:13:48.451862",
->>>>>>> 1ee7527 (feat: logging de selección diaria y ajuste horario workflow a 5AM)
+    "generated_at": "2025-10-10T15:58:50.272053",
     "next_update": "2025-10-11",
-=======
-    "generated_date": "2025-10-09",
-    "generated_at": "2025-10-09T00:06:59.925835",
-    "next_update": "2025-10-10",
->>>>>>> e643716 (feat: actualizar isotools-final-data.json con image_url correcto para cada artículo y guardar todos los cambios del proyecto)
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
     "purpose": "Noticias diarias para sección web",
     "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
-<<<<<<< HEAD
     "parent_source": "isotools_blog_articles.json",
-=======
-    "parent_source": "ISOTools Corporate Blog (isotools.us)",
->>>>>>> e643716 (feat: actualizar isotools-final-data.json con image_url correcto para cada artículo y guardar todos los cambios del proyecto)
     "language": "español"
   },
   "configuration": {
@@ -39,149 +25,38 @@
   },
   "daily_news": [
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "id": 14,
-      "title": "ISO 22000: sistemas de gestión de seguridad alimentaria en la industria moderna",
-      "url": "https://www.isotools.us/2025/07/25/iso-22000-sistemas-de-gestion-de-seguridad-alimentaria-en-la-industria-moderna/",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/iso-22000-seguridad-alimentaria.jpg",
-      "ai_summary": "La implementación de la norma ISO 22000 en la industria moderna permite optimizar operaciones y mejorar continuamente la seguridad alimentaria, reduciendo así los riesgos y garantizando la calidad de los productos. Al adoptar este sistema de gestión, las organizaciones pueden cuantificar una disminución en incidentes relacionados con alimentos contaminados, mejora en la trazabilidad de productos y aumento en la confianza del consumidor. Empresas del sector alimentario y manufacturero son las más beneficiadas al aplicar esta normativa para asegurar procesos efectivos y sostenibles.",
-      "summary_length": 587,
-      "category": "ISO_42001_Inteligencia_Artificial",
-      "ai_generated": true,
-      "page_found": 4,
-      "extracted_at": "2025-10-06T04:08:31.603Z",
-      "processed_at": "2025-10-06T04:08:58.865Z",
+      "title": "¿Qué supone la norma ISO 37001 en la lucha contra el soborno?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/02/ISO-37001.jpg",
+      "image_exists": true,
+      "text": "Lucha contra el soborno La Organización Internacional de Normalización (ISO) publicó recientemente la norma ISO 37001 2016 “Sistemas…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T15:31:18.483788",
+      "selected_date": "2025-10-10T15:58:50.271962",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "id": 28,
-      "title": "ISO 13485: sistemas de gestión de calidad para dispositivos médicos",
-      "url": "https://www.isotools.us/2025/05/15/iso-13485-sistemas-de-gestion-de-calidad-para-dispositivos-medicos/",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/iso-13485-dispositivos-medicos.jpg",
-      "ai_summary": "La implementación de la norma ISO 13485 ayuda a las empresas de dispositivos médicos a optimizar sus operaciones, asegurando un sistema de gestión de calidad efectivo y en constante mejora. Esto se traduce en una reducción del tiempo de comercialización, una mayor eficiencia en los procesos productivos y una disminución significativa de los riesgos regulatorios para las organizaciones del sector.",
-      "summary_length": 399,
-      "category": "ISO_9001_Gestion_Calidad",
-      "ai_generated": true,
-      "page_found": 9,
-      "extracted_at": "2025-10-06T04:08:31.607Z",
-      "processed_at": "2025-10-06T04:09:23.616Z",
+      "title": "BPM Alimentación.",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Las Buenas Prácticas de Manufactura (BPM) o Good Manufacturing Practices (GMP), son los principios establecidos por la legislación…",
       "news_priority": 2,
-      "selected_date": "2025-10-10T15:31:18.483813",
+      "selected_date": "2025-10-10T15:58:50.271967",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "id": 8,
-      "title": "ISO 50001: estrategias avanzadas para optimizar la gestión energética empresarial",
-      "url": "https://www.isotools.us/2025/08/25/iso-50001-estrategias-avanzadas-para-optimizar-la-gestion-energetica-empresarial/",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/08/iso-50001-gestion-energetica.jpg",
-      "ai_summary": "La implementación de la norma ISO 50001 permite a las organizaciones identificar oportunidades específicas para optimizar sus procesos energéticos, logrando una reducción del consumo energético de hasta un 10% anual. Sector industrial y manufacturero experimentan los mayores beneficios al integrar estrategias avanzadas de gestión energética que garantizan una mejora continua en la eficiencia operacional y la reducción de costos asociados con el consumo energético.",
-      "summary_length": 468,
-      "category": "ISO_42001_Inteligencia_Artificial",
-      "ai_generated": true,
-      "page_found": 2,
-      "extracted_at": "2025-10-06T04:08:31.603Z",
-      "processed_at": "2025-10-06T04:08:48.052Z",
+      "title": "ISOTools le recomienda la Jornada ARADE: Gestión de la Calidad y RSE.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/calidad3_960_354.png",
+      "image_exists": false,
+      "text": "Tendrá lugar mañana de 10 a 13:00 en el Edificio de la CREA de Zaragoza.La Jornada ARADE: \"Gestión de la Calidady Responsabilidad Social Empresarial\"es una iniciativa de laAsociación Aragonesa para la Dependencia, ARADE.Este evento contará con la presencia deCristina Gavín, directora gerente delInstituto Aragonés de Servicios Socialesquién inaugurará el evento y con la deRicardo Oliván, consejero de Sanidad, responsable de la clausura.El programa del acto cuenta con diversas ponencias centradas básicamente en la implantación deSistemas de Gestión de Calidady Responsabilidad Social Empresarial en centros residenciales y su Certificación.Además, en el acto se dará a conocer laexperiencia realde laResidencia para la tercera edad Avenidala cual cuenta con la implantación de unSistema de Gestión.Más informaciónaquí.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2025-10-10T15:31:18.483818",
-=======
-=======
->>>>>>> 24ed1eb (feat: actualizar isotools-final-data.json con image_url correcto para cada artículo y guardar todos los cambios del proyecto)
-      "title": "¿Cómo se están alineando las Normas ISO con los ODS?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/02/Normas-ISO.jpg",
-      "image_exists": true,
-      "text": "Normas ISO En la actualidad, el desarrollo sostenible juega un papel de suma importancia en el mercado, donde…",
-      "news_priority": 1,
-      "selected_date": "2025-10-10T12:13:48.445418",
-      "rotation_id": "2025-10-10-1"
-    },
-    {
-      "title": "Software ISOTools COVID: ¿Cómo gestionar la vuelta al trabajo de forma segura?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/Software-ISOTools-COVID.jpg",
-      "image_exists": true,
-      "text": "Software ISOTools COVID Nuestro cliente César Matos, Gerente de QHSE de la compañía Talma, nos cuenta como ellos…",
-      "news_priority": 2,
-      "selected_date": "2025-10-10T12:13:48.445451",
-      "rotation_id": "2025-10-10-2"
-    },
-    {
-      "title": "Resumen de la norma ISO 22000. Principales características",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/05/5-ISo-22000-inocuidad.jpg",
-      "image_exists": true,
-      "text": "Norma ISO 22000 Sistemas de Gestión de Inocuidad Alimentaria  La norma ISO 22000, de Sistemas de Gestión de…",
-      "news_priority": 3,
-      "selected_date": "2025-10-10T12:13:48.445469",
->>>>>>> 1ee7527 (feat: logging de selección diaria y ajuste horario workflow a 5AM)
+      "selected_date": "2025-10-10T15:58:50.271970",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-<<<<<<< HEAD
-    "selected_at": "2025-10-10T15:31:18.483823",
-    "next_rotation": "2025-10-11T15:31:18.483823",
-=======
-    "selected_at": "2025-10-10T12:13:48.451862",
-    "next_rotation": "2025-10-11T12:13:48.451862",
->>>>>>> 1ee7527 (feat: logging de selección diaria y ajuste horario workflow a 5AM)
+    "selected_at": "2025-10-10T15:58:50.272053",
+    "next_rotation": "2025-10-11T15:58:50.272053",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
-=======
-      "id": 39,
-      "title": "Economía circular e ISO 14006: gestión ambiental enfocada en el ecodiseño",
-      "url": "https://www.isotools.us/2025/03/20/economia-circular-e-iso-14006-gestion-ambiental-enfocada-en-el-ecodiseno/",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/03/economia-circular-iso-14006.jpg",
-      "ai_summary": "El uso de la norma ISO 14006 en la implementación de la economía circular permite a las organizaciones integrar el ecodiseño en sus procesos, lo que ayuda a optimizar operaciones y reducir el impacto ambiental. Este enfoque específico de gestión ambiental proporciona beneficios medibles como la reducción de residuos, el aumento de eficiencia energética y una mejora continua en la sostenibilidad para empresas del sector manufacturero y servicios.",
-      "summary_length": 449,
-      "category": "ISO_14001_Gestion_Ambiental",
-      "ai_generated": true,
-      "page_found": 13,
-      "extracted_at": "2025-10-06T04:08:31.607Z",
-      "processed_at": "2025-10-06T04:09:43.463Z",
-      "news_priority": 1,
-      "selected_date": "2025-10-09T00:06:59.922814",
-      "rotation_id": "2025-10-09-1"
-    },
-    {
-      "id": 5,
-      "title": "Software de gestión medioambiental: 7 requisitos clave para elegir la mejor solución para tu empresa",
-      "url": "https://www.isotools.us/2025/09/09/software-de-gestion-medioambiental-7-requisitos-clave-para-elegir-la-mejor-solucion-para-tu-empresa/",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/09/software-gestion-medioambiental.jpg",
-      "ai_summary": "Este artículo analiza los requisitos clave para elegir un software de gestión medioambiental, que puede resolver problemas específicos como la monitorización en tiempo real de emisiones y residuos. Al implementar una solución tecnológica especializada, las empresas pueden reducir sus costos operativos hasta un 20% gracias a una mayor eficiencia en la gestión medioambiental. Las industrias más beneficiadas suelen ser aquellas con procesos productivos intensivos en recursos naturales, como la industria manufacturera o química.",
-      "summary_length": 530,
-      "category": "ISO_14001_Gestion_Ambiental",
-      "ai_generated": true,
-      "page_found": 1,
-      "extracted_at": "2025-10-06T04:08:31.603Z",
-      "processed_at": "2025-10-06T04:08:41.165Z",
-      "news_priority": 2,
-      "selected_date": "2025-10-09T00:06:59.922845",
-      "rotation_id": "2025-10-09-2"
-    },
-    {
-      "id": 26,
-      "title": "ISO 16949: sistemas de gestión de calidad automotriz y su certificación",
-      "url": "https://www.isotools.us/2025/05/25/iso-16949-sistemas-de-gestion-de-calidad-automotriz-y-su-certificacion/",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/iso-16949-calidad-automotriz.jpg",
-      "ai_summary": "La certificación ISO 16949 en sistemas de gestión de calidad automotriz mejora la eficiencia operativa al reducir defectos y mejorar el control de procesos, lo que resulta en una mayor optimización operacional y reducción de costos. Las organizaciones del sector automotriz se benefician significativamente al implementar este estándar, ya que les permite mantener altos niveles de calidad y competir en un mercado cada vez más exigente.",
-      "summary_length": 437,
-      "category": "ISO_9001_Gestion_Calidad",
-      "ai_generated": true,
-      "page_found": 8,
-      "extracted_at": "2025-10-06T04:08:31.607Z",
-      "processed_at": "2025-10-06T04:09:20.301Z",
-      "news_priority": 3,
-      "selected_date": "2025-10-09T00:06:59.922861",
-      "rotation_id": "2025-10-09-3"
-    }
-  ],
-  "generation_info": {
-    "selected_at": "2025-10-09T00:06:59.925835",
-    "next_rotation": "2025-10-10T00:06:59.925835",
-    "algorithm": "python_random_sample",
-    "total_available_articles": 50,
->>>>>>> e643716 (feat: actualizar isotools-final-data.json con image_url correcto para cada artículo y guardar todos los cambios del proyecto)
     "rotation_guaranteed": true
   }
 }
