@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T16:10:55.238674",
+    "generated_at": "2025-10-10T17:48:40.670651",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Donde se utiliza el sistema PQRS según ISO 9001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Donde-se-utiliza-el-sistema-PQRS.png",
+      "title": "Checklist Navidad 2021",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/12/cabecera-navidad-2021.jpg",
       "image_exists": true,
-      "text": "¿Donde se utiliza el sistema PQRS? En el complejo mundo empresarial actual, la calidad es una prioridad indiscutible.…",
+      "text": "﻿ ¡Felices Fiestas y próspero Año Nuevo 2022! El año 2021 llega a su fin y con ello…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T16:10:55.238571",
+      "selected_date": "2025-10-10T17:48:40.670525",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "ISO 37301 – Apartado 4.3 Determinación del alcance del sistema de gestión del compliance",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/ISO-37301.jpg",
+      "title": "IWA 48:2024 – Implementación de principios ambientales, sociales y de gobernanza (ESG)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/03/IWA-48_2024.jpg",
       "image_exists": true,
-      "text": "ISO 37301 Todo tiene su límite, y en el caso de las normas ISO esta aseveración es absolutamente…",
+      "text": "En la actualidad, las organizaciones enfrentan una presión sin precedentes para integrar los factores ambientales, sociales...",
       "news_priority": 2,
-      "selected_date": "2025-10-10T16:10:55.238578",
+      "selected_date": "2025-10-10T17:48:40.670533",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "Cómo realizar la transición a la nueva ISO 9001:2015",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/Transición-ISO-9001.jpg",
+      "title": "ISO 20245:2017, la nueva norma que regula el mercado de segunda mano",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/02/ISO-20245-2017.jpg",
       "image_exists": true,
-      "text": "ISO 9001 2015 Muchas organizaciones quieren iniciar el proceso de transición a la nueva ISO 9001 2015, pero…",
+      "text": "ISO 20245:2017 El mercado de segunda mano se encuentra en auge con más y más consumidores comprando y…",
       "news_priority": 3,
-      "selected_date": "2025-10-10T16:10:55.238580",
+      "selected_date": "2025-10-10T17:48:40.670535",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T16:10:55.238674",
-    "next_rotation": "2025-10-11T16:10:55.238674",
+    "selected_at": "2025-10-10T17:48:40.670651",
+    "next_rotation": "2025-10-11T17:48:40.670651",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
