@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T17:52:56.936968",
+    "generated_at": "2025-10-10T17:55:08.344836",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools renueva su compromiso con el Pacto Mundial de Naciones Unidas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/Isotools-ODS.png",
+      "title": "La eficiencia energética con la ISO 50001 en las organizaciones",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/11/ISO-50001.jpg",
       "image_exists": true,
-      "text": "Pacto Mundial de Naciones Unidas En ISOTools hemos renovado un año más nuestro compromiso con el Pacto Mundial…",
+      "text": "Eficiencia energética Hoy en día, una organización certificada bajo una norma internacional, como por ejemplo, la ISO 50001…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T17:52:56.936837",
+      "selected_date": "2025-10-10T17:55:08.344721",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "Sistemas de Gestión Integrados, ISO 9001 e ISO 14001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/03/sgi_21marzo.jpg",
+      "title": "¿Qué ventajas pueden ofrecerle los Sistemas Integrados de Gestión?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/01/Sistemas-integrados-de-gestión.jpg",
       "image_exists": true,
-      "text": "En la implantación de los Sistemas de Gestión la norma ISO 14001 no ha tenido tanto éxito como…",
+      "text": "Sistemas integrados de gestión Los sistemas integrados de gestión son muy conocidos por las empresas. Es necesario que…",
       "news_priority": 2,
-      "selected_date": "2025-10-10T17:52:56.936844",
+      "selected_date": "2025-10-10T17:55:08.344728",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "ISOTools les informa de la apertura del plazo de inscripción a la feria EcoFest.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/feria%20EcoFest.jpg",
-      "image_exists": false,
-      "text": "Ya está fechado el evento pro-medio ambiente de Páginas Verdes.El segundo fin de semana demarzodel año que viene, durantelos días 9 y 10, tendrá lugarla feria EcoFest, en México DF.Se trata del evento que organizaPáginas Verdespara difundir el respeto alMedio Ambientea los ciudadanos mexicanos.En el acto habrá multitud de expositores del país que darán a conocerproductos ecológicos junto con sus prácticas inócuas con elMedio Ambiente.Las ediciones anteriores fueron un éxito con60.000 asistentes y 183 expositores, y este año promete serlo también.Para inscribirse u obtener más  información haga clicaquí.Más informaciónaquí",
+      "title": "¿Cuál es la documentación solicitada por la ISO 22301?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/03/ISO-22301.jpg",
+      "image_exists": true,
+      "text": "La norma ISO 22301 impone a que las organizaciones cuenten con cierta documentación obligatoria y otra de carácter…",
       "news_priority": 3,
-      "selected_date": "2025-10-10T17:52:56.936847",
+      "selected_date": "2025-10-10T17:55:08.344730",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T17:52:56.936968",
-    "next_rotation": "2025-10-11T17:52:56.936968",
+    "selected_at": "2025-10-10T17:55:08.344836",
+    "next_rotation": "2025-10-11T17:55:08.344836",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
