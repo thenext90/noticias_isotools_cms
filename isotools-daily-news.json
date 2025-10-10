@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T18:12:09.615400",
+    "generated_at": "2025-10-10T18:18:59.287465",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 27001. “Un peligro diagnosticado es un peligro evitado”: Diagnóstico de la Seguridad de la Información",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/06/diagnosticodeSSII.jpg",
+      "title": "Las garantías de los sistemas integrados de gestión",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/sistemas-integrados.jpg",
       "image_exists": true,
-      "text": "ISO 27001:2013 ¿Qué es un diagnóstico de la Seguridad de la Información? El diagnóstico de la seguridad de…",
+      "text": "Sistemas Integrados Los sistemas integrados de gestión por separado tratan procesos internos relacionados con áreas concretas. Como es…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T18:12:09.615271",
+      "selected_date": "2025-10-10T18:18:59.287374",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "Cumplimiento DORA: qué empresas tecnológicas deben cumplir y cómo hacerlo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/cumplimiento-dora-que-empresas-tecnologicas-deben-cumplir-y-como-hacerlo.jpg",
-      "image_exists": true,
-      "text": "El cumplimiento DORA se ha convertido en una prioridad para aquellas empresas tecnológicas que prestan servicios a entidades…",
+      "title": "ISOTools destaca el éxito del X Congreso AECOC de Seguridad Alimentaria y Nutrición.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Seguridad%20alimentaria%20II.jpg",
+      "image_exists": false,
+      "text": "Ayer concluyó el evento al cual asistieron cerca de 150 profesionales del sector.ElX Congreso AECOC de Seguridad Alimentaria y Nutriciónabrió un interesante debate acerca delas novedades en la legislación, las necesidades del consumidor actual, cada vez más exigente con respecto a laSeguridad Alimentaria.De los participantes del Congreso destacanimportantes marcascomoLeche Pascual,Grupo DIA,Grupo ZenaoGrupo VIPSentre otros.Por su parteAECOCpresentó las mejoras realizadas a sus serviciostales como el de retirada del producto, el de información al consumidor a distancia o la plataforma de intercomunicación entre proveedor y distribuidor para gestionar la retirada y la recuperación del producto.DesdeISOToolsdamos la enhorabuena a AECOC por el gran éxito delX Congreso AECOC de Seguridad Alimentaria y Nutrición.Más informaciónaquí",
       "news_priority": 2,
-      "selected_date": "2025-10-10T18:12:09.615279",
+      "selected_date": "2025-10-10T18:18:59.287379",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "Metodología de implementación E2cat. Excelencia en la Educación",
-      "image_url": null,
-      "image_exists": false,
-      "text": "El Modelo de Excelencia E2cat es una adaptación del modelo EFQM para Centros Educativos realizada por la Asociación…",
+      "title": "Claves de auditoría interna de ISO 9001. Cómo verificar el cumplimiento del SGC",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/06/auditoria-iso-9001.jpg",
+      "image_exists": true,
+      "text": "Auditoría interna de ISO 9001 Es de vital importancia cumplir con los requisitos mandatarios de un Sistema de…",
       "news_priority": 3,
-      "selected_date": "2025-10-10T18:12:09.615281",
+      "selected_date": "2025-10-10T18:18:59.287381",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T18:12:09.615400",
-    "next_rotation": "2025-10-11T18:12:09.615400",
+    "selected_at": "2025-10-10T18:18:59.287465",
+    "next_rotation": "2025-10-11T18:18:59.287465",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
