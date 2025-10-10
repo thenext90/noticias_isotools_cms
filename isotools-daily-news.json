@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-10",
-    "generated_at": "2025-10-10T18:18:59.287465",
+    "generated_at": "2025-10-10T18:21:44.045098",
     "next_update": "2025-10-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Las garantías de los sistemas integrados de gestión",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/sistemas-integrados.jpg",
+      "title": "¿Qué Normas ISO afectan el sector de la salud?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/11/Normas-ISO.jpg",
       "image_exists": true,
-      "text": "Sistemas Integrados Los sistemas integrados de gestión por separado tratan procesos internos relacionados con áreas concretas. Como es…",
+      "text": "Normas ISO En la actualidad, el tema de la gestión de la calidad ha creado un gran auge…",
       "news_priority": 1,
-      "selected_date": "2025-10-10T18:18:59.287374",
+      "selected_date": "2025-10-10T18:21:44.045003",
       "rotation_id": "2025-10-10-1"
     },
     {
-      "title": "ISOTools destaca el éxito del X Congreso AECOC de Seguridad Alimentaria y Nutrición.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Seguridad%20alimentaria%20II.jpg",
-      "image_exists": false,
-      "text": "Ayer concluyó el evento al cual asistieron cerca de 150 profesionales del sector.ElX Congreso AECOC de Seguridad Alimentaria y Nutriciónabrió un interesante debate acerca delas novedades en la legislación, las necesidades del consumidor actual, cada vez más exigente con respecto a laSeguridad Alimentaria.De los participantes del Congreso destacanimportantes marcascomoLeche Pascual,Grupo DIA,Grupo ZenaoGrupo VIPSentre otros.Por su parteAECOCpresentó las mejoras realizadas a sus serviciostales como el de retirada del producto, el de información al consumidor a distancia o la plataforma de intercomunicación entre proveedor y distribuidor para gestionar la retirada y la recuperación del producto.DesdeISOToolsdamos la enhorabuena a AECOC por el gran éxito delX Congreso AECOC de Seguridad Alimentaria y Nutrición.Más informaciónaquí",
+      "title": "Pasos para integrar su Sistema HSE",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/10/Sistema-HSE.jpg",
+      "image_exists": true,
+      "text": "Sistema HSE El Sistema HSE ayuda a las organizaciones a mantener el control sobre los riesgos que tienen…",
       "news_priority": 2,
-      "selected_date": "2025-10-10T18:18:59.287379",
+      "selected_date": "2025-10-10T18:21:44.045009",
       "rotation_id": "2025-10-10-2"
     },
     {
-      "title": "Claves de auditoría interna de ISO 9001. Cómo verificar el cumplimiento del SGC",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/06/auditoria-iso-9001.jpg",
+      "title": "Empresas Alimentarias y la ISO/TS 16949",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/06/Blog-General_09.png",
       "image_exists": true,
-      "text": "Auditoría interna de ISO 9001 Es de vital importancia cumplir con los requisitos mandatarios de un Sistema de…",
+      "text": "ISO/TS 16949 La ISO/TS 16949 es una norma encaminada a fabricación de piezas en serie y de recambio…",
       "news_priority": 3,
-      "selected_date": "2025-10-10T18:18:59.287381",
+      "selected_date": "2025-10-10T18:21:44.045011",
       "rotation_id": "2025-10-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-10T18:18:59.287465",
-    "next_rotation": "2025-10-11T18:18:59.287465",
+    "selected_at": "2025-10-10T18:21:44.045098",
+    "next_rotation": "2025-10-11T18:21:44.045098",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
