@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-12",
-    "generated_at": "2025-10-12T10:05:43.714483",
+    "generated_at": "2025-10-12T10:07:24.589315",
     "next_update": "2025-10-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Revista Empresa Excelente noviembre 2020",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/12/Post-Noviembre2020.jpg",
+      "title": "Algunas medidas para ahorrar energía en las empresas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/Algunas-medidas-para-ahorrar-energía-en-las-empresas.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Como cada primer jueves del mes, publicamos un nuevo número de la Revista Empresa Excelente.…",
+      "text": "Norma ISO 50001: Sistema de Gestión Energética El estándar ISO 50001 tiene como objetivo principal la implementación de…",
       "news_priority": 1,
-      "selected_date": "2025-10-12T10:05:43.714389",
+      "selected_date": "2025-10-12T10:07:24.589203",
       "rotation_id": "2025-10-12-1"
     },
     {
-      "title": "ISO 24516-1: Garantizando Agua Potable segura para todos y avanzando hacia el ODS 6",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/08/ISO-24516-1.jpg",
+      "title": "Definición de procesos para el SGC. Pasos hacia una gestión basada en procesos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/09/getion-por-procesos-9001.webp",
       "image_exists": true,
-      "text": "El acceso a agua potable segura es un derecho humano fundamental y un elemento esencial para el desarrollo sostenible. La ISO 24516-1...",
+      "text": "Definición de procesos La gestión de la calidad dentro de la organización se compone de tareas, con diferentes…",
       "news_priority": 2,
-      "selected_date": "2025-10-12T10:05:43.714395",
+      "selected_date": "2025-10-12T10:07:24.589213",
       "rotation_id": "2025-10-12-2"
     },
     {
-      "title": "OHSAS 18000. Por la empresa y por el trabajador.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/ohsas18001.png",
+      "title": "Los desafíos de la nueva ISO 45001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/05/Norma-ISO-45001.jpg",
       "image_exists": true,
-      "text": "OHSAS 18000 OHSAS 18001, la norma más conocida de la familia OHSAS 18000, (Occupational Health and Safety Assessment…",
+      "text": "Norma ISO 45001 Actualmente, más de 6.300 personas mueren cada día por accidentes o enfermedades relacionadas con el…",
       "news_priority": 3,
-      "selected_date": "2025-10-12T10:05:43.714400",
+      "selected_date": "2025-10-12T10:07:24.589217",
       "rotation_id": "2025-10-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-12T10:05:43.714483",
-    "next_rotation": "2025-10-13T10:05:43.714483",
+    "selected_at": "2025-10-12T10:07:24.589315",
+    "next_rotation": "2025-10-13T10:07:24.589315",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
