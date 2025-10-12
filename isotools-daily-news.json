@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-12",
-    "generated_at": "2025-10-12T10:25:50.549666",
+    "generated_at": "2025-10-12T10:26:23.531210",
     "next_update": "2025-10-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Revista Empresa Excelente marzo 2022",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/04/plantilla-destacada-post-revista.jpg",
+      "title": "ISO 37301 – 6: Planificar para lograr el éxito",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/37301-apartado-6.png",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Ya está aquí el mes de abril, y con él una nueva edición de la…",
+      "text": "ISO 37301 apartado 6 La planificación puede ser el terror de las almas libres y una bofetada al…",
       "news_priority": 1,
-      "selected_date": "2025-10-12T10:25:50.549575",
+      "selected_date": "2025-10-12T10:26:23.531127",
       "rotation_id": "2025-10-12-1"
     },
     {
-      "title": "¿Cómo automatizar el Sistema de Gestión Ambiental ISO 14001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/02/ISO-14001.jpg",
+      "title": "ISO 45003: ¿Qué es, qué tiene que ver con la salud mental y por qué es tan importante su publicación?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/ISO-45003.jpg",
       "image_exists": true,
-      "text": "Sistema de Gestión Ambiental ISO 14001 En el artículo de hoy queremos mostrar como automatizar mediante la plataforma…",
+      "text": "El bienestar de los empleados se ha convertido en un tema central para las organizaciones, y cada vez toma más...",
       "news_priority": 2,
-      "selected_date": "2025-10-12T10:25:50.549581",
+      "selected_date": "2025-10-12T10:26:23.531133",
       "rotation_id": "2025-10-12-2"
     },
     {
-      "title": "La importancia de conocer las bases de la excelencia empresarial",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Excelencia-Empresarial-1.jpg",
-      "image_exists": true,
-      "text": "¿Qué es la excelencia empresarial? Comúnmente es conocida y aceptada la dificultad para alcanzar la perfección en la…",
+      "title": "Gestión de Encuestas en Centros Educativos",
+      "image_url": null,
+      "image_exists": false,
+      "text": "La Encuesta es un instrumento eficaz al que pueden recurrir los centros educativos para recabar toda aquella información…",
       "news_priority": 3,
-      "selected_date": "2025-10-12T10:25:50.549583",
+      "selected_date": "2025-10-12T10:26:23.531135",
       "rotation_id": "2025-10-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-12T10:25:50.549666",
-    "next_rotation": "2025-10-13T10:25:50.549666",
+    "selected_at": "2025-10-12T10:26:23.531210",
+    "next_rotation": "2025-10-13T10:26:23.531210",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
