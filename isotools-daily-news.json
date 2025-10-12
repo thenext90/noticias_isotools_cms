@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-12",
-    "generated_at": "2025-10-12T10:14:20.348605",
+    "generated_at": "2025-10-12T10:15:52.482730",
     "next_update": "2025-10-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "5 claves del nuevo marco sobre conflicto de interés: ISO 37009",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/ISO-37009-.png",
+      "title": "Cómo realizar la transición a la nueva ISO 9001:2015",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/Transición-ISO-9001.jpg",
       "image_exists": true,
-      "text": "La transparencia y la ética son dos pilares muy importantes en lo que respecta al éxito y la sostenibilidad de las empresas. La norma ISO...",
+      "text": "ISO 9001 2015 Muchas organizaciones quieren iniciar el proceso de transición a la nueva ISO 9001 2015, pero…",
       "news_priority": 1,
-      "selected_date": "2025-10-12T10:14:20.348515",
+      "selected_date": "2025-10-12T10:15:52.482653",
       "rotation_id": "2025-10-12-1"
     },
     {
-      "title": "Beneficios Empresariales de la Certificación ISO 37001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/02/Certificacion-ISO-37001.png",
+      "title": "La calidad en la educación: principales conceptos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/03/calidad-en-la-educación.jpg",
       "image_exists": true,
-      "text": "La Norma ISO 37001 es un estándar internacional que guía a las organizaciones en la...",
+      "text": "Calidad en la educación Cuando hablamos de calidad en la educación nos referimos a aquel funcionamiento en los…",
       "news_priority": 2,
-      "selected_date": "2025-10-12T10:14:20.348522",
+      "selected_date": "2025-10-12T10:15:52.482659",
       "rotation_id": "2025-10-12-2"
     },
     {
-      "title": "ISO 14001: Implicaciones económicas de los Sistemas de Gestión Ambiental",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/ISO-14001.gif",
-      "image_exists": true,
-      "text": "ISO 14001 Es muy habitual que durante la implantación de Sistemas de Gestión Ambiental basados en la norma…",
+      "title": "ISOTools apertura nueva oficina en México",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Jorge Romero, Director de la oficina de ISOTools en México \n\n\n\tDesde este mes de Mayo, ISOTools cuenta con una nueva oficina con sede en México DF.\n\n\tDebido a la gran demanda recibida desde el mercado mexicano y centroamericano, ISOTools ha apo...",
       "news_priority": 3,
-      "selected_date": "2025-10-12T10:14:20.348524",
+      "selected_date": "2025-10-12T10:15:52.482661",
       "rotation_id": "2025-10-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-12T10:14:20.348605",
-    "next_rotation": "2025-10-13T10:14:20.348605",
+    "selected_at": "2025-10-12T10:15:52.482730",
+    "next_rotation": "2025-10-13T10:15:52.482730",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
