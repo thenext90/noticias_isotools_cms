@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-12",
-    "generated_at": "2025-10-12T10:19:50.236312",
+    "generated_at": "2025-10-12T10:23:20.154789",
     "next_update": "2025-10-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Control de Seguridad de la información en la nube de la nueva ISO 27002",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/01/control-seguridad-informacion.webp",
+      "title": "¿Donde se utiliza el sistema PQRS según ISO 9001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Donde-se-utiliza-el-sistema-PQRS.png",
       "image_exists": true,
-      "text": "El control de seguridad de la información y su acceso es un elemento esencial de la seguridad que…",
+      "text": "¿Donde se utiliza el sistema PQRS? En el complejo mundo empresarial actual, la calidad es una prioridad indiscutible.…",
       "news_priority": 1,
-      "selected_date": "2025-10-12T10:19:50.236228",
+      "selected_date": "2025-10-12T10:23:20.154659",
       "rotation_id": "2025-10-12-1"
     },
     {
-      "title": "Similitud de sistemas de gestión 14001-9001-OHSAS. La integración es posible.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/11/ISO-14001-09.png",
+      "title": "Vídeo – ISO 9001: Cómo empezar cuando decido implantar un Sistema de Gestión de la Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/multimedia-9001-general.jpg",
       "image_exists": true,
-      "text": "Sistemas Integrados La integración de los sistemas de Gestión de calidad, medio ambiente y seguridad en el trabajo…",
+      "text": "ISO 9001 ISO 9001 es una norma implantada por muchas organizaciones preocupadas por ofrecer a sus clientes unos…",
       "news_priority": 2,
-      "selected_date": "2025-10-12T10:19:50.236234",
+      "selected_date": "2025-10-12T10:23:20.154668",
       "rotation_id": "2025-10-12-2"
     },
     {
-      "title": "ISO 26825:2020 equipos respiratorios y de anestesia – etiquetas para jeringas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/12/ISO-26825-2020.jpg",
-      "image_exists": true,
-      "text": "ISO 26825:2020 En la actualidad, la crisis mundial generada por el COVID-19 ha sido sin precedentes, para ello…",
+      "title": "ISOTools colabora en II Jornada de Excelencia en la Educación de CaixaForum.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Web%20general.jpg",
+      "image_exists": false,
+      "text": "La cita será el próximo día 25 de abril en el Centro Social y Cultural de la Obra Social de ?La Caixa?.Desde ISOtools apoyamosAQUALIcaten su empeño por fomentar la mejora continua, la sostenibilidad y la innovación de la gestión mediante la promoción de la cultura en las organizaciones tanto públicas como privadas.El principal objetivo de estas jornadas se centra en dar a conocer los métodos, técnicas y conocimientos para que entre todos podamos contribuir al desarrollo, la competitividad y el bienestar de nuestro país en los actuales momentos de crisis.Si estáis interesados en acudir u obtener más información a cerca del evento no dudéis en visitarwww.qualicat.cat.“La unión y cooperación de todos, contribuye a un futuro más próspero y prometedor.”Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2025-10-12T10:19:50.236237",
+      "selected_date": "2025-10-12T10:23:20.154671",
       "rotation_id": "2025-10-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-12T10:19:50.236312",
-    "next_rotation": "2025-10-13T10:19:50.236312",
+    "selected_at": "2025-10-12T10:23:20.154789",
+    "next_rotation": "2025-10-13T10:23:20.154789",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
