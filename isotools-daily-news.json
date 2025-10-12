@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-12",
-    "generated_at": "2025-10-12T10:11:43.665843",
+    "generated_at": "2025-10-12T10:14:20.348605",
     "next_update": "2025-10-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Se consiguen avances hacia la normalización en la Acreditación en Salud?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/05/6.png",
+      "title": "5 claves del nuevo marco sobre conflicto de interés: ISO 37009",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/ISO-37009-.png",
       "image_exists": true,
-      "text": "La puesta en marcha de las normas es un proceso bastante complejo dentro de la adopción de un…",
+      "text": "La transparencia y la ética son dos pilares muy importantes en lo que respecta al éxito y la sostenibilidad de las empresas. La norma ISO...",
       "news_priority": 1,
-      "selected_date": "2025-10-12T10:11:43.665755",
+      "selected_date": "2025-10-12T10:14:20.348515",
       "rotation_id": "2025-10-12-1"
     },
     {
-      "title": "ISOTools Educación: herramienta para gestionar la calidad, la excelencia y la estrategia en centros educativos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Untitled-12-1.jpg",
+      "title": "Beneficios Empresariales de la Certificación ISO 37001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/02/Certificacion-ISO-37001.png",
       "image_exists": true,
-      "text": "Gestionar la calidad, la excelencia y la estrategia en centros educativos Con el fin de lograr la excelencia…",
+      "text": "La Norma ISO 37001 es un estándar internacional que guía a las organizaciones en la...",
       "news_priority": 2,
-      "selected_date": "2025-10-12T10:11:43.665762",
+      "selected_date": "2025-10-12T10:14:20.348522",
       "rotation_id": "2025-10-12-2"
     },
     {
-      "title": "Capacitación de ISOTools en Aceites SA, en Santa Marta, Colombia",
-      "image_url": null,
-      "image_exists": false,
-      "text": "ISOTools capacita y da seguimiento al cliente colombiano Aceites SA. \n\n\n\n\n\nDurante los pasados 27 y 28 de Agosto tuvo lugar en las instalaciones de ACEITES SA una capacitación de ISOTools para Coordinadores de Calidad y Responsables de procesos ...",
+      "title": "ISO 14001: Implicaciones económicas de los Sistemas de Gestión Ambiental",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/ISO-14001.gif",
+      "image_exists": true,
+      "text": "ISO 14001 Es muy habitual que durante la implantación de Sistemas de Gestión Ambiental basados en la norma…",
       "news_priority": 3,
-      "selected_date": "2025-10-12T10:11:43.665764",
+      "selected_date": "2025-10-12T10:14:20.348524",
       "rotation_id": "2025-10-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-12T10:11:43.665843",
-    "next_rotation": "2025-10-13T10:11:43.665843",
+    "selected_at": "2025-10-12T10:14:20.348605",
+    "next_rotation": "2025-10-13T10:14:20.348605",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
