@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-12",
-    "generated_at": "2025-10-12T10:07:24.589315",
+    "generated_at": "2025-10-12T10:11:43.665843",
     "next_update": "2025-10-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Algunas medidas para ahorrar energía en las empresas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/Algunas-medidas-para-ahorrar-energía-en-las-empresas.jpg",
+      "title": "¿Se consiguen avances hacia la normalización en la Acreditación en Salud?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/05/6.png",
       "image_exists": true,
-      "text": "Norma ISO 50001: Sistema de Gestión Energética El estándar ISO 50001 tiene como objetivo principal la implementación de…",
+      "text": "La puesta en marcha de las normas es un proceso bastante complejo dentro de la adopción de un…",
       "news_priority": 1,
-      "selected_date": "2025-10-12T10:07:24.589203",
+      "selected_date": "2025-10-12T10:11:43.665755",
       "rotation_id": "2025-10-12-1"
     },
     {
-      "title": "Definición de procesos para el SGC. Pasos hacia una gestión basada en procesos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/09/getion-por-procesos-9001.webp",
+      "title": "ISOTools Educación: herramienta para gestionar la calidad, la excelencia y la estrategia en centros educativos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Untitled-12-1.jpg",
       "image_exists": true,
-      "text": "Definición de procesos La gestión de la calidad dentro de la organización se compone de tareas, con diferentes…",
+      "text": "Gestionar la calidad, la excelencia y la estrategia en centros educativos Con el fin de lograr la excelencia…",
       "news_priority": 2,
-      "selected_date": "2025-10-12T10:07:24.589213",
+      "selected_date": "2025-10-12T10:11:43.665762",
       "rotation_id": "2025-10-12-2"
     },
     {
-      "title": "Los desafíos de la nueva ISO 45001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/05/Norma-ISO-45001.jpg",
-      "image_exists": true,
-      "text": "Norma ISO 45001 Actualmente, más de 6.300 personas mueren cada día por accidentes o enfermedades relacionadas con el…",
+      "title": "Capacitación de ISOTools en Aceites SA, en Santa Marta, Colombia",
+      "image_url": null,
+      "image_exists": false,
+      "text": "ISOTools capacita y da seguimiento al cliente colombiano Aceites SA. \n\n\n\n\n\nDurante los pasados 27 y 28 de Agosto tuvo lugar en las instalaciones de ACEITES SA una capacitación de ISOTools para Coordinadores de Calidad y Responsables de procesos ...",
       "news_priority": 3,
-      "selected_date": "2025-10-12T10:07:24.589217",
+      "selected_date": "2025-10-12T10:11:43.665764",
       "rotation_id": "2025-10-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-12T10:07:24.589315",
-    "next_rotation": "2025-10-13T10:07:24.589315",
+    "selected_at": "2025-10-12T10:11:43.665843",
+    "next_rotation": "2025-10-13T10:11:43.665843",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
