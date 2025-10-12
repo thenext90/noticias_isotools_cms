@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-12",
-    "generated_at": "2025-10-12T10:23:20.154789",
+    "generated_at": "2025-10-12T10:25:50.549666",
     "next_update": "2025-10-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Donde se utiliza el sistema PQRS según ISO 9001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Donde-se-utiliza-el-sistema-PQRS.png",
+      "title": "Revista Empresa Excelente marzo 2022",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/04/plantilla-destacada-post-revista.jpg",
       "image_exists": true,
-      "text": "¿Donde se utiliza el sistema PQRS? En el complejo mundo empresarial actual, la calidad es una prioridad indiscutible.…",
+      "text": "REVISTA EMPRESA EXCELENTE Ya está aquí el mes de abril, y con él una nueva edición de la…",
       "news_priority": 1,
-      "selected_date": "2025-10-12T10:23:20.154659",
+      "selected_date": "2025-10-12T10:25:50.549575",
       "rotation_id": "2025-10-12-1"
     },
     {
-      "title": "Vídeo – ISO 9001: Cómo empezar cuando decido implantar un Sistema de Gestión de la Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/multimedia-9001-general.jpg",
+      "title": "¿Cómo automatizar el Sistema de Gestión Ambiental ISO 14001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/02/ISO-14001.jpg",
       "image_exists": true,
-      "text": "ISO 9001 ISO 9001 es una norma implantada por muchas organizaciones preocupadas por ofrecer a sus clientes unos…",
+      "text": "Sistema de Gestión Ambiental ISO 14001 En el artículo de hoy queremos mostrar como automatizar mediante la plataforma…",
       "news_priority": 2,
-      "selected_date": "2025-10-12T10:23:20.154668",
+      "selected_date": "2025-10-12T10:25:50.549581",
       "rotation_id": "2025-10-12-2"
     },
     {
-      "title": "ISOTools colabora en II Jornada de Excelencia en la Educación de CaixaForum.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Web%20general.jpg",
-      "image_exists": false,
-      "text": "La cita será el próximo día 25 de abril en el Centro Social y Cultural de la Obra Social de ?La Caixa?.Desde ISOtools apoyamosAQUALIcaten su empeño por fomentar la mejora continua, la sostenibilidad y la innovación de la gestión mediante la promoción de la cultura en las organizaciones tanto públicas como privadas.El principal objetivo de estas jornadas se centra en dar a conocer los métodos, técnicas y conocimientos para que entre todos podamos contribuir al desarrollo, la competitividad y el bienestar de nuestro país en los actuales momentos de crisis.Si estáis interesados en acudir u obtener más información a cerca del evento no dudéis en visitarwww.qualicat.cat.“La unión y cooperación de todos, contribuye a un futuro más próspero y prometedor.”Más informaciónaquí",
+      "title": "La importancia de conocer las bases de la excelencia empresarial",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Excelencia-Empresarial-1.jpg",
+      "image_exists": true,
+      "text": "¿Qué es la excelencia empresarial? Comúnmente es conocida y aceptada la dificultad para alcanzar la perfección en la…",
       "news_priority": 3,
-      "selected_date": "2025-10-12T10:23:20.154671",
+      "selected_date": "2025-10-12T10:25:50.549583",
       "rotation_id": "2025-10-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-12T10:23:20.154789",
-    "next_rotation": "2025-10-13T10:23:20.154789",
+    "selected_at": "2025-10-12T10:25:50.549666",
+    "next_rotation": "2025-10-13T10:25:50.549666",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
