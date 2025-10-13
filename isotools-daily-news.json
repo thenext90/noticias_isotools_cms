@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-12",
-    "generated_at": "2025-10-12T10:26:23.531210",
-    "next_update": "2025-10-13",
+    "generated_date": "2025-10-13",
+    "generated_at": "2025-10-13T08:28:53.601700",
+    "next_update": "2025-10-14",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 37301 – 6: Planificar para lograr el éxito",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/37301-apartado-6.png",
+      "title": "Cómo llevar a cabo la implementación de sistemas integrados",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/08/sistemas-integrados-2.jpg",
       "image_exists": true,
-      "text": "ISO 37301 apartado 6 La planificación puede ser el terror de las almas libres y una bofetada al…",
+      "text": "Sistemas Integrados Integrar sistemas supone unificar criterios de actuación, procesos y recursos empleados de los distintos sistemas existentes,…",
       "news_priority": 1,
-      "selected_date": "2025-10-12T10:26:23.531127",
-      "rotation_id": "2025-10-12-1"
+      "selected_date": "2025-10-13T08:28:53.601617",
+      "rotation_id": "2025-10-13-1"
     },
     {
-      "title": "ISO 45003: ¿Qué es, qué tiene que ver con la salud mental y por qué es tan importante su publicación?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/ISO-45003.jpg",
+      "title": "Control de Continuidad del negocio en la nueva ISO 27002",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/12/Control-de-continuidad-de-negocio.webp",
       "image_exists": true,
-      "text": "El bienestar de los empleados se ha convertido en un tema central para las organizaciones, y cada vez toma más...",
+      "text": "Control de continuidad de negocio La norma ISO 27002, es un patrón para la seguridad de la información…",
       "news_priority": 2,
-      "selected_date": "2025-10-12T10:26:23.531133",
-      "rotation_id": "2025-10-12-2"
+      "selected_date": "2025-10-13T08:28:53.601624",
+      "rotation_id": "2025-10-13-2"
     },
     {
-      "title": "Gestión de Encuestas en Centros Educativos",
-      "image_url": "https://media.licdn.com/dms/image/v2/C4D12AQFgR2FWx9jvlA/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1642086735832?e=1762992000&v=beta&t=VjFixaeN21_JsSHGQN_t0WQOIGIuznS9YQZfzkC7K6Q",
-      "image_exists": false,
-      "text": "La Encuesta es un instrumento eficaz al que pueden recurrir los centros educativos para recabar toda aquella información…",
+      "title": "OHSAS 18001: Actividades de medición y seguimiento del desempeño",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/ohsas1800.gif",
+      "image_exists": true,
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 3,
-      "selected_date": "2025-10-12T10:26:23.531135",
-      "rotation_id": "2025-10-12-3"
+      "selected_date": "2025-10-13T08:28:53.601626",
+      "rotation_id": "2025-10-13-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-12T10:26:23.531210",
-    "next_rotation": "2025-10-13T10:26:23.531210",
+    "selected_at": "2025-10-13T08:28:53.601700",
+    "next_rotation": "2025-10-14T08:28:53.601700",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
