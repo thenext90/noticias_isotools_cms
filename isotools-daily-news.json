@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-14",
-    "generated_at": "2025-10-14T08:24:56.089872",
-    "next_update": "2025-10-15",
+    "generated_date": "2025-10-15",
+    "generated_at": "2025-10-15T08:28:12.283242",
+    "next_update": "2025-10-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cómo un Software mejora la gestión del Sistema de Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/09/software.jpg",
-      "image_exists": true,
-      "text": "Automatización del Sistema de Gestión de Calidad Dado el aumento de las exigencias que deben cumplir los Sistemas…",
+      "title": "ISO/TS 16949: Calidad en el Sector Automotriz",
+      "image_url": null,
+      "image_exists": false,
+      "text": "ISO/TS 16949 es la norma de calidad del sector automotriz, surge por la necesidad de que los productos…",
       "news_priority": 1,
-      "selected_date": "2025-10-14T08:24:56.089769",
-      "rotation_id": "2025-10-14-1"
+      "selected_date": "2025-10-15T08:28:12.283141",
+      "rotation_id": "2025-10-15-1"
     },
     {
-      "title": "Sistemas PQRS, ¿Qué aportan al usuario?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/05/PQRS.jpg",
+      "title": "Integración del cambio climático en las normas internacionales",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/Cambio-climatico-en-las-normas-internacionales.jpg",
       "image_exists": true,
-      "text": "PQRS Al hablar de Sistemas PQRS, nos referimos a los Sistemas de Peticiones, Quejas, Reclamaciones y Sugerencias. Un…",
+      "text": "El cambio climático es uno de los desafíos más apremiantes de nuestro tiempo, y su integración...",
       "news_priority": 2,
-      "selected_date": "2025-10-14T08:24:56.089776",
-      "rotation_id": "2025-10-14-2"
+      "selected_date": "2025-10-15T08:28:12.283149",
+      "rotation_id": "2025-10-15-2"
     },
     {
-      "title": "Importancia del cumplimiento de ISO/IEC 27017",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/ISOIEC-27017.png",
-      "image_exists": true,
-      "text": "La seguridad de la información en la nube es esencial, esto es un imperativo para cualquier empresa. Es por ello que el cumplimiento...",
+      "title": "ISOTools celebra el gran éxito de la Semana de la Calidad Domínico – Costarricense.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Premio%20Nacional%20a%20la%20Calidad.jpg",
+      "image_exists": false,
+      "text": "Contó con la presencia de importantes personalidades nacionales e internacionales.LaSemana de la Calidad Domínico- Costarricensecontó con la participación del españolJoaquín Ruiz López, Director delDepartamento de Calidad de los Servicios de AEVAL, quién realizó la conferencia inaugural del evento.Ruíz incidió en los avances enGestión de la Calidadde los servicios ofrecidos por lasinstituciones públicas iberoamericanasbasados en los principios deeficacia y eficiencia.En la semana de la calidad, además, se hizo entrega delPremio Nacional a la Calidad, un premio que promueve lasprácticas de Gestión Pública deCalidad, premiandola eficiencia y laExcelenciaen la Gestión.DesdeISOToolsdamos la enhorabuena a todos los galardonados con elPremio Nacional a la Calidady les animamos a que continúen trabajando por lamejora contínuay laCalidad.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2025-10-14T08:24:56.089778",
-      "rotation_id": "2025-10-14-3"
+      "selected_date": "2025-10-15T08:28:12.283152",
+      "rotation_id": "2025-10-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-14T08:24:56.089872",
-    "next_rotation": "2025-10-15T08:24:56.089872",
+    "selected_at": "2025-10-15T08:28:12.283242",
+    "next_rotation": "2025-10-16T08:28:12.283242",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
