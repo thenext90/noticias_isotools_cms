@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-16",
-    "generated_at": "2025-10-16T12:07:21.122049",
+    "generated_at": "2025-10-16T12:42:26.427871",
     "next_update": "2025-10-17",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Funciones básicas de un Gestor documental para Seguridad, Salud en el Trabajo y Medio ambiente",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/07/Gestor-documental.jpg",
+      "title": "¿Cómo llevar a cabo la mejora continua del SGSI?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/01/SGSI.jpg",
       "image_exists": true,
-      "text": "Gestor documental Los Sistemas de Gestión de Seguridad, Salud en el Trabajo y Medioambiente requieren de un repositorio…",
+      "text": "SGSI El principal elemento del proceso de mejora de un Sistema de Gestión de Seguridad de la Información…",
       "news_priority": 1,
-      "selected_date": "2025-10-16T12:07:21.121949",
+      "selected_date": "2025-10-16T12:42:26.427795",
       "rotation_id": "2025-10-16-1"
     },
     {
-      "title": "La nueva norma ISO 9001:2015. Componentes clave, cambios y desafíos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/iStock_000025458144_Large.jpg",
+      "title": "ISO 14080: Gestión de gases de efecto invernadero y actividades conexas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/ISO-14080.jpg",
       "image_exists": true,
-      "text": "La nueva versión de la ISO 9001 hace hincapié en la gestión de riesgos El pasado mes de septiembre…",
+      "text": "ISO 14080 Los gases efecto invernadero son la principal causa del cambio climático y gestionarlo es crucial para…",
       "news_priority": 2,
-      "selected_date": "2025-10-16T12:07:21.121957",
+      "selected_date": "2025-10-16T12:42:26.427801",
       "rotation_id": "2025-10-16-2"
     },
     {
-      "title": "ISOTools te ayuda a administrar el SGSI según la norma ISO 27001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/11/Software-Sector-Público.jpg",
+      "title": "El equipo de auditoría interna. Selección y responsabilidades. Auditoría interna V Parte.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/09/28.png",
       "image_exists": true,
-      "text": "Norma ISO 27001 La norma ISO 27001 es un estándar de aplicación a las organizaciones pertenecientes tanto al…",
+      "text": "Auditoría interna Antes de continuar adentrándonos en las técnicas de auditoría, no queremos dejar de pasar por alto…",
       "news_priority": 3,
-      "selected_date": "2025-10-16T12:07:21.121959",
+      "selected_date": "2025-10-16T12:42:26.427803",
       "rotation_id": "2025-10-16-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-16T12:07:21.122049",
-    "next_rotation": "2025-10-17T12:07:21.122049",
+    "selected_at": "2025-10-16T12:42:26.427871",
+    "next_rotation": "2025-10-17T12:42:26.427871",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
