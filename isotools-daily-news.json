@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-16",
-    "generated_at": "2025-10-16T08:28:30.314795",
+    "generated_at": "2025-10-16T12:00:16.943539",
     "next_update": "2025-10-17",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Nuestros clientes entre los mejores centros educativos de España",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/centros-educativos.jpg",
+      "title": "ISO 27001: Seguridad informática y seguridad de la información",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/ISO-27001-2.gif",
       "image_exists": true,
-      "text": "Centros Educativos Hace unos días, el Periódico El Mundo ha vuelto a publicar el listado actualizado de los…",
+      "text": "Norma ISO 27001 A lo largo de este artículo veremos la diferencia que existe entre seguridad informática y…",
       "news_priority": 1,
-      "selected_date": "2025-10-16T08:28:30.314718",
+      "selected_date": "2025-10-16T12:00:16.943460",
       "rotation_id": "2025-10-16-1"
     },
     {
-      "title": "ISOTools maximiza sus esfuerzos en la misión Comercial en Brasil",
-      "image_url": "https://www.isotools.org//imagenes/br-1.jpg",
-      "image_exists": false,
-      "text": "ISOTools ante el gran desarrollo económico y la apuesta por los modelos de gestión en el mundo empresarial de Brasil, se encuentra en pleno proceso de fortalecer sus alianzas dentro del país.La acogida está siendo  más que satisfactoria ante los módulos presentados  en base a lanorma ISO 9001,ISO 14001,OSHAS 18000,BSCy la norma de calidad en la automociónISO TS 16949.ISOToolsse esta posicionando como un herramienta fundamental en el camino hacia la excelencia y mejora continua, destacando en el mercado por su amigabilidad, accesibilidad, versatilidad y adaptación integral ante los requisitos normativos.Más informaciónaquí",
+      "title": "Indicadores de compliance (KCI) seguimiento y medición en la ISO 37301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/05/ISO-37301.jpg",
+      "image_exists": true,
+      "text": "ISO 37301 Los indicadores son herramientas de medición que nos ayudan a identificar si estamos logrando alcanzar nuestros…",
       "news_priority": 2,
-      "selected_date": "2025-10-16T08:28:30.314724",
+      "selected_date": "2025-10-16T12:00:16.943466",
       "rotation_id": "2025-10-16-2"
     },
     {
-      "title": "Documentación ISO 42001 esencial para el cumplimiento y la certificación del estándar de IA",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/03/documentacion-iso-42001-esencial-para-el-cumplimiento-y-la-certificacion-del-estandar-de-ia.png",
-      "image_exists": true,
-      "text": "La documentación ISO 42001 es uno de los aspectos más importantes en la implementación de un sistema de…",
+      "title": "ISOTools les informa del Premio Nacional a la Calidad del Sector Privado en República Dominicana.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Premio%20Nacional%20a%20la%20Calidad%20del%20Sector%20Privado%20en%20Dominicana.JPG",
+      "image_exists": false,
+      "text": "El día 16 de octubre se hará entrega del premio a la Calidad empresarial, cuyos criterios de selección este año son la gestión de la calidad.Sólo 14 empresas han resultado ser las candidatas a optar este prestigioso galardón entregado desde el año 1992 por laAsociación de Empresas Industriales de Herrera y Provincia Santo Domingo(AEIH).En su comienzo, este premio versaba sobre otros criterios de selección y se denominaba Premio a laExcelenciaIndustrial de la República Dominicana, sin embargo en la actualidad se ha adaptado al desarrollo empresarial y se evalúa el compromiso de las empresas dominicanas con el desarrollo de procesos demejora continua,la gestión de la calidady la competitividad a nivel del país.El premio consta de 6 categorías divididas por el tamaño de la empresa (pequeña, mediana o grande) y por el sector al que pertenece (servicios o industria).Los criterios de selección de este premio son muy estrictos, tanto es así, que el equipo evaluador de AEIH ha visitado todas y cada una de las empresas para verificar que los datos entregados por los participantes son correctos.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2025-10-16T08:28:30.314727",
+      "selected_date": "2025-10-16T12:00:16.943469",
       "rotation_id": "2025-10-16-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-16T08:28:30.314795",
-    "next_rotation": "2025-10-17T08:28:30.314795",
+    "selected_at": "2025-10-16T12:00:16.943539",
+    "next_rotation": "2025-10-17T12:00:16.943539",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
