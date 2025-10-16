@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-15",
-    "generated_at": "2025-10-15T08:28:12.283242",
-    "next_update": "2025-10-16",
+    "generated_date": "2025-10-16",
+    "generated_at": "2025-10-16T08:28:30.314795",
+    "next_update": "2025-10-17",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO/TS 16949: Calidad en el Sector Automotriz",
-      "image_url": null,
-      "image_exists": false,
-      "text": "ISO/TS 16949 es la norma de calidad del sector automotriz, surge por la necesidad de que los productos…",
-      "news_priority": 1,
-      "selected_date": "2025-10-15T08:28:12.283141",
-      "rotation_id": "2025-10-15-1"
-    },
-    {
-      "title": "Integración del cambio climático en las normas internacionales",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/Cambio-climatico-en-las-normas-internacionales.jpg",
+      "title": "Nuestros clientes entre los mejores centros educativos de España",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/centros-educativos.jpg",
       "image_exists": true,
-      "text": "El cambio climático es uno de los desafíos más apremiantes de nuestro tiempo, y su integración...",
-      "news_priority": 2,
-      "selected_date": "2025-10-15T08:28:12.283149",
-      "rotation_id": "2025-10-15-2"
+      "text": "Centros Educativos Hace unos días, el Periódico El Mundo ha vuelto a publicar el listado actualizado de los…",
+      "news_priority": 1,
+      "selected_date": "2025-10-16T08:28:30.314718",
+      "rotation_id": "2025-10-16-1"
     },
     {
-      "title": "ISOTools celebra el gran éxito de la Semana de la Calidad Domínico – Costarricense.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Premio%20Nacional%20a%20la%20Calidad.jpg",
+      "title": "ISOTools maximiza sus esfuerzos en la misión Comercial en Brasil",
+      "image_url": "https://www.isotools.org//imagenes/br-1.jpg",
       "image_exists": false,
-      "text": "Contó con la presencia de importantes personalidades nacionales e internacionales.LaSemana de la Calidad Domínico- Costarricensecontó con la participación del españolJoaquín Ruiz López, Director delDepartamento de Calidad de los Servicios de AEVAL, quién realizó la conferencia inaugural del evento.Ruíz incidió en los avances enGestión de la Calidadde los servicios ofrecidos por lasinstituciones públicas iberoamericanasbasados en los principios deeficacia y eficiencia.En la semana de la calidad, además, se hizo entrega delPremio Nacional a la Calidad, un premio que promueve lasprácticas de Gestión Pública deCalidad, premiandola eficiencia y laExcelenciaen la Gestión.DesdeISOToolsdamos la enhorabuena a todos los galardonados con elPremio Nacional a la Calidady les animamos a que continúen trabajando por lamejora contínuay laCalidad.Más informaciónaquí",
+      "text": "ISOTools ante el gran desarrollo económico y la apuesta por los modelos de gestión en el mundo empresarial de Brasil, se encuentra en pleno proceso de fortalecer sus alianzas dentro del país.La acogida está siendo  más que satisfactoria ante los módulos presentados  en base a lanorma ISO 9001,ISO 14001,OSHAS 18000,BSCy la norma de calidad en la automociónISO TS 16949.ISOToolsse esta posicionando como un herramienta fundamental en el camino hacia la excelencia y mejora continua, destacando en el mercado por su amigabilidad, accesibilidad, versatilidad y adaptación integral ante los requisitos normativos.Más informaciónaquí",
+      "news_priority": 2,
+      "selected_date": "2025-10-16T08:28:30.314724",
+      "rotation_id": "2025-10-16-2"
+    },
+    {
+      "title": "Documentación ISO 42001 esencial para el cumplimiento y la certificación del estándar de IA",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/03/documentacion-iso-42001-esencial-para-el-cumplimiento-y-la-certificacion-del-estandar-de-ia.png",
+      "image_exists": true,
+      "text": "La documentación ISO 42001 es uno de los aspectos más importantes en la implementación de un sistema de…",
       "news_priority": 3,
-      "selected_date": "2025-10-15T08:28:12.283152",
-      "rotation_id": "2025-10-15-3"
+      "selected_date": "2025-10-16T08:28:30.314727",
+      "rotation_id": "2025-10-16-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-15T08:28:12.283242",
-    "next_rotation": "2025-10-16T08:28:12.283242",
+    "selected_at": "2025-10-16T08:28:30.314795",
+    "next_rotation": "2025-10-17T08:28:30.314795",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
