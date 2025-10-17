@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-17",
-    "generated_at": "2025-10-17T08:08:23.432559",
+    "generated_at": "2025-10-17T12:16:00.953976",
     "next_update": "2025-10-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Requisitos para los organismos de certificación. ISO/IEC 17065:2012",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/aprobado.jpg",
+      "title": "Ejemplo práctico de elaboración de un APPCC",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/07/iStock_000014708715_Large.jpg",
       "image_exists": true,
-      "text": "ISO/IEC 17065:2012 En septiembre del pasado año se aprobó la ISO 17065, lo que dio  lugar a la…",
+      "text": "¿Qué es un sistema APPCC? Las siglas APPCC corresponden a Análisis de Peligros y Puntos de Control Crítico…",
       "news_priority": 1,
-      "selected_date": "2025-10-17T08:08:23.432470",
+      "selected_date": "2025-10-17T12:16:00.953870",
       "rotation_id": "2025-10-17-1"
     },
     {
-      "title": "Contexto de la organización: Gestión del riesgo de Compliance",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/compliance.jpg",
+      "title": "ISO 45001 y la Ley 29783. Cómo darle cumplimiento",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/12/cumplimiento-ley-29783-iso-45001.webp",
       "image_exists": true,
-      "text": "Compliance La norma ISO 19600, sobre Sistemas de Gestión de Compliance, está elaborada con el objetivo de ayudar…",
+      "text": "ISO 45001 y la Ley 29783. La norma ISO 45001 establece un marco de referencia para un sistema…",
       "news_priority": 2,
-      "selected_date": "2025-10-17T08:08:23.432477",
+      "selected_date": "2025-10-17T12:16:00.953878",
       "rotation_id": "2025-10-17-2"
     },
     {
-      "title": "Principales indicadores para valorar la calidad de servicios de atención al cliente",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/calidad-servicios-atencion-cliente1.jpg",
+      "title": "Revista Empresa Excelente ISOTools: enero 2025",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/02/00_Entrada-4.jpg",
       "image_exists": true,
-      "text": "Atención al cliente En los últimos años, la satisfacción de clientes se ha convertido en un objetivo primordial…",
+      "text": "Iniciamos el mes con una nueva edición de la Revista Empresa Excelente ISOTools, en la que exploramos las tendencias clave que...",
       "news_priority": 3,
-      "selected_date": "2025-10-17T08:08:23.432479",
+      "selected_date": "2025-10-17T12:16:00.953880",
       "rotation_id": "2025-10-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-17T08:08:23.432559",
-    "next_rotation": "2025-10-18T08:08:23.432559",
+    "selected_at": "2025-10-17T12:16:00.953976",
+    "next_rotation": "2025-10-18T12:16:00.953976",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
