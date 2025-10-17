@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-16",
-    "generated_at": "2025-10-16T12:42:26.427871",
-    "next_update": "2025-10-17",
+    "generated_date": "2025-10-17",
+    "generated_at": "2025-10-17T08:08:23.432559",
+    "next_update": "2025-10-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo llevar a cabo la mejora continua del SGSI?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/01/SGSI.jpg",
+      "title": "Requisitos para los organismos de certificación. ISO/IEC 17065:2012",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/aprobado.jpg",
       "image_exists": true,
-      "text": "SGSI El principal elemento del proceso de mejora de un Sistema de Gestión de Seguridad de la Información…",
+      "text": "ISO/IEC 17065:2012 En septiembre del pasado año se aprobó la ISO 17065, lo que dio  lugar a la…",
       "news_priority": 1,
-      "selected_date": "2025-10-16T12:42:26.427795",
-      "rotation_id": "2025-10-16-1"
+      "selected_date": "2025-10-17T08:08:23.432470",
+      "rotation_id": "2025-10-17-1"
     },
     {
-      "title": "ISO 14080: Gestión de gases de efecto invernadero y actividades conexas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/ISO-14080.jpg",
+      "title": "Contexto de la organización: Gestión del riesgo de Compliance",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/compliance.jpg",
       "image_exists": true,
-      "text": "ISO 14080 Los gases efecto invernadero son la principal causa del cambio climático y gestionarlo es crucial para…",
+      "text": "Compliance La norma ISO 19600, sobre Sistemas de Gestión de Compliance, está elaborada con el objetivo de ayudar…",
       "news_priority": 2,
-      "selected_date": "2025-10-16T12:42:26.427801",
-      "rotation_id": "2025-10-16-2"
+      "selected_date": "2025-10-17T08:08:23.432477",
+      "rotation_id": "2025-10-17-2"
     },
     {
-      "title": "El equipo de auditoría interna. Selección y responsabilidades. Auditoría interna V Parte.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/09/28.png",
+      "title": "Principales indicadores para valorar la calidad de servicios de atención al cliente",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/calidad-servicios-atencion-cliente1.jpg",
       "image_exists": true,
-      "text": "Auditoría interna Antes de continuar adentrándonos en las técnicas de auditoría, no queremos dejar de pasar por alto…",
+      "text": "Atención al cliente En los últimos años, la satisfacción de clientes se ha convertido en un objetivo primordial…",
       "news_priority": 3,
-      "selected_date": "2025-10-16T12:42:26.427803",
-      "rotation_id": "2025-10-16-3"
+      "selected_date": "2025-10-17T08:08:23.432479",
+      "rotation_id": "2025-10-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-16T12:42:26.427871",
-    "next_rotation": "2025-10-17T12:42:26.427871",
+    "selected_at": "2025-10-17T08:08:23.432559",
+    "next_rotation": "2025-10-18T08:08:23.432559",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
