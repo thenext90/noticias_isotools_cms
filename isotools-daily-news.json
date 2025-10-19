@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-17",
-    "generated_at": "2025-10-17T12:16:00.953976",
-    "next_update": "2025-10-18",
+    "generated_date": "2025-10-19",
+    "generated_at": "2025-10-19T11:15:13.939133",
+    "next_update": "2025-10-20",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Ejemplo práctico de elaboración de un APPCC",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/07/iStock_000014708715_Large.jpg",
+      "title": "Todos los controles del Anexo A de la norma ISO 27001 explicados",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/Anexo-A-de-la-norma-ISO-27001.jpg",
       "image_exists": true,
-      "text": "¿Qué es un sistema APPCC? Las siglas APPCC corresponden a Análisis de Peligros y Puntos de Control Crítico…",
+      "text": "La norma ISO 27001 es el estándar internacional para la gestión de la seguridad...",
       "news_priority": 1,
-      "selected_date": "2025-10-17T12:16:00.953870",
-      "rotation_id": "2025-10-17-1"
+      "selected_date": "2025-10-19T11:15:13.939045",
+      "rotation_id": "2025-10-19-1"
     },
     {
-      "title": "ISO 45001 y la Ley 29783. Cómo darle cumplimiento",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/12/cumplimiento-ley-29783-iso-45001.webp",
+      "title": "Easy Industrial Solutions Consultor Homologado ISOTools",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2008/04/Consultor-Homologado-ISOTools.webp",
       "image_exists": true,
-      "text": "ISO 45001 y la Ley 29783. La norma ISO 45001 establece un marco de referencia para un sistema…",
+      "text": "Consultor Homologado ISOTools Easy Industrial Solutions es una consultora ubicada en El Puerto de Santa María, Cádiz. Es…",
       "news_priority": 2,
-      "selected_date": "2025-10-17T12:16:00.953878",
-      "rotation_id": "2025-10-17-2"
+      "selected_date": "2025-10-19T11:15:13.939051",
+      "rotation_id": "2025-10-19-2"
     },
     {
-      "title": "Revista Empresa 2025",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/02/00_Entrada-4.jpg",
+      "title": "La Coordinación de Actividades Empresariales en España ¿Cómo puede ayudar a tu empresa?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/Coordinación-de-Actividades-Empresariales-CAE.jpg",
       "image_exists": true,
-      "text": "En la que exploramos las tendencias clave que...",
+      "text": "Coordinación de Actividades Empresariales  En el ámbito de España, la Coordinación de Actividades Empresariales (CAE) es un concepto…",
       "news_priority": 3,
-      "selected_date": "2025-10-17T12:16:00.953880",
-      "rotation_id": "2025-10-17-3"
+      "selected_date": "2025-10-19T11:15:13.939053",
+      "rotation_id": "2025-10-19-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-17T12:16:00.953976",
-    "next_rotation": "2025-10-18T12:16:00.953976",
+    "selected_at": "2025-10-19T11:15:13.939133",
+    "next_rotation": "2025-10-20T11:15:13.939133",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
