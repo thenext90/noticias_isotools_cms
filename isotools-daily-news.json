@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-19",
-    "generated_at": "2025-10-19T11:46:29.514108",
-    "next_update": "2025-10-20",
+    "generated_date": "2025-10-20",
+    "generated_at": "2025-10-20T08:08:24.454430",
+    "next_update": "2025-10-21",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools presente en el XII Foro Internacional de Calidad ICONTEC",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/XII-Foro-Internacional-de-Calidad.jpg",
-      "image_exists": true,
-      "text": "XII Foro Internacional de Calidad Desde su comienzo ICONTEC ha tenido la misión de contribuir con generar confianza…",
+      "title": "ISOTools les invita a asistir al Seminario Internacional Responsabilidad Social y Sociedad Compleja",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/PUCP.jpg",
+      "image_exists": false,
+      "text": "Mañana comenzará en Perú el evento de Responsabilidad Social de la PUCP.La Pontificia Universidad Católica del Perú, PUCPorganiza el seminario“Responsabilidad Social y Sociedad Compleja”durante los días15 y 16 de noviembre.En este acto, profesionales del campo de laResponsabilidad Social, tanto de ámbito nacional como internacional ofrecerán conferencias que buscan formartanto a estudiantes de la PUCP como a cualquier interesado que desee asistir al evento.Del evento podemos destacar la intervención que harán personalidades comoFarhang Morady, profesor de laUniversity of Westminster, que hablará sobre“Responsabilidad en el Marco Global, Economía Política y Globalización”yThoma Bassettde laAmerican Planning Association (EE.UU)con su conferencia titulada“Responsabilidad de la Empresa y de las Comunidades Locales”DesdeISOToolsles animamos a asistir a este interesante encuentro.Para más información e inscripciones contacte este e-mailmderemp@pucp.edu.pecon sus datos personales.Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2025-10-19T11:46:29.514017",
-      "rotation_id": "2025-10-19-1"
+      "selected_date": "2025-10-20T08:08:24.454334",
+      "rotation_id": "2025-10-20-1"
     },
     {
-      "title": "Función de la alta dirección en el SGC ISO 9001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/10/Alta-direccion-ISO-9001.webp",
+      "title": "Nueva ISO 9001 versión 2015. Principios: Mejora continua",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/ISO-9001-Mejora-continua1.jpg",
       "image_exists": true,
-      "text": "Alta dirección ISO 9001 El sistema de gestión de calidad representa beneficios para las organizaciones al momento de…",
+      "text": "ISO 9001 En el borrador de la Nueva ISO 9001:2015 aparecen los principios, en concreto los encontramos en…",
       "news_priority": 2,
-      "selected_date": "2025-10-19T11:46:29.514023",
-      "rotation_id": "2025-10-19-2"
+      "selected_date": "2025-10-20T08:08:24.454341",
+      "rotation_id": "2025-10-20-2"
     },
     {
-      "title": "Beneficios empresariales de la Certificación en Normas ISO",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/01/Certificacion-en-Normas-ISO.jpg",
+      "title": "ISO 9001 2015: Información documentada",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/10/ISO-9001-2015-1.jpg",
       "image_exists": true,
-      "text": "La Certificación en Normas ISO (Organización Internacional de Normalización) se ha convertido en un distintivo...",
+      "text": "ISO 9001 2015 La revisión de la norma ISO 9001 2015 ya no es algo nuevo. Todo el…",
       "news_priority": 3,
-      "selected_date": "2025-10-19T11:46:29.514025",
-      "rotation_id": "2025-10-19-3"
+      "selected_date": "2025-10-20T08:08:24.454344",
+      "rotation_id": "2025-10-20-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-19T11:46:29.514108",
-    "next_rotation": "2025-10-20T11:46:29.514108",
+    "selected_at": "2025-10-20T08:08:24.454430",
+    "next_rotation": "2025-10-21T08:08:24.454430",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
