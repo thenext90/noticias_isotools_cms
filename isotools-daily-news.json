@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-10-21",
-    "generated_at": "2025-10-21T08:08:14.892104",
+    "generated_at": "2025-10-21T16:47:28.572419",
     "next_update": "2025-10-22",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Emergencias en el teletrabajo? Te damos 12 claves para resolverlas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/teletrabajo.jpg",
+      "title": "12 claves para comprender el punto 7 de la norma ISO 37301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/compliance-37001-apartado-7.jpg",
       "image_exists": true,
-      "text": "Teletrabajo La tecnología ha hecho que esta pandemia transcurra con menos precariedad que en épocas de la peste…",
+      "text": "ISO 37301 apartado 7 El punto 7 de la norma ISO 37301 – Sistemas de gestión de compliance…",
       "news_priority": 1,
-      "selected_date": "2025-10-21T08:08:14.892023",
+      "selected_date": "2025-10-21T16:47:28.572298",
       "rotation_id": "2025-10-21-1"
     },
     {
-      "title": "Capacitación, comunicación y toma de consciencia en la ISO 37301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/04/ISO-37301.jpg",
+      "title": "Principales ventajas y beneficios de ISOTools Excellence para la gestión empresarial e institucional",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/11/ventajas-y-beneficios.jpg",
       "image_exists": true,
-      "text": "ISO 37301 Garantizar una buena gestión del cumplimiento dentro de la organización implica que haya un compliance officer…",
+      "text": "ISOTools Excellence, software para la gestión empresarial e institucional Entre los múltiples beneficios de ISOTools Excellence para la…",
       "news_priority": 2,
-      "selected_date": "2025-10-21T08:08:14.892030",
+      "selected_date": "2025-10-21T16:47:28.572307",
       "rotation_id": "2025-10-21-2"
     },
     {
-      "title": "Estupenda acogida de ISOTools en las Jornadas sobre Excelencia en Centro Educativos",
-      "image_url": null,
-      "image_exists": false,
-      "text": "El pasado 20 de marzo se celebraron en Alcoi, las Primeras Jornadas Profesionales sobre Excelencia en los Centros Educativos.\n\n\n\tEl evento tuvo lugar en las nuevas instalaciones del Centre Integrat Públic de FP (CIFP) Batoi de Alcoi, bajo el t&i...",
+      "title": "Mejorando la Seguridad Alimentaria con ISO 22000",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/06/ISO-22000.png",
+      "image_exists": true,
+      "text": "ISO 22000 es un estándar internacional que establece los requisitos para un sistema de gestión de seguridad alimentaria...",
       "news_priority": 3,
-      "selected_date": "2025-10-21T08:08:14.892032",
+      "selected_date": "2025-10-21T16:47:28.572309",
       "rotation_id": "2025-10-21-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-21T08:08:14.892104",
-    "next_rotation": "2025-10-22T08:08:14.892104",
+    "selected_at": "2025-10-21T16:47:28.572419",
+    "next_rotation": "2025-10-22T16:47:28.572419",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
