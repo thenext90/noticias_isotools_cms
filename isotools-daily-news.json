@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-21",
-    "generated_at": "2025-10-21T16:47:28.572419",
-    "next_update": "2025-10-22",
+    "generated_date": "2025-10-22",
+    "generated_at": "2025-10-22T08:09:02.991657",
+    "next_update": "2025-10-23",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "12 claves para comprender el punto 7 de la norma ISO 37301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/compliance-37001-apartado-7.jpg",
+      "title": "El Sistema de Análisis de los Peligros y Puntos Críticos de Control (APPCC)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/09/Sistema-de-Análisis-de-los-Peligros-y-Puntos-Críticos-de-Control-APPCC.jpg",
       "image_exists": true,
-      "text": "ISO 37301 apartado 7 El punto 7 de la norma ISO 37301 – Sistemas de gestión de compliance…",
+      "text": "APPCC El Sistema de Análisis de los Peligros y Puntos Críticos de Control, o también conocido como APPCC,…",
       "news_priority": 1,
-      "selected_date": "2025-10-21T16:47:28.572298",
-      "rotation_id": "2025-10-21-1"
+      "selected_date": "2025-10-22T08:09:02.991575",
+      "rotation_id": "2025-10-22-1"
     },
     {
-      "title": "Principales ventajas y beneficios de ISOTools Excellence para la gestión empresarial e institucional",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/11/ventajas-y-beneficios.jpg",
+      "title": "Beneficios de elaborar un análisis de riesgos en tu empresa",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/Beneficios-de-elaborar-un-análisis-de-riesgos-en-tu-empresa.jpg",
       "image_exists": true,
-      "text": "ISOTools Excellence, software para la gestión empresarial e institucional Entre los múltiples beneficios de ISOTools Excellence para la…",
+      "text": "Modelo de Gestión de Riesgos Corporativos Gracias al enfoque de Gestión de Riesgos Corporativos, cualquier organización puede realizar…",
       "news_priority": 2,
-      "selected_date": "2025-10-21T16:47:28.572307",
-      "rotation_id": "2025-10-21-2"
+      "selected_date": "2025-10-22T08:09:02.991582",
+      "rotation_id": "2025-10-22-2"
     },
     {
-      "title": "Mejorando la Seguridad Alimentaria con ISO 22000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/06/ISO-22000.png",
+      "title": "¿Cómo se lleva a cabo la gestión HSE de contratistas en Colombia?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/06/gestión-HSE.jpg",
       "image_exists": true,
-      "text": "ISO 22000 es un estándar internacional que establece los requisitos para un sistema de gestión de seguridad alimentaria...",
+      "text": "Gestión HSE En el artículo de hoy, serán comentadas las principales características de la gestión HSE dentro del…",
       "news_priority": 3,
-      "selected_date": "2025-10-21T16:47:28.572309",
-      "rotation_id": "2025-10-21-3"
+      "selected_date": "2025-10-22T08:09:02.991585",
+      "rotation_id": "2025-10-22-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-21T16:47:28.572419",
-    "next_rotation": "2025-10-22T16:47:28.572419",
+    "selected_at": "2025-10-22T08:09:02.991657",
+    "next_rotation": "2025-10-23T08:09:02.991657",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
