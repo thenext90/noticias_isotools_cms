@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-22",
-    "generated_at": "2025-10-22T08:09:02.991657",
-    "next_update": "2025-10-23",
+    "generated_date": "2025-10-23",
+    "generated_at": "2025-10-23T08:08:24.972554",
+    "next_update": "2025-10-24",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "El Sistema de Análisis de los Peligros y Puntos Críticos de Control (APPCC)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/09/Sistema-de-Análisis-de-los-Peligros-y-Puntos-Críticos-de-Control-APPCC.jpg",
+      "title": "Cómo un Sistema de Gestión de Calidad impulsa tu Competitividad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/08/Sistema-de-Gestion-de-Calidad.jpg",
       "image_exists": true,
-      "text": "APPCC El Sistema de Análisis de los Peligros y Puntos Críticos de Control, o también conocido como APPCC,…",
+      "text": "En el competitivo mundo empresarial actual, la implementación de un sistema de gestión de calidad (SGC)...",
       "news_priority": 1,
-      "selected_date": "2025-10-22T08:09:02.991575",
-      "rotation_id": "2025-10-22-1"
+      "selected_date": "2025-10-23T08:08:24.972477",
+      "rotation_id": "2025-10-23-1"
     },
     {
-      "title": "Beneficios de elaborar un análisis de riesgos en tu empresa",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/Beneficios-de-elaborar-un-análisis-de-riesgos-en-tu-empresa.jpg",
+      "title": "5 beneficios de implementar un sistema de gestión de seguridad de la información",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/01/Seguridad-de-la-información.jpg",
       "image_exists": true,
-      "text": "Modelo de Gestión de Riesgos Corporativos Gracias al enfoque de Gestión de Riesgos Corporativos, cualquier organización puede realizar…",
+      "text": "Seguridad de la información Como ya hemos comentado en otras ocasiones, la Seguridad de la información es, a…",
       "news_priority": 2,
-      "selected_date": "2025-10-22T08:09:02.991582",
-      "rotation_id": "2025-10-22-2"
+      "selected_date": "2025-10-23T08:08:24.972483",
+      "rotation_id": "2025-10-23-2"
     },
     {
-      "title": "¿Cómo se lleva a cabo la gestión HSE de contratistas en Colombia?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/06/gestión-HSE.jpg",
-      "image_exists": true,
-      "text": "Gestión HSE En el artículo de hoy, serán comentadas las principales características de la gestión HSE dentro del…",
+      "title": "ISOTools es acogido por el cliente Leon Weill en México",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/leon-weill.jpg",
+      "image_exists": false,
+      "text": "ISOTools visita las oficinas de Leon Weill durante su visita comercial a México.Con el objetivo de realizar un seguimiento personal de los resultados obtenidos en sus proyectos,ISOToolsha visitado a su clienteLeon Weill, S.A.,los cuales se mostraron muy complacidos tanto por lasventajasaportadas por la Plataforma en materia de Gestión de Calidad como por los servicios de soporte y de resolución de dudas prestados.Leon Weill es una empresa dedicada al mercado de distribución y venta de herramientas, maquinaria y equipos que confia enISOToolspara la automatización de sus Sistemas de Gestión. Es por ello que el cliente ha visto incrementada su competitividad destacando entre las empresas dedicadas a la distribución de equipos, convirtiéndose en la empresa líder del sector en Mexico D.F.ISOTools agradece la confianza depositada en la Herramienta y en todo elEquipo ISOToolsque trabaja diariamente para mejorar la calidad de sus servicios.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2025-10-22T08:09:02.991585",
-      "rotation_id": "2025-10-22-3"
+      "selected_date": "2025-10-23T08:08:24.972486",
+      "rotation_id": "2025-10-23-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-22T08:09:02.991657",
-    "next_rotation": "2025-10-23T08:09:02.991657",
+    "selected_at": "2025-10-23T08:08:24.972554",
+    "next_rotation": "2025-10-24T08:08:24.972554",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
