@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-23",
-    "generated_at": "2025-10-23T08:08:24.972554",
-    "next_update": "2025-10-24",
+    "generated_date": "2025-10-24",
+    "generated_at": "2025-10-24T08:07:56.567083",
+    "next_update": "2025-10-25",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cómo un Sistema de Gestión de Calidad impulsa tu Competitividad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/08/Sistema-de-Gestion-de-Calidad.jpg",
-      "image_exists": true,
-      "text": "En el competitivo mundo empresarial actual, la implementación de un sistema de gestión de calidad (SGC)...",
-      "news_priority": 1,
-      "selected_date": "2025-10-23T08:08:24.972477",
-      "rotation_id": "2025-10-23-1"
-    },
-    {
-      "title": "5 beneficios de implementar un sistema de gestión de seguridad de la información",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/01/Seguridad-de-la-información.jpg",
-      "image_exists": true,
-      "text": "Seguridad de la información Como ya hemos comentado en otras ocasiones, la Seguridad de la información es, a…",
-      "news_priority": 2,
-      "selected_date": "2025-10-23T08:08:24.972483",
-      "rotation_id": "2025-10-23-2"
-    },
-    {
-      "title": "ISO 9001:2026 es la próxima revisión de la norma ISO 9001. Se espera que se base en la versión de 2015",
-      "image_url": "https://www.cftsantotomas.cl/web/wp-content/uploads/sites/7/2016/02/Contabilidad-General-1-scaled.jpg",
+      "title": "ISOTools destaca el éxito del Foro de Seguridad Alimentaria: Conociendo la experiencia brasileña.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/images%20(1).jpg",
       "image_exists": false,
-      "text": "ISO 9001:2026 – Actualizaciones clave y orientación para la transición Manténgase informado sobre los próximos cambios de la norma ISO 9001 y prepare su sistema de gestión de calidad (QMS) para la transición futura.",
+      "text": "El foro se desarrolló en El Salvador con la participación de una funcionaria de FAO Brasil.Bajo el lema“La comida rápida no proporcionaSeguridad Alimentaria y Nutricional”,elforo de Seguridad Alimentaria: “Conociendo la experiencia brasileña”tiene lugar con anterioridad a la Asamblea Legislativa donde se discutirán diez propuestas de Ley para laSoberania y Seguridad Alimentaria.En este foro se destacó el hecho de quelos países en vías de desarrollopadecenproblemas de nutrición y deSeguridad Alimentaria.La funcionaria, Najla Veloso destacó que el Estado debeponer cartas sobre el asunto y elaborar políticasenfocadas a lamejora de la nutrición y garantizar laSeguridad Alimentariadel Salvador.Del evento, también destaca la conferencia titulada \"La construcción social de un sistema público deSeguridad Alimentaria y Nutricional\" llevada a cabo por parte deOxfan El salvadoren el contexto de sucampaña CRECEen la cual realizópropuestas para la mejora de laSeguridad Alimentariadel paísincidiendo especialmente en lasmujeres rurales.Más informaciónaquí",
+      "news_priority": 1,
+      "selected_date": "2025-10-24T08:07:56.567008",
+      "rotation_id": "2025-10-24-1"
+    },
+    {
+      "title": "¿Cómo vincular los objetivos estratégicos con HSE?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/09/HSE-1.jpg",
+      "image_exists": true,
+      "text": "HSE Para poder responder a la pregunta ¿Cómo vincular los objetivos estratégicos con HSE? Es necesario responder primero,…",
+      "news_priority": 2,
+      "selected_date": "2025-10-24T08:07:56.567015",
+      "rotation_id": "2025-10-24-2"
+    },
+    {
+      "title": "Gestión documental en ISO 45001. ¿Qué dice la norma al respecto?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/gestion-documental-iso45001.webp",
+      "image_exists": true,
+      "text": "Gestión documental en ISO 45001 Se debe entender y anotar en primera instancia, lo primero es que el…",
       "news_priority": 3,
-      "selected_date": "2025-10-23T08:08:24.972486",
-      "rotation_id": "2025-10-23-3"
+      "selected_date": "2025-10-24T08:07:56.567017",
+      "rotation_id": "2025-10-24-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-23T08:08:24.972554",
-    "next_rotation": "2025-10-24T08:08:24.972554",
+    "selected_at": "2025-10-24T08:07:56.567083",
+    "next_rotation": "2025-10-25T08:07:56.567083",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
