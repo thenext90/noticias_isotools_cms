@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-24",
-    "generated_at": "2025-10-24T08:07:56.567083",
-    "next_update": "2025-10-25",
+    "generated_date": "2025-10-27",
+    "generated_at": "2025-10-27T08:08:35.506672",
+    "next_update": "2025-10-28",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools destaca el éxito del Foro de Seguridad Alimentaria: Conociendo la experiencia brasileña.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/images%20(1).jpg",
-      "image_exists": false,
-      "text": "El foro se desarrolló en El Salvador con la participación de una funcionaria de FAO Brasil.Bajo el lema“La comida rápida no proporcionaSeguridad Alimentaria y Nutricional”,elforo de Seguridad Alimentaria: “Conociendo la experiencia brasileña”tiene lugar con anterioridad a la Asamblea Legislativa donde se discutirán diez propuestas de Ley para laSoberania y Seguridad Alimentaria.En este foro se destacó el hecho de quelos países en vías de desarrollopadecenproblemas de nutrición y deSeguridad Alimentaria.La funcionaria, Najla Veloso destacó que el Estado debeponer cartas sobre el asunto y elaborar políticasenfocadas a lamejora de la nutrición y garantizar laSeguridad Alimentariadel Salvador.Del evento, también destaca la conferencia titulada \"La construcción social de un sistema público deSeguridad Alimentaria y Nutricional\" llevada a cabo por parte deOxfan El salvadoren el contexto de sucampaña CRECEen la cual realizópropuestas para la mejora de laSeguridad Alimentariadel paísincidiendo especialmente en lasmujeres rurales.Más informaciónaquí",
+      "title": "La norma ISO 19600 ¿Cómo realizar el cumplimiento legal?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/01/norma-ISO-19600.jpg",
+      "image_exists": true,
+      "text": "Norma ISO 19600 La norma ISO 19600 ya se encuentra a disposición de las empresas que quieren cumplir…",
       "news_priority": 1,
-      "selected_date": "2025-10-24T08:07:56.567008",
-      "rotation_id": "2025-10-24-1"
+      "selected_date": "2025-10-27T08:08:35.506588",
+      "rotation_id": "2025-10-27-1"
     },
     {
-      "title": "¿Cómo vincular los objetivos estratégicos con HSE?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/09/HSE-1.jpg",
+      "title": "Principios de Gestión de la Calidad en la Educación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Principios-de-Gestión-de-la-Calidad-en-la-Educación.jpg",
       "image_exists": true,
-      "text": "HSE Para poder responder a la pregunta ¿Cómo vincular los objetivos estratégicos con HSE? Es necesario responder primero,…",
+      "text": "Gestión de la Calidad en la Educación Es ya un hecho demostrado y probado, que las organizaciones que…",
       "news_priority": 2,
-      "selected_date": "2025-10-24T08:07:56.567015",
-      "rotation_id": "2025-10-24-2"
+      "selected_date": "2025-10-27T08:08:35.506595",
+      "rotation_id": "2025-10-27-2"
     },
     {
-      "title": "Gestión documental en ISO 45001. ¿Qué dice la norma al respecto?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/gestion-documental-iso45001.webp",
+      "title": "¿Cómo integrar el Pensamiento Estrategico con la Norma ISO 45001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/Pensamiento-estrategico.jpg",
       "image_exists": true,
-      "text": "Gestión documental en ISO 45001 Se debe entender y anotar en primera instancia, lo primero es que el…",
+      "text": "Integrar el Pensamiento Estrategico con la Norma ISO 45001 es esencial para que las organizaciones...",
       "news_priority": 3,
-      "selected_date": "2025-10-24T08:07:56.567017",
-      "rotation_id": "2025-10-24-3"
+      "selected_date": "2025-10-27T08:08:35.506597",
+      "rotation_id": "2025-10-27-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-24T08:07:56.567083",
-    "next_rotation": "2025-10-25T08:07:56.567083",
+    "selected_at": "2025-10-27T08:08:35.506672",
+    "next_rotation": "2025-10-28T08:08:35.506672",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
