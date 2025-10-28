@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-27",
-    "generated_at": "2025-10-27T08:08:35.506672",
-    "next_update": "2025-10-28",
+    "generated_date": "2025-10-28",
+    "generated_at": "2025-10-28T08:08:28.053871",
+    "next_update": "2025-10-29",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "La norma ISO 19600 ¿Cómo realizar el cumplimiento legal?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/01/norma-ISO-19600.jpg",
+      "title": "¿Qué debemos saber de la norma ISO 9001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/norma-ISO-9001.jpg",
       "image_exists": true,
-      "text": "Norma ISO 19600 La norma ISO 19600 ya se encuentra a disposición de las empresas que quieren cumplir…",
+      "text": "Norma ISO 9001 El proceso de transición a la norma ISO 9001 2015 llega a su fin. A…",
       "news_priority": 1,
-      "selected_date": "2025-10-27T08:08:35.506588",
-      "rotation_id": "2025-10-27-1"
+      "selected_date": "2025-10-28T08:08:28.053794",
+      "rotation_id": "2025-10-28-1"
     },
     {
-      "title": "Principios de Gestión de la Calidad en la Educación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Principios-de-Gestión-de-la-Calidad-en-la-Educación.jpg",
-      "image_exists": true,
-      "text": "Gestión de la Calidad en la Educación Es ya un hecho demostrado y probado, que las organizaciones que…",
+      "title": "ISOTools y Munitecnia en Tecnimap 2010. Administración abierta: entra sin llamar.",
+      "image_url": null,
+      "image_exists": false,
+      "text": "ISOTools, plataforma tecnológica para la gestión de la excelencia,yMunitecnia, empresa especializada en soluciones para la e-administración(plataformaExperta) estarán presentes…",
       "news_priority": 2,
-      "selected_date": "2025-10-27T08:08:35.506595",
-      "rotation_id": "2025-10-27-2"
+      "selected_date": "2025-10-28T08:08:28.053800",
+      "rotation_id": "2025-10-28-2"
     },
     {
-      "title": "¿Cómo integrar el Pensamiento Estrategico con la Norma ISO 45001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/Pensamiento-estrategico.jpg",
-      "image_exists": true,
-      "text": "Integrar el Pensamiento Estrategico con la Norma ISO 45001 es esencial para que las organizaciones...",
+      "title": "Gestión de Encuestas en Centros Educativos",
+      "image_url": null,
+      "image_exists": false,
+      "text": "La Encuesta es un instrumento eficaz al que pueden recurrir los centros educativos para recabar toda aquella información…",
       "news_priority": 3,
-      "selected_date": "2025-10-27T08:08:35.506597",
-      "rotation_id": "2025-10-27-3"
+      "selected_date": "2025-10-28T08:08:28.053802",
+      "rotation_id": "2025-10-28-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-27T08:08:35.506672",
-    "next_rotation": "2025-10-28T08:08:35.506672",
+    "selected_at": "2025-10-28T08:08:28.053871",
+    "next_rotation": "2025-10-29T08:08:28.053871",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
