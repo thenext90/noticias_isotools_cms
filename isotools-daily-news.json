@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-28",
-    "generated_at": "2025-10-28T08:08:28.053871",
-    "next_update": "2025-10-29",
+    "generated_date": "2025-10-29",
+    "generated_at": "2025-10-29T08:08:27.010508",
+    "next_update": "2025-10-30",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Qué debemos saber de la norma ISO 9001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/norma-ISO-9001.jpg",
+      "title": "Aspectos ambientales según ISO 14001: qué son, ejemplos y clasificación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/09/ISO-14001-2015..jpg",
       "image_exists": true,
-      "text": "Norma ISO 9001 El proceso de transición a la norma ISO 9001 2015 llega a su fin. A…",
+      "text": "La norma ISO 14001:2015 establece que la gestión eficaz de los aspectos ambientales —como emisiones, residuos o consumo de…",
       "news_priority": 1,
-      "selected_date": "2025-10-28T08:08:28.053794",
-      "rotation_id": "2025-10-28-1"
+      "selected_date": "2025-10-29T08:08:27.010405",
+      "rotation_id": "2025-10-29-1"
     },
     {
-      "title": "ISOTools y Munitecnia en Tecnimap 2010. Administración abierta: entra sin llamar.",
-      "image_url": null,
-      "image_exists": false,
-      "text": "ISOTools, plataforma tecnológica para la gestión de la excelencia,yMunitecnia, empresa especializada en soluciones para la e-administración(plataformaExperta) estarán presentes…",
+      "title": "Enfoque a procesos, principios de la ISO 9001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/03/ISO-90011.jpg",
+      "image_exists": true,
+      "text": "ISO 9001 En este artículo, vamos a hablar del cuarto principio de la calidad que se encuentra recogido…",
       "news_priority": 2,
-      "selected_date": "2025-10-28T08:08:28.053800",
-      "rotation_id": "2025-10-28-2"
+      "selected_date": "2025-10-29T08:08:27.010413",
+      "rotation_id": "2025-10-29-2"
     },
     {
-      "title": "Gestión de Encuestas en Centros Educativos",
-      "image_url": null,
-      "image_exists": false,
-      "text": "La Encuesta es un instrumento eficaz al que pueden recurrir los centros educativos para recabar toda aquella información…",
+      "title": "¿Cómo implantar un Sistema de Gestión Integrado y realizar su seguimiento?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/sig.jpg",
+      "image_exists": true,
+      "text": "Las organizaciones decididas a implantar un Sistema de Gestión Integradobasado en las normas ISO 9001, ISO 14001, ISO…",
       "news_priority": 3,
-      "selected_date": "2025-10-28T08:08:28.053802",
-      "rotation_id": "2025-10-28-3"
+      "selected_date": "2025-10-29T08:08:27.010415",
+      "rotation_id": "2025-10-29-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-28T08:08:28.053871",
-    "next_rotation": "2025-10-29T08:08:28.053871",
+    "selected_at": "2025-10-29T08:08:27.010508",
+    "next_rotation": "2025-10-30T08:08:27.010508",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
