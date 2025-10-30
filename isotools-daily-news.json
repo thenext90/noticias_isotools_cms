@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-29",
-    "generated_at": "2025-10-29T08:08:27.010508",
-    "next_update": "2025-10-30",
+    "generated_date": "2025-10-30",
+    "generated_at": "2025-10-30T08:08:04.879862",
+    "next_update": "2025-10-31",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Aspectos ambientales según ISO 14001: qué son, ejemplos y clasificación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/09/ISO-14001-2015..jpg",
+      "title": "Las quejas y cómo transformarlas en tu aliada para crear un cliente satisfecho",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/11/quejas.jpg",
       "image_exists": true,
-      "text": "La norma ISO 14001:2015 establece que la gestión eficaz de los aspectos ambientales —como emisiones, residuos o consumo de…",
+      "text": "Quejas En artículos anteriores, hablábamos de la importancia que un buen servicio de atención al cliente tenía a…",
       "news_priority": 1,
-      "selected_date": "2025-10-29T08:08:27.010405",
-      "rotation_id": "2025-10-29-1"
+      "selected_date": "2025-10-30T08:08:04.879792",
+      "rotation_id": "2025-10-30-1"
     },
     {
-      "title": "Enfoque a procesos, principios de la ISO 9001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/03/ISO-90011.jpg",
+      "title": "Accidentes/incidentes en los Sistemas de Gestión SST",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/Accidentesincidentes.jpg",
       "image_exists": true,
-      "text": "ISO 9001 En este artículo, vamos a hablar del cuarto principio de la calidad que se encuentra recogido…",
+      "text": "Accidentes/incidentes En el día de hoy vamos a tratar la publicación sobre los accidentes/incidentes en los Sistemas de…",
       "news_priority": 2,
-      "selected_date": "2025-10-29T08:08:27.010413",
-      "rotation_id": "2025-10-29-2"
+      "selected_date": "2025-10-30T08:08:04.879798",
+      "rotation_id": "2025-10-30-2"
     },
     {
-      "title": "¿Cómo implantar un Sistema de Gestión Integrado y realizar su seguimiento?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/sig.jpg",
+      "title": "Éxito Rotundo en la Jornada Técnica sobre Calidad: «Sistemas de Gestión en un Mundo Digital: Calidad 4.0 e Inteligencia Artificial» de ISOTools Excellence",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/11/Pedro_Alves.jpg",
       "image_exists": true,
-      "text": "Las organizaciones decididas a implantar un Sistema de Gestión Integradobasado en las normas ISO 9001, ISO 14001, ISO…",
+      "text": "Jornada Técnica sobre Calidad El pasado 9 de noviembre se celebró de manera virtual la jornada técnica sobre…",
       "news_priority": 3,
-      "selected_date": "2025-10-29T08:08:27.010415",
-      "rotation_id": "2025-10-29-3"
+      "selected_date": "2025-10-30T08:08:04.879800",
+      "rotation_id": "2025-10-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-29T08:08:27.010508",
-    "next_rotation": "2025-10-30T08:08:27.010508",
+    "selected_at": "2025-10-30T08:08:04.879862",
+    "next_rotation": "2025-10-31T08:08:04.879862",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
