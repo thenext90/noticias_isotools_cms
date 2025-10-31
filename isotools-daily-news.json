@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-30",
-    "generated_at": "2025-10-30T08:08:04.879862",
-    "next_update": "2025-10-31",
+    "generated_date": "2025-10-31",
+    "generated_at": "2025-10-31T08:07:58.705525",
+    "next_update": "2025-11-01",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Las quejas y cómo transformarlas en tu aliada para crear un cliente satisfecho",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/11/quejas.jpg",
+      "title": "ISOTools – Revista Empresa Excelente diciembre 2017",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/01/img-post-revista-dic17.jpg",
       "image_exists": true,
-      "text": "Quejas En artículos anteriores, hablábamos de la importancia que un buen servicio de atención al cliente tenía a…",
+      "text": "EMPRESA EXCELENTE Comenzamos el año presentando el último número de la Revista Empresa Excelente del año 2017. Como…",
       "news_priority": 1,
-      "selected_date": "2025-10-30T08:08:04.879792",
-      "rotation_id": "2025-10-30-1"
+      "selected_date": "2025-10-31T08:07:58.705437",
+      "rotation_id": "2025-10-31-1"
     },
     {
-      "title": "Accidentes/incidentes en los Sistemas de Gestión SST",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/Accidentesincidentes.jpg",
+      "title": "Sistema de Gestión de Inteligencia Artificial (SGIA): elementos clave según la norma ISO 42001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/Sistema-de-Gestion-de-Inteligencia-Artificial-SGIA-elementos-clave-segun-la-norma-ISO-42001.jpg",
       "image_exists": true,
-      "text": "Accidentes/incidentes En el día de hoy vamos a tratar la publicación sobre los accidentes/incidentes en los Sistemas de…",
+      "text": "ISO 42001 es el estándar que con mayor velocidad ha logrado posicionarse en el panorama corporativo en las…",
       "news_priority": 2,
-      "selected_date": "2025-10-30T08:08:04.879798",
-      "rotation_id": "2025-10-30-2"
+      "selected_date": "2025-10-31T08:07:58.705444",
+      "rotation_id": "2025-10-31-2"
     },
     {
-      "title": "Éxito Rotundo en la Jornada Técnica sobre Calidad: «Sistemas de Gestión en un Mundo Digital: Calidad 4.0 e Inteligencia Artificial» de ISOTools Excellence",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/11/Pedro_Alves.jpg",
+      "title": "Estrategias eficientes de gestión de malware con ISO 27001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/10/malware-con-ISO-27001.jpg",
       "image_exists": true,
-      "text": "Jornada Técnica sobre Calidad El pasado 9 de noviembre se celebró de manera virtual la jornada técnica sobre…",
+      "text": "En la era digital actual, donde la información y los sistemas informáticos son esenciales para las operaciones comerciales...",
       "news_priority": 3,
-      "selected_date": "2025-10-30T08:08:04.879800",
-      "rotation_id": "2025-10-30-3"
+      "selected_date": "2025-10-31T08:07:58.705446",
+      "rotation_id": "2025-10-31-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-30T08:08:04.879862",
-    "next_rotation": "2025-10-31T08:08:04.879862",
+    "selected_at": "2025-10-31T08:07:58.705525",
+    "next_rotation": "2025-11-01T08:07:58.705525",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
