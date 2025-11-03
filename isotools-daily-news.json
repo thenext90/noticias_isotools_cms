@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-10-31",
-    "generated_at": "2025-10-31T08:07:58.705525",
-    "next_update": "2025-11-01",
+    "generated_date": "2025-11-03",
+    "generated_at": "2025-11-03T08:08:41.479436",
+    "next_update": "2025-11-04",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools – Revista Empresa Excelente diciembre 2017",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/01/img-post-revista-dic17.jpg",
+      "title": "EL ciclo PHVA para la Mejora Continua de las organizaciones",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/Ciclo-PHVA.jpg",
       "image_exists": true,
-      "text": "EMPRESA EXCELENTE Comenzamos el año presentando el último número de la Revista Empresa Excelente del año 2017. Como…",
+      "text": "Ciclo PHVA En el siglo XXI, se están produciendo importantes desafíos relativos a la competitividad y frecuentes cambios,…",
       "news_priority": 1,
-      "selected_date": "2025-10-31T08:07:58.705437",
-      "rotation_id": "2025-10-31-1"
+      "selected_date": "2025-11-03T08:08:41.479313",
+      "rotation_id": "2025-11-03-1"
     },
     {
-      "title": "Sistema de Gestión de Inteligencia Artificial (SGIA): elementos clave según la norma ISO 42001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/Sistema-de-Gestion-de-Inteligencia-Artificial-SGIA-elementos-clave-segun-la-norma-ISO-42001.jpg",
+      "title": "ISOTools celebra un nuevo evento sobre Transformación Digital con Inteligencia Artificial en Monterrey (México)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/ISOTools-Monterrey.jpg",
       "image_exists": true,
-      "text": "ISO 42001 es el estándar que con mayor velocidad ha logrado posicionarse en el panorama corporativo en las…",
+      "text": "El 20 de marzo pasado, ISOTools organizó con éxito el segundo evento presencial en Monterrey...",
       "news_priority": 2,
-      "selected_date": "2025-10-31T08:07:58.705444",
-      "rotation_id": "2025-10-31-2"
+      "selected_date": "2025-11-03T08:08:41.479321",
+      "rotation_id": "2025-11-03-2"
     },
     {
-      "title": "Estrategias eficientes de gestión de malware con ISO 27001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/10/malware-con-ISO-27001.jpg",
+      "title": "Implementación de Controles Internos para Prevenir Sobornos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Controles-Internos-para-Prevenir-Sobornos.jpg",
       "image_exists": true,
-      "text": "En la era digital actual, donde la información y los sistemas informáticos son esenciales para las operaciones comerciales...",
+      "text": "En un contexto empresarial donde la ética y la transparencia son valores cada vez más apreciados, la implementación...",
       "news_priority": 3,
-      "selected_date": "2025-10-31T08:07:58.705446",
-      "rotation_id": "2025-10-31-3"
+      "selected_date": "2025-11-03T08:08:41.479325",
+      "rotation_id": "2025-11-03-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-10-31T08:07:58.705525",
-    "next_rotation": "2025-11-01T08:07:58.705525",
+    "selected_at": "2025-11-03T08:08:41.479436",
+    "next_rotation": "2025-11-04T08:08:41.479436",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
