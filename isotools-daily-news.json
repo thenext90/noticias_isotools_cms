@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-03",
-    "generated_at": "2025-11-03T08:08:41.479436",
-    "next_update": "2025-11-04",
+    "generated_date": "2025-11-04",
+    "generated_at": "2025-11-04T08:08:22.449812",
+    "next_update": "2025-11-05",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "EL ciclo PHVA para la Mejora Continua de las organizaciones",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/Ciclo-PHVA.jpg",
+      "title": "Presentación de la herramienta ISOTools BSC en Instituciones Educativas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/IISOTools.webp",
       "image_exists": true,
-      "text": "Ciclo PHVA En el siglo XXI, se están produciendo importantes desafíos relativos a la competitividad y frecuentes cambios,…",
+      "text": "ISOTools El pasado 27 de junio tuvo lugar en Bogotá, Colombia, dicho evento dirigido al Sector Educativo. La…",
       "news_priority": 1,
-      "selected_date": "2025-11-03T08:08:41.479313",
-      "rotation_id": "2025-11-03-1"
+      "selected_date": "2025-11-04T08:08:22.449683",
+      "rotation_id": "2025-11-04-1"
     },
     {
-      "title": "ISOTools celebra un nuevo evento sobre Transformación Digital con Inteligencia Artificial en Monterrey (México)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/ISOTools-Monterrey.jpg",
+      "title": "ISOTools le invita a asistir a la ceremonia de los premios Perú 2021 a la Responsabilidad Social y Desarrollo Sostenible de las Empresas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/11/Responsabilidad-Sociall.png",
       "image_exists": true,
-      "text": "El 20 de marzo pasado, ISOTools organizó con éxito el segundo evento presencial en Monterrey...",
+      "text": "Responsabilidad Social La Responsabilidad Social de las empresas será premiada el próximo día 5 de diciembre. Con el…",
       "news_priority": 2,
-      "selected_date": "2025-11-03T08:08:41.479321",
-      "rotation_id": "2025-11-03-2"
+      "selected_date": "2025-11-04T08:08:22.449692",
+      "rotation_id": "2025-11-04-2"
     },
     {
-      "title": "Implementación de Controles Internos para Prevenir Sobornos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Controles-Internos-para-Prevenir-Sobornos.jpg",
+      "title": "Cómo la consultoria ISO 45001 optimiza la gestión SSO",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/Consultoria-ISO-45001.jpg",
       "image_exists": true,
-      "text": "En un contexto empresarial donde la ética y la transparencia son valores cada vez más apreciados, la implementación...",
+      "text": "Entre las prioridades de las empresas no cabe duda que debe colocarse el garantizar la seguridad y salud ocupacional (SSO)...",
       "news_priority": 3,
-      "selected_date": "2025-11-03T08:08:41.479325",
-      "rotation_id": "2025-11-03-3"
+      "selected_date": "2025-11-04T08:08:22.449694",
+      "rotation_id": "2025-11-04-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-03T08:08:41.479436",
-    "next_rotation": "2025-11-04T08:08:41.479436",
+    "selected_at": "2025-11-04T08:08:22.449812",
+    "next_rotation": "2025-11-05T08:08:22.449812",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
