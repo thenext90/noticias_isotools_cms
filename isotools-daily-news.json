@@ -33,15 +33,16 @@
       "selected_date": "2025-11-04T08:08:22.449683",
       "rotation_id": "2025-11-04-1"
     },
-    {
-      "title": "ISOTools le invita a asistir a la ceremonia de los premios Perú 2021 a la Responsabilidad Social y Desarrollo Sostenible de las Empresas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/11/Responsabilidad-Sociall.png",
-      "image_exists": true,
-      "text": "Responsabilidad Social La Responsabilidad Social de las empresas será premiada el próximo día 5 de diciembre. Con el…",
-      "news_priority": 2,
-      "selected_date": "2025-11-04T08:08:22.449692",
-      "rotation_id": "2025-11-04-2"
-    },
+    
+{
+  "title": "Transición a la nueva ISO 37001:2025 – Norma Antisoborno",
+  "image_url": "https://www.ursspain.com/wp-content/uploads/2025/02/ISO37001-2025-Antisoborno.jpg",
+  "image_exists": true,
+  "text": "La Organización Internacional de Normalización (ISO) publicó la nueva versión 2025 de la norma ISO 37001 sobre sistemas de gestión antisoborno. La actualización refuerza los requisitos de debida diligencia, liderazgo ético y cultura de cumplimiento. Los organismos de certificación deberán adaptarse antes del 30 de noviembre de 2025.",
+  "news_priority": 2,
+  "selected_date": "2025-11-04T08:08:22.449692",
+  "rotation_id": "2025-11-04-2"
+},
     {
       "title": "Cómo la consultoria ISO 45001 optimiza la gestión SSO",
       "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/Consultoria-ISO-45001.jpg",
