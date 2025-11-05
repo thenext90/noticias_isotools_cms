@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-04",
-    "generated_at": "2025-11-04T08:08:22.449812",
-    "next_update": "2025-11-05",
+    "generated_date": "2025-11-05",
+    "generated_at": "2025-11-05T08:08:22.922897",
+    "next_update": "2025-11-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO lanza la primera norma mundial para medir y gestionar la biodiversidad",
-      "image_url": "https://sustenomics.com/wp-content/uploads/2025/10/ISO-Biodiversidad.jpg",
+      "title": "Los 50 Excelentes de ISOTools en 2021",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/banner_cabecera.jpg",
       "image_exists": true,
-      "text": "La ISO presentó en su reunión anual en Ruanda la primera norma internacional para la gestión y medición de la biodiversidad. Este nuevo estándar busca que las organizaciones integren la protección de ecosistemas y recursos naturales dentro de sus sistemas de gestión, en línea con la estructura de alto nivel (HLS).",
+      "text": "50 Excelentes de ISOTools Otro año más, como les tenemos acostumbrados, nos llena de orgullo presentarles los 50…",
       "news_priority": 1,
-      "selected_date": "2025-11-04T08:08:22.449692",
-      "rotation_id": "2025-11-04-1"
+      "selected_date": "2025-11-05T08:08:22.922826",
+      "rotation_id": "2025-11-05-1"
     },
     {
-      "title": "Transición a la nueva ISO 37001:2025 – Norma Antisoborno",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/09/bigstock-217359547.jpg",
+      "title": "Revista Empresa Excelente octubre 2019",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/11/POST-REVISTA-OCTUBRE-2019.jpg",
       "image_exists": true,
-      "text": "La Organización Internacional de Normalización (ISO) publicó la nueva versión 2025 de la norma ISO 37001 sobre sistemas de gestión antisoborno. La actualización refuerza los requisitos de debida diligencia, liderazgo ético y cultura de cumplimiento. Los organismos de certificación deberán adaptarse antes del 30 de noviembre de 2025.",
+      "text": "REVISTA EMPRESA EXCELENTE Volvemos un mes más con el nuevo número de la Revista Empresa Excelente. En esta…",
       "news_priority": 2,
-      "selected_date": "2025-11-04T08:08:22.449692",
-      "rotation_id": "2025-11-04-2"
+      "selected_date": "2025-11-05T08:08:22.922833",
+      "rotation_id": "2025-11-05-2"
     },
     {
-      "title": "Cómo la consultoria ISO 45001 optimiza la gestión SSO",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/Consultoria-ISO-45001.jpg",
-      "image_exists": true,
-      "text": "Entre las prioridades de las empresas no cabe duda que debe colocarse el garantizar la seguridad y salud ocupacional (SSO)...",
+      "title": "Nueva Norma UNE-EN 16114:2012 Servicios de consultoría de Gestión",
+      "image_url": null,
+      "image_exists": false,
+      "text": "RESUMEN: AENOR publica una nueva norma para el aseguramiento de la eficiencia en la prestación de los servicios…",
       "news_priority": 3,
-      "selected_date": "2025-11-04T08:08:22.449694",
-      "rotation_id": "2025-11-04-3"
+      "selected_date": "2025-11-05T08:08:22.922835",
+      "rotation_id": "2025-11-05-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-04T08:08:22.449812",
-    "next_rotation": "2025-11-05T08:08:22.449812",
+    "selected_at": "2025-11-05T08:08:22.922897",
+    "next_rotation": "2025-11-06T08:08:22.922897",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
