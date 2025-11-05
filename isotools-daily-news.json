@@ -24,15 +24,17 @@
     "rotation_on_each_execution": true
   },
   "daily_news": [
-    {
-      "title": "Presentación de la herramienta ISOTools BSC en Instituciones Educativas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/IISOTools.webp",
-      "image_exists": true,
-      "text": "ISOTools El pasado 27 de junio tuvo lugar en Bogotá, Colombia, dicho evento dirigido al Sector Educativo. La…",
-      "news_priority": 1,
-      "selected_date": "2025-11-04T08:08:22.449683",
-      "rotation_id": "2025-11-04-1"
-    },
+   
+{
+  "title": "ISO lanza la primera norma mundial para medir y gestionar la biodiversidad",
+  "image_url": "https://www.tresmandamientos.com.ar/wp-content/uploads/2025/11/ISO-Biodiversidad.jpg",
+  "image_exists": true,
+  "text": "La ISO presentó en su reunión anual en Ruanda la primera norma internacional para la gestión y medición de la biodiversidad. Este nuevo estándar busca que las organizaciones integren la protección de ecosistemas y recursos naturales dentro de sus sistemas de gestión, en línea con la estructura de alto nivel (HLS).",
+  "news_priority": 1,
+  "selected_date": "2025-11-04T08:08:22.449692",
+  "rotation_id": "2025-11-04-1"
+}
+
     
 {
   "title": "Transición a la nueva ISO 37001:2025 – Norma Antisoborno",
