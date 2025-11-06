@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-05",
-    "generated_at": "2025-11-05T08:08:22.922897",
-    "next_update": "2025-11-06",
+    "generated_date": "2025-11-06",
+    "generated_at": "2025-11-06T08:08:03.549381",
+    "next_update": "2025-11-07",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Los 50 Excelentes de ISOTools en 2021",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/banner_cabecera.jpg",
+      "title": "ISO/IEC 17025: Nueva versión 2017",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/12/ISO-IEC-17025.jpg",
       "image_exists": true,
-      "text": "50 Excelentes de ISOTools Otro año más, como les tenemos acostumbrados, nos llena de orgullo presentarles los 50…",
+      "text": "Nueva ISO/IEC 17025:2017 Ya se ha actualizado la nueva versión del estándar para los laboratorios de prueba y…",
       "news_priority": 1,
-      "selected_date": "2025-11-05T08:08:22.922826",
-      "rotation_id": "2025-11-05-1"
+      "selected_date": "2025-11-06T08:08:03.549296",
+      "rotation_id": "2025-11-06-1"
     },
     {
-      "title": "Revista Empresa Excelente octubre 2019",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/11/POST-REVISTA-OCTUBRE-2019.jpg",
+      "title": "Características, herramientas e indicadores de calidad  en los servicios de salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/iStock_000036587120_Large.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Volvemos un mes más con el nuevo número de la Revista Empresa Excelente. En esta…",
+      "text": "Modelos de gestión En los últimos años, el usuario de los servicios de salud de países en creciente desarrollo como Colombia,…",
       "news_priority": 2,
-      "selected_date": "2025-11-05T08:08:22.922833",
-      "rotation_id": "2025-11-05-2"
+      "selected_date": "2025-11-06T08:08:03.549302",
+      "rotation_id": "2025-11-06-2"
     },
     {
-      "title": "Nueva Norma UNE-EN 16114:2012 Servicios de consultoría de Gestión",
-      "image_url": null,
-      "image_exists": false,
-      "text": "RESUMEN: AENOR publica una nueva norma para el aseguramiento de la eficiencia en la prestación de los servicios…",
+      "title": "La salud en el trabajo: promoción vs vigilancia",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/05/Salud-en-el-trabajo.jpg",
+      "image_exists": true,
+      "text": "Salud en el trabajo La información que nos ofrecen los exámenes de salud realizados a los trabajadores, ayuda…",
       "news_priority": 3,
-      "selected_date": "2025-11-05T08:08:22.922835",
-      "rotation_id": "2025-11-05-3"
+      "selected_date": "2025-11-06T08:08:03.549304",
+      "rotation_id": "2025-11-06-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-05T08:08:22.922897",
-    "next_rotation": "2025-11-06T08:08:22.922897",
+    "selected_at": "2025-11-06T08:08:03.549381",
+    "next_rotation": "2025-11-07T08:08:03.549381",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
