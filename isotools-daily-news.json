@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-06",
-    "generated_at": "2025-11-06T08:08:03.549381",
-    "next_update": "2025-11-07",
+    "generated_date": "2025-11-07",
+    "generated_at": "2025-11-07T08:08:17.956676",
+    "next_update": "2025-11-08",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO/IEC 17025: Nueva versión 2017",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/12/ISO-IEC-17025.jpg",
+      "title": "Capacitaciones SST según ISO 45001. ¿Qué hay que tener en cuenta?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/12/capacitaciones-sst-iso-45001.webp",
       "image_exists": true,
-      "text": "Nueva ISO/IEC 17025:2017 Ya se ha actualizado la nueva versión del estándar para los laboratorios de prueba y…",
+      "text": "Capacitaciones SST La Norma 45001 cumple su objetivo que es facilitar a una empresa la investigación de alto…",
       "news_priority": 1,
-      "selected_date": "2025-11-06T08:08:03.549296",
-      "rotation_id": "2025-11-06-1"
+      "selected_date": "2025-11-07T08:08:17.956542",
+      "rotation_id": "2025-11-07-1"
     },
     {
-      "title": "Características, herramientas e indicadores de calidad  en los servicios de salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/iStock_000036587120_Large.jpg",
+      "title": "Auditoria ISO 31000: ¿para qué sirve?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/Auditoria-ISO-31000.jpg",
       "image_exists": true,
-      "text": "Modelos de gestión En los últimos años, el usuario de los servicios de salud de países en creciente desarrollo como Colombia,…",
+      "text": "La Auditoría ISO 31000 es una evaluación sistemática y documentada del sistema de gestión del riesgo de una organización con base en los lineamientos...",
       "news_priority": 2,
-      "selected_date": "2025-11-06T08:08:03.549302",
-      "rotation_id": "2025-11-06-2"
+      "selected_date": "2025-11-07T08:08:17.956552",
+      "rotation_id": "2025-11-07-2"
     },
     {
-      "title": "La salud en el trabajo: promoción vs vigilancia",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/05/Salud-en-el-trabajo.jpg",
+      "title": "Evaluación de riesgos ambientales según ISO 14001: metodologías para mejorar la gestión ambiental",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/06/evaluacion-de-riesgos-ambientales-segun-iso-14001-metodologias-para-mejorar-la-gestion-ambiental.jpg",
       "image_exists": true,
-      "text": "Salud en el trabajo La información que nos ofrecen los exámenes de salud realizados a los trabajadores, ayuda…",
+      "text": "La evaluación de riesgos ambientales es una práctica obligatoria, estratégica y de alto valor para la gestión ambiental…",
       "news_priority": 3,
-      "selected_date": "2025-11-06T08:08:03.549304",
-      "rotation_id": "2025-11-06-3"
+      "selected_date": "2025-11-07T08:08:17.956554",
+      "rotation_id": "2025-11-07-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-06T08:08:03.549381",
-    "next_rotation": "2025-11-07T08:08:03.549381",
+    "selected_at": "2025-11-07T08:08:17.956676",
+    "next_rotation": "2025-11-08T08:08:17.956676",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
