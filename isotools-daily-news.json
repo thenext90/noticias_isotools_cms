@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-07",
-    "generated_at": "2025-11-07T08:08:17.956676",
-    "next_update": "2025-11-08",
+    "generated_date": "2025-11-10",
+    "generated_at": "2025-11-10T08:08:38.203478",
+    "next_update": "2025-11-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Capacitaciones SST según ISO 45001. ¿Qué hay que tener en cuenta?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/12/capacitaciones-sst-iso-45001.webp",
-      "image_exists": true,
-      "text": "Capacitaciones SST La Norma 45001 cumple su objetivo que es facilitar a una empresa la investigación de alto…",
+      "title": "Salvá lo Bonito, el programa de Responsabilidad Social de Claro.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20General.jpg",
+      "image_exists": false,
+      "text": "Es un programa de Medio Ambiente y Responsabilidad Social a través del cual la organización a conectado con la población y la ha sensibilizado.La empresa de telecomunicaciones de Nicaragua presentó en laFeria Nacional de la Tierrallevada a cabo en Corinto, Chinandega, su programa de Responsabilidad Social Empresarial “Salvá lo Bonito”. En la Feria, Claro dio charlas para promover el reciclaje de teléfonos móviles, baterías y accesorios.El programa significa para la empresa, el principal programa de Medio Ambiente y Responsabilidad Social y se desarrolló a través de una campaña educativa para la población, que ilustraba los riesgos contaminantes de tener teléfonos móviles en desuso en las casas.Roberto Sansón, gerente general de la organización, señaló: “Para nosotros, como empresa líder, esta es una de nuestras principales prioridades y parte de nuestras acciones van encaminadas en promover el reciclaje de desechos contaminantes, limpieza de áreas protegidas, cuencas y la reforestación, con nuestro programa bandera Salvá lo Bonito, que a lo largo de tres años ha dejado logros satisfactorios”.Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2025-11-07T08:08:17.956542",
-      "rotation_id": "2025-11-07-1"
+      "selected_date": "2025-11-10T08:08:38.203390",
+      "rotation_id": "2025-11-10-1"
     },
     {
-      "title": "Auditoria ISO 31000: ¿para qué sirve?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/Auditoria-ISO-31000.jpg",
+      "title": "4 Consejos antes de invertir en soluciones de Gestión de Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/08/invertir-en-soluciones-de-Gestion-de-Calidad.gif",
       "image_exists": true,
-      "text": "La Auditoría ISO 31000 es una evaluación sistemática y documentada del sistema de gestión del riesgo de una organización con base en los lineamientos...",
+      "text": "Soluciones de Gestión de Calidad Las organizaciones pueden encontrar en las soluciones para la gestión de la calidad…",
       "news_priority": 2,
-      "selected_date": "2025-11-07T08:08:17.956552",
-      "rotation_id": "2025-11-07-2"
+      "selected_date": "2025-11-10T08:08:38.203396",
+      "rotation_id": "2025-11-10-2"
     },
     {
-      "title": "Evaluación de riesgos ambientales según ISO 14001: metodologías para mejorar la gestión ambiental",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/06/evaluacion-de-riesgos-ambientales-segun-iso-14001-metodologias-para-mejorar-la-gestion-ambiental.jpg",
+      "title": "¿Cuál es la terminología que utiliza la nueva ISO 31000?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/ISO-31000...jpg",
       "image_exists": true,
-      "text": "La evaluación de riesgos ambientales es una práctica obligatoria, estratégica y de alto valor para la gestión ambiental…",
+      "text": "ISO 31000 La norma ISO 31000 se utiliza para generar y proteger el valor en las empresas mediante…",
       "news_priority": 3,
-      "selected_date": "2025-11-07T08:08:17.956554",
-      "rotation_id": "2025-11-07-3"
+      "selected_date": "2025-11-10T08:08:38.203399",
+      "rotation_id": "2025-11-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-07T08:08:17.956676",
-    "next_rotation": "2025-11-08T08:08:17.956676",
+    "selected_at": "2025-11-10T08:08:38.203478",
+    "next_rotation": "2025-11-11T08:08:38.203478",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
