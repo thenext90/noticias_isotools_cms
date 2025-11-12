@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-11",
-    "generated_at": "2025-11-11T08:08:09.095730",
-    "next_update": "2025-11-12",
+    "generated_date": "2025-11-12",
+    "generated_at": "2025-11-12T08:08:26.376803",
+    "next_update": "2025-11-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools les informa sobre la entrega de Premios de Energía y Medio Ambiente",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/images.jpg",
-      "image_exists": false,
-      "text": "El próximo jueves 29 de noviembre se otorgarán galardones al respeto al medio ambiente.Los I Premios de Energía y Medio Ambienteconstituirá un evento único de fomento de la defensa delmedio ambiente.Dichos premios, convocados en Madrid por las revistasInfoPowereInfoEnviro, constan de 12 categorías:Trayectoria Profesional en el Sector delMedio Ambiente,Trayectoria Profesional en el Sector de la Energía,Jóvenes Emprendedores en el Sector del Medio Ambiente,Jóvenes Emprendedores en el Sector de la Energía,Mejor Empresa Latinoamericana en el Sector del Medio Ambiente,Mejor Empresa Latinoamericana en el Sector de la Energía ,Mejor Proyecto de Energías Renovables,Mejor Proyecto de Eficiencia Energética, Mejor Proyecto de Gestión del Agua,Mejor Proyecto de Gestión de Residuos,Apuesta Extranjera por España en el Sector de la Energía y/o Medio AmbienteEmpresa Española con mayor proyección internacionalTan solo quedantres empresas finalistaspara cada categoría, todos ellos completamente merecedores del galardón.Si desea conocer más información acerca del acto haga clicaquí.Más informaciónaquí",
+      "title": "¿Qué es la Norma ISO 14030?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/ISO-14030-.png",
+      "image_exists": true,
+      "text": "Equilibrar la rentabilidad empresarial y la sostenibilidad por parte de las organizaciones no es tarea fácil. Por el contrario, supone...",
       "news_priority": 1,
-      "selected_date": "2025-11-11T08:08:09.095645",
-      "rotation_id": "2025-11-11-1"
+      "selected_date": "2025-11-12T08:08:26.376713",
+      "rotation_id": "2025-11-12-1"
     },
     {
-      "title": "Comienza el XI Foro Internacional de la Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/08/XI-Foro-Internacional-de-la-Calidad.jpg",
+      "title": "Cómo prepararse para la nueva norma ISO 45001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/10/prepararse-para-la-nueva-norma-ISO-45001.jpeg",
       "image_exists": true,
-      "text": "XI Foro Internacional de la Calidad Queremos recordarles que hoy comienza el XI Foro Internacional de la Calidad,…",
+      "text": "Es urgente prepararse para la nueva norma ISO 45001. Y lo es, porque la norma será publicada en…",
       "news_priority": 2,
-      "selected_date": "2025-11-11T08:08:09.095651",
-      "rotation_id": "2025-11-11-2"
+      "selected_date": "2025-11-12T08:08:26.376719",
+      "rotation_id": "2025-11-12-2"
     },
     {
-      "title": "Conoce la ISO 27014 para la gobernanza eficaz del SGSI",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/iStock_000071806251_Large.jpg",
-      "image_exists": true,
-      "text": "Seguridad de la información y la norma ISO 27014 La ISO 27014 es una norma internacional que proporciona…",
+      "title": "ISOTools destaca el éxito del Fòrum Institucional de Qualitat de les Illes Balears",
+      "image_url": null,
+      "image_exists": false,
+      "text": "El evento organizado por la UIB fue un punto de encuentro para los responsables de la calidad.\n\n\n\n\nLos pasados días 23 y 24 de enero tuvo lugar el Fòrum Institucional de Qualitat de les Illes Balears, un evento bianual organizado este a&n...",
       "news_priority": 3,
-      "selected_date": "2025-11-11T08:08:09.095653",
-      "rotation_id": "2025-11-11-3"
+      "selected_date": "2025-11-12T08:08:26.376721",
+      "rotation_id": "2025-11-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-11T08:08:09.095730",
-    "next_rotation": "2025-11-12T08:08:09.095730",
+    "selected_at": "2025-11-12T08:08:26.376803",
+    "next_rotation": "2025-11-13T08:08:26.376803",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
