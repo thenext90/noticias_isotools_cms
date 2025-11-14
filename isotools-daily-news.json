@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-13",
-    "generated_at": "2025-11-13T08:08:06.448678",
-    "next_update": "2025-11-14",
+    "generated_date": "2025-11-14",
+    "generated_at": "2025-11-14T08:08:15.815503",
+    "next_update": "2025-11-15",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Revisión por la dirección ISO 9001. ¿Cómo ayuda el Business Intelligence?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/03/business-intelligence.jpg",
+      "title": "Semana de la Calidad 2015: Bases del sorteo de una Tablet con acceso al Software ISO",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/09/Semana-de-la-Calidad.jpg",
       "image_exists": true,
-      "text": "Norma ISO 9001 La revisión por la dirección es un proceso clave dentro del marco de calidad ISO…",
+      "text": "Semana de la Calidad 2015 Con motivo de la celebración de la Semana de la Calidad 2015 en Perú,…",
       "news_priority": 1,
-      "selected_date": "2025-11-13T08:08:06.448579",
-      "rotation_id": "2025-11-13-1"
+      "selected_date": "2025-11-14T08:08:15.815399",
+      "rotation_id": "2025-11-14-1"
     },
     {
-      "title": "¿Cómo se establece el sistema integrado ISO?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/04/Sistema-integrado-ISgO.webp",
-      "image_exists": true,
-      "text": "Sistema integrado ISO Durante el artículo de hoy queremos hablar sobre los sistemas integrados ISO (calidad, medio ambiente…",
+      "title": "Las fiscalizaciones on-line para la JUNAEB a través del software ISOTools: Gran logro para la gestión alimentaria de los colegios Chilenos.",
+      "image_url": null,
+      "image_exists": false,
+      "text": "La empresa HACCP ya ha comenzado a realizar las inspecciones a los colegios utilizando la plataforma ISOTools en sus tablets. \n\n\n\n\nComienza el mes de septiembre y con él, las primeras visitas para realizar la gestión de seguridad e inocui...",
       "news_priority": 2,
-      "selected_date": "2025-11-13T08:08:06.448588",
-      "rotation_id": "2025-11-13-2"
+      "selected_date": "2025-11-14T08:08:15.815407",
+      "rotation_id": "2025-11-14-2"
     },
     {
-      "title": "El modelo de excelencia EFQM para los centros educativos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/08/modelo-de-excelencia-EFQM-para-los-centros-educativos.jpg",
+      "title": "ISOTools participa en el curso impartido por CECO de Calidad Turística",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2007/05/Calidad-turistica.webp",
       "image_exists": true,
-      "text": "Modelo de excelencia EFQM La European Foundation for Quality Management – EFQM -, es una organización sin ánimo…",
+      "text": "Calidad turística El Curso Calidad Turística, impartido por la Confederación de Empresarios de Córdoba, de 400 horas de…",
       "news_priority": 3,
-      "selected_date": "2025-11-13T08:08:06.448590",
-      "rotation_id": "2025-11-13-3"
+      "selected_date": "2025-11-14T08:08:15.815409",
+      "rotation_id": "2025-11-14-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-13T08:08:06.448678",
-    "next_rotation": "2025-11-14T08:08:06.448678",
+    "selected_at": "2025-11-14T08:08:15.815503",
+    "next_rotation": "2025-11-15T08:08:15.815503",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
