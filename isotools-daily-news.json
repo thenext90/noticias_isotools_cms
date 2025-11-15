@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-11-15",
-    "generated_at": "2025-11-15T11:54:39.287287",
+    "generated_at": "2025-11-15T11:55:57.203899",
     "next_update": "2025-11-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "5 claves para dar cumplimiento al Esquema Nacional de Seguridad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Esquema-Nacional-de-Seguridad-1.jpg",
+      "title": "Claves para el éxito sostenido gracias a la norma ISO 9004",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/ISO-9004.jpg",
       "image_exists": true,
-      "text": "La seguridad de la información es una prioridad para organizaciones de todos los tamaños y sectores. En este contexto...",
+      "text": "ISO 9004 La certificación en Gestión Avanzada en base a la norma ISO 9004 puede convertirse en una…",
       "news_priority": 1,
-      "selected_date": "2025-11-15T11:54:39.287161",
+      "selected_date": "2025-11-15T11:55:57.203794",
       "rotation_id": "2025-11-15-1"
     },
     {
-      "title": "Revista Empresa Excelente agosto 2023",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/09/Revista_imagen_destacada.jpg",
+      "title": "¿Cómo afecta ISO 27001 los Operadores de Servicios Electrónicos en el Perú?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/05/Operadores-de-Servicios-Electrónicos.jpg",
       "image_exists": true,
-      "text": "En este mes de septiembre os presentamos una nueva edición de la revista Empresa Excelente. En esta publicación...",
+      "text": "Operadores de Servicios Electrónicos Con el objetivo de llevar a cabo una mejora en el sistema de facturación…",
       "news_priority": 2,
-      "selected_date": "2025-11-15T11:54:39.287168",
+      "selected_date": "2025-11-15T11:55:57.203822",
       "rotation_id": "2025-11-15-2"
     },
     {
-      "title": "9 de diciembre: Día Internacional contra la Corrupción",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/12/Día-Internacional-contra-la-Corrupción.jpg",
+      "title": "Últimos eventos ISOTools en Colombia y Chile",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/05/Eventos-ISOTools.jpg",
       "image_exists": true,
-      "text": "Día Internacional contra la Corrupción Como cada 9 de diciembre desde el año 2003, este año se celebra…",
+      "text": "Eventos ISOTools Durante los días 24 y 25 de abril las sedes de ISOTools en Colombia y Chile…",
       "news_priority": 3,
-      "selected_date": "2025-11-15T11:54:39.287171",
+      "selected_date": "2025-11-15T11:55:57.203827",
       "rotation_id": "2025-11-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-15T11:54:39.287287",
-    "next_rotation": "2025-11-16T11:54:39.287287",
+    "selected_at": "2025-11-15T11:55:57.203899",
+    "next_rotation": "2025-11-16T11:55:57.203899",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
