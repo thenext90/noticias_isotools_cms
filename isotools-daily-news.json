@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-11-15",
-    "generated_at": "2025-11-15T11:50:14.899773",
+    "generated_at": "2025-11-15T11:51:23.121264",
     "next_update": "2025-11-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo implementar un SG-SST?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/12/SG-SST.jpg",
+      "title": "Preparación y estrategias para cumplir con la ISO 37001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/12/ISO-37001-1.jpg",
       "image_exists": true,
-      "text": "SG-SST Es fundamental tener claro cómo implementar un Sistema de Gestión de Seguridad y Salud en el Trabajo…",
+      "text": "La adopción de estándares internacionales de gestión se ha convertido en una práctica esencial para las organizaciones...",
       "news_priority": 1,
-      "selected_date": "2025-11-15T11:50:14.899696",
+      "selected_date": "2025-11-15T11:51:23.121178",
       "rotation_id": "2025-11-15-1"
     },
     {
-      "title": "Proceso de investigación en la norma ISO 37301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/07/ISO-37301.jpg",
+      "title": "Sistemas Integrados de Gestión: Enfoque según los estándares de gestión",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/SGI-22-sept.jpg",
       "image_exists": true,
-      "text": "ISO 37301 Ya estamos en una organización que implementa un sistema de gestión de compliance basado en la…",
+      "text": "Sistemas Integrados de Gestión El éxito en la difusión de tantos estándares de gestión, como ISO 9001 para…",
       "news_priority": 2,
-      "selected_date": "2025-11-15T11:50:14.899701",
+      "selected_date": "2025-11-15T11:51:23.121184",
       "rotation_id": "2025-11-15-2"
     },
     {
-      "title": "Análisis Predictivo y tendencias en indicadores clave HSE",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/05/indicadores-clave-HSE.jpg",
+      "title": "Caso de Éxito: Agrícola Don Pollo. Soluciones ISOTools para la gestión de la Inocuidad Alimentaria.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/01/post-donpollo.jpg",
       "image_exists": true,
-      "text": "Indicadores clave HSE Los indicadores clave en HSE, nos van a arrojar mejores resultados frente a los indicadores…",
+      "text": "Agrícola Don Pollo inició sus gestiones en el año 1986, siendo la empresa avícola más nueva de Chile.…",
       "news_priority": 3,
-      "selected_date": "2025-11-15T11:50:14.899703",
+      "selected_date": "2025-11-15T11:51:23.121186",
       "rotation_id": "2025-11-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-15T11:50:14.899773",
-    "next_rotation": "2025-11-16T11:50:14.899773",
+    "selected_at": "2025-11-15T11:51:23.121264",
+    "next_rotation": "2025-11-16T11:51:23.121264",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
