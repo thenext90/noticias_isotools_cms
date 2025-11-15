@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-14",
-    "generated_at": "2025-11-14T08:08:15.815503",
-    "next_update": "2025-11-15",
+    "generated_date": "2025-11-15",
+    "generated_at": "2025-11-15T11:48:13.131467",
+    "next_update": "2025-11-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Semana de la Calidad 2015: Bases del sorteo de una Tablet con acceso al Software ISO",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/09/Semana-de-la-Calidad.jpg",
+      "title": "8 peculiaridades de la ISO 42001 que debes conocer",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/ISO_IEC-42001.jpg",
       "image_exists": true,
-      "text": "Semana de la Calidad 2015 Con motivo de la celebración de la Semana de la Calidad 2015 en Perú,…",
+      "text": "La inteligencia artificial (IA) está transformando industrias a nivel global, desde el sector financiero hasta la salud y la manufactura...",
       "news_priority": 1,
-      "selected_date": "2025-11-14T08:08:15.815399",
-      "rotation_id": "2025-11-14-1"
+      "selected_date": "2025-11-15T11:48:13.131344",
+      "rotation_id": "2025-11-15-1"
     },
     {
-      "title": "Las fiscalizaciones on-line para la JUNAEB a través del software ISOTools: Gran logro para la gestión alimentaria de los colegios Chilenos.",
-      "image_url": null,
-      "image_exists": false,
-      "text": "La empresa HACCP ya ha comenzado a realizar las inspecciones a los colegios utilizando la plataforma ISOTools en sus tablets. \n\n\n\n\nComienza el mes de septiembre y con él, las primeras visitas para realizar la gestión de seguridad e inocui...",
-      "news_priority": 2,
-      "selected_date": "2025-11-14T08:08:15.815407",
-      "rotation_id": "2025-11-14-2"
-    },
-    {
-      "title": "ISOTools participa en el curso impartido por CECO de Calidad Turística",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2007/05/Calidad-turistica.webp",
+      "title": "ISOTools participa en la XXXI edición Carrera de Los Califas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/^FB06FB67207F191503392495F0E83CD20AD39A27071A63ECDF^pimgpsh_fullsize_distr.jpg",
       "image_exists": true,
-      "text": "Calidad turística El Curso Calidad Turística, impartido por la Confederación de Empresarios de Córdoba, de 400 horas de…",
+      "text": "ISOTools El pasado domingo 7 de mayo tuvo lugar en Códoba (España), la XXXI Edición de la carrera…",
+      "news_priority": 2,
+      "selected_date": "2025-11-15T11:48:13.131352",
+      "rotation_id": "2025-11-15-2"
+    },
+    {
+      "title": "Ley 29783 de Seguridad y Salud en el Trabajo: Cambios, responsabilidades, obligaciones…",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/08/ley-29783.jpg",
+      "image_exists": true,
+      "text": "Ley 29783 En la actualidad la ley que se encuentra a la vanguardia en temas laborales en Perú…",
       "news_priority": 3,
-      "selected_date": "2025-11-14T08:08:15.815409",
-      "rotation_id": "2025-11-14-3"
+      "selected_date": "2025-11-15T11:48:13.131354",
+      "rotation_id": "2025-11-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-14T08:08:15.815503",
-    "next_rotation": "2025-11-15T08:08:15.815503",
+    "selected_at": "2025-11-15T11:48:13.131467",
+    "next_rotation": "2025-11-16T11:48:13.131467",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
