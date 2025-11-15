@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-11-15",
-    "generated_at": "2025-11-15T11:53:19.181125",
+    "generated_at": "2025-11-15T11:54:39.287287",
     "next_update": "2025-11-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Los 50 Excelentes de ISOTools en 2021",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/banner_cabecera.jpg",
+      "title": "5 claves para dar cumplimiento al Esquema Nacional de Seguridad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Esquema-Nacional-de-Seguridad-1.jpg",
       "image_exists": true,
-      "text": "50 Excelentes de ISOTools Otro año más, como les tenemos acostumbrados, nos llena de orgullo presentarles los 50…",
+      "text": "La seguridad de la información es una prioridad para organizaciones de todos los tamaños y sectores. En este contexto...",
       "news_priority": 1,
-      "selected_date": "2025-11-15T11:53:19.181036",
+      "selected_date": "2025-11-15T11:54:39.287161",
       "rotation_id": "2025-11-15-1"
     },
     {
-      "title": "Documentación necesaria para la certificación de la ISO 22301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/05/12.jpg",
+      "title": "Revista Empresa Excelente agosto 2023",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/09/Revista_imagen_destacada.jpg",
       "image_exists": true,
-      "text": "La ISO 22301 es una norma de aplicación internacional cuya adopción requiere de una cierta documentación de empleo…",
+      "text": "En este mes de septiembre os presentamos una nueva edición de la revista Empresa Excelente. En esta publicación...",
       "news_priority": 2,
-      "selected_date": "2025-11-15T11:53:19.181042",
+      "selected_date": "2025-11-15T11:54:39.287168",
       "rotation_id": "2025-11-15-2"
     },
     {
-      "title": "ISO 14001 :Una gran oportunidad para las empresas turísticas en gestión ambiental",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/10/Empresas-turisticas-en-gestion-ambiental.png",
+      "title": "9 de diciembre: Día Internacional contra la Corrupción",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/12/Día-Internacional-contra-la-Corrupción.jpg",
       "image_exists": true,
-      "text": "Empresas turísticas en gestión ambiental La ISO 14001  se emplea para los Sistemas de Gestión Ambiental. Esta norma…",
+      "text": "Día Internacional contra la Corrupción Como cada 9 de diciembre desde el año 2003, este año se celebra…",
       "news_priority": 3,
-      "selected_date": "2025-11-15T11:53:19.181044",
+      "selected_date": "2025-11-15T11:54:39.287171",
       "rotation_id": "2025-11-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-15T11:53:19.181125",
-    "next_rotation": "2025-11-16T11:53:19.181125",
+    "selected_at": "2025-11-15T11:54:39.287287",
+    "next_rotation": "2025-11-16T11:54:39.287287",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
