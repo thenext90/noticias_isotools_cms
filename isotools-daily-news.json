@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-11-15",
-    "generated_at": "2025-11-15T11:48:13.131467",
+    "generated_at": "2025-11-15T11:50:14.899773",
     "next_update": "2025-11-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "8 peculiaridades de la ISO 42001 que debes conocer",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/ISO_IEC-42001.jpg",
+      "title": "¿Cómo implementar un SG-SST?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/12/SG-SST.jpg",
       "image_exists": true,
-      "text": "La inteligencia artificial (IA) está transformando industrias a nivel global, desde el sector financiero hasta la salud y la manufactura...",
+      "text": "SG-SST Es fundamental tener claro cómo implementar un Sistema de Gestión de Seguridad y Salud en el Trabajo…",
       "news_priority": 1,
-      "selected_date": "2025-11-15T11:48:13.131344",
+      "selected_date": "2025-11-15T11:50:14.899696",
       "rotation_id": "2025-11-15-1"
     },
     {
-      "title": "ISOTools participa en la XXXI edición Carrera de Los Califas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/^FB06FB67207F191503392495F0E83CD20AD39A27071A63ECDF^pimgpsh_fullsize_distr.jpg",
+      "title": "Proceso de investigación en la norma ISO 37301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/07/ISO-37301.jpg",
       "image_exists": true,
-      "text": "ISOTools El pasado domingo 7 de mayo tuvo lugar en Códoba (España), la XXXI Edición de la carrera…",
+      "text": "ISO 37301 Ya estamos en una organización que implementa un sistema de gestión de compliance basado en la…",
       "news_priority": 2,
-      "selected_date": "2025-11-15T11:48:13.131352",
+      "selected_date": "2025-11-15T11:50:14.899701",
       "rotation_id": "2025-11-15-2"
     },
     {
-      "title": "Ley 29783 de Seguridad y Salud en el Trabajo: Cambios, responsabilidades, obligaciones…",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/08/ley-29783.jpg",
+      "title": "Análisis Predictivo y tendencias en indicadores clave HSE",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/05/indicadores-clave-HSE.jpg",
       "image_exists": true,
-      "text": "Ley 29783 En la actualidad la ley que se encuentra a la vanguardia en temas laborales en Perú…",
+      "text": "Indicadores clave HSE Los indicadores clave en HSE, nos van a arrojar mejores resultados frente a los indicadores…",
       "news_priority": 3,
-      "selected_date": "2025-11-15T11:48:13.131354",
+      "selected_date": "2025-11-15T11:50:14.899703",
       "rotation_id": "2025-11-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-15T11:48:13.131467",
-    "next_rotation": "2025-11-16T11:48:13.131467",
+    "selected_at": "2025-11-15T11:50:14.899773",
+    "next_rotation": "2025-11-16T11:50:14.899773",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
