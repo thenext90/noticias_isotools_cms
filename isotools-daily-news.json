@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2025-11-15",
-    "generated_at": "2025-11-15T11:55:57.203899",
+    "generated_at": "2025-11-15T11:58:17.979140",
     "next_update": "2025-11-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Claves para el éxito sostenido gracias a la norma ISO 9004",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/ISO-9004.jpg",
+      "title": "¿Cuáles son los posibles riesgos de seguridad de la IA y cómo ayuda la norma ISO 42001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/Cuales-son-los-posibles-riesgos-de-seguridad-de-la-IA-y-como-ayuda-la-norma-ISO-42001.jpg",
       "image_exists": true,
-      "text": "ISO 9004 La certificación en Gestión Avanzada en base a la norma ISO 9004 puede convertirse en una…",
+      "text": "Los riesgos de seguridad de la IA preocupan a las empresas que han basado sus proyectos estratégicos de…",
       "news_priority": 1,
-      "selected_date": "2025-11-15T11:55:57.203794",
+      "selected_date": "2025-11-15T11:58:17.979038",
       "rotation_id": "2025-11-15-1"
     },
     {
-      "title": "¿Cómo afecta ISO 27001 los Operadores de Servicios Electrónicos en el Perú?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/05/Operadores-de-Servicios-Electrónicos.jpg",
-      "image_exists": true,
-      "text": "Operadores de Servicios Electrónicos Con el objetivo de llevar a cabo una mejora en el sistema de facturación…",
+      "title": "CAIGG. El  Modelo de Gestión de Riesgos Chilenos",
+      "image_url": null,
+      "image_exists": false,
+      "text": "No Text Found",
       "news_priority": 2,
-      "selected_date": "2025-11-15T11:55:57.203822",
+      "selected_date": "2025-11-15T11:58:17.979044",
       "rotation_id": "2025-11-15-2"
     },
     {
-      "title": "Últimos eventos ISOTools en Colombia y Chile",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/05/Eventos-ISOTools.jpg",
+      "title": "ISOTools destaca el éxito del Seminario Internacional de Responsabilidad Social Empresarial de Sonora, México",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/10/Responsabilidad-sociallll.webp",
       "image_exists": true,
-      "text": "Eventos ISOTools Durante los días 24 y 25 de abril las sedes de ISOTools en Colombia y Chile…",
+      "text": "Responsabilidad Social Tras un éxito apoteósico, se clausura la decimotercera edición de este evento internacional. El Seminario Internacional…",
       "news_priority": 3,
-      "selected_date": "2025-11-15T11:55:57.203827",
+      "selected_date": "2025-11-15T11:58:17.979047",
       "rotation_id": "2025-11-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-15T11:55:57.203899",
-    "next_rotation": "2025-11-16T11:55:57.203899",
+    "selected_at": "2025-11-15T11:58:17.979140",
+    "next_rotation": "2025-11-16T11:58:17.979140",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
