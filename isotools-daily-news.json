@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-15",
-    "generated_at": "2025-11-15T11:58:17.979140",
-    "next_update": "2025-11-16",
+    "generated_date": "2025-11-17",
+    "generated_at": "2025-11-17T08:08:36.946968",
+    "next_update": "2025-11-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cuáles son los posibles riesgos de seguridad de la IA y cómo ayuda la norma ISO 42001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/Cuales-son-los-posibles-riesgos-de-seguridad-de-la-IA-y-como-ayuda-la-norma-ISO-42001.jpg",
+      "title": "Nuestros clientes entre los mejores centros educativos de España",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/centros-educativos.jpg",
       "image_exists": true,
-      "text": "Los riesgos de seguridad de la IA preocupan a las empresas que han basado sus proyectos estratégicos de…",
+      "text": "Centros Educativos Hace unos días, el Periódico El Mundo ha vuelto a publicar el listado actualizado de los…",
       "news_priority": 1,
-      "selected_date": "2025-11-15T11:58:17.979038",
-      "rotation_id": "2025-11-15-1"
+      "selected_date": "2025-11-17T08:08:36.946895",
+      "rotation_id": "2025-11-17-1"
     },
     {
-      "title": "CAIGG. El  Modelo de Gestión de Riesgos Chilenos",
-      "image_url": null,
-      "image_exists": false,
-      "text": "No Text Found",
-      "news_priority": 2,
-      "selected_date": "2025-11-15T11:58:17.979044",
-      "rotation_id": "2025-11-15-2"
-    },
-    {
-      "title": "ISOTools destaca el éxito del Seminario Internacional de Responsabilidad Social Empresarial de Sonora, México",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/10/Responsabilidad-sociallll.webp",
+      "title": "Cómo conseguir la eficiencia energética con la norma ISO 50001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/08/iStock_000070864961_Large.jpg",
       "image_exists": true,
-      "text": "Responsabilidad Social Tras un éxito apoteósico, se clausura la decimotercera edición de este evento internacional. El Seminario Internacional…",
+      "text": "Una norma enfocada en la optimización del uso energético Un Sistema de Gestión Energética hace referencia a la parte de…",
+      "news_priority": 2,
+      "selected_date": "2025-11-17T08:08:36.946900",
+      "rotation_id": "2025-11-17-2"
+    },
+    {
+      "title": "OHSAS 18001: Auditoría en los Sistemas de Gestión de Seguridad y Salud en el Trabajo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/OHSAS-1800-3.gif",
+      "image_exists": true,
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 3,
-      "selected_date": "2025-11-15T11:58:17.979047",
-      "rotation_id": "2025-11-15-3"
+      "selected_date": "2025-11-17T08:08:36.946903",
+      "rotation_id": "2025-11-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-15T11:58:17.979140",
-    "next_rotation": "2025-11-16T11:58:17.979140",
+    "selected_at": "2025-11-17T08:08:36.946968",
+    "next_rotation": "2025-11-18T08:08:36.946968",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
