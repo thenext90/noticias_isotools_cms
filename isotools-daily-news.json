@@ -25,28 +25,28 @@
   },
   "daily_news": [
     {
-      "title": "Metodologías para el Análisis de Riesgos según ISO 9001:2015",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/12/análisis-de-riesgos-según-ISO-9001-2015.jpg",
+      "title": "Orientación para la transición a ISO 9001:2026 según SGS",
+      "image_url": "https://raw.githubusercontent.com/thenext90/noticias_isotools_cms/ca93c6d5017b4a51aac95e2ae75b6a73b440e9ff/public/image/SGS_ISO_2026.jpg",
       "image_exists": true,
-      "text": "El análisis de riesgos según ISO 9001:2015 es uno de las novedades de mayor relevancia que propone la…",
+      "text": "SGS publicó su guía oficial para apoyar a empresas en la transición hacia la futura ISO 9001:2026, destacando cambios en enfoque basado en riesgos y gestión del conocimiento.",
       "news_priority": 1,
       "selected_date": "2025-11-18T08:08:19.298320",
       "rotation_id": "2025-11-18-1"
     },
     {
-      "title": "Nuevo Ebook “Implantación de los estándares de seguridad alimentaria.»",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/0.-Resumen-Ebook.jpg",
+      "title": "División Gabriela Mistral (Codelco) renueva certificación ISO 14001",
+      "image_url": "https://pm.portalminero.com/images/noticias/6901eef200283.jpg",
       "image_exists": true,
-      "text": "La seguridad alimentaria es una cuestión que cada vez preocupa más a consumidores y empresas. Un alimento en…",
+      "text": "La División Gabriela Mistral de Codelco renovó su certificación ISO 14001 tras auditoría externa, reafirmando su compromiso ambiental y gestión sostenible.",
       "news_priority": 2,
       "selected_date": "2025-11-18T08:08:19.298331",
       "rotation_id": "2025-11-18-2"
     },
     {
-      "title": "Nueva ISO 41001 ¿Cómo gestionar las instalaciones?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/04/ISO-41001.jpg",
+      "title": "CMP certifica su modelo GRP con ISO 9001, 14001 y 45001",
+      "image_url": "https://www.reporteminero.cl/files/68898d1446ede_1200x719.jpg",
       "image_exists": true,
-      "text": "ISO 41001 Si pensamos que el futuro del trabajo se basa en la experiencia que tenga el trabajador…",
+      "text": "Compañía Minera del Pacífico logró certificar su modelo de Gestión de Riesgos en los Procesos (GRP) bajo las normas ISO 9001, 14001 y 45001, destacando un enfoque integrado.",
       "news_priority": 3,
       "selected_date": "2025-11-18T08:08:19.298334",
       "rotation_id": "2025-11-18-3"
