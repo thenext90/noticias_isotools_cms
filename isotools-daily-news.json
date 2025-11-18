@@ -1,11 +1,11 @@
 {
   "metadata": {
     "title": "ISOTools - Noticias Diarias",
-    "description": "Selección diaria de artículos destacados sobre normas ISO",
+    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-17",
-    "generated_at": "2025-11-17T08:08:36.946968",
-    "next_update": "2025-11-18",
+    "generated_date": "2025-11-18",
+    "generated_at": "2025-11-18T08:08:19.298445",
+    "next_update": "2025-11-19",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "SEA renueva por tres años la certificación ISO 27001:2022",
-      "image_url": "https://www.sea.gob.cl/sites/default/files/styles/noticia_portada/public/imagenes/noticias/portada/logo_660_1.png",
+      "title": "Metodologías para el Análisis de Riesgos según ISO 9001:2015",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/12/análisis-de-riesgos-según-ISO-9001-2015.jpg",
       "image_exists": true,
-      "text": "El Servicio de Evaluación Ambiental completó su recertificación en seguridad de la información bajo la ISO 27001:2022.",
+      "text": "El análisis de riesgos según ISO 9001:2015 es uno de las novedades de mayor relevancia que propone la…",
       "news_priority": 1,
-      "selected_date": "2025-11-17T08:08:36.946895",
-      "rotation_id": "2025-11-17-1"
+      "selected_date": "2025-11-18T08:08:19.298320",
+      "rotation_id": "2025-11-18-1"
     },
     {
-      "title": "La Coipa de Kinross obtiene certificación ISO 50001 en gestión energética",
-      "image_url": "https://s24.q4cdn.com/946821171/files/doc_news/2025/Jul/25/mediaFiles/ISO-50001.jpg",
+      "title": "Nuevo Ebook “Implantación de los estándares de seguridad alimentaria.»",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/0.-Resumen-Ebook.jpg",
       "image_exists": true,
-      "text": "La faena minera La Coipa certificó su Sistema de Gestión de Energía bajo la norma ISO 50001 tras una auditoría sin no conformidades.",
+      "text": "La seguridad alimentaria es una cuestión que cada vez preocupa más a consumidores y empresas. Un alimento en…",
       "news_priority": 2,
-      "selected_date": "2025-11-17T08:08:36.946900",
-      "rotation_id": "2025-11-17-2"
+      "selected_date": "2025-11-18T08:08:19.298331",
+      "rotation_id": "2025-11-18-2"
     },
     {
-      "title": "Fundación Chile logra recertificación ISO 45001 e ISO 14001 sin no conformidades",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBy7fxpHU9LXtqaKjk56c9ZlKvb4NBfXEt-gdKMMJCtyAbQYi5YHLRWwKiw7uYDa-HKJM&usqp=CAU",
+      "title": "Nueva ISO 41001 ¿Cómo gestionar las instalaciones?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/04/ISO-41001.jpg",
       "image_exists": true,
-      "text": "Fundación Chile renovó con éxito su Sistema Integrado de Gestión en seguridad y medio ambiente tras auditoría externa.",
+      "text": "ISO 41001 Si pensamos que el futuro del trabajo se basa en la experiencia que tenga el trabajador…",
       "news_priority": 3,
-      "selected_date": "2025-11-17T08:08:36.946903",
-      "rotation_id": "2025-11-17-3"
+      "selected_date": "2025-11-18T08:08:19.298334",
+      "rotation_id": "2025-11-18-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-17T08:08:36.946968",
-    "next_rotation": "2025-11-18T08:08:36.946968",
+    "selected_at": "2025-11-18T08:08:19.298445",
+    "next_rotation": "2025-11-19T08:08:19.298445",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
