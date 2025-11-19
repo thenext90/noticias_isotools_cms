@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-18",
-    "generated_at": "2025-11-18T08:08:19.298445",
-    "next_update": "2025-11-19",
+    "generated_date": "2025-11-19",
+    "generated_at": "2025-11-19T08:07:57.190565",
+    "next_update": "2025-11-20",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Orientación para la transición a ISO 9001:2026 según SGS",
-      "image_url": "https://raw.githubusercontent.com/thenext90/noticias_isotools_cms/ca93c6d5017b4a51aac95e2ae75b6a73b440e9ff/public/image/SGS_ISO_2026.jpg",
-      "image_exists": true,
-      "text": "SGS publicó su guía oficial para apoyar a empresas en la transición hacia la futura ISO 9001:2026, destacando cambios en enfoque basado en riesgos y gestión del conocimiento.",
+      "title": "ISOTools visita a RRZ Consulting en Ciudad de México",
+      "image_url": null,
+      "image_exists": false,
+      "text": "El pasado día 6 de Marzo una parte del equipo de ISOTools se reunió con el equipo de…",
       "news_priority": 1,
-      "selected_date": "2025-11-18T08:08:19.298320",
-      "rotation_id": "2025-11-18-1"
+      "selected_date": "2025-11-19T08:07:57.190466",
+      "rotation_id": "2025-11-19-1"
     },
     {
-      "title": "División Gabriela Mistral (Codelco) renueva certificación ISO 14001",
-      "image_url": "https://pm.portalminero.com/images/noticias/6901eef200283.jpg",
+      "title": "Principales claves para gestionar la calidad en la salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/calidad-salud.jpg",
       "image_exists": true,
-      "text": "La División Gabriela Mistral de Codelco renovó su certificación ISO 14001 tras auditoría externa, reafirmando su compromiso ambiental y gestión sostenible.",
+      "text": "El sistema sanitario: un complejo modelo de organización El sistema sanitario, como toda organización, consta de una estructura…",
       "news_priority": 2,
-      "selected_date": "2025-11-18T08:08:19.298331",
-      "rotation_id": "2025-11-18-2"
+      "selected_date": "2025-11-19T08:07:57.190473",
+      "rotation_id": "2025-11-19-2"
     },
     {
-      "title": "CMP certifica su modelo GRP con ISO 9001, 14001 y 45001",
-      "image_url": "https://www.reporteminero.cl/files/68898d1446ede_1200x719.jpg",
+      "title": "Cómo ayudan los Sistemas Integrados de Gestión a las políticas de Compliance",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/04/compliance.jpg",
       "image_exists": true,
-      "text": "Compañía Minera del Pacífico logró certificar su modelo de Gestión de Riesgos en los Procesos (GRP) bajo las normas ISO 9001, 14001 y 45001, destacando un enfoque integrado.",
+      "text": "Compliance La integración de los Sistemas de Gestión (SG) con las políticas de Compliance de una organización, es…",
       "news_priority": 3,
-      "selected_date": "2025-11-18T08:08:19.298334",
-      "rotation_id": "2025-11-18-3"
+      "selected_date": "2025-11-19T08:07:57.190475",
+      "rotation_id": "2025-11-19-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-18T08:08:19.298445",
-    "next_rotation": "2025-11-19T08:08:19.298445",
+    "selected_at": "2025-11-19T08:07:57.190565",
+    "next_rotation": "2025-11-20T08:07:57.190565",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
