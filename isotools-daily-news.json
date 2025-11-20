@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-19",
-    "generated_at": "2025-11-19T08:07:57.190565",
-    "next_update": "2025-11-20",
+    "generated_date": "2025-11-20",
+    "generated_at": "2025-11-20T08:08:23.808844",
+    "next_update": "2025-11-21",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools visita a RRZ Consulting en Ciudad de México",
-      "image_url": null,
-      "image_exists": false,
-      "text": "El pasado día 6 de Marzo una parte del equipo de ISOTools se reunió con el equipo de…",
+      "title": "Concluye con éxito el seminario de presentación de la solución ISOTools en la UJA",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/12/Solucion-ISOTools.png",
+      "image_exists": true,
+      "text": "La Universidad de Jaén se muestra muy satisfecha con el proyecto adaptado a sus necesidades realizado por ISOTools.",
       "news_priority": 1,
-      "selected_date": "2025-11-19T08:07:57.190466",
-      "rotation_id": "2025-11-19-1"
+      "selected_date": "2025-11-20T08:08:23.808731",
+      "rotation_id": "2025-11-20-1"
     },
     {
-      "title": "Principales claves para gestionar la calidad en la salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/calidad-salud.jpg",
+      "title": "Riesgos de seguridad en las TI: familia de normas ISO / IEC 27000",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/Riesgos-de-seguridad.jpg",
       "image_exists": true,
-      "text": "El sistema sanitario: un complejo modelo de organización El sistema sanitario, como toda organización, consta de una estructura…",
+      "text": "Riesgos de seguridad Con bastante frecuencia, las empresas tienen que enfrentarse a diferentes clases de riesgos de seguridad,…",
       "news_priority": 2,
-      "selected_date": "2025-11-19T08:07:57.190473",
-      "rotation_id": "2025-11-19-2"
+      "selected_date": "2025-11-20T08:08:23.808736",
+      "rotation_id": "2025-11-20-2"
     },
     {
-      "title": "Cómo ayudan los Sistemas Integrados de Gestión a las políticas de Compliance",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/04/compliance.jpg",
+      "title": "¿Cuáles son los métodos utilizados para integrar sistemas de gestión?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Integrar-Sistemas-de-Gestión.jpg",
       "image_exists": true,
-      "text": "Compliance La integración de los Sistemas de Gestión (SG) con las políticas de Compliance de una organización, es…",
+      "text": "Integrar Sistemas de Gestión Las nuevas normas ISO como puede ser la ISO 9001 2015, la ISO 14001…",
       "news_priority": 3,
-      "selected_date": "2025-11-19T08:07:57.190475",
-      "rotation_id": "2025-11-19-3"
+      "selected_date": "2025-11-20T08:08:23.808738",
+      "rotation_id": "2025-11-20-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-19T08:07:57.190565",
-    "next_rotation": "2025-11-20T08:07:57.190565",
+    "selected_at": "2025-11-20T08:08:23.808844",
+    "next_rotation": "2025-11-21T08:08:23.808844",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
