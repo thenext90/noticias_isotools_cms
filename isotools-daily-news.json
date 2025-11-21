@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-20",
-    "generated_at": "2025-11-20T08:08:23.808844",
-    "next_update": "2025-11-21",
+    "generated_date": "2025-11-21",
+    "generated_at": "2025-11-21T08:08:22.333054",
+    "next_update": "2025-11-22",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Concluye con éxito el seminario de presentación de la solución ISOTools en la UJA",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/12/Solucion-ISOTools.png",
+      "title": "OHSAS 18001: Una industria comprometida con la seguridad y salud en el trabajo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/OHSAS18001.jpg",
       "image_exists": true,
-      "text": "La Universidad de Jaén se muestra muy satisfecha con el proyecto adaptado a sus necesidades realizado por ISOTools.",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 1,
-      "selected_date": "2025-11-20T08:08:23.808731",
-      "rotation_id": "2025-11-20-1"
+      "selected_date": "2025-11-21T08:08:22.332960",
+      "rotation_id": "2025-11-21-1"
     },
     {
-      "title": "Riesgos de seguridad en las TI: familia de normas ISO / IEC 27000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/Riesgos-de-seguridad.jpg",
+      "title": "Requisitos para aplicar un sistema de Gestión Ambiental",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/Requisitos-sistema-de-Gestión-Ambiental.jpg",
       "image_exists": true,
-      "text": "Riesgos de seguridad Con bastante frecuencia, las empresas tienen que enfrentarse a diferentes clases de riesgos de seguridad,…",
+      "text": "Norma 14001: Sistema de Gestión Ambiental Las empresas están obligadas a medir el impacto de sus actividades en…",
       "news_priority": 2,
-      "selected_date": "2025-11-20T08:08:23.808736",
-      "rotation_id": "2025-11-20-2"
+      "selected_date": "2025-11-21T08:08:22.332967",
+      "rotation_id": "2025-11-21-2"
     },
     {
-      "title": "¿Cuáles son los métodos utilizados para integrar sistemas de gestión?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Integrar-Sistemas-de-Gestión.jpg",
+      "title": "Revista Empresa Excelente agosto 2023",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/09/Revista_imagen_destacada.jpg",
       "image_exists": true,
-      "text": "Integrar Sistemas de Gestión Las nuevas normas ISO como puede ser la ISO 9001 2015, la ISO 14001…",
+      "text": "En este mes de septiembre os presentamos una nueva edición de la revista Empresa Excelente. En esta publicación...",
       "news_priority": 3,
-      "selected_date": "2025-11-20T08:08:23.808738",
-      "rotation_id": "2025-11-20-3"
+      "selected_date": "2025-11-21T08:08:22.332969",
+      "rotation_id": "2025-11-21-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-20T08:08:23.808844",
-    "next_rotation": "2025-11-21T08:08:23.808844",
+    "selected_at": "2025-11-21T08:08:22.333054",
+    "next_rotation": "2025-11-22T08:08:22.333054",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
