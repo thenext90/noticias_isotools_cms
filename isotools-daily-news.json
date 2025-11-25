@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-24",
-    "generated_at": "2025-11-24T08:09:09.195676",
-    "next_update": "2025-11-25",
+    "generated_date": "2025-11-25",
+    "generated_at": "2025-11-25T08:08:34.005107",
+    "next_update": "2025-11-26",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Un investigador cubano declara preocupante los altos niveles de dióxido de carbono en la atmósfera",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/Dioxido-de-carbono.webp",
+      "title": "Normas ISO y gobernanza de la Inteligencia Artificial: claves para un futuro más seguro",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/normas-iso-y-gobernanza-de-la-inteligencia-artificial-claves-para-un-futuro-mas-seguro.jpg",
       "image_exists": true,
-      "text": "El aumento progresivo de este y otros gases de efecto invernadero ha provocado  un valor record.\r\n\r\nOrlando Rey, director de Medio Ambiente del Ministerio de Ciencia, Tecnología y Medio Ambiente de Cuba, ha calificado como preocupante que las conc...",
+      "text": "La gobernanza de la Inteligencia Artificial es una cuestión que adquiere relevancia en la misma proporción que crecen…",
       "news_priority": 1,
-      "selected_date": "2025-11-24T08:09:09.195558",
-      "rotation_id": "2025-11-24-1"
+      "selected_date": "2025-11-25T08:08:34.004997",
+      "rotation_id": "2025-11-25-1"
     },
     {
-      "title": "ISO 21542, primera norma internacional que normaliza los criterios de accesibilidad al entorno edificado",
-      "image_url": null,
-      "image_exists": false,
-      "text": "ISO 21542 describe una serie de requisitos y recomendaciones para innumerables elementos de construcción y montaje, además de…",
-      "news_priority": 2,
-      "selected_date": "2025-11-24T08:09:09.195567",
-      "rotation_id": "2025-11-24-2"
-    },
-    {
-      "title": "Automatización del Sistema de Gestión de Calidad en un organismo público",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/Sistema-de-Gestión-de-Calidad.jpg",
+      "title": "Software de seguridad y salud en el trabajo: principales características",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/06/Software-de-seguridad-y-salud-en-el-trabajo-principales-caracteristicas.jpg",
       "image_exists": true,
-      "text": "Sistema de Gestión de Calidad En el artículo de hoy vamos a hablar sobre cómo un organismo público…",
+      "text": "Software de seguridad y salud en el trabajo El Software de Seguridad y Salud en el Trabajo es…",
+      "news_priority": 2,
+      "selected_date": "2025-11-25T08:08:34.005006",
+      "rotation_id": "2025-11-25-2"
+    },
+    {
+      "title": "Principios de Gestión de la Calidad en la Educación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Principios-de-Gestión-de-la-Calidad-en-la-Educación.jpg",
+      "image_exists": true,
+      "text": "Gestión de la Calidad en la Educación Es ya un hecho demostrado y probado, que las organizaciones que…",
       "news_priority": 3,
-      "selected_date": "2025-11-24T08:09:09.195569",
-      "rotation_id": "2025-11-24-3"
+      "selected_date": "2025-11-25T08:08:34.005010",
+      "rotation_id": "2025-11-25-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-24T08:09:09.195676",
-    "next_rotation": "2025-11-25T08:09:09.195676",
+    "selected_at": "2025-11-25T08:08:34.005107",
+    "next_rotation": "2025-11-26T08:08:34.005107",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
