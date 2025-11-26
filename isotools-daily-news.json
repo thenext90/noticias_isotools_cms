@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-25",
-    "generated_at": "2025-11-25T08:08:34.005107",
-    "next_update": "2025-11-26",
+    "generated_date": "2025-11-26",
+    "generated_at": "2025-11-26T08:08:12.551226",
+    "next_update": "2025-11-27",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Normas ISO y gobernanza de la Inteligencia Artificial: claves para un futuro más seguro",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/normas-iso-y-gobernanza-de-la-inteligencia-artificial-claves-para-un-futuro-mas-seguro.jpg",
+      "title": "Acreditación de Instituciones de Educación Superior: preguntas frecuentes",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/10/Acreditación-de-Instituciones-de-Educación-Superior.jpeg",
       "image_exists": true,
-      "text": "La gobernanza de la Inteligencia Artificial es una cuestión que adquiere relevancia en la misma proporción que crecen…",
+      "text": "La Acreditación de Instituciones de Educación Superior es un proceso que, en primera instancia, parte de una iniciativa…",
       "news_priority": 1,
-      "selected_date": "2025-11-25T08:08:34.004997",
-      "rotation_id": "2025-11-25-1"
+      "selected_date": "2025-11-26T08:08:12.551121",
+      "rotation_id": "2025-11-26-1"
     },
     {
-      "title": "Software de seguridad y salud en el trabajo: principales características",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/06/Software-de-seguridad-y-salud-en-el-trabajo-principales-caracteristicas.jpg",
+      "title": "Innovación Sostenible con ISO 50501: Impulso para el ODS 9",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/ISO-50501.jpg",
       "image_exists": true,
-      "text": "Software de seguridad y salud en el trabajo El Software de Seguridad y Salud en el Trabajo es…",
+      "text": "La innovación sostenible ha emergido como un pilar clave para el desarrollo económico y la competitividad empresarial. La innovación ya no se trata...",
       "news_priority": 2,
-      "selected_date": "2025-11-25T08:08:34.005006",
-      "rotation_id": "2025-11-25-2"
+      "selected_date": "2025-11-26T08:08:12.551127",
+      "rotation_id": "2025-11-26-2"
     },
     {
-      "title": "Principios de Gestión de la Calidad en la Educación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Principios-de-Gestión-de-la-Calidad-en-la-Educación.jpg",
-      "image_exists": true,
-      "text": "Gestión de la Calidad en la Educación Es ya un hecho demostrado y probado, que las organizaciones que…",
+      "title": "Los sellos EFQM ¿Qué son y qué significan?",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Los sellos de la Excelencia o más comúnmente conocidos como sellos EFQM,están proyectados para ayudar a las organizaciones…",
       "news_priority": 3,
-      "selected_date": "2025-11-25T08:08:34.005010",
-      "rotation_id": "2025-11-25-3"
+      "selected_date": "2025-11-26T08:08:12.551130",
+      "rotation_id": "2025-11-26-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-25T08:08:34.005107",
-    "next_rotation": "2025-11-26T08:08:34.005107",
+    "selected_at": "2025-11-26T08:08:12.551226",
+    "next_rotation": "2025-11-27T08:08:12.551226",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
