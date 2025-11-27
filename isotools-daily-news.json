@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-26",
-    "generated_at": "2025-11-26T08:08:12.551226",
-    "next_update": "2025-11-27",
+    "generated_date": "2025-11-27",
+    "generated_at": "2025-11-27T08:08:25.701859",
+    "next_update": "2025-11-28",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Acreditación de Instituciones de Educación Superior: preguntas frecuentes",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/10/Acreditación-de-Instituciones-de-Educación-Superior.jpeg",
+      "title": "ISOTools estará presente en la Semana de la Calidad 2019",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/09/Semana-de-la-Calidad-2019.jpg",
       "image_exists": true,
-      "text": "La Acreditación de Instituciones de Educación Superior es un proceso que, en primera instancia, parte de una iniciativa…",
+      "text": "Semana de la Calidad 2019 Durante los días del 30 de septiembre al 3 de octubre, se celebrará…",
       "news_priority": 1,
-      "selected_date": "2025-11-26T08:08:12.551121",
-      "rotation_id": "2025-11-26-1"
+      "selected_date": "2025-11-27T08:08:25.701731",
+      "rotation_id": "2025-11-27-1"
     },
     {
-      "title": "Innovación Sostenible con ISO 50501: Impulso para el ODS 9",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/ISO-50501.jpg",
+      "title": "Caso de éxito: INTEROIL Colombia E&P. Soluciones ISOTools para la automatización de  Sistemas de Gestión Integrados en el sector de Hidrocarburos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/03/post-interoil.jpg",
       "image_exists": true,
-      "text": "La innovación sostenible ha emergido como un pilar clave para el desarrollo económico y la competitividad empresarial. La innovación ya no se trata...",
+      "text": "El Reto La Certificación para Interoil es  una muestra más del Impulso Inteligente de Interoil Colombia Exploration and…",
       "news_priority": 2,
-      "selected_date": "2025-11-26T08:08:12.551127",
-      "rotation_id": "2025-11-26-2"
+      "selected_date": "2025-11-27T08:08:25.701740",
+      "rotation_id": "2025-11-27-2"
     },
     {
-      "title": "Los sellos EFQM ¿Qué son y qué significan?",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Los sellos de la Excelencia o más comúnmente conocidos como sellos EFQM,están proyectados para ayudar a las organizaciones…",
+      "title": "ISOTools firma alianza con CORPEI",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/06/Corpei.jpg",
+      "image_exists": true,
+      "text": "ISOTools formaliza alianza con CORPEI, la Corporación de Promoción de Exportaciones e Inversiones de Ecuador con objeto de…",
       "news_priority": 3,
-      "selected_date": "2025-11-26T08:08:12.551130",
-      "rotation_id": "2025-11-26-3"
+      "selected_date": "2025-11-27T08:08:25.701743",
+      "rotation_id": "2025-11-27-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-26T08:08:12.551226",
-    "next_rotation": "2025-11-27T08:08:12.551226",
+    "selected_at": "2025-11-27T08:08:25.701859",
+    "next_rotation": "2025-11-28T08:08:25.701859",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
