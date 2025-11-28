@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-27",
-    "generated_at": "2025-11-27T08:08:25.701859",
-    "next_update": "2025-11-28",
+    "generated_date": "2025-11-28",
+    "generated_at": "2025-11-28T08:08:31.312568",
+    "next_update": "2025-11-29",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools estará presente en la Semana de la Calidad 2019",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/09/Semana-de-la-Calidad-2019.jpg",
+      "title": "¿Cómo seleccionar una empresa certificadora?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/10/CERTIFICADORAS.jpg",
       "image_exists": true,
-      "text": "Semana de la Calidad 2019 Durante los días del 30 de septiembre al 3 de octubre, se celebrará…",
+      "text": "Empresas certificadoras Una vez que se han superado todos los obstáculos, ha llegado el momento de que un…",
       "news_priority": 1,
-      "selected_date": "2025-11-27T08:08:25.701731",
-      "rotation_id": "2025-11-27-1"
+      "selected_date": "2025-11-28T08:08:31.312477",
+      "rotation_id": "2025-11-28-1"
     },
     {
-      "title": "Caso de éxito: INTEROIL Colombia E&P. Soluciones ISOTools para la automatización de  Sistemas de Gestión Integrados en el sector de Hidrocarburos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/03/post-interoil.jpg",
+      "title": "Cómo automatizar el Sistema de Gestión de Continuidad de Negocio según ISO 22301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/06/Continuidad-de-negocio.jpg",
       "image_exists": true,
-      "text": "El Reto La Certificación para Interoil es  una muestra más del Impulso Inteligente de Interoil Colombia Exploration and…",
+      "text": "Continuidad de negocio En la gestión de la continuidad del negocio, donde el factor tiempo es absolutamente clave,…",
       "news_priority": 2,
-      "selected_date": "2025-11-27T08:08:25.701740",
-      "rotation_id": "2025-11-27-2"
+      "selected_date": "2025-11-28T08:08:31.312484",
+      "rotation_id": "2025-11-28-2"
     },
     {
-      "title": "ISOTools firma alianza con CORPEI",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/06/Corpei.jpg",
+      "title": "¿En qué consiste un proyecto de responsabilidad social solidaria?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/responsabilidad-social.jpg",
       "image_exists": true,
-      "text": "ISOTools formaliza alianza con CORPEI, la Corporación de Promoción de Exportaciones e Inversiones de Ecuador con objeto de…",
+      "text": "La definición de una estrategia de RSC Las empresas están cada vez más comprometidas con temas responsables con el medio…",
       "news_priority": 3,
-      "selected_date": "2025-11-27T08:08:25.701743",
-      "rotation_id": "2025-11-27-3"
+      "selected_date": "2025-11-28T08:08:31.312487",
+      "rotation_id": "2025-11-28-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-27T08:08:25.701859",
-    "next_rotation": "2025-11-28T08:08:25.701859",
+    "selected_at": "2025-11-28T08:08:31.312568",
+    "next_rotation": "2025-11-29T08:08:31.312568",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
