@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-11-28",
-    "generated_at": "2025-11-28T08:08:31.312568",
-    "next_update": "2025-11-29",
+    "generated_date": "2025-12-01",
+    "generated_at": "2025-12-01T08:09:38.196047",
+    "next_update": "2025-12-02",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo seleccionar una empresa certificadora?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/10/CERTIFICADORAS.jpg",
+      "title": "Vías de integración de los sistemas de gestión ISO",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/07/sistemas-integrados1.jpg",
       "image_exists": true,
-      "text": "Elegir una certificadora exige revisar su acreditación oficial, evaluar su experiencia en el sector, comparar costos y tiempos de auditoría y validar testimonios de clientes. Una buena certificadora aporta confianza, independencia y valor al sistema de gestión.",
+      "text": "Sistemas Integrados Ya hemos mencionado del doble posicionamiento en el marco de la integración de sistemas, en el…",
       "news_priority": 1,
-      "selected_date": "2025-11-28T08:08:31.312477",
-      "rotation_id": "2025-11-28-1"
+      "selected_date": "2025-12-01T08:09:38.195961",
+      "rotation_id": "2025-12-01-1"
     },
     {
-      "title": "Cómo automatizar el Sistema de Gestión de Continuidad de Negocio según ISO 22301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/06/Continuidad-de-negocio.jpg",
-      "image_exists": true,
-      "text": "La automatización se logra integrando herramientas que gestionen riesgos, actualicen planes de continuidad, monitoreen incidentes y generen reportes. Esto reduce errores, acelera la respuesta ante crisis y asegura el cumplimiento continuo de ISO 22301.",
+      "title": "Gestión de Encuestas en Centros Educativos",
+      "image_url": null,
+      "image_exists": false,
+      "text": "La Encuesta es un instrumento eficaz al que pueden recurrir los centros educativos para recabar toda aquella información…",
       "news_priority": 2,
-      "selected_date": "2025-11-28T08:08:31.312484",
-      "rotation_id": "2025-11-28-2"
+      "selected_date": "2025-12-01T08:09:38.195967",
+      "rotation_id": "2025-12-01-2"
     },
     {
-      "title": "¿En qué consiste un proyecto de responsabilidad social solidaria?",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS53BushA5ymODL5wWqpbLvKjLasd8ZfXMs09iijfIV0w&s=10",
+      "title": "Cómo un software puede facilitar la gestión de una norma ISO",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/06/software.jpg",
       "image_exists": true,
-      "text": "Es una iniciativa en que una organización contribuye al bienestar social apoyando comunidades vulnerables mediante acciones sostenibles: donaciones, capacitación, voluntariado o proyectos ambientales, generando impacto positivo y reputación responsable.",
+      "text": "La gestión de una norma ISO La gestión de una norma ISO requiere de un proceso de implantación…",
       "news_priority": 3,
-      "selected_date": "2025-11-28T08:08:31.312487",
-      "rotation_id": "2025-11-28-3"
+      "selected_date": "2025-12-01T08:09:38.195969",
+      "rotation_id": "2025-12-01-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-11-28T08:08:31.312568",
-    "next_rotation": "2025-11-29T08:08:31.312568",
+    "selected_at": "2025-12-01T08:09:38.196047",
+    "next_rotation": "2025-12-02T08:09:38.196047",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
