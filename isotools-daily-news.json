@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-02",
-    "generated_at": "2025-12-02T08:08:44.452175",
-    "next_update": "2025-12-03",
+    "generated_date": "2025-12-03",
+    "generated_at": "2025-12-03T08:08:21.830741",
+    "next_update": "2025-12-04",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "IV Congreso Ibero-Americano de Seguridad Vial",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/seguridad-vial.jpg",
+      "title": "La importancia de un Sistema de Gestión de Continuidad de negocio ante desastres naturales",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/06/Sistema-de-Gestión-de-Continuidad-de-Negocio.jpg",
       "image_exists": true,
-      "text": "Seguridad Vial Ya faltan pocos días para que dé comienzo el IV Congreso Ibero-Americano de Seguridad Vial  que…",
+      "text": "Sistema de gestión de continuidad de negocio Hoy en día vivimos en la era del Big Data, cada…",
       "news_priority": 1,
-      "selected_date": "2025-12-02T08:08:44.452061",
-      "rotation_id": "2025-12-02-1"
+      "selected_date": "2025-12-03T08:08:21.830661",
+      "rotation_id": "2025-12-03-1"
     },
     {
-      "title": "Planifiquemos juntos el nuevo 2021",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/12/N20-blog.png",
+      "title": "Mejorando tu Empresa con una Eficiente Gestion de Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/06/Gestion-de-la-Calidad-1.png",
       "image_exists": true,
-      "text": "Tenemos que poner fin a este año 2020, un año un poco complicado, aunque no solo debemos ver…",
+      "text": "La gestion de la calidad es un enfoque sistemático para garantizar que los productos y servicios de...",
       "news_priority": 2,
-      "selected_date": "2025-12-02T08:08:44.452069",
-      "rotation_id": "2025-12-02-2"
+      "selected_date": "2025-12-03T08:08:21.830667",
+      "rotation_id": "2025-12-03-2"
     },
     {
-      "title": "Alcance en ISO 42001: objetivos y metas clave",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/08/alcance-en-iso-42001-objetivos-y-metas-clave.jpg",
-      "image_exists": true,
-      "text": "La definición del alcance en ISO 42001 tiene particularidades que no se encuentran en otros estándares ISO que…",
+      "title": "ISO 22000 : ¿Cuál es el papel de las administraciones públicas?",
+      "image_url": null,
+      "image_exists": false,
+      "text": "ISO 22000 es la norma empleada para implantar un  Sistemas de Gestión de Seguridad Alimentaria en las organizaciones que tienen…",
       "news_priority": 3,
-      "selected_date": "2025-12-02T08:08:44.452071",
-      "rotation_id": "2025-12-02-3"
+      "selected_date": "2025-12-03T08:08:21.830669",
+      "rotation_id": "2025-12-03-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-02T08:08:44.452175",
-    "next_rotation": "2025-12-03T08:08:44.452175",
+    "selected_at": "2025-12-03T08:08:21.830741",
+    "next_rotation": "2025-12-04T08:08:21.830741",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
