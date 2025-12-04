@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-03",
-    "generated_at": "2025-12-03T08:08:21.830741",
-    "next_update": "2025-12-04",
+    "generated_date": "2025-12-04",
+    "generated_at": "2025-12-04T08:09:00.262510",
+    "next_update": "2025-12-05",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "La importancia de un Sistema de Gestión de Continuidad de negocio ante desastres naturales",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/06/Sistema-de-Gestión-de-Continuidad-de-Negocio.jpg",
-      "image_exists": true,
-      "text": "Sistema de gestión de continuidad de negocio Hoy en día vivimos en la era del Big Data, cada…",
+      "title": "Pamplona prepara dos semanas de actividades por el Día Mundial del Medio Ambiente.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20Web%20General%203.jpg",
+      "image_exists": false,
+      "text": "Se llevarán a cabo dos semanas de actividades enfocadas a la sensibilización por el medio ambiente.El próximo 5 de junio se celebrará el Día Mundial del Medio Ambiente. Bajo ese contexto, elAyuntamiento de Pamplonaha organizado dos semanas de actividades de sensibilización ambiental. El contenido será curso de agricultura ecológica, charla sobre el agua, mercadillo sin dinero, actividades de voluntariado en río y monte y una exhibición en la calle de las colecciones del Museo de Ciencias Naturales de la Facultad de Ciencias de la Universidad de Navarra con talleres temáticos para los más pequeños.El programa se llevará a cabo del 3 al 15 de junio, según afirmaron en rueda de prensa  el concejal especial de Medio Ambiente, Valentín Alzina y el responsable de laAgenda 21 Local, José Fermín Costero.Pra obtener toda la información sobre las actividades haz click aquí:http://www.pamplona.es/srv/agenda/lista_p_agenda.aspx?tr=TREGISI02&Subject=pamplona&idioma=1&idioma=1&subMnuActual=2&dia=3&mes=6&anyo=2013Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2025-12-03T08:08:21.830661",
-      "rotation_id": "2025-12-03-1"
+      "selected_date": "2025-12-04T08:09:00.262412",
+      "rotation_id": "2025-12-04-1"
     },
     {
-      "title": "Mejorando tu Empresa con una Eficiente Gestion de Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/06/Gestion-de-la-Calidad-1.png",
+      "title": "Aprobado el segundo borrador (DIS) de la futura norma ISO 45001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/ISO-45001-11.jpg",
       "image_exists": true,
-      "text": "La gestion de la calidad es un enfoque sistemático para garantizar que los productos y servicios de...",
+      "text": "Segundo borrador (DIS) En el día de ayer, lunes 17 de julio, se emitió una nota de prensa…",
       "news_priority": 2,
-      "selected_date": "2025-12-03T08:08:21.830667",
-      "rotation_id": "2025-12-03-2"
+      "selected_date": "2025-12-04T08:09:00.262420",
+      "rotation_id": "2025-12-04-2"
     },
     {
-      "title": "ISO 22000 : ¿Cuál es el papel de las administraciones públicas?",
+      "title": "ISOTools apertura nueva oficina en México",
       "image_url": null,
       "image_exists": false,
-      "text": "ISO 22000 es la norma empleada para implantar un  Sistemas de Gestión de Seguridad Alimentaria en las organizaciones que tienen…",
+      "text": "Jorge Romero, Director de la oficina de ISOTools en México \n\n\n\tDesde este mes de Mayo, ISOTools cuenta con una nueva oficina con sede en México DF.\n\n\tDebido a la gran demanda recibida desde el mercado mexicano y centroamericano, ISOTools ha apo...",
       "news_priority": 3,
-      "selected_date": "2025-12-03T08:08:21.830669",
-      "rotation_id": "2025-12-03-3"
+      "selected_date": "2025-12-04T08:09:00.262422",
+      "rotation_id": "2025-12-04-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-03T08:08:21.830741",
-    "next_rotation": "2025-12-04T08:08:21.830741",
+    "selected_at": "2025-12-04T08:09:00.262510",
+    "next_rotation": "2025-12-05T08:09:00.262510",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
