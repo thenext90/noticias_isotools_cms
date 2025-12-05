@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-04",
-    "generated_at": "2025-12-04T08:09:00.262510",
-    "next_update": "2025-12-05",
+    "generated_date": "2025-12-05",
+    "generated_at": "2025-12-05T08:08:07.253473",
+    "next_update": "2025-12-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Pamplona prepara dos semanas de actividades por el Día Mundial del Medio Ambiente.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20Web%20General%203.jpg",
-      "image_exists": false,
-      "text": "Se llevarán a cabo dos semanas de actividades enfocadas a la sensibilización por el medio ambiente.El próximo 5 de junio se celebrará el Día Mundial del Medio Ambiente. Bajo ese contexto, elAyuntamiento de Pamplonaha organizado dos semanas de actividades de sensibilización ambiental. El contenido será curso de agricultura ecológica, charla sobre el agua, mercadillo sin dinero, actividades de voluntariado en río y monte y una exhibición en la calle de las colecciones del Museo de Ciencias Naturales de la Facultad de Ciencias de la Universidad de Navarra con talleres temáticos para los más pequeños.El programa se llevará a cabo del 3 al 15 de junio, según afirmaron en rueda de prensa  el concejal especial de Medio Ambiente, Valentín Alzina y el responsable de laAgenda 21 Local, José Fermín Costero.Pra obtener toda la información sobre las actividades haz click aquí:http://www.pamplona.es/srv/agenda/lista_p_agenda.aspx?tr=TREGISI02&Subject=pamplona&idioma=1&idioma=1&subMnuActual=2&dia=3&mes=6&anyo=2013Más informaciónaquí",
-      "news_priority": 1,
-      "selected_date": "2025-12-04T08:09:00.262412",
-      "rotation_id": "2025-12-04-1"
-    },
-    {
-      "title": "Aprobado el segundo borrador (DIS) de la futura norma ISO 45001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/ISO-45001-11.jpg",
+      "title": "28 de abril: Día Mundial de la Seguridad y la Salud en el Trabajo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Día-Mundial-de-la-Seguridad-y-la-Salud-en-el-Trabajo.jpg",
       "image_exists": true,
-      "text": "Segundo borrador (DIS) En el día de ayer, lunes 17 de julio, se emitió una nota de prensa…",
-      "news_priority": 2,
-      "selected_date": "2025-12-04T08:09:00.262420",
-      "rotation_id": "2025-12-04-2"
+      "text": "Día Mundial de la Seguridad y la Salud en el Trabajo El Día Mundial de la Seguridad y…",
+      "news_priority": 1,
+      "selected_date": "2025-12-05T08:08:07.253378",
+      "rotation_id": "2025-12-05-1"
     },
     {
-      "title": "ISOTools apertura nueva oficina en México",
+      "title": "Sistemas de IA de alto riesgo según la Ley de Inteligencia Artificial de la UE",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/sistemas-de-ia-de-alto-riesgo-segun-la-ley-de-inteligencia-artificial-de-la-ue.jpg",
+      "image_exists": true,
+      "text": "La Inteligencia Artificial ha irrumpido en todos los ámbitos y sectores comerciales, industriales y sociales. Las oportunidades son…",
+      "news_priority": 2,
+      "selected_date": "2025-12-05T08:08:07.253386",
+      "rotation_id": "2025-12-05-2"
+    },
+    {
+      "title": "ISOTools visita a su partner Corporación Q en Ecuador",
       "image_url": null,
       "image_exists": false,
-      "text": "Jorge Romero, Director de la oficina de ISOTools en México \n\n\n\tDesde este mes de Mayo, ISOTools cuenta con una nueva oficina con sede en México DF.\n\n\tDebido a la gran demanda recibida desde el mercado mexicano y centroamericano, ISOTools ha apo...",
+      "text": "Durante el mes de marzo, ISOTools ha realizado un viaje a Ecuador con el objetivo de reforzar las…",
       "news_priority": 3,
-      "selected_date": "2025-12-04T08:09:00.262422",
-      "rotation_id": "2025-12-04-3"
+      "selected_date": "2025-12-05T08:08:07.253388",
+      "rotation_id": "2025-12-05-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-04T08:09:00.262510",
-    "next_rotation": "2025-12-05T08:09:00.262510",
+    "selected_at": "2025-12-05T08:08:07.253473",
+    "next_rotation": "2025-12-06T08:08:07.253473",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
