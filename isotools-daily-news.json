@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-05",
-    "generated_at": "2025-12-05T08:08:07.253473",
-    "next_update": "2025-12-06",
+    "generated_date": "2025-12-08",
+    "generated_at": "2025-12-08T08:09:41.068575",
+    "next_update": "2025-12-09",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "28 de abril: Día Mundial de la Seguridad y la Salud en el Trabajo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Día-Mundial-de-la-Seguridad-y-la-Salud-en-el-Trabajo.jpg",
+      "title": "I Summit ISOTools: Tips para abordar la Protección de Infraestructuras Críticas (CIP) garantizando continuidad operacional y cumplimiento regulatorio",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/olivares-summit.jpg",
       "image_exists": true,
-      "text": "Día Mundial de la Seguridad y la Salud en el Trabajo El Día Mundial de la Seguridad y…",
+      "text": "I Summit ISOTools ISOTools Excellence, parte del Grupo ESG Innova, con motivo de la celebración de su 25…",
       "news_priority": 1,
-      "selected_date": "2025-12-05T08:08:07.253378",
-      "rotation_id": "2025-12-05-1"
+      "selected_date": "2025-12-08T08:09:41.068495",
+      "rotation_id": "2025-12-08-1"
+    },
+    {
+      "title": "Revista Empresa Excelente mayo 2019",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/06/plantilla-destacada-post-revista.jpg",
+      "image_exists": true,
+      "text": "REVISTA EMPRESA EXCELENTE Comenzamos el mes de junio con  el nuevo número de la Revista Empresa Excelente. Como…",
+      "news_priority": 2,
+      "selected_date": "2025-12-08T08:09:41.068501",
+      "rotation_id": "2025-12-08-2"
     },
     {
       "title": "Sistemas de IA de alto riesgo según la Ley de Inteligencia Artificial de la UE",
       "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/sistemas-de-ia-de-alto-riesgo-segun-la-ley-de-inteligencia-artificial-de-la-ue.jpg",
       "image_exists": true,
       "text": "La Inteligencia Artificial ha irrumpido en todos los ámbitos y sectores comerciales, industriales y sociales. Las oportunidades son…",
-      "news_priority": 2,
-      "selected_date": "2025-12-05T08:08:07.253386",
-      "rotation_id": "2025-12-05-2"
-    },
-    {
-      "title": "ISOTools visita a su partner Corporación Q en Ecuador",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Durante el mes de marzo, ISOTools ha realizado un viaje a Ecuador con el objetivo de reforzar las…",
       "news_priority": 3,
-      "selected_date": "2025-12-05T08:08:07.253388",
-      "rotation_id": "2025-12-05-3"
+      "selected_date": "2025-12-08T08:09:41.068503",
+      "rotation_id": "2025-12-08-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-05T08:08:07.253473",
-    "next_rotation": "2025-12-06T08:08:07.253473",
+    "selected_at": "2025-12-08T08:09:41.068575",
+    "next_rotation": "2025-12-09T08:09:41.068575",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
