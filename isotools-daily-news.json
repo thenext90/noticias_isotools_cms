@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-08",
-    "generated_at": "2025-12-08T08:09:41.068575",
-    "next_update": "2025-12-09",
+    "generated_date": "2025-12-09",
+    "generated_at": "2025-12-09T08:08:46.369718",
+    "next_update": "2025-12-10",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "I Summit ISOTools: Tips para abordar la Protección de Infraestructuras Críticas (CIP) garantizando continuidad operacional y cumplimiento regulatorio",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/olivares-summit.jpg",
+      "title": "Revista Empresa Excelente ISOTools: Septiembre 2024",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/septiembre_2024.jpg",
       "image_exists": true,
-      "text": "I Summit ISOTools ISOTools Excellence, parte del Grupo ESG Innova, con motivo de la celebración de su 25…",
+      "text": "Este mes de octubre, te presentamos una nueva edición de la Revista Empresa Excelente Septiembre 2024, creada por ESG Innova Group...",
       "news_priority": 1,
-      "selected_date": "2025-12-08T08:09:41.068495",
-      "rotation_id": "2025-12-08-1"
+      "selected_date": "2025-12-09T08:08:46.369606",
+      "rotation_id": "2025-12-09-1"
     },
     {
-      "title": "Revista Empresa Excelente mayo 2019",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/06/plantilla-destacada-post-revista.jpg",
+      "title": "Ley 20.393 de Chile: Modelo de Prevención de Delitos para las empresas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/12/Prevención-de-Delitos.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Comenzamos el mes de junio con  el nuevo número de la Revista Empresa Excelente. Como…",
+      "text": "Prevención de delitos La prevención de delitos en Chile, surge con el objetivo de incorporarse como miembro de…",
       "news_priority": 2,
-      "selected_date": "2025-12-08T08:09:41.068501",
-      "rotation_id": "2025-12-08-2"
+      "selected_date": "2025-12-09T08:08:46.369615",
+      "rotation_id": "2025-12-09-2"
     },
     {
-      "title": "Sistemas de IA de alto riesgo según la Ley de Inteligencia Artificial de la UE",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/sistemas-de-ia-de-alto-riesgo-segun-la-ley-de-inteligencia-artificial-de-la-ue.jpg",
+      "title": "Nuestros clientes entre los mejores centros educativos de España",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/centros-educativos.jpg",
       "image_exists": true,
-      "text": "La Inteligencia Artificial ha irrumpido en todos los ámbitos y sectores comerciales, industriales y sociales. Las oportunidades son…",
+      "text": "Centros Educativos Hace unos días, el Periódico El Mundo ha vuelto a publicar el listado actualizado de los…",
       "news_priority": 3,
-      "selected_date": "2025-12-08T08:09:41.068503",
-      "rotation_id": "2025-12-08-3"
+      "selected_date": "2025-12-09T08:08:46.369617",
+      "rotation_id": "2025-12-09-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-08T08:09:41.068575",
-    "next_rotation": "2025-12-09T08:09:41.068575",
+    "selected_at": "2025-12-09T08:08:46.369718",
+    "next_rotation": "2025-12-10T08:08:46.369718",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
