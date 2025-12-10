@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-09",
-    "generated_at": "2025-12-09T08:08:46.369718",
-    "next_update": "2025-12-10",
+    "generated_date": "2025-12-10",
+    "generated_at": "2025-12-10T08:08:27.939126",
+    "next_update": "2025-12-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Revista Empresa Excelente ISOTools: Septiembre 2024",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/septiembre_2024.jpg",
+      "title": "Cinco motivos para mejorar el clima laboral",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/13.-clima-laboral-1.jpg",
       "image_exists": true,
-      "text": "Este mes de octubre, te presentamos una nueva edición de la Revista Empresa Excelente Septiembre 2024, creada por ESG Innova Group...",
+      "text": "Clima laboral Del mismo modo que el término «clima» sirve para señalar una serie de características meteorológicas estables…",
       "news_priority": 1,
-      "selected_date": "2025-12-09T08:08:46.369606",
-      "rotation_id": "2025-12-09-1"
+      "selected_date": "2025-12-10T08:08:27.939032",
+      "rotation_id": "2025-12-10-1"
     },
     {
-      "title": "Ley 20.393 de Chile: Modelo de Prevención de Delitos para las empresas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/12/Prevención-de-Delitos.jpg",
+      "title": "La importancia de la Inocuidad Alimentaria",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/01/inocuidad-alimentaria.jpg",
       "image_exists": true,
-      "text": "Prevención de delitos La prevención de delitos en Chile, surge con el objetivo de incorporarse como miembro de…",
+      "text": "Inocuidad Alimentaria La inocuidad alimentaria es la garantía de que un producto alimenticio no causará daño al consumidor cuando…",
       "news_priority": 2,
-      "selected_date": "2025-12-09T08:08:46.369615",
-      "rotation_id": "2025-12-09-2"
+      "selected_date": "2025-12-10T08:08:27.939038",
+      "rotation_id": "2025-12-10-2"
     },
     {
-      "title": "Nuestros clientes entre los mejores centros educativos de España",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/centros-educativos.jpg",
+      "title": "8 peculiaridades de la ISO 42001 que debes conocer",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/ISO_IEC-42001.jpg",
       "image_exists": true,
-      "text": "Centros Educativos Hace unos días, el Periódico El Mundo ha vuelto a publicar el listado actualizado de los…",
+      "text": "La inteligencia artificial (IA) está transformando industrias a nivel global, desde el sector financiero hasta la salud y la manufactura...",
       "news_priority": 3,
-      "selected_date": "2025-12-09T08:08:46.369617",
-      "rotation_id": "2025-12-09-3"
+      "selected_date": "2025-12-10T08:08:27.939040",
+      "rotation_id": "2025-12-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-09T08:08:46.369718",
-    "next_rotation": "2025-12-10T08:08:46.369718",
+    "selected_at": "2025-12-10T08:08:27.939126",
+    "next_rotation": "2025-12-11T08:08:27.939126",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
