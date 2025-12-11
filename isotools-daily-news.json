@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-10",
-    "generated_at": "2025-12-10T08:08:27.939126",
-    "next_update": "2025-12-11",
+    "generated_date": "2025-12-11",
+    "generated_at": "2025-12-11T08:08:47.798026",
+    "next_update": "2025-12-12",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cinco motivos para mejorar el clima laboral",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/13.-clima-laboral-1.jpg",
+      "title": "Menos de un año para que finalice el plazo de transición hacia la norma ISO 9001:2015",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/09/ISO-9001-2015-10.jpg",
       "image_exists": true,
-      "text": "Clima laboral Del mismo modo que el término «clima» sirve para señalar una serie de características meteorológicas estables…",
+      "text": "ISO 9001:2015 La norma ISO 9001:2015 convive perfectamente en el mundo empresarial, y el tiempo para que todas…",
       "news_priority": 1,
-      "selected_date": "2025-12-10T08:08:27.939032",
-      "rotation_id": "2025-12-10-1"
+      "selected_date": "2025-12-11T08:08:47.797932",
+      "rotation_id": "2025-12-11-1"
     },
     {
-      "title": "La importancia de la Inocuidad Alimentaria",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/01/inocuidad-alimentaria.jpg",
+      "title": "10 ejemplos de objetivos ambientales para una empresa",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/08/Ejemplos-de-objetivos-ambientales-para-una-empresa.jpg",
       "image_exists": true,
-      "text": "Inocuidad Alimentaria La inocuidad alimentaria es la garantía de que un producto alimenticio no causará daño al consumidor cuando…",
+      "text": "La implementación de un Sistema de Gestión Ambiental (SGA) conforme a la norma ISO 14001 es una...",
       "news_priority": 2,
-      "selected_date": "2025-12-10T08:08:27.939038",
-      "rotation_id": "2025-12-10-2"
+      "selected_date": "2025-12-11T08:08:47.797939",
+      "rotation_id": "2025-12-11-2"
     },
     {
-      "title": "8 peculiaridades de la ISO 42001 que debes conocer",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/ISO_IEC-42001.jpg",
+      "title": "Gestionar las cláusulas de la ISO 9001 con un software",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/ISO-9001-1.jpg",
       "image_exists": true,
-      "text": "La inteligencia artificial (IA) está transformando industrias a nivel global, desde el sector financiero hasta la salud y la manufactura...",
+      "text": "ISO 9001 Como ya sabemos, la norma ISO 9001 se actualizó en 2015. Por eso, el periodo de…",
       "news_priority": 3,
-      "selected_date": "2025-12-10T08:08:27.939040",
-      "rotation_id": "2025-12-10-3"
+      "selected_date": "2025-12-11T08:08:47.797941",
+      "rotation_id": "2025-12-11-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-10T08:08:27.939126",
-    "next_rotation": "2025-12-11T08:08:27.939126",
+    "selected_at": "2025-12-11T08:08:47.798026",
+    "next_rotation": "2025-12-12T08:08:47.798026",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
