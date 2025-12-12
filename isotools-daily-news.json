@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-11",
-    "generated_at": "2025-12-11T08:08:47.798026",
-    "next_update": "2025-12-12",
+    "generated_date": "2025-12-12",
+    "generated_at": "2025-12-12T08:08:46.354028",
+    "next_update": "2025-12-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Menos de un año para que finalice el plazo de transición hacia la norma ISO 9001:2015",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/09/ISO-9001-2015-10.jpg",
+      "title": "Sistemas PQRS, ¿Qué aportan al usuario?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/05/PQRS.jpg",
       "image_exists": true,
-      "text": "ISO 9001:2015 La norma ISO 9001:2015 convive perfectamente en el mundo empresarial, y el tiempo para que todas…",
+      "text": "PQRS Al hablar de Sistemas PQRS, nos referimos a los Sistemas de Peticiones, Quejas, Reclamaciones y Sugerencias. Un…",
       "news_priority": 1,
-      "selected_date": "2025-12-11T08:08:47.797932",
-      "rotation_id": "2025-12-11-1"
+      "selected_date": "2025-12-12T08:08:46.353942",
+      "rotation_id": "2025-12-12-1"
     },
     {
-      "title": "10 ejemplos de objetivos ambientales para una empresa",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/08/Ejemplos-de-objetivos-ambientales-para-una-empresa.jpg",
+      "title": "Caso de éxito: Pavimentos Quilín. Soluciones ISOTools para la gestión de la Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/07/post-quilin.jpg",
       "image_exists": true,
-      "text": "La implementación de un Sistema de Gestión Ambiental (SGA) conforme a la norma ISO 14001 es una...",
+      "text": "Pavimentos Quilín son un conjunto de empresas que desde el año 1981 opera en los rubros de producción…",
       "news_priority": 2,
-      "selected_date": "2025-12-11T08:08:47.797939",
-      "rotation_id": "2025-12-11-2"
+      "selected_date": "2025-12-12T08:08:46.353948",
+      "rotation_id": "2025-12-12-2"
     },
     {
-      "title": "Gestionar las cláusulas de la ISO 9001 con un software",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/ISO-9001-1.jpg",
+      "title": "¿Cómo realizar la transición de ISO 14001 2004 a ISO 14001 2015?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/ISO-14001.jpg",
       "image_exists": true,
-      "text": "ISO 9001 Como ya sabemos, la norma ISO 9001 se actualizó en 2015. Por eso, el periodo de…",
+      "text": "Transición de ISO 14001 2004 a ISO 14001 2015 Hoy en día ninguna organización se puede permitir el…",
       "news_priority": 3,
-      "selected_date": "2025-12-11T08:08:47.797941",
-      "rotation_id": "2025-12-11-3"
+      "selected_date": "2025-12-12T08:08:46.353951",
+      "rotation_id": "2025-12-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-11T08:08:47.798026",
-    "next_rotation": "2025-12-12T08:08:47.798026",
+    "selected_at": "2025-12-12T08:08:46.354028",
+    "next_rotation": "2025-12-13T08:08:46.354028",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
