@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-12",
-    "generated_at": "2025-12-12T08:08:46.354028",
-    "next_update": "2025-12-13",
+    "generated_date": "2025-12-15",
+    "generated_at": "2025-12-15T08:10:05.025518",
+    "next_update": "2025-12-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Sistemas PQRS, ¿Qué aportan al usuario?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/05/PQRS.jpg",
+      "title": "Por dónde comenzar la implementación de sistemas de seguridad: ISO 27001 o ISO 22301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/implementación-de-sistemas-de-seguridad.jpg",
       "image_exists": true,
-      "text": "PQRS Al hablar de Sistemas PQRS, nos referimos a los Sistemas de Peticiones, Quejas, Reclamaciones y Sugerencias. Un…",
+      "text": "Implementación de sistemas de seguridad La implementación de sistemas de seguridad ISO, no es tarea sencilla dado la…",
       "news_priority": 1,
-      "selected_date": "2025-12-12T08:08:46.353942",
-      "rotation_id": "2025-12-12-1"
+      "selected_date": "2025-12-15T08:10:05.025415",
+      "rotation_id": "2025-12-15-1"
     },
     {
-      "title": "Caso de éxito: Pavimentos Quilín. Soluciones ISOTools para la gestión de la Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/07/post-quilin.jpg",
+      "title": "Norma ISO 9004 2018 ¿Cómo lograr el éxito a lo largo de tiempo?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/04/ISO-9004.jpg",
       "image_exists": true,
-      "text": "Pavimentos Quilín son un conjunto de empresas que desde el año 1981 opera en los rubros de producción…",
+      "text": "Norma ISO 9004 Para conseguir el éxito es necesario que cada individuo de la organización se esfuerce. El…",
       "news_priority": 2,
-      "selected_date": "2025-12-12T08:08:46.353948",
-      "rotation_id": "2025-12-12-2"
+      "selected_date": "2025-12-15T08:10:05.025423",
+      "rotation_id": "2025-12-15-2"
     },
     {
-      "title": "¿Cómo realizar la transición de ISO 14001 2004 a ISO 14001 2015?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/ISO-14001.jpg",
+      "title": "Q-Campus: 2019. ISOTools volvió a estar presente en la décimo tercera edición de Q-Campus",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/Q-Campus.jpg",
       "image_exists": true,
-      "text": "Transición de ISO 14001 2004 a ISO 14001 2015 Hoy en día ninguna organización se puede permitir el…",
+      "text": "Q-Campus El Q-Campus, es una experiencia pionera a nivel europeo, en la que durante una semana y una…",
       "news_priority": 3,
-      "selected_date": "2025-12-12T08:08:46.353951",
-      "rotation_id": "2025-12-12-3"
+      "selected_date": "2025-12-15T08:10:05.025425",
+      "rotation_id": "2025-12-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-12T08:08:46.354028",
-    "next_rotation": "2025-12-13T08:08:46.354028",
+    "selected_at": "2025-12-15T08:10:05.025518",
+    "next_rotation": "2025-12-16T08:10:05.025518",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
