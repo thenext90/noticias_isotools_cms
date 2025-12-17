@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-16",
-    "generated_at": "2025-12-16T08:09:00.992865",
-    "next_update": "2025-12-17",
+    "generated_date": "2025-12-17",
+    "generated_at": "2025-12-17T08:08:43.367792",
+    "next_update": "2025-12-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Sistemas integrados: Estructura organizativa y su resistencia al cambio",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/08/SIG-25-agosto.jpg",
+      "title": "Vídeo – ISO/DIS 9001 Mejora",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/multimedia-9001-general.jpg",
       "image_exists": true,
-      "text": "Sistemas Integrados Un Sistema Integrado de Gestión implica que todas las prácticas de gestión de la organización formen…",
+      "text": "ISO 9001 ISO/DIS 9001 se divide en 10 capítulos, entre ellos contiene una sección en la que se…",
       "news_priority": 1,
-      "selected_date": "2025-12-16T08:09:00.992783",
-      "rotation_id": "2025-12-16-1"
+      "selected_date": "2025-12-17T08:08:43.367667",
+      "rotation_id": "2025-12-17-1"
     },
     {
-      "title": "New Knownledge Advice, nuevo aliado de ISOTools",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Foto-noticia.gif",
-      "image_exists": false,
-      "text": "New Knownledge Advice, partner de ISOTools en Portugal, recibió durante la semana pasada capacitación en nuestras instalaciones de Córdoba.Parte del equipo técnico y comercial de NKA, se ha integrado durante unos días en la estructura deISOTools, profundizando en las ventajas de la herramienta para las implementaciones de sistemas de gestión decalidad,medio ambiente,seguridad y salud,seguridad en la información,inocuidadasí como enplanificación estratégica.Los dos equipos humanos se entendieron a la perfección generando un clima de trabajo muy enriquecedor para ambas partes.El personal de NKA, con amplia experiencia en el asesoramiento empresarial, ha mostrado su enorme satisfacción con las funcionalidades y ventajas deISOToolsy está convencido que seguirá siendo un software de referencia en nuestro país vecino y en otros países de habla portuguesa.Más informaciónaquí",
+      "title": "Norma ISO de aplicación en teletrabajo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/Teletrabajo.jpg",
+      "image_exists": true,
+      "text": "Teletrabajo El teletrabajo se ha impuesto irremediablemente durante estos últimos dos años como consecuencia de la crisis sanitaria…",
       "news_priority": 2,
-      "selected_date": "2025-12-16T08:09:00.992790",
-      "rotation_id": "2025-12-16-2"
+      "selected_date": "2025-12-17T08:08:43.367676",
+      "rotation_id": "2025-12-17-2"
     },
     {
-      "title": "Entrevista al Jefe de Proyectos de ISOTools Excellence",
-      "image_url": null,
-      "image_exists": false,
-      "text": "En esta ocasión contamos con las palabras de Javier Mariscal, Jefe de Proyectos en ISOTools Excellence. Javier nos…",
+      "title": "¿En qué consiste el Contexto de la Organización en la ISO 45001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/10/ISO-45001-1.jpg",
+      "image_exists": true,
+      "text": "Como todos ya saben, recientemente ha sido publicada la primera norma sobre Seguridad y Salud en el Trabajo y hay que tener en cuenta el Contexto de la Organización en la ISO 45001.",
       "news_priority": 3,
-      "selected_date": "2025-12-16T08:09:00.992792",
-      "rotation_id": "2025-12-16-3"
+      "selected_date": "2025-12-17T08:08:43.367678",
+      "rotation_id": "2025-12-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-16T08:09:00.992865",
-    "next_rotation": "2025-12-17T08:09:00.992865",
+    "selected_at": "2025-12-17T08:08:43.367792",
+    "next_rotation": "2025-12-18T08:08:43.367792",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
