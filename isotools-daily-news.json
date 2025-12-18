@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-17",
-    "generated_at": "2025-12-17T08:08:43.367792",
-    "next_update": "2025-12-18",
+    "generated_date": "2025-12-18",
+    "generated_at": "2025-12-18T08:08:31.898206",
+    "next_update": "2025-12-19",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Vídeo – ISO/DIS 9001 Mejora",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/multimedia-9001-general.jpg",
+      "title": "¿Cuánto tiempo se tarda en implementar un Sistema de Gestión Ambiental?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/04/Sistema-de-Gestion-Ambiental.jpg",
       "image_exists": true,
-      "text": "ISO 9001 ISO/DIS 9001 se divide en 10 capítulos, entre ellos contiene una sección en la que se…",
+      "text": "Sistema de Gestión Ambiental Las empresas que quieren implementar un Sistema de Gestión Ambiental basado en la norma…",
       "news_priority": 1,
-      "selected_date": "2025-12-17T08:08:43.367667",
-      "rotation_id": "2025-12-17-1"
+      "selected_date": "2025-12-18T08:08:31.898061",
+      "rotation_id": "2025-12-18-1"
     },
     {
-      "title": "Norma ISO de aplicación en teletrabajo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/Teletrabajo.jpg",
+      "title": "Coaching Aplicado a los Sistemas de Gestión.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/Coaching.jpg",
       "image_exists": true,
-      "text": "Teletrabajo El teletrabajo se ha impuesto irremediablemente durante estos últimos dos años como consecuencia de la crisis sanitaria…",
+      "text": "Coaching Por Ismael Díaz. El Coaching profesional está teniendo tanto éxito porque ha venido a darle a las…",
       "news_priority": 2,
-      "selected_date": "2025-12-17T08:08:43.367676",
-      "rotation_id": "2025-12-17-2"
+      "selected_date": "2025-12-18T08:08:31.898072",
+      "rotation_id": "2025-12-18-2"
     },
     {
-      "title": "¿En qué consiste el Contexto de la Organización en la ISO 45001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/10/ISO-45001-1.jpg",
-      "image_exists": true,
-      "text": "Como todos ya saben, recientemente ha sido publicada la primera norma sobre Seguridad y Salud en el Trabajo y hay que tener en cuenta el Contexto de la Organización en la ISO 45001.",
+      "title": "QB Consulting e ISOTools prestan soporte a sus clientes de México DF",
+      "image_url": "https://www.isotools.org//imagenes/noticiaQBCentrum.jpg",
+      "image_exists": false,
+      "text": "Sesión informativa de la herramienta ISOTools en Ciudad de México.Expertos técnicos deISOToolsy consultores asociados deQB Consultingvisitaron las instalaciones deCENTRUMpara solucionar una serie incidencias,    de carácter técnico, derivadas del uso de la herramienta en la organización.    Además aprovecharon la visita para tratar de identificar nuevas necesidades y    requisitos de la entidad cliente con la finalidad de mejorar la prestación    del servicio prestado porISOTools.La política del trato personalizado y soporte técnico continuo es una    constante en las alianzas queISOToolsestablece con sus socios, siendo esta disposición    un valor añadido frente a otras soluciones existentes en el mercado.Enlace con laweb.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2025-12-17T08:08:43.367678",
-      "rotation_id": "2025-12-17-3"
+      "selected_date": "2025-12-18T08:08:31.898074",
+      "rotation_id": "2025-12-18-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-17T08:08:43.367792",
-    "next_rotation": "2025-12-18T08:08:43.367792",
+    "selected_at": "2025-12-18T08:08:31.898206",
+    "next_rotation": "2025-12-19T08:08:31.898206",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
