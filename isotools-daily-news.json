@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-18",
-    "generated_at": "2025-12-18T08:08:31.898206",
-    "next_update": "2025-12-19",
+    "generated_date": "2025-12-19",
+    "generated_at": "2025-12-19T08:08:32.219543",
+    "next_update": "2025-12-20",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cuánto tiempo se tarda en implementar un Sistema de Gestión Ambiental?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/04/Sistema-de-Gestion-Ambiental.jpg",
+      "title": "Beneficios de obtener la Certificación ISO/IEC 42001 para Sistemas de Gestión de Inteligencia Artificial",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/beneficios-de-obtener-la-certificacion-iso-iec-42001-para-sistemas-de-gestion-de-inteligencia-artificial.jpg",
       "image_exists": true,
-      "text": "Sistema de Gestión Ambiental Las empresas que quieren implementar un Sistema de Gestión Ambiental basado en la norma…",
+      "text": "La certificación ISO/IEC 42001 confirma el cierre de una etapa dentro de un proyecto en el que una…",
       "news_priority": 1,
-      "selected_date": "2025-12-18T08:08:31.898061",
-      "rotation_id": "2025-12-18-1"
+      "selected_date": "2025-12-19T08:08:32.219443",
+      "rotation_id": "2025-12-19-1"
     },
     {
-      "title": "Coaching Aplicado a los Sistemas de Gestión.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/Coaching.jpg",
+      "title": "¿Cómo realizar la auditoría del SG-SST?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/12/SG-SST-1.jpg",
       "image_exists": true,
-      "text": "Coaching Por Ismael Díaz. El Coaching profesional está teniendo tanto éxito porque ha venido a darle a las…",
+      "text": "SG-SST La auditoría es un proceso metódico para obtener las evidencias que se necesitan para evaluar la forma…",
       "news_priority": 2,
-      "selected_date": "2025-12-18T08:08:31.898072",
-      "rotation_id": "2025-12-18-2"
+      "selected_date": "2025-12-19T08:08:32.219450",
+      "rotation_id": "2025-12-19-2"
     },
     {
-      "title": "QB Consulting e ISOTools prestan soporte a sus clientes de México DF",
-      "image_url": "https://www.isotools.org//imagenes/noticiaQBCentrum.jpg",
-      "image_exists": false,
-      "text": "Sesión informativa de la herramienta ISOTools en Ciudad de México.Expertos técnicos deISOToolsy consultores asociados deQB Consultingvisitaron las instalaciones deCENTRUMpara solucionar una serie incidencias,    de carácter técnico, derivadas del uso de la herramienta en la organización.    Además aprovecharon la visita para tratar de identificar nuevas necesidades y    requisitos de la entidad cliente con la finalidad de mejorar la prestación    del servicio prestado porISOTools.La política del trato personalizado y soporte técnico continuo es una    constante en las alianzas queISOToolsestablece con sus socios, siendo esta disposición    un valor añadido frente a otras soluciones existentes en el mercado.Enlace con laweb.Más informaciónaquí",
+      "title": "ISOTools destaca la inauguración de las conferencias de RSC de la Caixa",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/02/Conferencias-de-RSC.png",
+      "image_exists": true,
+      "text": "Conferencias de RSC Se inauguró la primera conferencia del ciclo que tendrá lugar a lo largo del mes…",
       "news_priority": 3,
-      "selected_date": "2025-12-18T08:08:31.898074",
-      "rotation_id": "2025-12-18-3"
+      "selected_date": "2025-12-19T08:08:32.219452",
+      "rotation_id": "2025-12-19-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-18T08:08:31.898206",
-    "next_rotation": "2025-12-19T08:08:31.898206",
+    "selected_at": "2025-12-19T08:08:32.219543",
+    "next_rotation": "2025-12-20T08:08:32.219543",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
