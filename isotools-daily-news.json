@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-22",
-    "generated_at": "2025-12-22T08:09:23.166142",
-    "next_update": "2025-12-23",
+    "generated_date": "2025-12-23",
+    "generated_at": "2025-12-23T08:08:47.230287",
+    "next_update": "2025-12-24",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Caso de Éxito: Automatización con ISOTools del Sistema ISO 9001:2008 en Plaza Salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/02/post-plazasalud1.jpg",
+      "title": "España apuesta por un modelo eficiente de gestión de residuos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/07/Gestion-de-residuos.webp",
       "image_exists": true,
-      "text": "En días pasados La Plaza Salud, obtuvo la certificación ISO 9001Culmina el esfuerzo de los trabajadores y directivos deLa Plaza Salud,alcanzando la certificación en calidadISO 9001por la Certificadora GCC, contado conISOToolscomoHerramienta para automatizar su Sistema Gestión de Calidad.De esta forma,La Plaza Saludse convierte en el primer cliente del Sector Salud en México.Esto eleva la confianza en la prestación de los servicios de salud es esta Institución, que asiste a más de 5.000 usuarios de la Colonia Santa María la Rivera, en México, D.F.Esto eleva la confianza en la prestación de los servicios de salud es esta Institución.Enhorabuena“La Plaza Salud”.Más informaciónaquí",
+      "text": "Gestión de residuos El Secretario General de la FEMP, Angel Fernández, manifestó que se requiere de la colaboración…",
       "news_priority": 1,
-      "selected_date": "2025-12-22T08:09:23.166063",
-      "rotation_id": "2025-12-22-1"
+      "selected_date": "2025-12-23T08:08:47.230184",
+      "rotation_id": "2025-12-23-1"
     },
     {
-      "title": "Normas ISO de aplicación en la Industria Alimentaria",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/09/Industria-Alimentaria.jpg",
+      "title": "Enfrentando actualizaciones en Ciberseguridad y Protección de Infraestructura Crítica Industrial",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/11/Marcos-Gonzalez-Encargado-CIP-de-Pacific-Hydro-Chile-empresa-electrica-que-opera-en-Chile-varias-centrales-hidroelectricas-de-pasada-en-la-cuenca-del-rio-Cachapoal-y-eolicas-en-el-norte-del-pais.png",
       "image_exists": true,
-      "text": "Industria Alimentaria Hoy por hoy, las organizaciones deben innovar continuamente su metodología operativa para garantizar la mejora continua…",
+      "text": "En el complejo escenario de la Ciberseguridad y Protección de Infraestructura Crítica Industrial en Chile, las...",
       "news_priority": 2,
-      "selected_date": "2025-12-22T08:09:23.166069",
-      "rotation_id": "2025-12-22-2"
+      "selected_date": "2025-12-23T08:08:47.230192",
+      "rotation_id": "2025-12-23-2"
     },
     {
-      "title": "Funciones básicas de un Gestor documental para Seguridad, Salud en el Trabajo y Medio ambiente",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/07/Gestor-documental.jpg",
+      "title": "ISO 9001:2015, COSO como metodología de gestión de riesgo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/ISO-9001-8.gif",
       "image_exists": true,
-      "text": "Gestor documental Los Sistemas de Gestión de Seguridad, Salud en el Trabajo y Medioambiente requieren de un repositorio…",
+      "text": "ISO 9001 En la nueva norma ISO 9001:2015, la innovación que más está llamando la atención a los…",
       "news_priority": 3,
-      "selected_date": "2025-12-22T08:09:23.166072",
-      "rotation_id": "2025-12-22-3"
+      "selected_date": "2025-12-23T08:08:47.230194",
+      "rotation_id": "2025-12-23-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-22T08:09:23.166142",
-    "next_rotation": "2025-12-23T08:09:23.166142",
+    "selected_at": "2025-12-23T08:08:47.230287",
+    "next_rotation": "2025-12-24T08:08:47.230287",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
