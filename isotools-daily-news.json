@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-23",
-    "generated_at": "2025-12-23T08:08:47.230287",
-    "next_update": "2025-12-24",
+    "generated_date": "2025-12-24",
+    "generated_at": "2025-12-24T08:08:33.403035",
+    "next_update": "2025-12-25",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "España apuesta por un modelo eficiente de gestión de residuos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/07/Gestion-de-residuos.webp",
+      "title": "Automatización del Sistema de Gestión de Calidad en un organismo público",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/Sistema-de-Gestión-de-Calidad.jpg",
       "image_exists": true,
-      "text": "Gestión de residuos El Secretario General de la FEMP, Angel Fernández, manifestó que se requiere de la colaboración…",
+      "text": "Sistema de Gestión de Calidad En el artículo de hoy vamos a hablar sobre cómo un organismo público…",
       "news_priority": 1,
-      "selected_date": "2025-12-23T08:08:47.230184",
-      "rotation_id": "2025-12-23-1"
+      "selected_date": "2025-12-24T08:08:33.402927",
+      "rotation_id": "2025-12-24-1"
     },
     {
-      "title": "Enfrentando actualizaciones en Ciberseguridad y Protección de Infraestructura Crítica Industrial",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/11/Marcos-Gonzalez-Encargado-CIP-de-Pacific-Hydro-Chile-empresa-electrica-que-opera-en-Chile-varias-centrales-hidroelectricas-de-pasada-en-la-cuenca-del-rio-Cachapoal-y-eolicas-en-el-norte-del-pais.png",
+      "title": "El comunicado de Ban ki-moon por el Día Mundial del Medio Ambiente",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/06/Dia-Mundial-del-Medio-Ambiente.webp",
       "image_exists": true,
-      "text": "En el complejo escenario de la Ciberseguridad y Protección de Infraestructura Crítica Industrial en Chile, las...",
+      "text": "Día Mundial del Medio Ambiente El secretario de las Naciones Unidas habló, en un comunicado, del tema principal…",
       "news_priority": 2,
-      "selected_date": "2025-12-23T08:08:47.230192",
-      "rotation_id": "2025-12-23-2"
+      "selected_date": "2025-12-24T08:08:33.402935",
+      "rotation_id": "2025-12-24-2"
     },
     {
-      "title": "ISO 9001:2015, COSO como metodología de gestión de riesgo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/ISO-9001-8.gif",
+      "title": "Caso de Éxito: LEÓN WEILL. Soluciones ISOTools para la Gestión de la Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/12/post-leon.jpg",
       "image_exists": true,
-      "text": "ISO 9001 En la nueva norma ISO 9001:2015, la innovación que más está llamando la atención a los…",
+      "text": "Misión: Proveer los productos y servicios que espera el cliente en el tiempo, precio y calidad que satisfagan…",
       "news_priority": 3,
-      "selected_date": "2025-12-23T08:08:47.230194",
-      "rotation_id": "2025-12-23-3"
+      "selected_date": "2025-12-24T08:08:33.402937",
+      "rotation_id": "2025-12-24-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-23T08:08:47.230287",
-    "next_rotation": "2025-12-24T08:08:47.230287",
+    "selected_at": "2025-12-24T08:08:33.403035",
+    "next_rotation": "2025-12-25T08:08:33.403035",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
