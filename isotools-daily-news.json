@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-26",
-    "generated_at": "2025-12-26T08:08:11.756342",
-    "next_update": "2025-12-27",
+    "generated_date": "2025-12-29",
+    "generated_at": "2025-12-29T08:09:49.139921",
+    "next_update": "2025-12-30",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Tercera jornada de ISOTools en el XII Foro Internacional de Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/09/XII-Foro-Internacional-de-Calidad_ganador.jpg",
+      "title": "Principales novedades del enfoque de ciclo de vida",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/08/Principales-novedades-del-enfoque-de-ciclo-de-vida.jpg",
       "image_exists": true,
-      "text": "XII Foro Internacional de Calidad El XII Foro Internacional de Calidad ha cerrado otro año con un éxito…",
+      "text": "Ciclo de vida  El análisis del ciclo de vida de la norma ISO 14001 es una herramienta empleada…",
       "news_priority": 1,
-      "selected_date": "2025-12-26T08:08:11.756247",
-      "rotation_id": "2025-12-26-1"
+      "selected_date": "2025-12-29T08:09:49.139847",
+      "rotation_id": "2025-12-29-1"
     },
     {
-      "title": "Documentación imprescindible en ISO 45001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/04/ISO-45001.png",
+      "title": "ISOTools Educación: herramienta para gestionar la calidad, la excelencia y la estrategia en centros educativos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Untitled-12-1.jpg",
       "image_exists": true,
-      "text": "Gestión de la salud y seguridad ocupacional  La gestión de la salud y la seguridad ocupacional (SSO) es…",
+      "text": "Gestionar la calidad, la excelencia y la estrategia en centros educativos Con el fin de lograr la excelencia…",
       "news_priority": 2,
-      "selected_date": "2025-12-26T08:08:11.756254",
-      "rotation_id": "2025-12-26-2"
+      "selected_date": "2025-12-29T08:09:49.139853",
+      "rotation_id": "2025-12-29-2"
     },
     {
-      "title": "Eficiencia energética en la industria alimentaria con ISO 50001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/03/ISO-500012.jpg",
+      "title": "¿Cuáles son los posibles riesgos de seguridad de la IA y cómo ayuda la norma ISO 42001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/Cuales-son-los-posibles-riesgos-de-seguridad-de-la-IA-y-como-ayuda-la-norma-ISO-42001.jpg",
       "image_exists": true,
-      "text": "Industria alimentaria y eficiencia energética La norma ISO 50001 proporciona los requisitos que un Sistema de Gestión Energético…",
+      "text": "Los riesgos de seguridad de la IA preocupan a las empresas que han basado sus proyectos estratégicos de…",
       "news_priority": 3,
-      "selected_date": "2025-12-26T08:08:11.756256",
-      "rotation_id": "2025-12-26-3"
+      "selected_date": "2025-12-29T08:09:49.139855",
+      "rotation_id": "2025-12-29-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-26T08:08:11.756342",
-    "next_rotation": "2025-12-27T08:08:11.756342",
+    "selected_at": "2025-12-29T08:09:49.139921",
+    "next_rotation": "2025-12-30T08:09:49.139921",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
