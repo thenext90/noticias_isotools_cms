@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-29",
-    "generated_at": "2025-12-29T08:09:49.139921",
-    "next_update": "2025-12-30",
+    "generated_date": "2025-12-30",
+    "generated_at": "2025-12-30T08:08:34.086122",
+    "next_update": "2025-12-31",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Principales novedades del enfoque de ciclo de vida",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/08/Principales-novedades-del-enfoque-de-ciclo-de-vida.jpg",
+      "title": "Los nuevos desafíos a los que se enfrentan los sistemas de gestión",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/sistemas-de-gestión.jpg",
       "image_exists": true,
-      "text": "Ciclo de vida  El análisis del ciclo de vida de la norma ISO 14001 es una herramienta empleada…",
+      "text": "Sistemas de Gestión Actualmente, estamos en una etapa en la que se están produciendo modificaciones y cambios importantes…",
       "news_priority": 1,
-      "selected_date": "2025-12-29T08:09:49.139847",
-      "rotation_id": "2025-12-29-1"
+      "selected_date": "2025-12-30T08:08:34.086032",
+      "rotation_id": "2025-12-30-1"
     },
     {
-      "title": "ISOTools Educación: herramienta para gestionar la calidad, la excelencia y la estrategia en centros educativos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Untitled-12-1.jpg",
+      "title": "¿Conoces la estructura de la norma OHSAS 18001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/iStock_000075907717_Small.jpg",
       "image_exists": true,
-      "text": "Gestionar la calidad, la excelencia y la estrategia en centros educativos Con el fin de lograr la excelencia…",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 2,
-      "selected_date": "2025-12-29T08:09:49.139853",
-      "rotation_id": "2025-12-29-2"
+      "selected_date": "2025-12-30T08:08:34.086039",
+      "rotation_id": "2025-12-30-2"
     },
     {
-      "title": "¿Cuáles son los posibles riesgos de seguridad de la IA y cómo ayuda la norma ISO 42001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/05/Cuales-son-los-posibles-riesgos-de-seguridad-de-la-IA-y-como-ayuda-la-norma-ISO-42001.jpg",
+      "title": "Alcance de la norma ISO 19011",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/Norma-ISO-19011.png",
       "image_exists": true,
-      "text": "Los riesgos de seguridad de la IA preocupan a las empresas que han basado sus proyectos estratégicos de…",
+      "text": "La norma ISO 19011 es una guía para hacer auditorías de sistemas de gestión, a través de un marco claro y conciso para planificar y...",
       "news_priority": 3,
-      "selected_date": "2025-12-29T08:09:49.139855",
-      "rotation_id": "2025-12-29-3"
+      "selected_date": "2025-12-30T08:08:34.086041",
+      "rotation_id": "2025-12-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-29T08:09:49.139921",
-    "next_rotation": "2025-12-30T08:09:49.139921",
+    "selected_at": "2025-12-30T08:08:34.086122",
+    "next_rotation": "2025-12-31T08:08:34.086122",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
