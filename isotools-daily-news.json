@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-30",
-    "generated_at": "2025-12-30T08:08:34.086122",
-    "next_update": "2025-12-31",
+    "generated_date": "2025-12-31",
+    "generated_at": "2025-12-31T08:08:31.530508",
+    "next_update": "2026-01-01",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Los nuevos desafíos a los que se enfrentan los sistemas de gestión",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/sistemas-de-gestión.jpg",
+      "title": "Industria 4.0: La Cuarta Revolución Industrial ya está aquí",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/11/Industria-4.0.jpg",
       "image_exists": true,
-      "text": "Sistemas de Gestión Actualmente, estamos en una etapa en la que se están produciendo modificaciones y cambios importantes…",
+      "text": "Industria 4.0 Parece que el nuevo término de moda es el de Industria 4.0. Es, más, es bastante…",
       "news_priority": 1,
-      "selected_date": "2025-12-30T08:08:34.086032",
-      "rotation_id": "2025-12-30-1"
+      "selected_date": "2025-12-31T08:08:31.530411",
+      "rotation_id": "2025-12-31-1"
     },
     {
-      "title": "¿Conoces la estructura de la norma OHSAS 18001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/iStock_000075907717_Small.jpg",
+      "title": "¿Cómo sacar el máximo partido de las lecciones aprendidas en HSE?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/12/Lecciones-aprendidas-HSE.png",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
+      "text": "Lecciones aprendidas en HSE Las lecciones aprendidas en HSE permiten adquirir conocimiento sobre experiencias. Se lleva a cabo…",
       "news_priority": 2,
-      "selected_date": "2025-12-30T08:08:34.086039",
-      "rotation_id": "2025-12-30-2"
+      "selected_date": "2025-12-31T08:08:31.530418",
+      "rotation_id": "2025-12-31-2"
     },
     {
-      "title": "Alcance de la norma ISO 19011",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/Norma-ISO-19011.png",
+      "title": "Nuevo Ebook “Implantación de los estándares de seguridad alimentaria.»",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/0.-Resumen-Ebook.jpg",
       "image_exists": true,
-      "text": "La norma ISO 19011 es una guía para hacer auditorías de sistemas de gestión, a través de un marco claro y conciso para planificar y...",
+      "text": "La seguridad alimentaria es una cuestión que cada vez preocupa más a consumidores y empresas. Un alimento en…",
       "news_priority": 3,
-      "selected_date": "2025-12-30T08:08:34.086041",
-      "rotation_id": "2025-12-30-3"
+      "selected_date": "2025-12-31T08:08:31.530420",
+      "rotation_id": "2025-12-31-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-30T08:08:34.086122",
-    "next_rotation": "2025-12-31T08:08:34.086122",
+    "selected_at": "2025-12-31T08:08:31.530508",
+    "next_rotation": "2026-01-01T08:08:31.530508",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
