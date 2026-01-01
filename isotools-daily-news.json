@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2025-12-31",
-    "generated_at": "2025-12-31T08:08:31.530508",
-    "next_update": "2026-01-01",
+    "generated_date": "2026-01-01",
+    "generated_at": "2026-01-01T08:08:31.184454",
+    "next_update": "2026-01-02",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Industria 4.0: La Cuarta Revolución Industrial ya está aquí",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/11/Industria-4.0.jpg",
-      "image_exists": true,
-      "text": "Industria 4.0 Parece que el nuevo término de moda es el de Industria 4.0. Es, más, es bastante…",
+      "title": "ISO 27001: Necesidad en el Sector Salud",
+      "image_url": null,
+      "image_exists": false,
+      "text": "ISO 27001 ISO 27001 es la norma internacional en la que se encuentran establecidos todos los requisitos necesarios para…",
       "news_priority": 1,
-      "selected_date": "2025-12-31T08:08:31.530411",
-      "rotation_id": "2025-12-31-1"
+      "selected_date": "2026-01-01T08:08:31.184359",
+      "rotation_id": "2026-01-01-1"
     },
     {
-      "title": "¿Cómo sacar el máximo partido de las lecciones aprendidas en HSE?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/12/Lecciones-aprendidas-HSE.png",
+      "title": "ISO 14001: Procesos que afectan a la Gestión Ambiental",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/ISO-14001-17.gif",
       "image_exists": true,
-      "text": "Lecciones aprendidas en HSE Las lecciones aprendidas en HSE permiten adquirir conocimiento sobre experiencias. Se lleva a cabo…",
+      "text": "ISO 14001 En el momento de implantar un Sistema de Gestión Medioambiental fundamentado en la norma ISO 14001…",
       "news_priority": 2,
-      "selected_date": "2025-12-31T08:08:31.530418",
-      "rotation_id": "2025-12-31-2"
+      "selected_date": "2026-01-01T08:08:31.184366",
+      "rotation_id": "2026-01-01-2"
     },
     {
-      "title": "Nuevo Ebook “Implantación de los estándares de seguridad alimentaria.»",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/0.-Resumen-Ebook.jpg",
+      "title": "Esquema Nacional de Seguridad (ENS): la importancia de la auditoría",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/Esquema-Nacional-de-Seguridad-ENS.jpg",
       "image_exists": true,
-      "text": "La seguridad alimentaria es una cuestión que cada vez preocupa más a consumidores y empresas. Un alimento en…",
+      "text": "En un mundo donde la información es un activo de gran valor, la seguridad cibernética es una prioridad...",
       "news_priority": 3,
-      "selected_date": "2025-12-31T08:08:31.530420",
-      "rotation_id": "2025-12-31-3"
+      "selected_date": "2026-01-01T08:08:31.184369",
+      "rotation_id": "2026-01-01-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2025-12-31T08:08:31.530508",
-    "next_rotation": "2026-01-01T08:08:31.530508",
+    "selected_at": "2026-01-01T08:08:31.184454",
+    "next_rotation": "2026-01-02T08:08:31.184454",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
