@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-01",
-    "generated_at": "2026-01-01T08:08:31.184454",
-    "next_update": "2026-01-02",
+    "generated_date": "2026-01-02",
+    "generated_at": "2026-01-02T08:08:28.605119",
+    "next_update": "2026-01-03",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 27001: Necesidad en el Sector Salud",
-      "image_url": null,
-      "image_exists": false,
-      "text": "ISO 27001 ISO 27001 es la norma internacional en la que se encuentran establecidos todos los requisitos necesarios para…",
+      "title": "ISO 19011:2018. 7 principios de auditoría",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/ISO-19011-1.jpg",
+      "image_exists": true,
+      "text": "ISO 19011 Una semana más, continuamos hablando sobre la nueva norma ISO 19011 \"Directrices para la auditoría de los…",
       "news_priority": 1,
-      "selected_date": "2026-01-01T08:08:31.184359",
-      "rotation_id": "2026-01-01-1"
+      "selected_date": "2026-01-02T08:08:28.605032",
+      "rotation_id": "2026-01-02-1"
     },
     {
-      "title": "ISO 14001: Procesos que afectan a la Gestión Ambiental",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/ISO-14001-17.gif",
+      "title": "Características del sello de calidad turística en Chile",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/calidad-turistica-chile.jpg",
       "image_exists": true,
-      "text": "ISO 14001 En el momento de implantar un Sistema de Gestión Medioambiental fundamentado en la norma ISO 14001…",
+      "text": "Sistemas de Gestión de la Calidad Además de la norma ISO 9001 sobre Sistemas Gestión de la Calidad,…",
       "news_priority": 2,
-      "selected_date": "2026-01-01T08:08:31.184366",
-      "rotation_id": "2026-01-01-2"
+      "selected_date": "2026-01-02T08:08:28.605038",
+      "rotation_id": "2026-01-02-2"
     },
     {
-      "title": "Esquema Nacional de Seguridad (ENS): la importancia de la auditoría",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/Esquema-Nacional-de-Seguridad-ENS.jpg",
+      "title": "Empresas socialmente comprometidas. ¿Qué ventajas tienen?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/empresas-comprometidas.jpg",
       "image_exists": true,
-      "text": "En un mundo donde la información es un activo de gran valor, la seguridad cibernética es una prioridad...",
+      "text": "SA 8000 En las últimas décadas, una nueva filosofía ha ido irrumpiendo con fuerza en cada vez más…",
       "news_priority": 3,
-      "selected_date": "2026-01-01T08:08:31.184369",
-      "rotation_id": "2026-01-01-3"
+      "selected_date": "2026-01-02T08:08:28.605041",
+      "rotation_id": "2026-01-02-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-01T08:08:31.184454",
-    "next_rotation": "2026-01-02T08:08:31.184454",
+    "selected_at": "2026-01-02T08:08:28.605119",
+    "next_rotation": "2026-01-03T08:08:28.605119",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
