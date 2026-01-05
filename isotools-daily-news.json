@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-02",
-    "generated_at": "2026-01-02T08:08:28.605119",
-    "next_update": "2026-01-03",
+    "generated_date": "2026-01-05",
+    "generated_at": "2026-01-05T08:10:01.665138",
+    "next_update": "2026-01-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 19011:2018. 7 principios de auditoría",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/ISO-19011-1.jpg",
+      "title": "ISO 31000: una herramienta para evaluar la gestión de riesgos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/08/iStock_000071479329_Large.jpg",
       "image_exists": true,
-      "text": "ISO 19011 Una semana más, continuamos hablando sobre la nueva norma ISO 19011 \"Directrices para la auditoría de los…",
+      "text": "ISO 31000 La ISO 31000 es una norma internacional que establece una serie de principios para el diseño implementación…",
       "news_priority": 1,
-      "selected_date": "2026-01-02T08:08:28.605032",
-      "rotation_id": "2026-01-02-1"
+      "selected_date": "2026-01-05T08:10:01.665008",
+      "rotation_id": "2026-01-05-1"
     },
     {
-      "title": "Características del sello de calidad turística en Chile",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/calidad-turistica-chile.jpg",
+      "title": "Quality Experts, nuevo consultor homologado ISOTools en Chile",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/04/calidad-e1428363078543.jpg",
       "image_exists": true,
-      "text": "Sistemas de Gestión de la Calidad Además de la norma ISO 9001 sobre Sistemas Gestión de la Calidad,…",
+      "text": "Quality Experts Con el objetivo de incrementar el valor de la empresa a través de actividades profesionales, novedosas…",
       "news_priority": 2,
-      "selected_date": "2026-01-02T08:08:28.605038",
-      "rotation_id": "2026-01-02-2"
+      "selected_date": "2026-01-05T08:10:01.665018",
+      "rotation_id": "2026-01-05-2"
     },
     {
-      "title": "Empresas socialmente comprometidas. ¿Qué ventajas tienen?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/empresas-comprometidas.jpg",
+      "title": "ISOTools crea el Grupo ESG Innova para aunar todas sus marcas y refuerza así su propuesta de valor",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/paratuas-esginnova.jpg",
       "image_exists": true,
-      "text": "SA 8000 En las últimas décadas, una nueva filosofía ha ido irrumpiendo con fuerza en cada vez más…",
+      "text": "La empresa ISOTools, tras más de 25 años liderando el sector de la transformación digital, evoluciona cubriendo…",
       "news_priority": 3,
-      "selected_date": "2026-01-02T08:08:28.605041",
-      "rotation_id": "2026-01-02-3"
+      "selected_date": "2026-01-05T08:10:01.665020",
+      "rotation_id": "2026-01-05-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-02T08:08:28.605119",
-    "next_rotation": "2026-01-03T08:08:28.605119",
+    "selected_at": "2026-01-05T08:10:01.665138",
+    "next_rotation": "2026-01-06T08:10:01.665138",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
