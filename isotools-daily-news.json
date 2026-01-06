@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-05",
-    "generated_at": "2026-01-05T08:10:01.665138",
-    "next_update": "2026-01-06",
+    "generated_date": "2026-01-06",
+    "generated_at": "2026-01-06T08:09:01.988642",
+    "next_update": "2026-01-07",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 31000: una herramienta para evaluar la gestión de riesgos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/08/iStock_000071479329_Large.jpg",
+      "title": "HSE: ¿Es posible la excelencia de los procesos empresariales en esta materia?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/11/HSE.jpg",
       "image_exists": true,
-      "text": "ISO 31000 La ISO 31000 es una norma internacional que establece una serie de principios para el diseño implementación…",
+      "text": "HSE En la actualidad, las organizaciones tienen que dar respuesta a una gran cantidad de requisitos en el terreno…",
       "news_priority": 1,
-      "selected_date": "2026-01-05T08:10:01.665008",
-      "rotation_id": "2026-01-05-1"
+      "selected_date": "2026-01-06T08:09:01.988502",
+      "rotation_id": "2026-01-06-1"
     },
     {
-      "title": "Quality Experts, nuevo consultor homologado ISOTools en Chile",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/04/calidad-e1428363078543.jpg",
+      "title": "La gestión organizativa por procesos. Enfocados hacia la calidad.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/10/Procesos.jpg",
       "image_exists": true,
-      "text": "Quality Experts Con el objetivo de incrementar el valor de la empresa a través de actividades profesionales, novedosas…",
+      "text": "Gestión organizativa por procesos A la hora de gestionar una organización por procesos nos planteamos una serie de…",
       "news_priority": 2,
-      "selected_date": "2026-01-05T08:10:01.665018",
-      "rotation_id": "2026-01-05-2"
+      "selected_date": "2026-01-06T08:09:01.988512",
+      "rotation_id": "2026-01-06-2"
     },
     {
-      "title": "ISOTools crea el Grupo ESG Innova para aunar todas sus marcas y refuerza así su propuesta de valor",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/paratuas-esginnova.jpg",
+      "title": "ISOTools participa en el curso impartido por CECO de Calidad Turística",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2007/05/Calidad-turistica.webp",
       "image_exists": true,
-      "text": "La empresa ISOTools, tras más de 25 años liderando el sector de la transformación digital, evoluciona cubriendo…",
+      "text": "Calidad turística El Curso Calidad Turística, impartido por la Confederación de Empresarios de Córdoba, de 400 horas de…",
       "news_priority": 3,
-      "selected_date": "2026-01-05T08:10:01.665020",
-      "rotation_id": "2026-01-05-3"
+      "selected_date": "2026-01-06T08:09:01.988514",
+      "rotation_id": "2026-01-06-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-05T08:10:01.665138",
-    "next_rotation": "2026-01-06T08:10:01.665138",
+    "selected_at": "2026-01-06T08:09:01.988642",
+    "next_rotation": "2026-01-07T08:09:01.988642",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
