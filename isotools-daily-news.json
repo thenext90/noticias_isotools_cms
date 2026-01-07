@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-06",
-    "generated_at": "2026-01-06T08:09:01.988642",
-    "next_update": "2026-01-07",
+    "generated_date": "2026-01-07",
+    "generated_at": "2026-01-07T08:08:53.673009",
+    "next_update": "2026-01-08",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "HSE: ¿Es posible la excelencia de los procesos empresariales en esta materia?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/11/HSE.jpg",
+      "title": "Normas ISO que se relacionan con los Objetivos de Desarrollo Sostenible (ODS)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/03/Objetivos-de-Desarrollo-Sostenible.jpg",
       "image_exists": true,
-      "text": "HSE En la actualidad, las organizaciones tienen que dar respuesta a una gran cantidad de requisitos en el terreno…",
+      "text": "Objetivos de Desarrollo Sostenible El desarrollo sostenible, actualmente sirve como ventaja en el comercio internacional, promoviendo iniciativas de…",
       "news_priority": 1,
-      "selected_date": "2026-01-06T08:09:01.988502",
-      "rotation_id": "2026-01-06-1"
+      "selected_date": "2026-01-07T08:08:53.672909",
+      "rotation_id": "2026-01-07-1"
     },
     {
-      "title": "La gestión organizativa por procesos. Enfocados hacia la calidad.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/10/Procesos.jpg",
+      "title": "Los objetivos de la Red de Información y Alertas Alimentarias (RIAL)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/Inocuidad-Alimentaria.gif",
       "image_exists": true,
-      "text": "Gestión organizativa por procesos A la hora de gestionar una organización por procesos nos planteamos una serie de…",
+      "text": "Inocuidad Alimentaria Para quien no lo conozca, la Red de Información y Alertas Alimentarias también denominada como RIAL,…",
       "news_priority": 2,
-      "selected_date": "2026-01-06T08:09:01.988512",
-      "rotation_id": "2026-01-06-2"
+      "selected_date": "2026-01-07T08:08:53.672915",
+      "rotation_id": "2026-01-07-2"
     },
     {
-      "title": "ISOTools participa en el curso impartido por CECO de Calidad Turística",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2007/05/Calidad-turistica.webp",
+      "title": "I Summit ISOTools: ¿Cómo garantizar el cumplimiento legal HSE? Principales herramientas para conseguirlo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/MicrosoftTeams-image-24.jpg",
       "image_exists": true,
-      "text": "Calidad turística El Curso Calidad Turística, impartido por la Confederación de Empresarios de Córdoba, de 400 horas de…",
+      "text": "I Summit ISOTools ISOTools Excellence, con motivo de la celebración de su 25 aniversario, organiza una serie de…",
       "news_priority": 3,
-      "selected_date": "2026-01-06T08:09:01.988514",
-      "rotation_id": "2026-01-06-3"
+      "selected_date": "2026-01-07T08:08:53.672918",
+      "rotation_id": "2026-01-07-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-06T08:09:01.988642",
-    "next_rotation": "2026-01-07T08:09:01.988642",
+    "selected_at": "2026-01-07T08:08:53.673009",
+    "next_rotation": "2026-01-08T08:08:53.673009",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
