@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-07",
-    "generated_at": "2026-01-07T08:08:53.673009",
-    "next_update": "2026-01-08",
+    "generated_date": "2026-01-08",
+    "generated_at": "2026-01-08T08:08:52.831358",
+    "next_update": "2026-01-09",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Normas ISO que se relacionan con los Objetivos de Desarrollo Sostenible (ODS)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/03/Objetivos-de-Desarrollo-Sostenible.jpg",
-      "image_exists": true,
-      "text": "Objetivos de Desarrollo Sostenible El desarrollo sostenible, actualmente sirve como ventaja en el comercio internacional, promoviendo iniciativas de…",
+      "title": "ISOTools en el Foro Mundial de la Calidad y de la Gestión para la mejora 2009 – México",
+      "image_url": null,
+      "image_exists": false,
+      "text": "El Foro Mundial de la Calidad se efectúo este año por décimotercera ocasión. En este foro se registró…",
       "news_priority": 1,
-      "selected_date": "2026-01-07T08:08:53.672909",
-      "rotation_id": "2026-01-07-1"
+      "selected_date": "2026-01-08T08:08:52.831260",
+      "rotation_id": "2026-01-08-1"
     },
     {
-      "title": "Los objetivos de la Red de Información y Alertas Alimentarias (RIAL)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/Inocuidad-Alimentaria.gif",
+      "title": "La familia de las normas ISO/IEC 20000 ha sido actualizada",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/10/ISO-IEC-20000.jpg",
       "image_exists": true,
-      "text": "Inocuidad Alimentaria Para quien no lo conozca, la Red de Información y Alertas Alimentarias también denominada como RIAL,…",
+      "text": "ISO/IEC 20000 Con la publicación en 2018 de la nueva versión de la ISO/IEC 20000-1 , la serie…",
       "news_priority": 2,
-      "selected_date": "2026-01-07T08:08:53.672915",
-      "rotation_id": "2026-01-07-2"
+      "selected_date": "2026-01-08T08:08:52.831268",
+      "rotation_id": "2026-01-08-2"
     },
     {
-      "title": "I Summit ISOTools: ¿Cómo garantizar el cumplimiento legal HSE? Principales herramientas para conseguirlo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/MicrosoftTeams-image-24.jpg",
-      "image_exists": true,
-      "text": "I Summit ISOTools ISOTools Excellence, con motivo de la celebración de su 25 aniversario, organiza una serie de…",
+      "title": "Responsabilidad social en los proyectos en los salares de Olaroz-Cauchari",
+      "image_url": null,
+      "image_exists": false,
+      "text": "En algunas poblaciones de Argentina existen empresas que se preocupan por el desarrollo de las comunidades y adquieren…",
       "news_priority": 3,
-      "selected_date": "2026-01-07T08:08:53.672918",
-      "rotation_id": "2026-01-07-3"
+      "selected_date": "2026-01-08T08:08:52.831271",
+      "rotation_id": "2026-01-08-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-07T08:08:53.673009",
-    "next_rotation": "2026-01-08T08:08:53.673009",
+    "selected_at": "2026-01-08T08:08:52.831358",
+    "next_rotation": "2026-01-09T08:08:52.831358",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
