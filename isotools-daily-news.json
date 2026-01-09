@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-01-09",
-    "generated_at": "2026-01-09T08:08:44.003374",
+    "generated_at": "2026-01-09T12:45:38.003225",
     "next_update": "2026-01-10",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Conoce la ISO 27014 para la gobernanza eficaz del SGSI",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/iStock_000071806251_Large.jpg",
+      "title": "Revista Empresa Excelente enero 2020",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/02/Revista-enero-2020.jpg",
       "image_exists": true,
-      "text": "Seguridad de la información y la norma ISO 27014 La ISO 27014 es una norma internacional que proporciona…",
+      "text": "REVISTA EMPRESA EXCELENTE Volvemos otro mes más con el nuevo número de la Revista Empresa Excelente. Prácticamente acabamos…",
       "news_priority": 1,
-      "selected_date": "2026-01-09T08:08:44.003272",
+      "selected_date": "2026-01-09T12:45:38.003132",
       "rotation_id": "2026-01-09-1"
     },
     {
-      "title": "ISO 45001 ¿Por qué es mejor para tu organización?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/03/^435F4CEBD5AF5390AC16C56F2D3CE85127C1B3C7DE7E8454F0^pimgpsh_fullsize_distr.jpg",
+      "title": "ISO 27001: Pilares fundamentales de un SGSI",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/ISO27001-2.gif",
       "image_exists": true,
-      "text": "ISO 45001 La norma ISO 45001 para Sistemas de Gestión de Seguridad y Salud Laboral, cuando sea publicada…",
+      "text": "Existen una serie de pilares fundamentales de un Sistema de Gestión de Seguridad de la Información (SGSI) bajo…",
       "news_priority": 2,
-      "selected_date": "2026-01-09T08:08:44.003279",
+      "selected_date": "2026-01-09T12:45:38.003149",
       "rotation_id": "2026-01-09-2"
     },
     {
-      "title": "ISO 19011:2018. 7 principios de auditoría",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/ISO-19011-1.jpg",
+      "title": "Nueva ISO/IEC TR 24030:2024",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/ISO_IEC-TR-24030_2024.jpg",
       "image_exists": true,
-      "text": "ISO 19011 Una semana más, continuamos hablando sobre la nueva norma ISO 19011 \"Directrices para la auditoría de los…",
+      "text": "La estandarización es fundamental en el mundo de la tecnología para garantizar la interoperabilidad, la calidad...",
       "news_priority": 3,
-      "selected_date": "2026-01-09T08:08:44.003282",
+      "selected_date": "2026-01-09T12:45:38.003152",
       "rotation_id": "2026-01-09-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-09T08:08:44.003374",
-    "next_rotation": "2026-01-10T08:08:44.003374",
+    "selected_at": "2026-01-09T12:45:38.003225",
+    "next_rotation": "2026-01-10T12:45:38.003225",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
