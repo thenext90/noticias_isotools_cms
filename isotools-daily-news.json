@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-08",
-    "generated_at": "2026-01-08T08:08:52.831358",
-    "next_update": "2026-01-09",
+    "generated_date": "2026-01-09",
+    "generated_at": "2026-01-09T08:08:44.003374",
+    "next_update": "2026-01-10",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools en el Foro Mundial de la Calidad y de la Gestión para la mejora 2009 – México",
-      "image_url": null,
-      "image_exists": false,
-      "text": "El Foro Mundial de la Calidad se efectúo este año por décimotercera ocasión. En este foro se registró…",
-      "news_priority": 1,
-      "selected_date": "2026-01-08T08:08:52.831260",
-      "rotation_id": "2026-01-08-1"
-    },
-    {
-      "title": "La familia de las normas ISO/IEC 20000 ha sido actualizada",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/10/ISO-IEC-20000.jpg",
+      "title": "Conoce la ISO 27014 para la gobernanza eficaz del SGSI",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/iStock_000071806251_Large.jpg",
       "image_exists": true,
-      "text": "ISO/IEC 20000 Con la publicación en 2018 de la nueva versión de la ISO/IEC 20000-1 , la serie…",
-      "news_priority": 2,
-      "selected_date": "2026-01-08T08:08:52.831268",
-      "rotation_id": "2026-01-08-2"
+      "text": "Seguridad de la información y la norma ISO 27014 La ISO 27014 es una norma internacional que proporciona…",
+      "news_priority": 1,
+      "selected_date": "2026-01-09T08:08:44.003272",
+      "rotation_id": "2026-01-09-1"
     },
     {
-      "title": "Responsabilidad social en los proyectos en los salares de Olaroz-Cauchari",
-      "image_url": null,
-      "image_exists": false,
-      "text": "En algunas poblaciones de Argentina existen empresas que se preocupan por el desarrollo de las comunidades y adquieren…",
+      "title": "ISO 45001 ¿Por qué es mejor para tu organización?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/03/^435F4CEBD5AF5390AC16C56F2D3CE85127C1B3C7DE7E8454F0^pimgpsh_fullsize_distr.jpg",
+      "image_exists": true,
+      "text": "ISO 45001 La norma ISO 45001 para Sistemas de Gestión de Seguridad y Salud Laboral, cuando sea publicada…",
+      "news_priority": 2,
+      "selected_date": "2026-01-09T08:08:44.003279",
+      "rotation_id": "2026-01-09-2"
+    },
+    {
+      "title": "ISO 19011:2018. 7 principios de auditoría",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/ISO-19011-1.jpg",
+      "image_exists": true,
+      "text": "ISO 19011 Una semana más, continuamos hablando sobre la nueva norma ISO 19011 \"Directrices para la auditoría de los…",
       "news_priority": 3,
-      "selected_date": "2026-01-08T08:08:52.831271",
-      "rotation_id": "2026-01-08-3"
+      "selected_date": "2026-01-09T08:08:44.003282",
+      "rotation_id": "2026-01-09-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-08T08:08:52.831358",
-    "next_rotation": "2026-01-09T08:08:52.831358",
+    "selected_at": "2026-01-09T08:08:44.003374",
+    "next_rotation": "2026-01-10T08:08:44.003374",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
