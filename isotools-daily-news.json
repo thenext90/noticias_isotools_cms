@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-09",
-    "generated_at": "2026-01-09T12:45:38.003225",
-    "next_update": "2026-01-10",
+    "generated_date": "2026-01-12",
+    "generated_at": "2026-01-12T08:09:44.907995",
+    "next_update": "2026-01-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Revista Empresa Excelente enero 2020",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/02/Revista-enero-2020.jpg",
+      "title": "SA 8000 : La Responsabilidad Social en el Sector de la Construcción",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/SA-8000-Art-Argentina.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Volvemos otro mes más con el nuevo número de la Revista Empresa Excelente. Prácticamente acabamos…",
+      "text": "La SA 8000 es una Norma Universal sobre Responsabilidad Social. Es importante saber que la certificación de la SA8000 es aplicable para…",
       "news_priority": 1,
-      "selected_date": "2026-01-09T12:45:38.003132",
-      "rotation_id": "2026-01-09-1"
+      "selected_date": "2026-01-12T08:09:44.907907",
+      "rotation_id": "2026-01-12-1"
     },
     {
-      "title": "ISO 27001: Pilares fundamentales de un SGSI",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/ISO27001-2.gif",
+      "title": "Revista Empresa Excelente junio 2019",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/plantilla-destacada-post-revista.jpg",
       "image_exists": true,
-      "text": "Existen una serie de pilares fundamentales de un Sistema de Gestión de Seguridad de la Información (SGSI) bajo…",
+      "text": "REVISTA EMPRESA EXCELENTE Comenzamos el mes de julio con  el nuevo número de la Revista Empresa Excelente. Como…",
       "news_priority": 2,
-      "selected_date": "2026-01-09T12:45:38.003149",
-      "rotation_id": "2026-01-09-2"
+      "selected_date": "2026-01-12T08:09:44.907913",
+      "rotation_id": "2026-01-12-2"
     },
     {
-      "title": "Nueva ISO/IEC TR 24030:2024",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/ISO_IEC-TR-24030_2024.jpg",
+      "title": "Gestión de Calidad en Educación Superior",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/10/Gestión-de-Calidad-en-Educación-Superior.jpeg",
       "image_exists": true,
-      "text": "La estandarización es fundamental en el mundo de la tecnología para garantizar la interoperabilidad, la calidad...",
+      "text": "La preocupación por la Gestión de Calidad en Educación Superior es un tema que no está restringido al…",
       "news_priority": 3,
-      "selected_date": "2026-01-09T12:45:38.003152",
-      "rotation_id": "2026-01-09-3"
+      "selected_date": "2026-01-12T08:09:44.907915",
+      "rotation_id": "2026-01-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-09T12:45:38.003225",
-    "next_rotation": "2026-01-10T12:45:38.003225",
+    "selected_at": "2026-01-12T08:09:44.907995",
+    "next_rotation": "2026-01-13T08:09:44.907995",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
