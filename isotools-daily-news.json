@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-12",
-    "generated_at": "2026-01-12T08:09:44.907995",
-    "next_update": "2026-01-13",
+    "generated_date": "2026-01-13",
+    "generated_at": "2026-01-13T08:08:44.701880",
+    "next_update": "2026-01-14",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "SA 8000 : La Responsabilidad Social en el Sector de la Construcción",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/SA-8000-Art-Argentina.jpg",
-      "image_exists": true,
-      "text": "La SA 8000 es una Norma Universal sobre Responsabilidad Social. Es importante saber que la certificación de la SA8000 es aplicable para…",
+      "title": "La Norma Técnica Colombiana 5808  sobre “Servicios de traducción. Requisitos para la prestación del servicio”",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Durante la historia de la civilización de nuestro planeta ha sido muy valioso el trabajo realizado por traductores…",
       "news_priority": 1,
-      "selected_date": "2026-01-12T08:09:44.907907",
-      "rotation_id": "2026-01-12-1"
+      "selected_date": "2026-01-13T08:08:44.701764",
+      "rotation_id": "2026-01-13-1"
     },
     {
-      "title": "Revista Empresa Excelente junio 2019",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/plantilla-destacada-post-revista.jpg",
-      "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Comenzamos el mes de julio con  el nuevo número de la Revista Empresa Excelente. Como…",
+      "title": "Éxito de ISOTools en el evento organizado por HACCP Chile",
+      "image_url": "https://www.isotools.org//imagenes/foto-Evento-HACCP-Chile.GIF",
+      "image_exists": false,
+      "text": "El pasado 7 de julio tuvo lugar en  el Hotel Manquehue de Santiago de Chile el evento titulado «Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria».La presentación, organizada porHACCP Chile, contó también con la participación de Cristian González en representación de Horizonte Pyme. A ésta asistieron distintos profesionales del sector que se mostraron muy interesados y participativos en los aspectos tratados así como en la HerramientaISOTools.El evento concluyó viendo cumplido con éxito su objetivo de dar a conocer los beneficios de la automatización del HACCP e integración con otros modelos de gestión de la organización, así como contó con una excelente aceptación deISOToolscomo herramienta para la gestión de la inocuidad alimentaria.Más informaciónaquí",
       "news_priority": 2,
-      "selected_date": "2026-01-12T08:09:44.907913",
-      "rotation_id": "2026-01-12-2"
+      "selected_date": "2026-01-13T08:08:44.701773",
+      "rotation_id": "2026-01-13-2"
     },
     {
-      "title": "Gestión de Calidad en Educación Superior",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/10/Gestión-de-Calidad-en-Educación-Superior.jpeg",
+      "title": "Ejemplo práctico de elaboración de un APPCC",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/07/iStock_000014708715_Large.jpg",
       "image_exists": true,
-      "text": "La preocupación por la Gestión de Calidad en Educación Superior es un tema que no está restringido al…",
+      "text": "¿Qué es un sistema APPCC? Las siglas APPCC corresponden a Análisis de Peligros y Puntos de Control Crítico…",
       "news_priority": 3,
-      "selected_date": "2026-01-12T08:09:44.907915",
-      "rotation_id": "2026-01-12-3"
+      "selected_date": "2026-01-13T08:08:44.701775",
+      "rotation_id": "2026-01-13-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-12T08:09:44.907995",
-    "next_rotation": "2026-01-13T08:09:44.907995",
+    "selected_at": "2026-01-13T08:08:44.701880",
+    "next_rotation": "2026-01-14T08:08:44.701880",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
