@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-14",
-    "generated_at": "2026-01-14T08:08:40.135796",
-    "next_update": "2026-01-15",
+    "generated_date": "2026-01-15",
+    "generated_at": "2026-01-15T08:08:59.588490",
+    "next_update": "2026-01-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Ventajas de integrar las Normas ISO 45001 e ISO 14001. (Compliance)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/03/ISO-45001.jpg",
+      "title": "Información documentada en normas ISO: qué puede hacer por ti un Gestor Documental",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/04/información-documentada-en-normas-ISO.jpg",
       "image_exists": true,
-      "text": "Integrar las Normas ISO 45001 e ISO 14001 Hoy por hoy, cualquier organización que cuente con un Sistema…",
+      "text": "Información documentada en normas ISO Uno de los principales cambios que se han introducido en las últimas versiones…",
       "news_priority": 1,
-      "selected_date": "2026-01-14T08:08:40.135707",
-      "rotation_id": "2026-01-14-1"
+      "selected_date": "2026-01-15T08:08:59.588409",
+      "rotation_id": "2026-01-15-1"
     },
     {
-      "title": "Sexta edición de la revista EMPRESA EXCELENTE",
+      "title": "Seguridad y Resiliencia para la Continuidad de Negocio con la ISO 22301 2019",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/12/ISO-22301.jpg",
+      "image_exists": true,
+      "text": "Continuidad de Negocio Hoy por hoy, cualquier tipo de eventualidad no planificada, puede ocasionar un gran impacto y…",
+      "news_priority": 2,
+      "selected_date": "2026-01-15T08:08:59.588415",
+      "rotation_id": "2026-01-15-2"
+    },
+    {
+      "title": "ISO 639: Códigos de idioma",
       "image_url": null,
       "image_exists": false,
-      "text": "Nueva edición de la revista EMPRESA EXCELENTE!! La edición de Junio viene cargada de métodos y metodologías para…",
-      "news_priority": 2,
-      "selected_date": "2026-01-14T08:08:40.135714",
-      "rotation_id": "2026-01-14-2"
-    },
-    {
-      "title": "Marketing verde. Herramienta de gestión ambiental",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/02/gestion-medioambiental.jpg",
-      "image_exists": true,
-      "text": "Gestión ambiental Actualmente, cualquier actividad comercial debe ir de la mano de una política de preservación y cuidado…",
+      "text": "A través de la norma ISO 639 se establecen aquellos  códigos que están reconocidos internacionalmente. Se hace uso…",
       "news_priority": 3,
-      "selected_date": "2026-01-14T08:08:40.135717",
-      "rotation_id": "2026-01-14-3"
+      "selected_date": "2026-01-15T08:08:59.588417",
+      "rotation_id": "2026-01-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-14T08:08:40.135796",
-    "next_rotation": "2026-01-15T08:08:40.135796",
+    "selected_at": "2026-01-15T08:08:59.588490",
+    "next_rotation": "2026-01-16T08:08:59.588490",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
