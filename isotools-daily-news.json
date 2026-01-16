@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-15",
-    "generated_at": "2026-01-15T08:08:59.588490",
-    "next_update": "2026-01-16",
+    "generated_date": "2026-01-16",
+    "generated_at": "2026-01-16T08:08:27.734523",
+    "next_update": "2026-01-17",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Información documentada en normas ISO: qué puede hacer por ti un Gestor Documental",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/04/información-documentada-en-normas-ISO.jpg",
+      "title": "¿Cuáles son los beneficios de la ISO 9001 2026?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/09/Beneficios-de-la-ISO-9001.jpg",
       "image_exists": true,
-      "text": "Información documentada en normas ISO Uno de los principales cambios que se han introducido en las últimas versiones…",
+      "text": "La versión proyectada para ISO 9001:2026 apunta a reforzar lo que ya ofrece la versión vigente (2015) e incorporar...",
       "news_priority": 1,
-      "selected_date": "2026-01-15T08:08:59.588409",
-      "rotation_id": "2026-01-15-1"
+      "selected_date": "2026-01-16T08:08:27.734434",
+      "rotation_id": "2026-01-16-1"
     },
     {
-      "title": "Seguridad y Resiliencia para la Continuidad de Negocio con la ISO 22301 2019",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/12/ISO-22301.jpg",
+      "title": "Capacitaciones SST según ISO 45001. ¿Qué hay que tener en cuenta?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/12/capacitaciones-sst-iso-45001.webp",
       "image_exists": true,
-      "text": "Continuidad de Negocio Hoy por hoy, cualquier tipo de eventualidad no planificada, puede ocasionar un gran impacto y…",
+      "text": "Capacitaciones SST La Norma 45001 cumple su objetivo que es facilitar a una empresa la investigación de alto…",
       "news_priority": 2,
-      "selected_date": "2026-01-15T08:08:59.588415",
-      "rotation_id": "2026-01-15-2"
+      "selected_date": "2026-01-16T08:08:27.734440",
+      "rotation_id": "2026-01-16-2"
     },
     {
-      "title": "ISO 639: Códigos de idioma",
-      "image_url": null,
-      "image_exists": false,
-      "text": "A través de la norma ISO 639 se establecen aquellos  códigos que están reconocidos internacionalmente. Se hace uso…",
+      "title": "Día mundial del medio ambiente 2017: «Estoy con la naturaleza»",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Día-Mundial-del-medio-ambiente.jpg",
+      "image_exists": true,
+      "text": "Origen del día mundial del medio ambiente El año 1972 marcó un antes y un después en el…",
       "news_priority": 3,
-      "selected_date": "2026-01-15T08:08:59.588417",
-      "rotation_id": "2026-01-15-3"
+      "selected_date": "2026-01-16T08:08:27.734443",
+      "rotation_id": "2026-01-16-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-15T08:08:59.588490",
-    "next_rotation": "2026-01-16T08:08:59.588490",
+    "selected_at": "2026-01-16T08:08:27.734523",
+    "next_rotation": "2026-01-17T08:08:27.734523",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
