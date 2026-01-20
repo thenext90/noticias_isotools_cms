@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-19",
-    "generated_at": "2026-01-19T08:10:22.388214",
-    "next_update": "2026-01-20",
+    "generated_date": "2026-01-20",
+    "generated_at": "2026-01-20T08:09:46.433946",
+    "next_update": "2026-01-21",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Entrevista al CEO de ISOTools Excellence",
-      "image_url": null,
-      "image_exists": false,
-      "text": "En esta primera entrevista, presentamos a Miguel Martín, CEO de ISOTools Excellence. ISOTools nace hace 16 años como…",
-      "news_priority": 1,
-      "selected_date": "2026-01-19T08:10:22.388113",
-      "rotation_id": "2026-01-19-1"
-    },
-    {
-      "title": "BASC-Exportadores Sistemas de Gestión en Control y Seguridad en el Comercio Internacional",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/36.png",
+      "title": "Beneficios de normas ISO",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/normas-ISO.jpg",
       "image_exists": true,
-      "text": "El organismo Business Alliance for Secure Commerce (BASC) establece requisitos para el desarrollo de sistemas de Gestión en…",
-      "news_priority": 2,
-      "selected_date": "2026-01-19T08:10:22.388121",
-      "rotation_id": "2026-01-19-2"
+      "text": "Normas ISO Las normas ISO son un conjunto de normas orientadas a ordenar la gestión de la empresa…",
+      "news_priority": 1,
+      "selected_date": "2026-01-20T08:09:46.433836",
+      "rotation_id": "2026-01-20-1"
     },
     {
-      "title": "ISOTools informa sobre la celebración del Congreso Internacional Acreditación.",
-      "image_url": null,
-      "image_exists": false,
-      "text": "La semana que viene tiene lugar un evento de obligada asistencia para organizaciones interesadas en mejorar su competitividad empresarial.\n\nEl “Congreso Internacional Acreditación: Presente y Futuro de la Calidad en Salud en Colombia&rdquo...",
+      "title": "¿Por qué es importante la gestión de riesgos para tu empresa?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/02/gestion-riesgos.jpg",
+      "image_exists": true,
+      "text": "Gestión de riesgos Corporativos Una de las tareas clave en la dirección de empresas es la gestión de…",
+      "news_priority": 2,
+      "selected_date": "2026-01-20T08:09:46.433844",
+      "rotation_id": "2026-01-20-2"
+    },
+    {
+      "title": "Marzo, mes de la Excelencia y la Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/02/Excelencia.jpg",
+      "image_exists": true,
+      "text": "Excelencia ISOTools sigue con su compromiso con la Calidad y la Excelencia, por este motivo durante el mes…",
       "news_priority": 3,
-      "selected_date": "2026-01-19T08:10:22.388123",
-      "rotation_id": "2026-01-19-3"
+      "selected_date": "2026-01-20T08:09:46.433846",
+      "rotation_id": "2026-01-20-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-19T08:10:22.388214",
-    "next_rotation": "2026-01-20T08:10:22.388214",
+    "selected_at": "2026-01-20T08:09:46.433946",
+    "next_rotation": "2026-01-21T08:09:46.433946",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
