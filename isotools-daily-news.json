@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-20",
-    "generated_at": "2026-01-20T08:09:46.433946",
-    "next_update": "2026-01-21",
+    "generated_date": "2026-01-21",
+    "generated_at": "2026-01-21T08:09:42.270443",
+    "next_update": "2026-01-22",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Beneficios de normas ISO",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/normas-ISO.jpg",
+      "title": "No conformidades de calidad: qué proceso seguir para optimizar la gestión",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/no-conformidades-de-calidad-que-proceso-seguir-para-optimizar-la-gestion.jpg",
       "image_exists": true,
-      "text": "Normas ISO Las normas ISO son un conjunto de normas orientadas a ordenar la gestión de la empresa…",
+      "text": "No conformidades de calidad Las no conformidades de calidad son elementos de importancia crítica en un sistema de…",
       "news_priority": 1,
-      "selected_date": "2026-01-20T08:09:46.433836",
-      "rotation_id": "2026-01-20-1"
+      "selected_date": "2026-01-21T08:09:42.270334",
+      "rotation_id": "2026-01-21-1"
     },
     {
-      "title": "¿Por qué es importante la gestión de riesgos para tu empresa?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/02/gestion-riesgos.jpg",
+      "title": "Atención al cliente como factor clave de éxito",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/Atencion-al-cliente.png",
       "image_exists": true,
-      "text": "Gestión de riesgos Corporativos Una de las tareas clave en la dirección de empresas es la gestión de…",
+      "text": "Atención al cliente La semana pasada hablábamos sobre el marketing relacional y la importancia de ofrecer al cliente…",
       "news_priority": 2,
-      "selected_date": "2026-01-20T08:09:46.433844",
-      "rotation_id": "2026-01-20-2"
+      "selected_date": "2026-01-21T08:09:42.270342",
+      "rotation_id": "2026-01-21-2"
     },
     {
-      "title": "Marzo, mes de la Excelencia y la Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/02/Excelencia.jpg",
-      "image_exists": true,
-      "text": "Excelencia ISOTools sigue con su compromiso con la Calidad y la Excelencia, por este motivo durante el mes…",
+      "title": "La Caixa y la Diputación de Málaga han firmado un acuerdo para promover el Centro La Noria.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20Web%20General%202.jpg",
+      "image_exists": false,
+      "text": "La Caixa invertirá en el proyecto 250.000 euros.Ayer lunes, Rafael Herrador (director territorial de“la Caixa”) y Elías Bendodo (presidente de laDiputación de Málaga), firmaron un acuerdo para promover la actividad del Centro de Innovación La Noria. La Caixa invertirá 250.000 euros en 2013.El Centro de Innovación La Noria es un lugar multidisciplinar con más de 6.000 metros cuadrados, el cual gestiona la Diputación Provincial. Tiene el objetivo de incitar la participación activa de la ciudadanía, con la involucración de las organizaciones y el compromiso de responsabilidad social corporativa.Rafael Herrador indicó en una rueda de prensa que la intención es realizar proyectos sociales para dos colectivos: niños pobres y excluidos y jóvenes menores de 35 años. También destacó  que el proyecto \"impulsará un espacio cargado de esperanza y de añoranza\". \"Empezamos una nueva e ilusionante etapa en este centro, en la que la infancia y la juventud de la provincia de Málaga siguen siendo los protagonistas\".Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2026-01-20T08:09:46.433846",
-      "rotation_id": "2026-01-20-3"
+      "selected_date": "2026-01-21T08:09:42.270345",
+      "rotation_id": "2026-01-21-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-20T08:09:46.433946",
-    "next_rotation": "2026-01-21T08:09:46.433946",
+    "selected_at": "2026-01-21T08:09:42.270443",
+    "next_rotation": "2026-01-22T08:09:42.270443",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
