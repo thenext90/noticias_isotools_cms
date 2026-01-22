@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-21",
-    "generated_at": "2026-01-21T08:09:42.270443",
-    "next_update": "2026-01-22",
+    "generated_date": "2026-01-22",
+    "generated_at": "2026-01-22T08:08:48.745286",
+    "next_update": "2026-01-23",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "No conformidades de calidad: qué proceso seguir para optimizar la gestión",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/no-conformidades-de-calidad-que-proceso-seguir-para-optimizar-la-gestion.jpg",
+      "title": "¿Cómo implantar un Sistema de Gestión Integrado y realizar su seguimiento?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/sig.jpg",
       "image_exists": true,
-      "text": "No conformidades de calidad Las no conformidades de calidad son elementos de importancia crítica en un sistema de…",
+      "text": "Las organizaciones decididas a implantar un Sistema de Gestión Integradobasado en las normas ISO 9001, ISO 14001, ISO…",
       "news_priority": 1,
-      "selected_date": "2026-01-21T08:09:42.270334",
-      "rotation_id": "2026-01-21-1"
+      "selected_date": "2026-01-22T08:08:48.745194",
+      "rotation_id": "2026-01-22-1"
     },
     {
-      "title": "Atención al cliente como factor clave de éxito",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/Atencion-al-cliente.png",
+      "title": "Nuevo Ebook “Implantación de los estándares de seguridad alimentaria.»",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/0.-Resumen-Ebook.jpg",
       "image_exists": true,
-      "text": "Atención al cliente La semana pasada hablábamos sobre el marketing relacional y la importancia de ofrecer al cliente…",
+      "text": "La seguridad alimentaria es una cuestión que cada vez preocupa más a consumidores y empresas. Un alimento en…",
       "news_priority": 2,
-      "selected_date": "2026-01-21T08:09:42.270342",
-      "rotation_id": "2026-01-21-2"
+      "selected_date": "2026-01-22T08:08:48.745202",
+      "rotation_id": "2026-01-22-2"
     },
     {
-      "title": "La Caixa y la Diputación de Málaga han firmado un acuerdo para promover el Centro La Noria.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20Web%20General%202.jpg",
-      "image_exists": false,
-      "text": "La Caixa invertirá en el proyecto 250.000 euros.Ayer lunes, Rafael Herrador (director territorial de“la Caixa”) y Elías Bendodo (presidente de laDiputación de Málaga), firmaron un acuerdo para promover la actividad del Centro de Innovación La Noria. La Caixa invertirá 250.000 euros en 2013.El Centro de Innovación La Noria es un lugar multidisciplinar con más de 6.000 metros cuadrados, el cual gestiona la Diputación Provincial. Tiene el objetivo de incitar la participación activa de la ciudadanía, con la involucración de las organizaciones y el compromiso de responsabilidad social corporativa.Rafael Herrador indicó en una rueda de prensa que la intención es realizar proyectos sociales para dos colectivos: niños pobres y excluidos y jóvenes menores de 35 años. También destacó  que el proyecto \"impulsará un espacio cargado de esperanza y de añoranza\". \"Empezamos una nueva e ilusionante etapa en este centro, en la que la infancia y la juventud de la provincia de Málaga siguen siendo los protagonistas\".Más informaciónaquí",
+      "title": "Igualdad Financiera: El Impacto Transformador de la Serie ISO 12812 en el ODS 10",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/ISO-12812-.png",
+      "image_exists": true,
+      "text": "Las brechas económicas son una gran limitación en el acceso a oportunidades para las personas. Es por ello que la inclusión financiera es...",
       "news_priority": 3,
-      "selected_date": "2026-01-21T08:09:42.270345",
-      "rotation_id": "2026-01-21-3"
+      "selected_date": "2026-01-22T08:08:48.745204",
+      "rotation_id": "2026-01-22-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-21T08:09:42.270443",
-    "next_rotation": "2026-01-22T08:09:42.270443",
+    "selected_at": "2026-01-22T08:08:48.745286",
+    "next_rotation": "2026-01-23T08:08:48.745286",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
