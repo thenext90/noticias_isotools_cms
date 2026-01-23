@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-22",
-    "generated_at": "2026-01-22T08:08:48.745286",
-    "next_update": "2026-01-23",
+    "generated_date": "2026-01-23",
+    "generated_at": "2026-01-23T08:08:39.172853",
+    "next_update": "2026-01-24",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo implantar un Sistema de Gestión Integrado y realizar su seguimiento?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/sig.jpg",
+      "title": "ISO 14001: Planificación estratégica",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/ISO-14001-1.png",
       "image_exists": true,
-      "text": "Las organizaciones decididas a implantar un Sistema de Gestión Integradobasado en las normas ISO 9001, ISO 14001, ISO…",
+      "text": "ISO 14001 El elemento esencial de un Sistema de Gestión Ambiental basado en la norma ISO 14001 es,…",
       "news_priority": 1,
-      "selected_date": "2026-01-22T08:08:48.745194",
-      "rotation_id": "2026-01-22-1"
+      "selected_date": "2026-01-23T08:08:39.172759",
+      "rotation_id": "2026-01-23-1"
     },
     {
-      "title": "Nuevo Ebook “Implantación de los estándares de seguridad alimentaria.»",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/0.-Resumen-Ebook.jpg",
+      "title": "ISOTools – Revista Empresa Excelente febrero 2018",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/img-post-revista-feb18.jpg",
       "image_exists": true,
-      "text": "La seguridad alimentaria es una cuestión que cada vez preocupa más a consumidores y empresas. Un alimento en…",
+      "text": "EMPRESA EXCELENTE Este mes presentamos el segundo número de la Revista Empresa Excelente del año 2018. Como no…",
       "news_priority": 2,
-      "selected_date": "2026-01-22T08:08:48.745202",
-      "rotation_id": "2026-01-22-2"
+      "selected_date": "2026-01-23T08:08:39.172766",
+      "rotation_id": "2026-01-23-2"
     },
     {
-      "title": "Igualdad Financiera: El Impacto Transformador de la Serie ISO 12812 en el ODS 10",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/ISO-12812-.png",
+      "title": "¿Qué etapas son necesarias para obtener la certificación de la futura ISO 9001 versión 2015?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/ISO-9001-Blog.jpg",
       "image_exists": true,
-      "text": "Las brechas económicas son una gran limitación en el acceso a oportunidades para las personas. Es por ello que la inclusión financiera es...",
+      "text": "ISO 9001 La Nueva versión de la ISO 9001 se publicará en septiembre del año 2015. Las organizaciones comprometidas con…",
       "news_priority": 3,
-      "selected_date": "2026-01-22T08:08:48.745204",
-      "rotation_id": "2026-01-22-3"
+      "selected_date": "2026-01-23T08:08:39.172768",
+      "rotation_id": "2026-01-23-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-22T08:08:48.745286",
-    "next_rotation": "2026-01-23T08:08:48.745286",
+    "selected_at": "2026-01-23T08:08:39.172853",
+    "next_rotation": "2026-01-24T08:08:39.172853",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
