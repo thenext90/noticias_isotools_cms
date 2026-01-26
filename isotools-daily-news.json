@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-23",
-    "generated_at": "2026-01-23T08:08:39.172853",
-    "next_update": "2026-01-24",
+    "generated_date": "2026-01-26",
+    "generated_at": "2026-01-26T08:09:44.722100",
+    "next_update": "2026-01-27",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 14001: Planificación estratégica",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/ISO-14001-1.png",
-      "image_exists": true,
-      "text": "ISO 14001 El elemento esencial de un Sistema de Gestión Ambiental basado en la norma ISO 14001 es,…",
+      "title": "Onet España implanta su sistema integrado con ISOTools",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Onet España es una filial del grupo europeo Onet cuya actividad principal es el servicio de Limpieza. Permite…",
       "news_priority": 1,
-      "selected_date": "2026-01-23T08:08:39.172759",
-      "rotation_id": "2026-01-23-1"
+      "selected_date": "2026-01-26T08:09:44.722002",
+      "rotation_id": "2026-01-26-1"
     },
     {
-      "title": "ISOTools – Revista Empresa Excelente febrero 2018",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/img-post-revista-feb18.jpg",
+      "title": "La gestión en seguridad de la información: Mejores prácticas y recomendaciones",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/08/kkkk.jpg",
       "image_exists": true,
-      "text": "EMPRESA EXCELENTE Este mes presentamos el segundo número de la Revista Empresa Excelente del año 2018. Como no…",
+      "text": "La seguridad de la información se ha convertido en una preocupación primordial para las organizaciones de todo el mundo...",
       "news_priority": 2,
-      "selected_date": "2026-01-23T08:08:39.172766",
-      "rotation_id": "2026-01-23-2"
+      "selected_date": "2026-01-26T08:09:44.722009",
+      "rotation_id": "2026-01-26-2"
     },
     {
-      "title": "¿Qué etapas son necesarias para obtener la certificación de la futura ISO 9001 versión 2015?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/ISO-9001-Blog.jpg",
+      "title": "Qué necesita para implementar un SGC",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/sistema-de-gestion-de-calidad.jpg",
       "image_exists": true,
-      "text": "ISO 9001 La Nueva versión de la ISO 9001 se publicará en septiembre del año 2015. Las organizaciones comprometidas con…",
+      "text": "Implementar un SGC El objetivo de las organizaciones es lograr la excelencia para satisfacer las necesidades de sus…",
       "news_priority": 3,
-      "selected_date": "2026-01-23T08:08:39.172768",
-      "rotation_id": "2026-01-23-3"
+      "selected_date": "2026-01-26T08:09:44.722011",
+      "rotation_id": "2026-01-26-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-23T08:08:39.172853",
-    "next_rotation": "2026-01-24T08:08:39.172853",
+    "selected_at": "2026-01-26T08:09:44.722100",
+    "next_rotation": "2026-01-27T08:09:44.722100",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
