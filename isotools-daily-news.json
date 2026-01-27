@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-01-27",
-    "generated_at": "2026-01-27T14:04:14.849711",
+    "generated_at": "2026-01-27T14:13:38.756754",
     "next_update": "2026-01-28",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "6 Consejos para resolver con éxito sus inspecciones de seguridad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/1.gif",
+      "title": "Nueva visión de la norma ISO 9001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/Nueva-visión-de-la-ISO-9001.jpg",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 es un estándar que vela por la salud y la seguridad en el trabajo.…",
+      "text": "La norma ISO 9001 está sufriendo un proceso de revisión, en el actual borrador ya podemos ver los…",
       "news_priority": 1,
-      "selected_date": "2026-01-27T14:04:14.849619",
+      "selected_date": "2026-01-27T14:13:38.756644",
       "rotation_id": "2026-01-27-1"
     },
     {
-      "title": "¿Cómo prepararse para implementar un Sistema de Gestión Ambiental?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/iStock_000084303073_Medium.jpg",
+      "title": "ISO 14001: Los planes de formación para un Sistema de Gestión Ambiental",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/ISO-14001-012.gif",
       "image_exists": true,
-      "text": "Norma ISO 14001: Sistema de Gestión Ambiental La implementación de la norma ISO 14001 suministra herramientas para las…",
+      "text": "Norma ISO 14001 Para implementar un Sistema de Gestión Ambiental fundamentado en la norma ISO 14001, la dirección…",
       "news_priority": 2,
-      "selected_date": "2026-01-27T14:04:14.849626",
+      "selected_date": "2026-01-27T14:13:38.756652",
       "rotation_id": "2026-01-27-2"
     },
     {
-      "title": "ISOTools destaca el Workshop de RSE Innovación compartida.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Deusto%20Business%20School.jpg",
-      "image_exists": false,
-      "text": "La evolución de la RSE fue analizada por los profesores de Deusto Business School.Los pasados días 21 y 22 de febrero, tuvo lugar, enDeusto Business Schoolde Madrid, el Workshop\"Innovación compartida: ligando resultados para la empresa e impactos positivos para la sociedad”.El evento consistió en un encuentro entre organizaciones con el objetivo de analizar las nuevas tendencias en materia deResponsabilidad Social Empresarial.Eldirector general de Deusto Business School, Manuel Escudero, afirmó en su conferencia que lasostenibilidadconstituye en la actualidad unelemento clave para la innovación en las empresas,la innovación, añadió, es lanueva fronterade laRSE.Por ello, el centro docente ha creado el modelo“Innovación Compartida”, el cual se centra en lapersecución de la innovación empresarial a través de las practicas sostenibles y respetuosas con elMedio Ambiente.Más informaciónaquí",
+      "title": "Gestión de contratistas en la industria petrolera. ¿Qué debo tener en cuenta?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/09/Contratistas-en-la-industria-petrolera.jpg",
+      "image_exists": true,
+      "text": "Contratistas en la industria petrolera La industria petrolera por excelencia, ha sido un pilar fundamental de las economías…",
       "news_priority": 3,
-      "selected_date": "2026-01-27T14:04:14.849629",
+      "selected_date": "2026-01-27T14:13:38.756654",
       "rotation_id": "2026-01-27-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-27T14:04:14.849711",
-    "next_rotation": "2026-01-28T14:04:14.849711",
+    "selected_at": "2026-01-27T14:13:38.756754",
+    "next_rotation": "2026-01-28T14:13:38.756754",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
