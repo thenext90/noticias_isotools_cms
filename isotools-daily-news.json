@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-01-27",
-    "generated_at": "2026-01-27T08:09:10.579871",
+    "generated_at": "2026-01-27T14:04:14.849711",
     "next_update": "2026-01-28",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Qué es la norma ISO 19011 y para qué sirve?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/12/ISO-19011-1.png",
+      "title": "6 Consejos para resolver con éxito sus inspecciones de seguridad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/1.gif",
       "image_exists": true,
-      "text": "La norma ISO 19011 es una guía internacional que proporciona directrices para la auditoría de sistemas de gestión. Su principal...",
+      "text": "La norma OHSAS 18001 es un estándar que vela por la salud y la seguridad en el trabajo.…",
       "news_priority": 1,
-      "selected_date": "2026-01-27T08:09:10.579792",
+      "selected_date": "2026-01-27T14:04:14.849619",
       "rotation_id": "2026-01-27-1"
     },
     {
-      "title": "Ciclo de vida en la gestión de riesgos según ISO 31000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/08/ciclo-de-vida-de-riesgos.jpg",
+      "title": "¿Cómo prepararse para implementar un Sistema de Gestión Ambiental?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/iStock_000084303073_Medium.jpg",
       "image_exists": true,
-      "text": "ISO 31000 La implementación de un sistema de riesgos, nace del desafío por parte de las organizaciones sin…",
+      "text": "Norma ISO 14001: Sistema de Gestión Ambiental La implementación de la norma ISO 14001 suministra herramientas para las…",
       "news_priority": 2,
-      "selected_date": "2026-01-27T08:09:10.579798",
+      "selected_date": "2026-01-27T14:04:14.849626",
       "rotation_id": "2026-01-27-2"
     },
     {
-      "title": "Certifican con la norma ISO  9001:2008 a UEB Norte-Sur Trasvase Guantánamo",
-      "image_url": null,
+      "title": "ISOTools destaca el Workshop de RSE Innovación compartida.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Deusto%20Business%20School.jpg",
       "image_exists": false,
-      "text": "La Unidad Empresarial de Base Norte-Sur Trasvase Guantánamo ha recibido el Certificado de la ISO de Sistema de…",
+      "text": "La evolución de la RSE fue analizada por los profesores de Deusto Business School.Los pasados días 21 y 22 de febrero, tuvo lugar, enDeusto Business Schoolde Madrid, el Workshop\"Innovación compartida: ligando resultados para la empresa e impactos positivos para la sociedad”.El evento consistió en un encuentro entre organizaciones con el objetivo de analizar las nuevas tendencias en materia deResponsabilidad Social Empresarial.Eldirector general de Deusto Business School, Manuel Escudero, afirmó en su conferencia que lasostenibilidadconstituye en la actualidad unelemento clave para la innovación en las empresas,la innovación, añadió, es lanueva fronterade laRSE.Por ello, el centro docente ha creado el modelo“Innovación Compartida”, el cual se centra en lapersecución de la innovación empresarial a través de las practicas sostenibles y respetuosas con elMedio Ambiente.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2026-01-27T08:09:10.579800",
+      "selected_date": "2026-01-27T14:04:14.849629",
       "rotation_id": "2026-01-27-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-27T08:09:10.579871",
-    "next_rotation": "2026-01-28T08:09:10.579871",
+    "selected_at": "2026-01-27T14:04:14.849711",
+    "next_rotation": "2026-01-28T14:04:14.849711",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
