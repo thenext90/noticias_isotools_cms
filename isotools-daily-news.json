@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-26",
-    "generated_at": "2026-01-26T08:09:44.722100",
-    "next_update": "2026-01-27",
+    "generated_date": "2026-01-27",
+    "generated_at": "2026-01-27T08:09:10.579871",
+    "next_update": "2026-01-28",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Onet España implanta su sistema integrado con ISOTools",
+      "title": "¿Qué es la norma ISO 19011 y para qué sirve?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/12/ISO-19011-1.png",
+      "image_exists": true,
+      "text": "La norma ISO 19011 es una guía internacional que proporciona directrices para la auditoría de sistemas de gestión. Su principal...",
+      "news_priority": 1,
+      "selected_date": "2026-01-27T08:09:10.579792",
+      "rotation_id": "2026-01-27-1"
+    },
+    {
+      "title": "Ciclo de vida en la gestión de riesgos según ISO 31000",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/08/ciclo-de-vida-de-riesgos.jpg",
+      "image_exists": true,
+      "text": "ISO 31000 La implementación de un sistema de riesgos, nace del desafío por parte de las organizaciones sin…",
+      "news_priority": 2,
+      "selected_date": "2026-01-27T08:09:10.579798",
+      "rotation_id": "2026-01-27-2"
+    },
+    {
+      "title": "Certifican con la norma ISO  9001:2008 a UEB Norte-Sur Trasvase Guantánamo",
       "image_url": null,
       "image_exists": false,
-      "text": "Onet España es una filial del grupo europeo Onet cuya actividad principal es el servicio de Limpieza. Permite…",
-      "news_priority": 1,
-      "selected_date": "2026-01-26T08:09:44.722002",
-      "rotation_id": "2026-01-26-1"
-    },
-    {
-      "title": "La gestión en seguridad de la información: Mejores prácticas y recomendaciones",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/08/kkkk.jpg",
-      "image_exists": true,
-      "text": "La seguridad de la información se ha convertido en una preocupación primordial para las organizaciones de todo el mundo...",
-      "news_priority": 2,
-      "selected_date": "2026-01-26T08:09:44.722009",
-      "rotation_id": "2026-01-26-2"
-    },
-    {
-      "title": "Qué necesita para implementar un SGC",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/sistema-de-gestion-de-calidad.jpg",
-      "image_exists": true,
-      "text": "Implementar un SGC El objetivo de las organizaciones es lograr la excelencia para satisfacer las necesidades de sus…",
+      "text": "La Unidad Empresarial de Base Norte-Sur Trasvase Guantánamo ha recibido el Certificado de la ISO de Sistema de…",
       "news_priority": 3,
-      "selected_date": "2026-01-26T08:09:44.722011",
-      "rotation_id": "2026-01-26-3"
+      "selected_date": "2026-01-27T08:09:10.579800",
+      "rotation_id": "2026-01-27-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-26T08:09:44.722100",
-    "next_rotation": "2026-01-27T08:09:44.722100",
+    "selected_at": "2026-01-27T08:09:10.579871",
+    "next_rotation": "2026-01-28T08:09:10.579871",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
