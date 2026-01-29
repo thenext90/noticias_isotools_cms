@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-28",
-    "generated_at": "2026-01-28T08:09:29.848439",
-    "next_update": "2026-01-29",
+    "generated_date": "2026-01-29",
+    "generated_at": "2026-01-29T08:13:51.219718",
+    "next_update": "2026-01-30",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Establecer el contexto para la gestión de riesgos según la ISO 31000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/01/Gestion-de-riesgos.jpg",
+      "title": "ISO 37301 – Apartado 5.1 No existe compliance sin liderazgo y compromiso",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/ISO-37301-4.jpg",
       "image_exists": true,
-      "text": "Gestión de riesgos El análisis de contexto en las organizaciones es uno de los hitos clave para la…",
+      "text": "ISO 37301 ¿Qué habría sido de los hunos sin la dirección del hábil Atila? Probablemente habrían pasado a…",
       "news_priority": 1,
-      "selected_date": "2026-01-28T08:09:29.848371",
-      "rotation_id": "2026-01-28-1"
+      "selected_date": "2026-01-29T08:13:51.219633",
+      "rotation_id": "2026-01-29-1"
     },
     {
-      "title": "Integración de Sistemas de Gestión para empresas constructoras y mineras",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/Empresas-constructoras-y-mineras.jpg",
-      "image_exists": true,
-      "text": "Empresas constructoras y mineras Las empresas constructoras y mineras suelen contar con sistemas de gestión enfocados a diversos…",
-      "news_priority": 2,
-      "selected_date": "2026-01-28T08:09:29.848377",
-      "rotation_id": "2026-01-28-2"
-    },
-    {
-      "title": "ISOTools informa sobre las próximas fechas de la Feria Biocultura 2013",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/bio.jpg",
+      "title": "Firmas electrónicas y certificados ISO. ISO 14533",
+      "image_url": null,
       "image_exists": false,
-      "text": "La Feria de la Tecnología de la Naturaleza regresará el año que viene y promete ser igual de exitosa que la anterior.Ya puede hacer hueco en su agenda paraBiocultura 2013, un interesante encuentro entreempresarios, distribuidores y operadores, en el cual poder realizartransaciones comerciales de productos ecológicos.Celebrada en varias ciudades de España,Biocultura 2013reúne a distintas empresas caracterizadas por producir productos respetuosos con elmedio ambiente,por generarenergías renovables, restaurantes de comida ecológica etc.Las fechas de celebración de Biocultura para este año ya están fijadas en distintas ciudades de España,del 22 al 24 de febrero en Valencia, del14 al 17 en Madridy del25 al 28 en Barcelona. Como en su edición anterior, este evento coincide confines de semanalo que facilita la presencia de los asistentes de otras ciudades.Más informaciónaquí",
+      "text": "La ISO 14533 es la nueva norma destinada principalmente a empresas y gobiernos que pretende garantizar las firma…",
+      "news_priority": 2,
+      "selected_date": "2026-01-29T08:13:51.219640",
+      "rotation_id": "2026-01-29-2"
+    },
+    {
+      "title": "Descubre la ISO 14067 vinculada a la sostenibilidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/12/ISO-14067.jpg",
+      "image_exists": true,
+      "text": "La sostenibilidad es un tema que ha ganado una enorme relevancia en los últimos años, especialmente en el ámbito...",
       "news_priority": 3,
-      "selected_date": "2026-01-28T08:09:29.848379",
-      "rotation_id": "2026-01-28-3"
+      "selected_date": "2026-01-29T08:13:51.219642",
+      "rotation_id": "2026-01-29-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-28T08:09:29.848439",
-    "next_rotation": "2026-01-29T08:09:29.848439",
+    "selected_at": "2026-01-29T08:13:51.219718",
+    "next_rotation": "2026-01-30T08:13:51.219718",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
