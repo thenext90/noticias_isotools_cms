@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-29",
-    "generated_at": "2026-01-29T08:13:51.219718",
-    "next_update": "2026-01-30",
+    "generated_date": "2026-01-30",
+    "generated_at": "2026-01-30T08:13:45.058111",
+    "next_update": "2026-01-31",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 37301 – Apartado 5.1 No existe compliance sin liderazgo y compromiso",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/ISO-37301-4.jpg",
+      "title": "UNE-EN-ISO 14001. La Gestión Ambiental en Centros Educativos: Implantación de la Norma.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/08/14001centroseducativos.jpg",
       "image_exists": true,
-      "text": "ISO 37301 ¿Qué habría sido de los hunos sin la dirección del hábil Atila? Probablemente habrían pasado a…",
+      "text": "ISO 14001 Con el paso de los años todos hemos sido conscientes de los problemas ambientales originados principalmente…",
       "news_priority": 1,
-      "selected_date": "2026-01-29T08:13:51.219633",
-      "rotation_id": "2026-01-29-1"
+      "selected_date": "2026-01-30T08:13:45.058032",
+      "rotation_id": "2026-01-30-1"
     },
     {
-      "title": "Firmas electrónicas y certificados ISO. ISO 14533",
-      "image_url": null,
-      "image_exists": false,
-      "text": "La ISO 14533 es la nueva norma destinada principalmente a empresas y gobiernos que pretende garantizar las firma…",
-      "news_priority": 2,
-      "selected_date": "2026-01-29T08:13:51.219640",
-      "rotation_id": "2026-01-29-2"
-    },
-    {
-      "title": "Descubre la ISO 14067 vinculada a la sostenibilidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/12/ISO-14067.jpg",
+      "title": "La norma ISO 9001 en logística",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/01/logística.jpg",
       "image_exists": true,
-      "text": "La sostenibilidad es un tema que ha ganado una enorme relevancia en los últimos años, especialmente en el ámbito...",
+      "text": "Logística Incorporar la calidad en la gestión logística de la cadena de abastecimientos, incluye a proveedores, clientes y…",
+      "news_priority": 2,
+      "selected_date": "2026-01-30T08:13:45.058038",
+      "rotation_id": "2026-01-30-2"
+    },
+    {
+      "title": "Excelente acogida de la Jornada de Automatización con ISOTools en Santiago de Chile",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2011/12/Automatizacion-con-ISOToolss.webp",
+      "image_exists": true,
+      "text": "Automatización con ISOTools El pasado 6 de diciembre se celebró en Santiago de Chile el evento titulado Soluciones…",
       "news_priority": 3,
-      "selected_date": "2026-01-29T08:13:51.219642",
-      "rotation_id": "2026-01-29-3"
+      "selected_date": "2026-01-30T08:13:45.058040",
+      "rotation_id": "2026-01-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-29T08:13:51.219718",
-    "next_rotation": "2026-01-30T08:13:51.219718",
+    "selected_at": "2026-01-30T08:13:45.058111",
+    "next_rotation": "2026-01-31T08:13:45.058111",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
