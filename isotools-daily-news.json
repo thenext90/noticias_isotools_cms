@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-01-30",
-    "generated_at": "2026-01-30T08:13:45.058111",
-    "next_update": "2026-01-31",
+    "generated_date": "2026-02-02",
+    "generated_at": "2026-02-02T08:16:50.640722",
+    "next_update": "2026-02-03",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "UNE-EN-ISO 14001. La Gestión Ambiental en Centros Educativos: Implantación de la Norma.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/08/14001centroseducativos.jpg",
-      "image_exists": true,
-      "text": "ISO 14001 Con el paso de los años todos hemos sido conscientes de los problemas ambientales originados principalmente…",
+      "title": "XVII Semana Europea de la Calidad y la Excelencia",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Este evento se celebra a nivel de la Comunidad Europea entre los meses de octubre y noviembre, donde se realizan actos relacionados con la Calidad.\n\n\n\tEste año es la decimoséptima edición de tal celebración y con motivo de e...",
       "news_priority": 1,
-      "selected_date": "2026-01-30T08:13:45.058032",
-      "rotation_id": "2026-01-30-1"
+      "selected_date": "2026-02-02T08:16:50.640650",
+      "rotation_id": "2026-02-02-1"
     },
     {
-      "title": "La norma ISO 9001 en logística",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/01/logística.jpg",
+      "title": "El borrador FDIS ISO 45001 en etapa de votación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/12/ISO-45001.jpg",
       "image_exists": true,
-      "text": "Logística Incorporar la calidad en la gestión logística de la cadena de abastecimientos, incluye a proveedores, clientes y…",
+      "text": "Borrador FDIS ISO 45001 Una de las preocupaciones a nivel mundial. Es el número de personas que pierden…",
       "news_priority": 2,
-      "selected_date": "2026-01-30T08:13:45.058038",
-      "rotation_id": "2026-01-30-2"
+      "selected_date": "2026-02-02T08:16:50.640656",
+      "rotation_id": "2026-02-02-2"
     },
     {
-      "title": "Excelente acogida de la Jornada de Automatización con ISOTools en Santiago de Chile",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2011/12/Automatizacion-con-ISOToolss.webp",
+      "title": "Principales indicadores para valorar la calidad de servicios de atención al cliente",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/calidad-servicios-atencion-cliente1.jpg",
       "image_exists": true,
-      "text": "Automatización con ISOTools El pasado 6 de diciembre se celebró en Santiago de Chile el evento titulado Soluciones…",
+      "text": "Atención al cliente En los últimos años, la satisfacción de clientes se ha convertido en un objetivo primordial…",
       "news_priority": 3,
-      "selected_date": "2026-01-30T08:13:45.058040",
-      "rotation_id": "2026-01-30-3"
+      "selected_date": "2026-02-02T08:16:50.640658",
+      "rotation_id": "2026-02-02-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-01-30T08:13:45.058111",
-    "next_rotation": "2026-01-31T08:13:45.058111",
+    "selected_at": "2026-02-02T08:16:50.640722",
+    "next_rotation": "2026-02-03T08:16:50.640722",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
