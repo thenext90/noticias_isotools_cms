@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-02",
-    "generated_at": "2026-02-02T08:16:50.640722",
-    "next_update": "2026-02-03",
+    "generated_date": "2026-02-03",
+    "generated_at": "2026-02-03T08:14:53.274532",
+    "next_update": "2026-02-04",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "XVII Semana Europea de la Calidad y la Excelencia",
-      "image_url": null,
+      "title": "Martes 7 de mayo, La importancia de integrarse en la sociedad en la Laguna.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20Web%20General.jpg",
       "image_exists": false,
-      "text": "Este evento se celebra a nivel de la Comunidad Europea entre los meses de octubre y noviembre, donde se realizan actos relacionados con la Calidad.\n\n\n\tEste año es la decimoséptima edición de tal celebración y con motivo de e...",
+      "text": "Así se llaman la jornada para que las pymes se acerquen a la Responsabilidad Social.La jornada “La importancia de integrarse en la sociedad” se realizará mañana martes 7 de mayo, de 17:00 a 20:00 horas en laCasa de los CapitanesdelAyuntamiento de La Laguna. Esta organizada por la Concejalía de Economía, Empleo y Empresa, dirigida por Juan Antonio Alonso y la Cámara de Comercio.  Este  curso pretende llegar a  empresarios,  trabajadores, consultores, expertos en medio ambiente, etc,  que quieran dar un paso más en la Responsabilidad Social Corporativa.La jornada tiene como objetivo principal ejemplificar prácticas de implantación de programas de responsabilidad social corporativa en pymes, además de dar a conocer el voluntariado corporativo, cómo este se implanta en la empresa y los beneficios sociales, profesionales y laborales. La jornada, contando con expertos en la materia, pretende motivar a asumir estrategias  sostenibles en la gestión empresarial, promover la innovación, etc.Comenzará a las 17:15 horas, habrá varias  ponencias a lo largo de la tarde, y finalizará a las 20:00 horas con un coloquio.Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2026-02-02T08:16:50.640650",
-      "rotation_id": "2026-02-02-1"
+      "selected_date": "2026-02-03T08:14:53.274461",
+      "rotation_id": "2026-02-03-1"
     },
     {
-      "title": "El borrador FDIS ISO 45001 en etapa de votación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/12/ISO-45001.jpg",
+      "title": "Estándares para la certificación de hospitales",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/05/certificación-de-hospitales.jpg",
       "image_exists": true,
-      "text": "Borrador FDIS ISO 45001 Una de las preocupaciones a nivel mundial. Es el número de personas que pierden…",
+      "text": "Estándares ISO A través de la certificación de los estándares ISO se pretende garantizar el cumplimiento de una…",
       "news_priority": 2,
-      "selected_date": "2026-02-02T08:16:50.640656",
-      "rotation_id": "2026-02-02-2"
+      "selected_date": "2026-02-03T08:14:53.274466",
+      "rotation_id": "2026-02-03-2"
     },
     {
-      "title": "Principales indicadores para valorar la calidad de servicios de atención al cliente",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/calidad-servicios-atencion-cliente1.jpg",
+      "title": "Directrices europeas para el aseguramiento de la calidad interna en Educación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/aseguramiento-de-la-calidad-interna-en-Educacion.jpg",
       "image_exists": true,
-      "text": "Atención al cliente En los últimos años, la satisfacción de clientes se ha convertido en un objetivo primordial…",
+      "text": "Directrices europeas en Educación En el año 2005, como respuesta a una propuesta elevada por la European Association…",
       "news_priority": 3,
-      "selected_date": "2026-02-02T08:16:50.640658",
-      "rotation_id": "2026-02-02-3"
+      "selected_date": "2026-02-03T08:14:53.274469",
+      "rotation_id": "2026-02-03-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-02T08:16:50.640722",
-    "next_rotation": "2026-02-03T08:16:50.640722",
+    "selected_at": "2026-02-03T08:14:53.274532",
+    "next_rotation": "2026-02-04T08:14:53.274532",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
