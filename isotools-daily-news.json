@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-03",
-    "generated_at": "2026-02-03T08:14:53.274532",
-    "next_update": "2026-02-04",
+    "generated_date": "2026-02-04",
+    "generated_at": "2026-02-04T08:15:26.743193",
+    "next_update": "2026-02-05",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Martes 7 de mayo, La importancia de integrarse en la sociedad en la Laguna.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20Web%20General.jpg",
-      "image_exists": false,
-      "text": "Así se llaman la jornada para que las pymes se acerquen a la Responsabilidad Social.La jornada “La importancia de integrarse en la sociedad” se realizará mañana martes 7 de mayo, de 17:00 a 20:00 horas en laCasa de los CapitanesdelAyuntamiento de La Laguna. Esta organizada por la Concejalía de Economía, Empleo y Empresa, dirigida por Juan Antonio Alonso y la Cámara de Comercio.  Este  curso pretende llegar a  empresarios,  trabajadores, consultores, expertos en medio ambiente, etc,  que quieran dar un paso más en la Responsabilidad Social Corporativa.La jornada tiene como objetivo principal ejemplificar prácticas de implantación de programas de responsabilidad social corporativa en pymes, además de dar a conocer el voluntariado corporativo, cómo este se implanta en la empresa y los beneficios sociales, profesionales y laborales. La jornada, contando con expertos en la materia, pretende motivar a asumir estrategias  sostenibles en la gestión empresarial, promover la innovación, etc.Comenzará a las 17:15 horas, habrá varias  ponencias a lo largo de la tarde, y finalizará a las 20:00 horas con un coloquio.Más informaciónaquí",
+      "title": "Revista Empresa Excelente julio 2019",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/plantilla-destacada-post-revista.jpg",
+      "image_exists": true,
+      "text": "REVISTA EMPRESA EXCELENTE Comenzamos el mes de agosto con  el nuevo número de la Revista Empresa Excelente. Con…",
       "news_priority": 1,
-      "selected_date": "2026-02-03T08:14:53.274461",
-      "rotation_id": "2026-02-03-1"
+      "selected_date": "2026-02-04T08:15:26.743084",
+      "rotation_id": "2026-02-04-1"
     },
     {
-      "title": "Estándares para la certificación de hospitales",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/05/certificación-de-hospitales.jpg",
-      "image_exists": true,
-      "text": "Estándares ISO A través de la certificación de los estándares ISO se pretende garantizar el cumplimiento de una…",
+      "title": "Balance positivo para ISOTools y Munitecnia en Tecnimap 2010",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Tecnimap 2010 cierra sus puertas con un balance muy positivo. Un total de 6.200 expertos en nuevas tecnologías…",
       "news_priority": 2,
-      "selected_date": "2026-02-03T08:14:53.274466",
-      "rotation_id": "2026-02-03-2"
+      "selected_date": "2026-02-04T08:15:26.743092",
+      "rotation_id": "2026-02-04-2"
     },
     {
-      "title": "Directrices europeas para el aseguramiento de la calidad interna en Educación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/aseguramiento-de-la-calidad-interna-en-Educacion.jpg",
+      "title": "¿Cómo ayuda el Anexo SL a la gestión integrada de sistemas?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/gestión-integrada.jpg",
       "image_exists": true,
-      "text": "Directrices europeas en Educación En el año 2005, como respuesta a una propuesta elevada por la European Association…",
+      "text": "Gestión integrada Una empresa puede sentirse completa a la hora de entregar un producto que cumpla con todas…",
       "news_priority": 3,
-      "selected_date": "2026-02-03T08:14:53.274469",
-      "rotation_id": "2026-02-03-3"
+      "selected_date": "2026-02-04T08:15:26.743094",
+      "rotation_id": "2026-02-04-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-03T08:14:53.274532",
-    "next_rotation": "2026-02-04T08:14:53.274532",
+    "selected_at": "2026-02-04T08:15:26.743193",
+    "next_rotation": "2026-02-05T08:15:26.743193",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
