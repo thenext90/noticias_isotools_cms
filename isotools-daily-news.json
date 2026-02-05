@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-04",
-    "generated_at": "2026-02-04T08:15:26.743193",
-    "next_update": "2026-02-05",
+    "generated_date": "2026-02-05",
+    "generated_at": "2026-02-05T08:16:31.975704",
+    "next_update": "2026-02-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Revista Empresa Excelente julio 2019",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/plantilla-destacada-post-revista.jpg",
+      "title": "Cuáles son los controles Operativos Eficientes según la Norma ISO14001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/ISO14001.png",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Comenzamos el mes de agosto con  el nuevo número de la Revista Empresa Excelente. Con…",
+      "text": "La ISO14001 es una norma internacional que establece los requisitos para la gestión ambiental en las organizaciones. Los controles...",
       "news_priority": 1,
-      "selected_date": "2026-02-04T08:15:26.743084",
-      "rotation_id": "2026-02-04-1"
+      "selected_date": "2026-02-05T08:16:31.975618",
+      "rotation_id": "2026-02-05-1"
     },
     {
-      "title": "Balance positivo para ISOTools y Munitecnia en Tecnimap 2010",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Tecnimap 2010 cierra sus puertas con un balance muy positivo. Un total de 6.200 expertos en nuevas tecnologías…",
-      "news_priority": 2,
-      "selected_date": "2026-02-04T08:15:26.743092",
-      "rotation_id": "2026-02-04-2"
-    },
-    {
-      "title": "¿Cómo ayuda el Anexo SL a la gestión integrada de sistemas?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/gestión-integrada.jpg",
+      "title": "Nuevos Webinars gratuitos ISOTools sobre HSE (Health, Safety and Environment)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/05/HSE.jpg",
       "image_exists": true,
-      "text": "Gestión integrada Una empresa puede sentirse completa a la hora de entregar un producto que cumpla con todas…",
+      "text": "HSE (Health, Safety and Environment) En ISOTools Excellence siempre apostamos por temáticas de máxima actualidad y tendencia, como…",
+      "news_priority": 2,
+      "selected_date": "2026-02-05T08:16:31.975625",
+      "rotation_id": "2026-02-05-2"
+    },
+    {
+      "title": "ISOTools, parte vital en el Sistema de Gestión de Calidad del Colegio Calasanz de Bogotá",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/10/Sistema-de-Gestion-de-Calidadd.webp",
+      "image_exists": true,
+      "text": "Sistema de Gestión de Calidad El Colegio Calasanz realizó un evento para difundir con todos sus colaboradores su…",
       "news_priority": 3,
-      "selected_date": "2026-02-04T08:15:26.743094",
-      "rotation_id": "2026-02-04-3"
+      "selected_date": "2026-02-05T08:16:31.975628",
+      "rotation_id": "2026-02-05-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-04T08:15:26.743193",
-    "next_rotation": "2026-02-05T08:15:26.743193",
+    "selected_at": "2026-02-05T08:16:31.975704",
+    "next_rotation": "2026-02-06T08:16:31.975704",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
