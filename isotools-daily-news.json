@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-02-05",
-    "generated_at": "2026-02-05T14:41:47.074736",
+    "generated_at": "2026-02-05T14:42:07.433424",
     "next_update": "2026-02-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 37301: ¿Cuándo se publicará?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/06/Norma-ISO-37301.jpg",
+      "title": "La importancia de la mejora de los procesos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/Procesos-3.jpg",
       "image_exists": true,
-      "text": "Borrador de la ISO 37301 Ya hemos comentado en artículos anteriores, que el borrador de la ISO 37301…",
+      "text": "Procesos Cuando decidimos llevar a cabo un enfoque basado en procesos, debemos realizar una serie de pasos de…",
       "news_priority": 1,
-      "selected_date": "2026-02-05T14:41:47.074667",
+      "selected_date": "2026-02-05T14:42:07.433346",
       "rotation_id": "2026-02-05-1"
     },
     {
-      "title": "ISOTools Noticias y Opiniones",
-      "image_url": null,
-      "image_exists": false,
-      "text": "El pasado viernes 27 de Mayo se clausuró el XV Foro Mundial de la Calidad celebrado en Cancún\r\n\r\n\r\n\tEl pasado viernes 27 de Mayo tuvo lugar la clausura del XV Foro Mundial de la Calidad celebrado en el Hotel Hilton Cancún Golf & Spa Resort. \r\n...",
+      "title": "Normas ISO y gobernanza de la Inteligencia Artificial: claves para un futuro más seguro",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/normas-iso-y-gobernanza-de-la-inteligencia-artificial-claves-para-un-futuro-mas-seguro.jpg",
+      "image_exists": true,
+      "text": "La gobernanza de la Inteligencia Artificial es una cuestión que adquiere relevancia en la misma proporción que crecen…",
       "news_priority": 2,
-      "selected_date": "2026-02-05T14:41:47.074673",
+      "selected_date": "2026-02-05T14:42:07.433353",
       "rotation_id": "2026-02-05-2"
     },
     {
-      "title": "Mejorar, prevenir, corregir y seguir mejorando: punto 10 Mejora en la ISO 37301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/02/mejora-continua-37301.jpg",
+      "title": "Nueva ISO 9001 versión 2015: Enfoque al cliente",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/ISO-900111111.webp",
       "image_exists": true,
-      "text": "ISO 37301 El punto 10 de la norma ISO 37301 – Sistema de gestión de compliance es probablemente…",
+      "text": "ISO 9001 En el Anexo A del borrador de la Nueva ISO 9001 2015 se encuentra la…",
       "news_priority": 3,
-      "selected_date": "2026-02-05T14:41:47.074676",
+      "selected_date": "2026-02-05T14:42:07.433355",
       "rotation_id": "2026-02-05-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-05T14:41:47.074736",
-    "next_rotation": "2026-02-06T14:41:47.074736",
+    "selected_at": "2026-02-05T14:42:07.433424",
+    "next_rotation": "2026-02-06T14:42:07.433424",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
