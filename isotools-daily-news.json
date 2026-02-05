@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-02-05",
-    "generated_at": "2026-02-05T08:16:31.975704",
+    "generated_at": "2026-02-05T14:41:47.074736",
     "next_update": "2026-02-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cuáles son los controles Operativos Eficientes según la Norma ISO14001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/ISO14001.png",
+      "title": "ISO 37301: ¿Cuándo se publicará?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/06/Norma-ISO-37301.jpg",
       "image_exists": true,
-      "text": "La ISO14001 es una norma internacional que establece los requisitos para la gestión ambiental en las organizaciones. Los controles...",
+      "text": "Borrador de la ISO 37301 Ya hemos comentado en artículos anteriores, que el borrador de la ISO 37301…",
       "news_priority": 1,
-      "selected_date": "2026-02-05T08:16:31.975618",
+      "selected_date": "2026-02-05T14:41:47.074667",
       "rotation_id": "2026-02-05-1"
     },
     {
-      "title": "Nuevos Webinars gratuitos ISOTools sobre HSE (Health, Safety and Environment)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/05/HSE.jpg",
-      "image_exists": true,
-      "text": "HSE (Health, Safety and Environment) En ISOTools Excellence siempre apostamos por temáticas de máxima actualidad y tendencia, como…",
+      "title": "ISOTools Noticias y Opiniones",
+      "image_url": null,
+      "image_exists": false,
+      "text": "El pasado viernes 27 de Mayo se clausuró el XV Foro Mundial de la Calidad celebrado en Cancún\r\n\r\n\r\n\tEl pasado viernes 27 de Mayo tuvo lugar la clausura del XV Foro Mundial de la Calidad celebrado en el Hotel Hilton Cancún Golf & Spa Resort. \r\n...",
       "news_priority": 2,
-      "selected_date": "2026-02-05T08:16:31.975625",
+      "selected_date": "2026-02-05T14:41:47.074673",
       "rotation_id": "2026-02-05-2"
     },
     {
-      "title": "ISOTools, parte vital en el Sistema de Gestión de Calidad del Colegio Calasanz de Bogotá",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/10/Sistema-de-Gestion-de-Calidadd.webp",
+      "title": "Mejorar, prevenir, corregir y seguir mejorando: punto 10 Mejora en la ISO 37301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/02/mejora-continua-37301.jpg",
       "image_exists": true,
-      "text": "Sistema de Gestión de Calidad El Colegio Calasanz realizó un evento para difundir con todos sus colaboradores su…",
+      "text": "ISO 37301 El punto 10 de la norma ISO 37301 – Sistema de gestión de compliance es probablemente…",
       "news_priority": 3,
-      "selected_date": "2026-02-05T08:16:31.975628",
+      "selected_date": "2026-02-05T14:41:47.074676",
       "rotation_id": "2026-02-05-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-05T08:16:31.975704",
-    "next_rotation": "2026-02-06T08:16:31.975704",
+    "selected_at": "2026-02-05T14:41:47.074736",
+    "next_rotation": "2026-02-06T14:41:47.074736",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
