@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-05",
-    "generated_at": "2026-02-05T14:42:07.433424",
-    "next_update": "2026-02-06",
+    "generated_date": "2026-02-06",
+    "generated_at": "2026-02-06T08:16:23.524958",
+    "next_update": "2026-02-07",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "La importancia de la mejora de los procesos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/Procesos-3.jpg",
+      "title": "Conceptos fundamentales de la calidad en salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/iStock_000056073058_Large1.jpg",
       "image_exists": true,
-      "text": "Procesos Cuando decidimos llevar a cabo un enfoque basado en procesos, debemos realizar una serie de pasos de…",
+      "text": "Los distintos actores de los servicios de salud La complejidad de la atención sanitaria y los múltiples actores…",
       "news_priority": 1,
-      "selected_date": "2026-02-05T14:42:07.433346",
-      "rotation_id": "2026-02-05-1"
+      "selected_date": "2026-02-06T08:16:23.524855",
+      "rotation_id": "2026-02-06-1"
     },
     {
-      "title": "Normas ISO y gobernanza de la Inteligencia Artificial: claves para un futuro más seguro.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/normas-iso-y-gobernanza-de-la-inteligencia-artificial-claves-para-un-futuro-mas-seguro.jpg",
+      "title": "3 Indicadores para la norma ISO 9001 que son esenciales en gestión de la calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/3-Indicadores-para-la-norma-ISO-9001-que-son-esenciales-en-gestion-de-la-calidad.jpg",
       "image_exists": true,
-      "text": "La gobernanza de la Inteligencia Artificial es una cuestión que adquiere relevancia en la misma proporción que crecen…",
+      "text": "Los indicadores para la norma ISO 9001 son señales confiables que permiten suponer, antes de una auditoría interna…",
       "news_priority": 2,
-      "selected_date": "2026-02-05T14:42:07.433353",
-      "rotation_id": "2026-02-05-2"
+      "selected_date": "2026-02-06T08:16:23.524875",
+      "rotation_id": "2026-02-06-2"
     },
     {
-      "title": "Nueva ISO 9001 versión 2026: Enfoque al cliente",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/ISO-900111111.webp",
+      "title": "Webinars ISOTools para el próximo mes de febrero",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/01/Webinars.jpg",
       "image_exists": true,
-      "text": "La Organización Internacional de Normalización (ISO) avanza en el desarrollo de la nueva versión ISO 9001:2026, que actualizará el estándar de gestión de la calidad más utilizado a nivel mundial. Esta revisión busca reforzar el enfoque en la mejora continua, la gestión de riesgos, el contexto organizacional y la adaptación de los sistemas de calidad a entornos cada vez más digitales y cambiantes. La nueva versión mantendrá la estructura de alto nivel (HLS), facilitando su integración con otras normas ISO.",
+      "text": "¡Inscríbase a nuestros webinars gratuitos cada jueves! Como ya viene siendo frecuente, en este mes de febrero nuestros…",
       "news_priority": 3,
-      "selected_date": "2026-02-05T14:42:07.433355",
-      "rotation_id": "2026-02-05-3"
+      "selected_date": "2026-02-06T08:16:23.524877",
+      "rotation_id": "2026-02-06-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-05T14:42:07.433424",
-    "next_rotation": "2026-02-06T14:42:07.433424",
+    "selected_at": "2026-02-06T08:16:23.524958",
+    "next_rotation": "2026-02-07T08:16:23.524958",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
