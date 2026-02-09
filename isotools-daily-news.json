@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-06",
-    "generated_at": "2026-02-06T08:16:23.524958",
-    "next_update": "2026-02-07",
+    "generated_date": "2026-02-09",
+    "generated_at": "2026-02-09T08:19:21.928460",
+    "next_update": "2026-02-10",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Conceptos fundamentales de la calidad en salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/iStock_000056073058_Large1.jpg",
+      "title": "Sanciones de la Ley de IA de la UE: el alto coste del incumplimiento",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/sanciones-de-la-ley-de-ia-de-la-ue-el-alto-coste-del-incumplimiento.jpg",
       "image_exists": true,
-      "text": "Los distintos actores de los servicios de salud La complejidad de la atención sanitaria y los múltiples actores…",
+      "text": "La Ley de IA de la Unión Europea es pionera en el mundo en su clase y se…",
       "news_priority": 1,
-      "selected_date": "2026-02-06T08:16:23.524855",
-      "rotation_id": "2026-02-06-1"
+      "selected_date": "2026-02-09T08:19:21.928376",
+      "rotation_id": "2026-02-09-1"
     },
     {
-      "title": "3 Indicadores para la norma ISO 9001 que son esenciales en gestión de la calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/3-Indicadores-para-la-norma-ISO-9001-que-son-esenciales-en-gestion-de-la-calidad.jpg",
+      "title": "ISO 17025: ¿Es necesaria en la industria alimentaria?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/01/ISO-1025.jpg",
       "image_exists": true,
-      "text": "Los indicadores para la norma ISO 9001 son señales confiables que permiten suponer, antes de una auditoría interna…",
+      "text": "La norma ISO 17025  determina los requisitos generales que deben cumplimentar los laboratorios de ensayo y/o calibración de…",
       "news_priority": 2,
-      "selected_date": "2026-02-06T08:16:23.524875",
-      "rotation_id": "2026-02-06-2"
+      "selected_date": "2026-02-09T08:19:21.928384",
+      "rotation_id": "2026-02-09-2"
     },
     {
-      "title": "Webinars ISOTools para el próximo mes de febrero",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/01/Webinars.jpg",
-      "image_exists": true,
-      "text": "¡Inscríbase a nuestros webinars gratuitos cada jueves! Como ya viene siendo frecuente, en este mes de febrero nuestros…",
+      "title": "La reincorporación del PAN al Pacto por México fue por responsabilidad social, dijo Gustavo Madero.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20General.jpg",
+      "image_exists": false,
+      "text": "Declaraciones Madero en una reunión privada en la Asamblea Legislativa del Distrito Federal.Gustavo Madero, presidente nacional del PAN, comentó que el hecho de que su partido político se reincorporara al Pacto por México ha sido “por responsabilidad social”, ya que el acuerdo contenía beneficios para el país y para los mexicanos.Madero Muñoz explicó, en una reunión privada en la Asamblea Legislativa del Distrito Federal, que el PAN debía tomar una posición ética, responsable y social, y convocó a los panistas a actuar defendiendo a la población.Resalto lo siguiente: “La gente está clara que ese PRI, que esas prácticas, que esa cultura no es lo que quiere; y que los gobiernos que tuvimos en Acción Nacional 12 años, donde estuvimos impulsando la transparencia, las libertades y la democracia como nunca en la historia, hoy se empiezan a apreciar”.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2026-02-06T08:16:23.524877",
-      "rotation_id": "2026-02-06-3"
+      "selected_date": "2026-02-09T08:19:21.928386",
+      "rotation_id": "2026-02-09-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-06T08:16:23.524958",
-    "next_rotation": "2026-02-07T08:16:23.524958",
+    "selected_at": "2026-02-09T08:19:21.928460",
+    "next_rotation": "2026-02-10T08:19:21.928460",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
