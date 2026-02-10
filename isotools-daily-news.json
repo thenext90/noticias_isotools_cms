@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-09",
-    "generated_at": "2026-02-09T08:19:21.928460",
-    "next_update": "2026-02-10",
+    "generated_date": "2026-02-10",
+    "generated_at": "2026-02-10T08:19:53.623289",
+    "next_update": "2026-02-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Sanciones de la Ley de IA de la UE: el alto coste del incumplimiento",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/sanciones-de-la-ley-de-ia-de-la-ue-el-alto-coste-del-incumplimiento.jpg",
+      "title": "La TRIPLE META «Triple Aim» eje estratégico para la mejora continua en el sector salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/06/11.png",
       "image_exists": true,
-      "text": "La Ley de IA de la Unión Europea es pionera en el mundo en su clase y se…",
+      "text": "Este año el Centro de Gestión Hospitalaria ha inaugurado su XXI edición del Foro Internacional y 1º Encuentro…",
       "news_priority": 1,
-      "selected_date": "2026-02-09T08:19:21.928376",
-      "rotation_id": "2026-02-09-1"
+      "selected_date": "2026-02-10T08:19:53.623192",
+      "rotation_id": "2026-02-10-1"
     },
     {
-      "title": "ISO 17025: ¿Es necesaria en la industria alimentaria?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/01/ISO-1025.jpg",
-      "image_exists": true,
-      "text": "La norma ISO 17025  determina los requisitos generales que deben cumplimentar los laboratorios de ensayo y/o calibración de…",
-      "news_priority": 2,
-      "selected_date": "2026-02-09T08:19:21.928384",
-      "rotation_id": "2026-02-09-2"
-    },
-    {
-      "title": "La reincorporación del PAN al Pacto por México fue por responsabilidad social, dijo Gustavo Madero.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20General.jpg",
+      "title": "QB Consulting, nuevo Partners ISOTools en la Ciudad de México",
+      "image_url": null,
       "image_exists": false,
-      "text": "Declaraciones Madero en una reunión privada en la Asamblea Legislativa del Distrito Federal.Gustavo Madero, presidente nacional del PAN, comentó que el hecho de que su partido político se reincorporara al Pacto por México ha sido “por responsabilidad social”, ya que el acuerdo contenía beneficios para el país y para los mexicanos.Madero Muñoz explicó, en una reunión privada en la Asamblea Legislativa del Distrito Federal, que el PAN debía tomar una posición ética, responsable y social, y convocó a los panistas a actuar defendiendo a la población.Resalto lo siguiente: “La gente está clara que ese PRI, que esas prácticas, que esa cultura no es lo que quiere; y que los gobiernos que tuvimos en Acción Nacional 12 años, donde estuvimos impulsando la transparencia, las libertades y la democracia como nunca en la historia, hoy se empiezan a apreciar”.Más informaciónaquí",
+      "text": "QB Consulting nace con la visión de proporcionar servicios de consultoría y capacitación con valor agregado para el…",
+      "news_priority": 2,
+      "selected_date": "2026-02-10T08:19:53.623199",
+      "rotation_id": "2026-02-10-2"
+    },
+    {
+      "title": "Revista Empresa Excelente septiembre 2021",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/09/Revista-SEP21.jpg",
+      "image_exists": true,
+      "text": "REVISTA EMPRESA EXCELENTE Como cada primer jueves del mes, publicamos un nuevo número de la Revista Empresa Excelente.…",
       "news_priority": 3,
-      "selected_date": "2026-02-09T08:19:21.928386",
-      "rotation_id": "2026-02-09-3"
+      "selected_date": "2026-02-10T08:19:53.623202",
+      "rotation_id": "2026-02-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-09T08:19:21.928460",
-    "next_rotation": "2026-02-10T08:19:21.928460",
+    "selected_at": "2026-02-10T08:19:53.623289",
+    "next_rotation": "2026-02-11T08:19:53.623289",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
