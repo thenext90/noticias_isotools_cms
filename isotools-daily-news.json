@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-10",
-    "generated_at": "2026-02-10T08:19:53.623289",
-    "next_update": "2026-02-11",
+    "generated_date": "2026-02-11",
+    "generated_at": "2026-02-11T08:18:36.815885",
+    "next_update": "2026-02-12",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "La TRIPLE META «Triple Aim» eje estratégico para la mejora continua en el sector salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/06/11.png",
+      "title": "La certificación de la cadena de custodia en el sistema FSC",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/09/Sistema-FSC.webp",
       "image_exists": true,
-      "text": "Este año el Centro de Gestión Hospitalaria ha inaugurado su XXI edición del Foro Internacional y 1º Encuentro…",
+      "text": "Cada día más organizaciones madereras o que utilizan productos de papel o madera en sus negocios, quieren contar…",
       "news_priority": 1,
-      "selected_date": "2026-02-10T08:19:53.623192",
-      "rotation_id": "2026-02-10-1"
+      "selected_date": "2026-02-11T08:18:36.815769",
+      "rotation_id": "2026-02-11-1"
     },
     {
-      "title": "QB Consulting, nuevo Partners ISOTools en la Ciudad de México",
-      "image_url": null,
-      "image_exists": false,
-      "text": "QB Consulting nace con la visión de proporcionar servicios de consultoría y capacitación con valor agregado para el…",
-      "news_priority": 2,
-      "selected_date": "2026-02-10T08:19:53.623199",
-      "rotation_id": "2026-02-10-2"
-    },
-    {
-      "title": "Revista Empresa Excelente septiembre 2021",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/09/Revista-SEP21.jpg",
+      "title": "Gestión de riesgos de la ISO 9001:2015",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/01/Gestion-de-riesgos-de-la-ISO-9001_2015.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Como cada primer jueves del mes, publicamos un nuevo número de la Revista Empresa Excelente.…",
+      "text": "La norma ISO 9001:2015 corresponde a un estándar internacional de gestión de calidad...",
+      "news_priority": 2,
+      "selected_date": "2026-02-11T08:18:36.815778",
+      "rotation_id": "2026-02-11-2"
+    },
+    {
+      "title": "La norma en Gestión de Riesgos ISO 31000 y sus beneficios",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/10/Gestión-de-Riesgos-ISO-31000-y-sus-beneficios.jpeg",
+      "image_exists": true,
+      "text": "Las organizaciones que gestionan riesgos de manera eficaz, tienen mayores posibilidades de protegerse y de tener éxito en…",
       "news_priority": 3,
-      "selected_date": "2026-02-10T08:19:53.623202",
-      "rotation_id": "2026-02-10-3"
+      "selected_date": "2026-02-11T08:18:36.815780",
+      "rotation_id": "2026-02-11-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-10T08:19:53.623289",
-    "next_rotation": "2026-02-11T08:19:53.623289",
+    "selected_at": "2026-02-11T08:18:36.815885",
+    "next_rotation": "2026-02-12T08:18:36.815885",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
