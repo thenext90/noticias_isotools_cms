@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-12",
-    "generated_at": "2026-02-12T08:17:04.681700",
-    "next_update": "2026-02-13",
+    "generated_date": "2026-02-13",
+    "generated_at": "2026-02-13T08:17:27.171376",
+    "next_update": "2026-02-14",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cuáles son las buenas prácticas que se realiza en la inocuidad de los alimentos?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/inocuidad-de-los-alimentos.jpg",
-      "image_exists": true,
-      "text": "Inocuidad de los Alimentos Dependiendo de la naturaleza de las operaciones y de los riesgos que se asocian…",
+      "title": "La Universidad de Málaga implementa ISOTools en las áreas de Administración y Servicios reconocidas en EFQM",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/UMA.jpg",
+      "image_exists": false,
+      "text": "Para sacar el máximo partido al potencial que ofrece la herramienta ISOTools se ha formado a los usuarios de la misma.Los pasados 7 y 8 de febrero, parte del equipo deISOTools, se desplazó a las instalaciones de laUniversidad de Málagapara ofrecer formación a los usuarios de la Universidad.La formación, dirigida a un total de 41 unidades funcionales, ha sido recibida por los responsables de dichas unidades y por el personal operativo de cada una de ellas.La capacitación se ha enfocado a lagestión por procesos, gestión de indicadores, objetivos anuales y cartas de servicio.ElÁrea de Administración y Servicios de la Universidad de Málagaposee actualmente elSello Compromiso hacia la Excelencia Europea 200+que supone un hito de gran importancia para cada una de lasUnidades Funcionales de la InstituciónLa herramientaISOToolsha sido muy bien acogida por todos los usuarios ya que contempla una gestión integrada del modelo deExcelenciade toda la Universidad, con losbeneficiosque eso conlleva.Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2026-02-12T08:17:04.681622",
-      "rotation_id": "2026-02-12-1"
+      "selected_date": "2026-02-13T08:17:27.171290",
+      "rotation_id": "2026-02-13-1"
     },
     {
-      "title": "HSE y el futuro de la protección del trabajador",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/09/HSE.jpg",
+      "title": "ISO 14055-1: Protegiendo la vida en la tierra de la degradación del suelo para cumplir el ODS 15",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/ISO-14055-1.jpg",
       "image_exists": true,
-      "text": "HSE Los sistemas de Gestión HSE están sufriendo cambios constantes en los últimos meses debido a la situación…",
+      "text": "La degradación del suelo es uno de los desafíos ambientales más graves que enfrenta el mundo en la actualidad...",
       "news_priority": 2,
-      "selected_date": "2026-02-12T08:17:04.681628",
-      "rotation_id": "2026-02-12-2"
+      "selected_date": "2026-02-13T08:17:27.171297",
+      "rotation_id": "2026-02-13-2"
     },
     {
-      "title": "ISOTools acerca la Transformación Digital de los Sistemas de Gestión a los alumnos de la Universidad de Córdoba",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/05/convenio-uco.jpg",
+      "title": "ISOTools festeja las Fiestas Patrias de 2023 en Chile",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/09/fiestas_chile.jpg",
       "image_exists": true,
-      "text": "Transformación Digital de los Sistemas de Gestión ISOTools, mediante la firma de un convenio de colaboración con la…",
+      "text": "El espíritu de las Fiestas Patrias de Chile se extendió más allá de los hogares y las calles este año, llegando...",
       "news_priority": 3,
-      "selected_date": "2026-02-12T08:17:04.681631",
-      "rotation_id": "2026-02-12-3"
+      "selected_date": "2026-02-13T08:17:27.171299",
+      "rotation_id": "2026-02-13-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-12T08:17:04.681700",
-    "next_rotation": "2026-02-13T08:17:04.681700",
+    "selected_at": "2026-02-13T08:17:27.171376",
+    "next_rotation": "2026-02-14T08:17:27.171376",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
