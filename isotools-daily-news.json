@@ -1,60 +1,62 @@
 {
   "metadata": {
     "title": "ISOTools - Noticias Diarias",
-    "description": "Selección diaria de 3 artículos destacados sobre normas ISO y minería (Chile & LATAM)",
-    "source": "ISOTools + Noticias sectoriales ISO / Minería",
-    "generated_date": "2026-02-14",
-    "generated_at": "2026-02-14T10:00:00.000000",
-    "next_update": "2026-02-15",
+    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
+    "source": "ISOTools Corporate Blog (isotools.us)",
+    "generated_date": "2026-02-16",
+    "generated_at": "2026-02-16T08:17:59.720398",
+    "next_update": "2026-02-17",
     "total_articles": 3,
-    "rotation_type": "daily_curated",
-    "version": "1.0.2",
+    "rotation_type": "daily_random_selection",
+    "version": "1.0.0",
     "purpose": "Noticias diarias para sección web",
+    "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
     "parent_source": "isotools_blog_articles.json",
     "language": "español"
   },
   "configuration": {
     "daily_rotation": true,
     "articles_per_day": 3,
-    "selection_method": "curated_recent",
+    "selection_method": "true_random_with_timestamp",
     "auto_update": true,
+    "github_action_enabled": true,
     "cache_duration_hours": 24,
     "rotation_on_each_execution": true
   },
   "daily_news": [
     {
-      "title": "Mansfield Minera obtiene certificaciones ISO 14001 e ISO 45001",
-      "image_url": "",
-      "image_exists": false,
-      "text": "La empresa minera Mansfield Minera S.A., operadora de la mina de oro Lindero en la Puna salteña, logró recientemente la certificación en gestión ambiental ISO 14001 y en seguridad y salud ISO 45001, reforzando su compromiso con operaciones más sostenibles y responsables en el sector.",
+      "title": "¿Cómo mejorar la gestión de sistemas de calidad gracias a la automatización?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/Gestión-de-sistemas-de-calidad.jpg",
+      "image_exists": true,
+      "text": "Gestión de sistemas de calidad Durante el artículo de hoy queremos que conozcan cómo una organización líder en…",
       "news_priority": 1,
-      "selected_date": "2026-02-14T10:00:00",
-      "rotation_id": "2026-02-14-1"
+      "selected_date": "2026-02-16T08:17:59.720260",
+      "rotation_id": "2026-02-16-1"
     },
     {
-      "title": "Minera Candelaria mantiene certificación ISO 50001 de gestión energética",
-      "image_url": "",
-      "image_exists": false,
-      "text": "Minera Candelaria (Chile) ratificó la mantención de su Sistema de Gestión de Energía según ISO 50001-2018 tras auditoría de cumplimiento. Esto destaca la adopción continua de estándares internacionales en eficiencia energética dentro de la minería chilena.",
+      "title": "Identificación de peligros y evaluación de riesgos (APR) en ISO 45001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/01/Analisis-de-peligros-y-evaluacion-de-riesgos-1.jpg",
+      "image_exists": true,
+      "text": "En el mundo laboral actual, la seguridad y salud ocupacional son aspectos cruciales para el bienestar de los trabajadores y...",
       "news_priority": 2,
-      "selected_date": "2026-02-14T10:00:00",
-      "rotation_id": "2026-02-14-2"
+      "selected_date": "2026-02-16T08:17:59.720269",
+      "rotation_id": "2026-02-16-2"
     },
     {
-      "title": "Iniciativa popular propone norma para una minería sustentable en Chile",
-      "image_url": "",
-      "image_exists": false,
-      "text": "La Red Compromiso Minero presentó una **Iniciativa Popular de Norma** orientada a promover una minería sustentable en Chile que proteja el medio ambiente, impulse desarrollo social y potencie la participación comunitaria, a fin de incorporarla en la nueva Constitución.",
+      "title": "Revista Empresa Excelente ISOTools: junio 2025",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/00_Entrada-10.jpg",
+      "image_exists": true,
+      "text": "El segundo semestre de 2025 arranca con un entorno empresarial cada vez más determinado por el cumplimiento normativo…",
       "news_priority": 3,
-      "selected_date": "2026-02-14T10:00:00",
-      "rotation_id": "2026-02-14-3"
+      "selected_date": "2026-02-16T08:17:59.720272",
+      "rotation_id": "2026-02-16-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-14T10:00:00",
-    "next_rotation": "2026-02-15T10:00:00",
-    "algorithm": "curated_recent",
-    "total_available_articles": 3,
+    "selected_at": "2026-02-16T08:17:59.720398",
+    "next_rotation": "2026-02-17T08:17:59.720398",
+    "algorithm": "python_random_sample",
+    "total_available_articles": 2915,
     "rotation_guaranteed": true
   }
 }
