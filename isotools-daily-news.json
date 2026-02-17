@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-16",
-    "generated_at": "2026-02-16T08:17:59.720398",
-    "next_update": "2026-02-17",
+    "generated_date": "2026-02-17",
+    "generated_at": "2026-02-17T08:17:51.949951",
+    "next_update": "2026-02-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo mejorar la gestión de sistemas de calidad gracias a la automatización?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/Gestión-de-sistemas-de-calidad.jpg",
+      "title": "Descubre los últimos webinars a través de nuestro canal de Telegram",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/05/Telegram_ISOTools.png",
       "image_exists": true,
-      "text": "Gestión de sistemas de calidad Durante el artículo de hoy queremos que conozcan cómo una organización líder en…",
+      "text": "ISOTools Excellence en Telegram Hoy traemos novedades. desde ISOTools Excellence hemos creado un nuevo canal en Telegram para…",
       "news_priority": 1,
-      "selected_date": "2026-02-16T08:17:59.720260",
-      "rotation_id": "2026-02-16-1"
+      "selected_date": "2026-02-17T08:17:51.949864",
+      "rotation_id": "2026-02-17-1"
     },
     {
-      "title": "Identificación de peligros y evaluación de riesgos (APR) en ISO 45001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/01/Analisis-de-peligros-y-evaluacion-de-riesgos-1.jpg",
+      "title": "Politica de teletrabajo ISO 27001: formas de minimizar riesgos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/Politica-de-teletrabajo-ISO-27001.webp",
       "image_exists": true,
-      "text": "En el mundo laboral actual, la seguridad y salud ocupacional son aspectos cruciales para el bienestar de los trabajadores y...",
+      "text": "La ISO 27001, estándar internacional para la gestión de la seguridad de la información, ha evolucionado para mantenerse alineada...",
       "news_priority": 2,
-      "selected_date": "2026-02-16T08:17:59.720269",
-      "rotation_id": "2026-02-16-2"
+      "selected_date": "2026-02-17T08:17:51.949871",
+      "rotation_id": "2026-02-17-2"
     },
     {
-      "title": "Revista Empresa Excelente ISOTools: junio 2025",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/00_Entrada-10.jpg",
+      "title": "Cumplimiento de los requisitos del Anexo SL: App Análisis y Expectativas de Partes Interesadas de ISOTools Excellence",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/03/Untitled-15.jpg",
       "image_exists": true,
-      "text": "El segundo semestre de 2025 arranca con un entorno empresarial cada vez más determinado por el cumplimiento normativo…",
+      "text": "Las nuevas versiones de las normas ISO: Cumplimiento de los requisitos del Anexo SL Con el objetivo de…",
       "news_priority": 3,
-      "selected_date": "2026-02-16T08:17:59.720272",
-      "rotation_id": "2026-02-16-3"
+      "selected_date": "2026-02-17T08:17:51.949874",
+      "rotation_id": "2026-02-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-16T08:17:59.720398",
-    "next_rotation": "2026-02-17T08:17:59.720398",
+    "selected_at": "2026-02-17T08:17:51.949951",
+    "next_rotation": "2026-02-18T08:17:51.949951",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
