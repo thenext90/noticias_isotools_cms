@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-17",
-    "generated_at": "2026-02-17T08:17:51.949951",
-    "next_update": "2026-02-18",
+    "generated_date": "2026-02-18",
+    "generated_at": "2026-02-18T08:17:17.930252",
+    "next_update": "2026-02-19",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Descubre los últimos webinars a través de nuestro canal de Telegram",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/05/Telegram_ISOTools.png",
+      "title": "ISO 9001:2015, un nuevo concepto del sistema de calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/iStock_000003237401_Large.jpg",
       "image_exists": true,
-      "text": "ISOTools Excellence en Telegram Hoy traemos novedades. desde ISOTools Excellence hemos creado un nuevo canal en Telegram para…",
+      "text": "Un estándar más preciso y cercano a las nuevas políticas de calidad La gestión de la calidad no…",
       "news_priority": 1,
-      "selected_date": "2026-02-17T08:17:51.949864",
-      "rotation_id": "2026-02-17-1"
+      "selected_date": "2026-02-18T08:17:17.930158",
+      "rotation_id": "2026-02-18-1"
     },
     {
-      "title": "Politica de teletrabajo ISO 27001: formas de minimizar riesgos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/Politica-de-teletrabajo-ISO-27001.webp",
+      "title": "Ya puedes leer los 50 Excelentes de ISOTools en 2023",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/ISO-4.jpg",
       "image_exists": true,
-      "text": "La ISO 27001, estándar internacional para la gestión de la seguridad de la información, ha evolucionado para mantenerse alineada...",
+      "text": "Nos complace presentaros una vez más los 50 excelentes de ISOTool...",
       "news_priority": 2,
-      "selected_date": "2026-02-17T08:17:51.949871",
-      "rotation_id": "2026-02-17-2"
+      "selected_date": "2026-02-18T08:17:17.930164",
+      "rotation_id": "2026-02-18-2"
     },
     {
-      "title": "Cumplimiento de los requisitos del Anexo SL: App Análisis y Expectativas de Partes Interesadas de ISOTools Excellence",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/03/Untitled-15.jpg",
+      "title": "Seguridad relativa a los recursos humanos según ISO 27001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/04/ISO-27001.jpg",
       "image_exists": true,
-      "text": "Las nuevas versiones de las normas ISO: Cumplimiento de los requisitos del Anexo SL Con el objetivo de…",
+      "text": "La seguridad de la información depende de tecnologías, procesos y del factor humano, uno de los elementos más…",
       "news_priority": 3,
-      "selected_date": "2026-02-17T08:17:51.949874",
-      "rotation_id": "2026-02-17-3"
+      "selected_date": "2026-02-18T08:17:17.930166",
+      "rotation_id": "2026-02-18-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-17T08:17:51.949951",
-    "next_rotation": "2026-02-18T08:17:51.949951",
+    "selected_at": "2026-02-18T08:17:17.930252",
+    "next_rotation": "2026-02-19T08:17:17.930252",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
