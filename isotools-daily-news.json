@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-18",
-    "generated_at": "2026-02-18T08:17:17.930252",
-    "next_update": "2026-02-19",
+    "generated_date": "2026-02-19",
+    "generated_at": "2026-02-19T08:17:10.412628",
+    "next_update": "2026-02-20",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 9001:2015, un nuevo concepto del sistema de calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/iStock_000003237401_Large.jpg",
+      "title": "ISO 14001: La importancia actual del Medio Ambiente",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/11/14001.gif",
       "image_exists": true,
-      "text": "Un estándar más preciso y cercano a las nuevas políticas de calidad La gestión de la calidad no…",
+      "text": "Norma ISO 14001 Con el fin de implantar un Sistema de Gestión Medioambiental de manera amena en una…",
       "news_priority": 1,
-      "selected_date": "2026-02-18T08:17:17.930158",
-      "rotation_id": "2026-02-18-1"
+      "selected_date": "2026-02-19T08:17:10.412528",
+      "rotation_id": "2026-02-19-1"
     },
     {
-      "title": "Ya puedes leer los 50 Excelentes de ISOTools en 2023",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/ISO-4.jpg",
+      "title": "ISOTools celebra el éxito del I Congreso Nacional del Trabajo Social y RSE",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/02/Contacta.webp",
       "image_exists": true,
-      "text": "Nos complace presentaros una vez más los 50 excelentes de ISOTool...",
+      "text": "ISOTools El evento tuvo lugar en el Auditorium Hotel Gran Bilbao entre los días 20 al 22 de…",
       "news_priority": 2,
-      "selected_date": "2026-02-18T08:17:17.930164",
-      "rotation_id": "2026-02-18-2"
+      "selected_date": "2026-02-19T08:17:10.412535",
+      "rotation_id": "2026-02-19-2"
     },
     {
-      "title": "Seguridad relativa a los recursos humanos según ISO 27001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/04/ISO-27001.jpg",
+      "title": "¿Cómo Gestionar las incidencias en la Seguridad de la Información con ISO 27001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/06/BLOG-GENERAL_25_06_2014.jpg",
       "image_exists": true,
-      "text": "La seguridad de la información depende de tecnologías, procesos y del factor humano, uno de los elementos más…",
+      "text": "ISO 27001 La norma ISO 27001 permite la implantación de un Sistema de Gestión de Seguridad eficiente a…",
       "news_priority": 3,
-      "selected_date": "2026-02-18T08:17:17.930166",
-      "rotation_id": "2026-02-18-3"
+      "selected_date": "2026-02-19T08:17:10.412538",
+      "rotation_id": "2026-02-19-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-18T08:17:17.930252",
-    "next_rotation": "2026-02-19T08:17:17.930252",
+    "selected_at": "2026-02-19T08:17:10.412628",
+    "next_rotation": "2026-02-20T08:17:10.412628",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
