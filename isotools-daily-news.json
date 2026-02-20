@@ -25,32 +25,32 @@
   },
   "daily_news": [
     {
-     "title": "Actualización ISO 3941:2026 revoluciona clasificación de incendios",
-     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanvgUyZNZmFvoM0N2gj8Lm2PQohWJDs4XQQ&s",
-     "image_exists": true,
-     "text": "La norma ISO 3941:2026, actualizada tras más de 20 años, introduce la nueva Clase L para la clasificación de incendios en baterías de iones de litio y sistemas de energía electroquímica. Esta actualización responde al creciente uso de tecnologías eléctricas y almacenamiento energético, estableciendo criterios más claros para la prevención y control de este tipo de riesgos emergentes.",
-     "news_priority": 1,
-     "selected_date": "2026-02-20T08:16:50.921150",
-     "rotation_id": "2026-02-20-1"
-    },
-    {
-      "title": "Claves de la gestión por competencias en un Sistema de Gestión de la Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/10/gestion-por-competencias.jpg",
-      "image_exists": true,
-      "text": "La gestión por competencias se ha convertido en un enfoque fundamental en el ámbito empresarial...",
-      "news_priority": 2,
-      "selected_date": "2026-02-20T08:16:50.921160",
-      "rotation_id": "2026-02-20-2"
-    },
-    {
-      "title": "Evaluación de Aspectos e Impactos Ambientales según la ISO 14001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/03/Evaluacion-de-Aspectos-e-Impactos-Ambientales.png",
-      "image_exists": true,
-      "text": "Evaluación de Aspectos e Impactos Ambientales En un mundo cada vez más consciente de la importancia de proteger…",
-      "news_priority": 3,
-      "selected_date": "2026-02-20T08:16:50.921163",
-      "rotation_id": "2026-02-20-3"
-    }
+  "title": "Actualización ISO 3941:2026 revoluciona clasificación de incendios",
+  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanvgUyZNZmFvoM0N2gj8Lm2PQohWJDs4XQQ&s",
+  "image_exists": true,
+  "text": "La norma ISO 3941:2026, actualizada tras más de 20 años, introduce la nueva Clase L para clasificar incendios en baterías de iones de litio y sistemas de energía electroquímica. Esta modificación responde al crecimiento del almacenamiento energético y la movilidad eléctrica, estableciendo criterios técnicos más claros para la prevención, control y respuesta ante riesgos asociados a tecnologías emergentes.",
+  "news_priority": 1,
+  "selected_date": "2026-02-20T08:16:50.921150",
+  "rotation_id": "2026-02-20-1"
+},
+{
+  "title": "Claves de la gestión por competencias en un Sistema de Gestión de la Calidad",
+  "image_url": "https://www.isotools.us/wp-content/uploads/2023/10/gestion-por-competencias.jpg",
+  "image_exists": true,
+  "text": "La gestión por competencias se consolida como un pilar estratégico dentro de un Sistema de Gestión de la Calidad, alineando habilidades, conocimientos y desempeño con los objetivos organizacionales. Este enfoque permite mejorar la productividad, fortalecer la formación interna y asegurar el cumplimiento de requisitos normativos, promoviendo una cultura de mejora continua y desarrollo profesional sostenible.",
+  "news_priority": 2,
+  "selected_date": "2026-02-20T08:16:50.921160",
+  "rotation_id": "2026-02-20-2"
+},
+{
+  "title": "Evaluación de Aspectos e Impactos Ambientales según la ISO 14001",
+  "image_url": "https://www.isotools.us/wp-content/uploads/2024/03/Evaluacion-de-Aspectos-e-Impactos-Ambientales.png",
+  "image_exists": true,
+  "text": "La evaluación de aspectos e impactos ambientales conforme a la ISO 14001 permite identificar actividades que interactúan con el entorno y determinar sus efectos significativos. Este análisis facilita la implementación de controles operacionales, el cumplimiento legal y la definición de objetivos ambientales medibles, fortaleciendo la sostenibilidad y la gestión responsable dentro del sistema organizacional.",
+  "news_priority": 3,
+  "selected_date": "2026-02-20T08:16:50.921163",
+  "rotation_id": "2026-02-20-3"
+}
   ],
   "generation_info": {
     "selected_at": "2026-02-20T08:16:50.921285",
