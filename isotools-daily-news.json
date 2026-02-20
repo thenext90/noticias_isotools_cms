@@ -25,13 +25,13 @@
   },
   "daily_news": [
     {
-      "title": "Revista Empresa Excelente junio 2023",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/07/Revista_imagen_destacada.jpg",
-      "image_exists": true,
-      "text": "En este mes de julio os presentamos una nueva edición de la revista Empresa Excelente. En esta publicación...",
-      "news_priority": 1,
-      "selected_date": "2026-02-20T08:16:50.921150",
-      "rotation_id": "2026-02-20-1"
+     "title": "Actualización ISO 3941:2026 revoluciona clasificación de incendios",
+     "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanvgUyZNZmFvoM0N2gj8Lm2PQohWJDs4XQQ&s",
+     "image_exists": true,
+     "text": "La norma ISO 3941:2026, actualizada tras más de 20 años, introduce la nueva Clase L para la clasificación de incendios en baterías de iones de litio y sistemas de energía electroquímica. Esta actualización responde al creciente uso de tecnologías eléctricas y almacenamiento energético, estableciendo criterios más claros para la prevención y control de este tipo de riesgos emergentes.",
+     "news_priority": 1,
+     "selected_date": "2026-02-20T08:16:50.921150",
+     "rotation_id": "2026-02-20-1"
     },
     {
       "title": "Claves de la gestión por competencias en un Sistema de Gestión de la Calidad",
