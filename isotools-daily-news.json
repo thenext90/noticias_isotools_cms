@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-20",
-    "generated_at": "2026-02-20T08:16:50.921285",
-    "next_update": "2026-02-21",
+    "generated_date": "2026-02-23",
+    "generated_at": "2026-02-23T08:18:26.658823",
+    "next_update": "2026-02-24",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-  "title": "Actualización ISO 3941:2026 revoluciona clasificación de incendios",
-  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanvgUyZNZmFvoM0N2gj8Lm2PQohWJDs4XQQ&s",
-  "image_exists": true,
-  "text": "La norma ISO 3941:2026, actualizada tras más de 20 años, introduce la nueva Clase L para clasificar incendios en baterías de iones de litio y sistemas de energía electroquímica. Esta modificación responde al crecimiento del almacenamiento energético y la movilidad eléctrica, estableciendo criterios técnicos más claros para la prevención, control y respuesta ante riesgos asociados a tecnologías emergentes.",
-  "news_priority": 1,
-  "selected_date": "2026-02-20T08:16:50.921150",
-  "rotation_id": "2026-02-20-1"
-},
-{
-  "title": "Claves de la gestión por competencias en un Sistema de Gestión de la Calidad",
-  "image_url": "https://www.isotools.us/wp-content/uploads/2023/10/gestion-por-competencias.jpg",
-  "image_exists": true,
-  "text": "La gestión por competencias se consolida como un pilar estratégico dentro de un Sistema de Gestión de la Calidad, alineando habilidades, conocimientos y desempeño con los objetivos organizacionales. Este enfoque permite mejorar la productividad, fortalecer la formación interna y asegurar el cumplimiento de requisitos normativos, promoviendo una cultura de mejora continua y desarrollo profesional sostenible.",
-  "news_priority": 2,
-  "selected_date": "2026-02-20T08:16:50.921160",
-  "rotation_id": "2026-02-20-2"
-},
-{
-  "title": "Evaluación de Aspectos e Impactos Ambientales según la ISO 14001",
-  "image_url": "https://www.isotools.us/wp-content/uploads/2024/03/Evaluacion-de-Aspectos-e-Impactos-Ambientales.png",
-  "image_exists": true,
-  "text": "La evaluación de aspectos e impactos ambientales conforme a la ISO 14001 permite identificar actividades que interactúan con el entorno y determinar sus efectos significativos. Este análisis facilita la implementación de controles operacionales, el cumplimiento legal y la definición de objetivos ambientales medibles, fortaleciendo la sostenibilidad y la gestión responsable dentro del sistema organizacional.",
-  "news_priority": 3,
-  "selected_date": "2026-02-20T08:16:50.921163",
-  "rotation_id": "2026-02-20-3"
-}
+      "title": "Acciones preventivas o correctivas en el SG-SST",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/11/SG-SST-2.jpg",
+      "image_exists": true,
+      "text": "SG-SST El jefe deberá definir e implementar todas las acciones correctivas o preventivas, esto con el fin de…",
+      "news_priority": 1,
+      "selected_date": "2026-02-23T08:18:26.658713",
+      "rotation_id": "2026-02-23-1"
+    },
+    {
+      "title": "Novena edición de la revista EMPRESA EXCELENTE",
+      "image_url": null,
+      "image_exists": false,
+      "text": "EMPRESA EXCELENTE Nueva edición de la revista EMPRESA EXCELENTE!! La edición de Septiembre trae muchos artículos sobre la…",
+      "news_priority": 2,
+      "selected_date": "2026-02-23T08:18:26.658721",
+      "rotation_id": "2026-02-23-2"
+    },
+    {
+      "title": "ISO 37301 – Apartado 4.1 Comprensión de la organización y su contexto",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/08/compliance4137301-1.jpg",
+      "image_exists": true,
+      "text": "ISO 37301 apartado 4.1 - Comprensión de la organización y su contexto Si la norma ISO 37301 se…",
+      "news_priority": 3,
+      "selected_date": "2026-02-23T08:18:26.658723",
+      "rotation_id": "2026-02-23-3"
+    }
   ],
   "generation_info": {
-    "selected_at": "2026-02-20T08:16:50.921285",
-    "next_rotation": "2026-02-21T08:16:50.921285",
+    "selected_at": "2026-02-23T08:18:26.658823",
+    "next_rotation": "2026-02-24T08:18:26.658823",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
