@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-24",
-    "generated_at": "2026-02-24T08:18:20.111515",
-    "next_update": "2026-02-25",
+    "generated_date": "2026-02-25",
+    "generated_at": "2026-02-25T08:18:22.136545",
+    "next_update": "2026-02-26",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cómo ha mejorado la ISO 45001 los SIG",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/10/ISO-45001.jpg",
+      "title": "ISOTools presente en el XII Foro Internacional de Calidad ICONTEC",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/XII-Foro-Internacional-de-Calidad.jpg",
       "image_exists": true,
-      "text": "Cómo ha mejorado la ISO 45001 los SIG En la actualidad, la seguridad y salud en el trabajo…",
+      "text": "XII Foro Internacional de Calidad Desde su comienzo ICONTEC ha tenido la misión de contribuir con generar confianza…",
       "news_priority": 1,
-      "selected_date": "2026-02-24T08:18:20.111429",
-      "rotation_id": "2026-02-24-1"
+      "selected_date": "2026-02-25T08:18:22.136474",
+      "rotation_id": "2026-02-25-1"
     },
     {
-      "title": "ISOTools le recomienda la Jornada ARADE: Gestión de la Calidad y RSE.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/calidad3_960_354.png",
-      "image_exists": false,
-      "text": "Tendrá lugar mañana de 10 a 13:00 en el Edificio de la CREA de Zaragoza.La Jornada ARADE: \"Gestión de la Calidady Responsabilidad Social Empresarial\"es una iniciativa de laAsociación Aragonesa para la Dependencia, ARADE.Este evento contará con la presencia deCristina Gavín, directora gerente delInstituto Aragonés de Servicios Socialesquién inaugurará el evento y con la deRicardo Oliván, consejero de Sanidad, responsable de la clausura.El programa del acto cuenta con diversas ponencias centradas básicamente en la implantación deSistemas de Gestión de Calidady Responsabilidad Social Empresarial en centros residenciales y su Certificación.Además, en el acto se dará a conocer laexperiencia realde laResidencia para la tercera edad Avenidala cual cuenta con la implantación de unSistema de Gestión.Más informaciónaquí.Más informaciónaquí",
+      "title": "Empieza el proceso de revisión de la norma ISO 22000",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/04/ISO-22000-1.jpg",
+      "image_exists": true,
+      "text": "Norma ISO 22000 La norma ISO 22000 ofrece las herramientas necesarias para implementar un Sistema de Gestión de…",
       "news_priority": 2,
-      "selected_date": "2026-02-24T08:18:20.111435",
-      "rotation_id": "2026-02-24-2"
+      "selected_date": "2026-02-25T08:18:22.136479",
+      "rotation_id": "2026-02-25-2"
     },
     {
-      "title": "IV Responsabilidad Social Empresarial, organizado por Acción contra el Hambre.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/NOticia%20Web%20General.jpg",
+      "title": "El plan de marketing online",
+      "image_url": null,
       "image_exists": false,
-      "text": "Por cuarto año consecutivo, Acción contra el Hambre lleva a cabo en Barcelona, el IV Foro de RSE con la finalidad de impulsar el emprendimiento.Por cuarto año consecutivo se ha celebrado, por primera vez en Barcelona, el “IV Foro Responsabilidad Social Empresarial), organizado por la organizaciónAcción contra el Hambre. El objetivo de este encuentro es conseguir mediante la participación conjunta, la puesta en marcha de iniciativas que tengan relación con el emprendimiento y por tanto el impulso del autoempleo. Esto se logra a través del  intercambio de experiencia, ideas y buenas prácticas entres empresa y sociedad. Obtuvo una participación de más de 15 empresas y organizaciones.Luis González, el director de la nueva área de Acción Social en España de la organización, defendió el facilitar un impulso para que “las personas con grandes ideas y sin recursos, puedan desarrollarlas en un proyecto de vida”.Acción contra el Hambre presentó en el evento una línea nueva de actuación relacionada con la Acción Social en España, y con el proyecto“Vives Proyecto”.La iniciativa pretende generar oportunidades para aquellas personas que se encuentran en riesgo de exclusión sociolaboral.Según las palabras de González: “En Vives Proyecto vamos a fomentar competencias de emprendimiento, ampliando los servicios que ofrecen ONG de empleo, para poder apoyar a las personas en exclusión socio-laboral, los futuros emprendedores\".Más informaciónaquí",
+      "text": "En la actualidad, debido al importante papel que juegan las redes sociales en la sociedad y en el…",
       "news_priority": 3,
-      "selected_date": "2026-02-24T08:18:20.111438",
-      "rotation_id": "2026-02-24-3"
+      "selected_date": "2026-02-25T08:18:22.136482",
+      "rotation_id": "2026-02-25-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-24T08:18:20.111515",
-    "next_rotation": "2026-02-25T08:18:20.111515",
+    "selected_at": "2026-02-25T08:18:22.136545",
+    "next_rotation": "2026-02-26T08:18:22.136545",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
