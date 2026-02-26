@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-25",
-    "generated_at": "2026-02-25T08:18:22.136545",
-    "next_update": "2026-02-26",
+    "generated_date": "2026-02-26",
+    "generated_at": "2026-02-26T08:17:34.687415",
+    "next_update": "2026-02-27",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools presente en el XII Foro Internacional de Calidad ICONTEC",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/XII-Foro-Internacional-de-Calidad.jpg",
-      "image_exists": true,
-      "text": "XII Foro Internacional de Calidad Desde su comienzo ICONTEC ha tenido la misión de contribuir con generar confianza…",
-      "news_priority": 1,
-      "selected_date": "2026-02-25T08:18:22.136474",
-      "rotation_id": "2026-02-25-1"
-    },
-    {
-      "title": "Empieza el proceso de revisión de la norma ISO 22000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/04/ISO-22000-1.jpg",
-      "image_exists": true,
-      "text": "Norma ISO 22000 La norma ISO 22000 ofrece las herramientas necesarias para implementar un Sistema de Gestión de…",
-      "news_priority": 2,
-      "selected_date": "2026-02-25T08:18:22.136479",
-      "rotation_id": "2026-02-25-2"
-    },
-    {
-      "title": "El plan de marketing online",
+      "title": "Tercera edición de la ISO/IEC 8652:2012",
       "image_url": null,
       "image_exists": false,
-      "text": "En la actualidad, debido al importante papel que juegan las redes sociales en la sociedad y en el…",
+      "text": "ISO 8652 es una norma internacional que consiste en la descripción del lenguaje de programación Ada. Este lenguaje…",
+      "news_priority": 1,
+      "selected_date": "2026-02-26T08:17:34.687334",
+      "rotation_id": "2026-02-26-1"
+    },
+    {
+      "title": "ISO 22301: Antecedentes y origen",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/01/ISO-223011.jpg",
+      "image_exists": true,
+      "text": "ISO 22301 La norma ISO22301 se utiliza para realizar la implantación de un Sistema de Gestión de Continuidad…",
+      "news_priority": 2,
+      "selected_date": "2026-02-26T08:17:34.687341",
+      "rotation_id": "2026-02-26-2"
+    },
+    {
+      "title": "ISOTools se adhiere al Pacto Mundial de las Naciones Unidas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/03/Isotools-ODS.png",
+      "image_exists": true,
+      "text": "Nos alegra comunicar que ISOTools ya forma parte del Pacto Mundial de las Naciones Unidas, el movimiento mundial…",
       "news_priority": 3,
-      "selected_date": "2026-02-25T08:18:22.136482",
-      "rotation_id": "2026-02-25-3"
+      "selected_date": "2026-02-26T08:17:34.687343",
+      "rotation_id": "2026-02-26-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-25T08:18:22.136545",
-    "next_rotation": "2026-02-26T08:18:22.136545",
+    "selected_at": "2026-02-26T08:17:34.687415",
+    "next_rotation": "2026-02-27T08:17:34.687415",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
