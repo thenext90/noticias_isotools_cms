@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-26",
-    "generated_at": "2026-02-26T08:17:34.687415",
-    "next_update": "2026-02-27",
+    "generated_date": "2026-02-27",
+    "generated_at": "2026-02-27T08:16:01.140715",
+    "next_update": "2026-02-28",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Tercera edición de la ISO/IEC 8652:2012",
-      "image_url": null,
-      "image_exists": false,
-      "text": "ISO 8652 es una norma internacional que consiste en la descripción del lenguaje de programación Ada. Este lenguaje…",
+      "title": "¿Cuáles son las ventajas e inconvenientes de los SIG?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/S-I-G1.jpg",
+      "image_exists": true,
+      "text": "Sistemas Integrados Normalmente la primera norma que suelen implantar las organizaciones es la ISO 9001 para su sistema…",
       "news_priority": 1,
-      "selected_date": "2026-02-26T08:17:34.687334",
-      "rotation_id": "2026-02-26-1"
+      "selected_date": "2026-02-27T08:16:01.140622",
+      "rotation_id": "2026-02-27-1"
     },
     {
-      "title": "ISO 22301: Antecedentes y origen",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/01/ISO-223011.jpg",
+      "title": "Revista Empresa Excelente febrero 2023",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/02/plantilla-destacada-post-revista-1.jpg",
       "image_exists": true,
-      "text": "ISO 22301 La norma ISO22301 se utiliza para realizar la implantación de un Sistema de Gestión de Continuidad…",
+      "text": "REVISTA EMPRESA EXCELENTE En este mes de marzo os presentamos una nueva edición de la revista Empresa Excelente.…",
       "news_priority": 2,
-      "selected_date": "2026-02-26T08:17:34.687341",
-      "rotation_id": "2026-02-26-2"
+      "selected_date": "2026-02-27T08:16:01.140630",
+      "rotation_id": "2026-02-27-2"
     },
     {
-      "title": "ISOTools se adhiere al Pacto Mundial de las Naciones Unidas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/03/Isotools-ODS.png",
+      "title": "Inocuidad de los alimentos, un reto a nivel mundial",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/1.-ISO-22000.jpg",
       "image_exists": true,
-      "text": "Nos alegra comunicar que ISOTools ya forma parte del Pacto Mundial de las Naciones Unidas, el movimiento mundial…",
+      "text": "ISO 22000 Sistemas de gestión de inocuidad de los alimentos La norma ISO 22000 de Sistemas de gestión…",
       "news_priority": 3,
-      "selected_date": "2026-02-26T08:17:34.687343",
-      "rotation_id": "2026-02-26-3"
+      "selected_date": "2026-02-27T08:16:01.140632",
+      "rotation_id": "2026-02-27-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-26T08:17:34.687415",
-    "next_rotation": "2026-02-27T08:17:34.687415",
+    "selected_at": "2026-02-27T08:16:01.140715",
+    "next_rotation": "2026-02-28T08:16:01.140715",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
