@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-02-27",
-    "generated_at": "2026-02-27T08:16:01.140715",
-    "next_update": "2026-02-28",
+    "generated_date": "2026-03-02",
+    "generated_at": "2026-03-02T08:16:59.657798",
+    "next_update": "2026-03-03",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cuáles son las ventajas e inconvenientes de los SIG?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/S-I-G1.jpg",
+      "title": "Publicado el borrador DIS de la futura ISO 45001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/ISO-45001.jpg",
       "image_exists": true,
-      "text": "Sistemas Integrados Normalmente la primera norma que suelen implantar las organizaciones es la ISO 9001 para su sistema…",
+      "text": "ISO 45001 Tras meses de espera, el pasado viernes 12 de febrero de 2016 se publicaba y estaba…",
       "news_priority": 1,
-      "selected_date": "2026-02-27T08:16:01.140622",
-      "rotation_id": "2026-02-27-1"
+      "selected_date": "2026-03-02T08:16:59.657696",
+      "rotation_id": "2026-03-02-1"
     },
     {
-      "title": "Revista Empresa Excelente febrero 2023",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/02/plantilla-destacada-post-revista-1.jpg",
+      "title": "Revista Empresa Excelente septiembre 2020",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/10/post-revista-SEPTIEMBRE.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE En este mes de marzo os presentamos una nueva edición de la revista Empresa Excelente.…",
+      "text": "REVISTA EMPRESA EXCELENTE Como cada primer jueves del mes, publicamos un nuevo número de la Revista Empresa Excelente.…",
       "news_priority": 2,
-      "selected_date": "2026-02-27T08:16:01.140630",
-      "rotation_id": "2026-02-27-2"
+      "selected_date": "2026-03-02T08:16:59.657704",
+      "rotation_id": "2026-03-02-2"
     },
     {
-      "title": "Inocuidad de los alimentos, un reto a nivel mundial",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/1.-ISO-22000.jpg",
-      "image_exists": true,
-      "text": "ISO 22000 Sistemas de gestión de inocuidad de los alimentos La norma ISO 22000 de Sistemas de gestión…",
+      "title": "ISOTools felicita a Genebre por su Certificación ISO 14001",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/rotulo_genebre.gif",
+      "image_exists": false,
+      "text": "TÜV Rheinland concede el certificado en gestión ambiental a la empresa de valvulería de fluidos.Genebreha trabajado para poder implementar un SGA (sistema de gestión ambiental), y de esta forma controlar el impacto ambiental de una forma planificada, ordenada y controlada. La finalidad era funcionar conforme a unas metas ambientales, tener una respuesta eficaz para los posibles cambios sociales y reglamentarios, y controlar los posibles riesgos ambientales que puede provocar la actividad de la empresa.Para conseguir este objetivo, la empresa estableció una Política Ambiental dónde se determinaba las líneas de actuación referentes al comportamiento sostenible.La recompensa a todo esto ha sido el reconocimiento internacionalISO 14001, certificado porTÜV Rheinland.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2026-02-27T08:16:01.140632",
-      "rotation_id": "2026-02-27-3"
+      "selected_date": "2026-03-02T08:16:59.657707",
+      "rotation_id": "2026-03-02-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-02-27T08:16:01.140715",
-    "next_rotation": "2026-02-28T08:16:01.140715",
+    "selected_at": "2026-03-02T08:16:59.657798",
+    "next_rotation": "2026-03-03T08:16:59.657798",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
