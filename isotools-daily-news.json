@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-03",
-    "generated_at": "2026-03-03T08:15:02.337382",
-    "next_update": "2026-03-04",
+    "generated_date": "2026-03-04",
+    "generated_at": "2026-03-04T08:13:11.289098",
+    "next_update": "2026-03-05",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Nueva Norma UNE-EN 16114:2012 Servicios de consultoría de Gestión",
-      "image_url": null,
-      "image_exists": false,
-      "text": "RESUMEN: AENOR publica una nueva norma para el aseguramiento de la eficiencia en la prestación de los servicios…",
+      "title": "Cursos exclusivos para clientes ISOTools Excellence",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/cursos-clientes-destacada.jpg",
+      "image_exists": true,
+      "text": "Cursos exclusivos para clientes Capacitación totalmente gratuita, sin ningún coste para nuestros clientes. Con la intención de que…",
       "news_priority": 1,
-      "selected_date": "2026-03-03T08:15:02.337271",
-      "rotation_id": "2026-03-03-1"
+      "selected_date": "2026-03-04T08:13:11.289018",
+      "rotation_id": "2026-03-04-1"
     },
     {
-      "title": "Pasos clave para la implementación exitosa de la ISO 14001 en tu empresa",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/11/Implementacion-Exitosa-de-la-ISO-14001.jpg",
+      "title": "ISO 19011 ¿Cómo se debe establecer el programa de auditoría?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/ISO-19011-1.jpg",
       "image_exists": true,
-      "text": "La norma ISO 14001 es un estándar internacional que se centra en la gestión ambiental de una organización...",
+      "text": "ISO 19011 Las personas responsables de la gestión del programa de auditoría según la norma ISO 19011, deben:…",
       "news_priority": 2,
-      "selected_date": "2026-03-03T08:15:02.337278",
-      "rotation_id": "2026-03-03-2"
+      "selected_date": "2026-03-04T08:13:11.289025",
+      "rotation_id": "2026-03-04-2"
     },
     {
-      "title": "ISOTools – Revista Empresa Excelente marzo 2019",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/04/plantilla-destacada-post-revista.jpg",
+      "title": "ISO 28219 2017: El etiquetado con códigos de barras también está normalizado",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/06/ISO-28219-2017.jpg",
       "image_exists": true,
-      "text": "EMPRESA EXCELENTE Este mes presentamos la Revista Empresa Excelente de marzo de 2019. Continuamos con las novedades que se…",
+      "text": "ISO 28219 2017 La Organización Internacional de Estandarización con sede en Ginebra con 164 países miembros, crea sus…",
       "news_priority": 3,
-      "selected_date": "2026-03-03T08:15:02.337280",
-      "rotation_id": "2026-03-03-3"
+      "selected_date": "2026-03-04T08:13:11.289027",
+      "rotation_id": "2026-03-04-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-03T08:15:02.337382",
-    "next_rotation": "2026-03-04T08:15:02.337382",
+    "selected_at": "2026-03-04T08:13:11.289098",
+    "next_rotation": "2026-03-05T08:13:11.289098",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
