@@ -1,62 +1,62 @@
 {
- "metadata": {
- "title": "ISOToolss - Noticias Diarias",
- "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
- "source": "ISOTools Corporate Blog (isotools.us)",
- "generated_date": "2026-03-05",
- "generated_at": "2026-03-05T08:14:40.893886",
- "next_update": "2026-03-06",
- "total_articles": 3,
- "rotation_type": "daily_random_selection",
- "version": "1.0.0",
- "purpose": "Noticias diarias para sección web",
- "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
- "parent_source": "isotools_blog_articles.json",
- "language": "español"
- },
- "configuration": {
- "daily_rotation": true,
- "articles_per_day": 3,
- "selection_method": "true_random_with_timestamp",
- "auto_update": true,
- "github_action_enabled": true,
- "cache_duration_hours": 24,
- "rotation_on_each_execution": true
- },
- "daily_news": [
- {
- "title": "Empresas de Antofagasta y Calama se certifican en normas ISO",
- "image_url": "https://www.guiaminera.cl/wp-content/uploads/2025/11/41-IMG_0162.jpg",
- "image_exists": true,
- "text": "Un total de 21 pymes de Antofagasta y Calama obtuvieron certificaciones ISO 9001, 14001 y 50001 gracias al programa FOCAL 2024–2025, fortaleciendo su competitividad y sostenibilidad.",
- "news_priority": 1,
- "selected_date": "2026-03-05T08:14:40.893755",
- "rotation_id": "2026-03-05-1"
- },
- {
- "title": "Argentina, Hasta $10,5 millones para PyMEs industriales que busquen certificar normas de calidad",
- "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKITXby2EavFi9JU9lKhMazINZW4syXyXPfw&s",
- "image_exists": true,
- "text": "El Gobierno de Córdoba abrió la convocatoria 2026 del programa “Mi Primera Certificación”, que otorga Aportes No Reintegrables para cubrir costos de consultoría y certificación de normas ISO.",
- "news_priority": 2,
- "selected_date": "2026-03-05T08:14:40.893765",
- "rotation_id": "2026-03-05-2"
- },
- {
- "title": "ISO 9001:2026, novedades y claves para la transición",
- "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF4_Gk1IlLrKQdAWJrrNo3bUinKkfwdTDV1w&s",
- "image_exists": true,
- "text": "La próxima versión de la norma ISO 9001:2026 introduce cambios importantes en enfoque basado en riesgo, liderazgo y gestión de la calidad, con un período de transición para organizaciones.",
- "news_priority": 3,
- "selected_date": "2026-03-05T08:14:40.893770",
- "rotation_id": "2026-03-05-3"
- }
- ],
- "generation_info": {
- "selected_at": "2026-03-05T08:14:40.893886",
- "next_rotation": "2026-03-06T08:14:40.893886",
- "algorithm": "python_random_sample",
- "total_available_articles": 2915,
- "rotation_guaranteed": true
- }
+  "metadata": {
+    "title": "ISOTools - Noticias Diarias",
+    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
+    "source": "ISOTools Corporate Blog (isotools.us)",
+    "generated_date": "2026-03-05",
+    "generated_at": "2026-03-05T15:47:39.101561",
+    "next_update": "2026-03-06",
+    "total_articles": 3,
+    "rotation_type": "daily_random_selection",
+    "version": "1.0.0",
+    "purpose": "Noticias diarias para sección web",
+    "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
+    "parent_source": "isotools_blog_articles.json",
+    "language": "español"
+  },
+  "configuration": {
+    "daily_rotation": true,
+    "articles_per_day": 3,
+    "selection_method": "true_random_with_timestamp",
+    "auto_update": true,
+    "github_action_enabled": true,
+    "cache_duration_hours": 24,
+    "rotation_on_each_execution": true
+  },
+  "daily_news": [
+    {
+      "title": "Los requisitos fundamentales de la ISO/TS 16949 en el sector automotor",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/06/Blog-General_09.png",
+      "image_exists": true,
+      "text": "ISO/TS 16949 Las empresas del sector automotor implantan en sus organizaciones la norma ISO/TS 16949 para poder conseguir…",
+      "news_priority": 1,
+      "selected_date": "2026-03-05T15:47:39.101467",
+      "rotation_id": "2026-03-05-1"
+    },
+    {
+      "title": "¿Cuál es la documentación solicitada por la ISO 22301?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/03/ISO-22301.jpg",
+      "image_exists": true,
+      "text": "La norma ISO 22301 impone a que las organizaciones cuenten con cierta documentación obligatoria y otra de carácter…",
+      "news_priority": 2,
+      "selected_date": "2026-03-05T15:47:39.101474",
+      "rotation_id": "2026-03-05-2"
+    },
+    {
+      "title": "Estupenda acogida del Evento SOLUCIONES TECNOLÓGICAS PARA LA GESTIÓN EN LAS ORGANIZACIONES en Medellín.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Medellin.jpg",
+      "image_exists": false,
+      "text": "Este evento tuvo lugar en el Hotel Poblado Alejandría de Medellín, Colombia.Esta Jornada se encuentra dentro de las iniciativas llevadas a cabo con motivo de nuestra campaña comercial en Colombia.En ella se pretendía poner en conocimiento a las organizaciones lasventajasde recurrir asoluciones tecnológicasparaimplementary mantener de una forma más eficaz y eficiente suSistemas de Gestión de Calidad.Por ello de la mano de Natalia Petrelli, Directora Comercial deISOTools Colombiay Estela Carmona, Consultor Experto deISOTools España; pudimos conocer losbeneficiosque aporta a las organizaciones el contar con un Sistema de Gestión de Calidad y laPlataforma ISOToolscomo Herramienta para la Gestión.También contamos con la colaboración del Sr. Eucardo Pérez, Coordinador del Sistema de Calidad del Colegio Calasanz, que compartió con los asistentes su experiencia en la implementación de ISOTools.Más informaciónaquí",
+      "news_priority": 3,
+      "selected_date": "2026-03-05T15:47:39.101476",
+      "rotation_id": "2026-03-05-3"
+    }
+  ],
+  "generation_info": {
+    "selected_at": "2026-03-05T15:47:39.101561",
+    "next_rotation": "2026-03-06T15:47:39.101561",
+    "algorithm": "python_random_sample",
+    "total_available_articles": 2915,
+    "rotation_guaranteed": true
+  }
 }
