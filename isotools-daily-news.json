@@ -1,62 +1,66 @@
+```json
 {
-  "metadata": {
-    "title": "ISOTools - Noticias Diarias",
-    "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
-    "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-05",
-    "generated_at": "2026-03-05T08:14:40.893886",
-    "next_update": "2026-03-06",
-    "total_articles": 3,
-    "rotation_type": "daily_random_selection",
-    "version": "1.0.0",
-    "purpose": "Noticias diarias para sección web",
-    "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
-    "parent_source": "isotools_blog_articles.json",
-    "language": "español"
-  },
-  "configuration": {
-    "daily_rotation": true,
-    "articles_per_day": 3,
-    "selection_method": "true_random_with_timestamp",
-    "auto_update": true,
-    "github_action_enabled": true,
-    "cache_duration_hours": 24,
-    "rotation_on_each_execution": true
-  },
-  "daily_news": [
-    {
-      "title": "La TRIPLE META «Triple Aim» eje estratégico para la mejora continua en el sector salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/06/11.png",
-      "image_exists": true,
-      "text": "Este año el Centro de Gestión Hospitalaria ha inaugurado su XXI edición del Foro Internacional y 1º Encuentro…",
-      "news_priority": 1,
-      "selected_date": "2026-03-05T08:14:40.893755",
-      "rotation_id": "2026-03-05-1"
-    },
-    {
-      "title": "¿Qué elementos debe reunir mi software para gestionar OHSAS 18001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/OHSAS-18001.jpg",
-      "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
-      "news_priority": 2,
-      "selected_date": "2026-03-05T08:14:40.893765",
-      "rotation_id": "2026-03-05-2"
-    },
-    {
-      "title": "Cómo gestionar eficientemente la continuidad del negocio en ISO 27001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/08/imagen_ent_blog.png",
-      "image_exists": true,
-      "text": "Las organizaciones se enfrentan a una creciente cantidad de amenazas y desafíos que pueden interrumpir su operación normal...",
-      "news_priority": 3,
-      "selected_date": "2026-03-05T08:14:40.893770",
-      "rotation_id": "2026-03-05-3"
-    }
-  ],
-  "generation_info": {
-    "selected_at": "2026-03-05T08:14:40.893886",
-    "next_rotation": "2026-03-06T08:14:40.893886",
-    "algorithm": "python_random_sample",
-    "total_available_articles": 2915,
-    "rotation_guaranteed": true
-  }
+ "metadata": {
+ "title": "ISOTools - Noticias Diarias",
+ "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
+ "source": "ISOTools Corporate Blog (isotools.us)",
+ "generated_date": "2026-03-05",
+ "generated_at": "2026-03-05T08:14:40.893886",
+ "next_update": "2026-03-06",
+ "total_articles": 3,
+ "rotation_type": "daily_random_selection",
+ "version": "1.0.0",
+ "purpose": "Noticias diarias para sección web",
+ "github_raw_example": "https://raw.githubusercontent.com/tu-usuario/tu-repo/main/isotools-daily-news.json",
+ "parent_source": "isotools_blog_articles.json",
+ "language": "español"
+ },
+ "configuration": {
+ "daily_rotation": true,
+ "articles_per_day": 3,
+ "selection_method": "true_random_with_timestamp",
+ "auto_update": true,
+ "github_action_enabled": true,
+ "cache_duration_hours": 24,
+ "rotation_on_each_execution": true
+ },
+ "daily_news": [
+ {
+ "title": "Empresas de Antofagasta y Calama se certifican en normas ISO",
+ "image_url": "https://www.guiaminera.cl/wp-content/uploads/2025/11/41-IMG_0162.jpg",
+ "image_exists": true,
+ "text": "Un total de 21 pymes de Antofagasta y Calama obtuvieron certificaciones ISO 9001, 14001 y 50001 gracias al programa FOCAL 2024–2025, fortaleciendo su competitividad y sostenibilidad.",
+ "news_priority": 1,
+ "selected_date": "2026-03-05T08:14:40.893755",
+ "rotation_id": "2026-03-05-1"
+ },
+ {
+ "title": "Argentina, Hasta $10,5 millones para PyMEs industriales que busquen certificar normas de calidad",
+ "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKITXby2EavFi9JU9lKhMazINZW4syXyXPfw&s",
+ "image_exists": true,
+ "text": "El Gobierno de Córdoba abrió la convocatoria 2026 del programa “Mi Primera Certificación”, que otorga Aportes No Reintegrables para cubrir costos de consultoría y certificación de normas ISO.",
+ "news_priority": 2,
+ "selected_date": "2026-03-05T08:14:40.893765",
+ "rotation_id": "2026-03-05-2"
+ },
+ {
+ "title": "ISO 9001:2026, novedades y claves para la transición",
+ "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF4_Gk1IlLrKQdAWJrrNo3bUinKkfwdTDV1w&s",
+ "image_exists": true,
+ "text": "La próxima versión de la norma ISO 9001:2026 introduce cambios importantes en enfoque basado en riesgo, liderazgo y gestión de la calidad, con un período de transición para organizaciones.",
+ "news_priority": 3,
+ "selected_date": "2026-03-05T08:14:40.893770",
+ "rotation_id": "2026-03-05-3"
+ }
+ ],
+ "generation_info": {
+ "selected_at": "2026-03-05T08:14:40.893886",
+ "next_rotation": "2026-03-06T08:14:40.893886",
+ "algorithm": "python_random_sample",
+ "total_available_articles": 2915,
+ "rotation_guaranteed": true
+ }
 }
+```
+
+También guardé una copia en `/home/jp2000/.openclaw/workspace/isotools-daily-news-2026-03-05.json`.
