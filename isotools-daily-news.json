@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-05",
-    "generated_at": "2026-03-05T15:47:39.101561",
-    "next_update": "2026-03-06",
+    "generated_date": "2026-03-06",
+    "generated_at": "2026-03-06T08:12:44.544902",
+    "next_update": "2026-03-07",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Los requisitos fundamentales de la ISO/TS 16949 en el sector automotor",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/06/Blog-General_09.png",
+      "title": "Nueva ISO 27000:2013. Cambios a tener en cuenta",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/03/ISO-27000-2013.webp",
       "image_exists": true,
-      "text": "ISO/TS 16949 Las empresas del sector automotor implantan en sus organizaciones la norma ISO/TS 16949 para poder conseguir…",
+      "text": "ISO 27000:2013 Como ya debéis saber, la International Organization for Standardization, ha publicado la última versión de la…",
       "news_priority": 1,
-      "selected_date": "2026-03-05T15:47:39.101467",
-      "rotation_id": "2026-03-05-1"
+      "selected_date": "2026-03-06T08:12:44.544830",
+      "rotation_id": "2026-03-06-1"
     },
     {
-      "title": "¿Cuál es la documentación solicitada por la ISO 22301?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/03/ISO-22301.jpg",
+      "title": "ISO 28000 Sistema de Gestión de Seguridad de la Cadena de Suministro",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/05/27.png",
       "image_exists": true,
-      "text": "La norma ISO 22301 impone a que las organizaciones cuenten con cierta documentación obligatoria y otra de carácter…",
+      "text": "ISO 28000 La norma ISO 28000 define los requisitos del sistema de gestión de la seguridad de la…",
       "news_priority": 2,
-      "selected_date": "2026-03-05T15:47:39.101474",
-      "rotation_id": "2026-03-05-2"
+      "selected_date": "2026-03-06T08:12:44.544836",
+      "rotation_id": "2026-03-06-2"
     },
     {
-      "title": "ISO 9001:2026, novedades y claves para la transición",
-      "image_url": "https://isolucion.com/wp-content/uploads/2025/10/iso-9001-2026-3.jpg",
-      "image_exists": false,
-      "text": "La próxima versión de la norma ISO 9001:2026 introduce cambios importantes en enfoque basado en riesgo, liderazgo y gestión de la calidad, con un período de transición para organizaciones.",
+      "title": "Revista Empresa Excelente enero 2020",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/02/Revista-enero-2020.jpg",
+      "image_exists": true,
+      "text": "REVISTA EMPRESA EXCELENTE Volvemos otro mes más con el nuevo número de la Revista Empresa Excelente. Prácticamente acabamos…",
       "news_priority": 3,
-      "selected_date": "2026-03-05T15:47:39.101476",
-      "rotation_id": "2026-03-05-3"
+      "selected_date": "2026-03-06T08:12:44.544838",
+      "rotation_id": "2026-03-06-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-05T15:47:39.101561",
-    "next_rotation": "2026-03-06T15:47:39.101561",
+    "selected_at": "2026-03-06T08:12:44.544902",
+    "next_rotation": "2026-03-07T08:12:44.544902",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
