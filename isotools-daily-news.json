@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-06",
-    "generated_at": "2026-03-06T08:12:44.544902",
-    "next_update": "2026-03-07",
+    "generated_date": "2026-03-09",
+    "generated_at": "2026-03-09T08:17:15.670854",
+    "next_update": "2026-03-10",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Nueva ISO 27000:2013. Cambios a tener en cuenta",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/03/ISO-27000-2013.webp",
+      "title": "ISO 19011: ¿Cómo implementar un programa de auditoría?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/ISO-19011-2.jpg",
       "image_exists": true,
-      "text": "ISO 27000:2013 Como ya debéis saber, la International Organization for Standardization, ha publicado la última versión de la…",
+      "text": "ISO 19011 Cuando se establece un programa de auditoría y se determinan los recursos, es necesario realizar la…",
       "news_priority": 1,
-      "selected_date": "2026-03-06T08:12:44.544830",
-      "rotation_id": "2026-03-06-1"
+      "selected_date": "2026-03-09T08:17:15.670749",
+      "rotation_id": "2026-03-09-1"
     },
     {
-      "title": "ISO 28000 Sistema de Gestión de Seguridad de la Cadena de Suministro",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/05/27.png",
+      "title": "Caracterización de riesgos según ISO 9001. ¿Qué debemos incluir?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/ISO-9001.jpg",
       "image_exists": true,
-      "text": "ISO 28000 La norma ISO 28000 define los requisitos del sistema de gestión de la seguridad de la…",
+      "text": "Riesgos según ISO 9001 Para comenzar este artículo debemos, entender como se define el riesgo de acuerdo a…",
       "news_priority": 2,
-      "selected_date": "2026-03-06T08:12:44.544836",
-      "rotation_id": "2026-03-06-2"
+      "selected_date": "2026-03-09T08:17:15.670756",
+      "rotation_id": "2026-03-09-2"
     },
     {
-      "title": "Revista Empresa Excelente enero 2020",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/02/Revista-enero-2020.jpg",
+      "title": "La formación en sistemas de gestión, la clave del éxito de muchas organizaciones",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/02/Formación-en-sistemas-de-gestión.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Volvemos otro mes más con el nuevo número de la Revista Empresa Excelente. Prácticamente acabamos…",
+      "text": "Formación en sistemas de gestión La Organización para la Cooperación y el Desarrollo Económicos en su informe anual…",
       "news_priority": 3,
-      "selected_date": "2026-03-06T08:12:44.544838",
-      "rotation_id": "2026-03-06-3"
+      "selected_date": "2026-03-09T08:17:15.670759",
+      "rotation_id": "2026-03-09-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-06T08:12:44.544902",
-    "next_rotation": "2026-03-07T08:12:44.544902",
+    "selected_at": "2026-03-09T08:17:15.670854",
+    "next_rotation": "2026-03-10T08:17:15.670854",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
