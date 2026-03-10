@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-09",
-    "generated_at": "2026-03-09T08:17:15.670854",
-    "next_update": "2026-03-10",
+    "generated_date": "2026-03-10",
+    "generated_at": "2026-03-10T08:14:38.638974",
+    "next_update": "2026-03-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 19011: ¿Cómo implementar un programa de auditoría?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/ISO-19011-2.jpg",
+      "title": "Principios de Gestión de la Calidad en la Educación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Principios-de-Gestión-de-la-Calidad-en-la-Educación.jpg",
       "image_exists": true,
-      "text": "ISO 19011 Cuando se establece un programa de auditoría y se determinan los recursos, es necesario realizar la…",
+      "text": "Gestión de la Calidad en la Educación Es ya un hecho demostrado y probado, que las organizaciones que…",
       "news_priority": 1,
-      "selected_date": "2026-03-09T08:17:15.670749",
-      "rotation_id": "2026-03-09-1"
+      "selected_date": "2026-03-10T08:14:38.638898",
+      "rotation_id": "2026-03-10-1"
     },
     {
-      "title": "Caracterización de riesgos según ISO 9001. ¿Qué debemos incluir?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/ISO-9001.jpg",
+      "title": "Normas ISO: ¿Por qué son Cruciales para la Sostenibilidad Empresarial?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/02/Sostenibilidad-empresarial.png",
       "image_exists": true,
-      "text": "Riesgos según ISO 9001 Para comenzar este artículo debemos, entender como se define el riesgo de acuerdo a…",
+      "text": "La sostenibilidad empresarial implica la integración de prácticas y procesos que buscan...",
       "news_priority": 2,
-      "selected_date": "2026-03-09T08:17:15.670756",
-      "rotation_id": "2026-03-09-2"
+      "selected_date": "2026-03-10T08:14:38.638904",
+      "rotation_id": "2026-03-10-2"
     },
     {
-      "title": "La formación en sistemas de gestión, la clave del éxito de muchas organizaciones",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/02/Formación-en-sistemas-de-gestión.jpg",
+      "title": "Aspectos clave del protocolo BRC",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/12/protocolo-BRC.jpg",
       "image_exists": true,
-      "text": "Formación en sistemas de gestión La Organización para la Cooperación y el Desarrollo Económicos en su informe anual…",
+      "text": "Protocolo BRC En el artículo de hoy hablaremos del protocolo BRC y sus aspectos clave. Antes de empezar,…",
       "news_priority": 3,
-      "selected_date": "2026-03-09T08:17:15.670759",
-      "rotation_id": "2026-03-09-3"
+      "selected_date": "2026-03-10T08:14:38.638907",
+      "rotation_id": "2026-03-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-09T08:17:15.670854",
-    "next_rotation": "2026-03-10T08:17:15.670854",
+    "selected_at": "2026-03-10T08:14:38.638974",
+    "next_rotation": "2026-03-11T08:14:38.638974",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
