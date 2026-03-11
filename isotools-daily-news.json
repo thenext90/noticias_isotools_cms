@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-10",
-    "generated_at": "2026-03-10T08:14:38.638974",
-    "next_update": "2026-03-11",
+    "generated_date": "2026-03-11",
+    "generated_at": "2026-03-11T08:15:11.240505",
+    "next_update": "2026-03-12",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Principios de Gestión de la Calidad en la Educación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/Principios-de-Gestión-de-la-Calidad-en-la-Educación.jpg",
+      "title": "Norma ISO 10002 Satisfacción del cliente y Gestión de Reclamaciones",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/02/ISO-10002.jpg",
       "image_exists": true,
-      "text": "Gestión de la Calidad en la Educación Es ya un hecho demostrado y probado, que las organizaciones que…",
+      "text": "Norma ISO 10002 Es necesario realizar la gestión de peticiones, quejas, reclamos y sugerencias de los clientes de…",
       "news_priority": 1,
-      "selected_date": "2026-03-10T08:14:38.638898",
-      "rotation_id": "2026-03-10-1"
+      "selected_date": "2026-03-11T08:15:11.240417",
+      "rotation_id": "2026-03-11-1"
     },
     {
-      "title": "Normas ISO: ¿Por qué son Cruciales para la Sostenibilidad Empresarial?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/02/Sostenibilidad-empresarial.png",
+      "title": "Qué tener en cuenta para identificar la calidad en los centros educativos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/identificar-la-calidad-en-los-centros-educativos.gif",
       "image_exists": true,
-      "text": "La sostenibilidad empresarial implica la integración de prácticas y procesos que buscan...",
+      "text": "Identificar la calidad en los centros educativos Son varios los aspectos a considerar a la hora de identificar…",
       "news_priority": 2,
-      "selected_date": "2026-03-10T08:14:38.638904",
-      "rotation_id": "2026-03-10-2"
+      "selected_date": "2026-03-11T08:15:11.240423",
+      "rotation_id": "2026-03-11-2"
     },
     {
-      "title": "Aspectos clave del protocolo BRC",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/12/protocolo-BRC.jpg",
+      "title": "Directrices para los Planes de Calidad según ISO 10005 2018",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/07/ISO-10005-2018.jpg",
       "image_exists": true,
-      "text": "Protocolo BRC En el artículo de hoy hablaremos del protocolo BRC y sus aspectos clave. Antes de empezar,…",
+      "text": "ISO 10005 2018 Las organizaciones deciden implementar planes de calidad a raíz de la identificación de todas las…",
       "news_priority": 3,
-      "selected_date": "2026-03-10T08:14:38.638907",
-      "rotation_id": "2026-03-10-3"
+      "selected_date": "2026-03-11T08:15:11.240425",
+      "rotation_id": "2026-03-11-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-10T08:14:38.638974",
-    "next_rotation": "2026-03-11T08:14:38.638974",
+    "selected_at": "2026-03-11T08:15:11.240505",
+    "next_rotation": "2026-03-12T08:15:11.240505",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
