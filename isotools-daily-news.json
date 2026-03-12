@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-11",
-    "generated_at": "2026-03-11T08:15:11.240505",
-    "next_update": "2026-03-12",
+    "generated_date": "2026-03-12",
+    "generated_at": "2026-03-12T08:16:43.816945",
+    "next_update": "2026-03-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Norma ISO 10002 Satisfacción del cliente y Gestión de Reclamaciones",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/02/ISO-10002.jpg",
+      "title": "La importancia del proceso BIA para la continuidad de negocio: parte II",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/12/informe-de-riesgos.jpg",
       "image_exists": true,
-      "text": "Norma ISO 10002 Es necesario realizar la gestión de peticiones, quejas, reclamos y sugerencias de los clientes de…",
+      "text": "Importancia del proceso de BIA para la continuidad del negocio El proceso BIA es vital porque permite identificar…",
       "news_priority": 1,
-      "selected_date": "2026-03-11T08:15:11.240417",
-      "rotation_id": "2026-03-11-1"
+      "selected_date": "2026-03-12T08:16:43.816860",
+      "rotation_id": "2026-03-12-1"
     },
     {
-      "title": "Qué tener en cuenta para identificar la calidad en los centros educativos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/identificar-la-calidad-en-los-centros-educativos.gif",
+      "title": "¿Cómo contribuye un Sistema de Gestión Compliance a la cultura organizacional?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/Sistema-de-Gestión-Compliance.jpg",
       "image_exists": true,
-      "text": "Identificar la calidad en los centros educativos Son varios los aspectos a considerar a la hora de identificar…",
+      "text": "Sistema de Gestión Compliance Un Sistema de Gestión Compliance o cumplimiento normativo ejerce una doble aportación de valor…",
       "news_priority": 2,
-      "selected_date": "2026-03-11T08:15:11.240423",
-      "rotation_id": "2026-03-11-2"
+      "selected_date": "2026-03-12T08:16:43.816866",
+      "rotation_id": "2026-03-12-2"
     },
     {
-      "title": "Directrices para los Planes de Calidad según ISO 10005 2018",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/07/ISO-10005-2018.jpg",
+      "title": "¿Celebrará el día mundial seguridad y salud en el trabajo 2018?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/04/Día-mundial-seguridad-y-salud-en-el-trabajo-2018.jpg",
       "image_exists": true,
-      "text": "ISO 10005 2018 Las organizaciones deciden implementar planes de calidad a raíz de la identificación de todas las…",
+      "text": "Día mundial seguridad y salud en el trabajo 2018 El Día Mundial Seguridad y Salud en el Trabajo…",
       "news_priority": 3,
-      "selected_date": "2026-03-11T08:15:11.240425",
-      "rotation_id": "2026-03-11-3"
+      "selected_date": "2026-03-12T08:16:43.816868",
+      "rotation_id": "2026-03-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-11T08:15:11.240505",
-    "next_rotation": "2026-03-12T08:15:11.240505",
+    "selected_at": "2026-03-12T08:16:43.816945",
+    "next_rotation": "2026-03-13T08:16:43.816945",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
