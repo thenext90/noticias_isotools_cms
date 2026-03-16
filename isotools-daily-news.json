@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-13",
-    "generated_at": "2026-03-13T08:15:38.623414",
-    "next_update": "2026-03-14",
+    "generated_date": "2026-03-16",
+    "generated_at": "2026-03-16T08:27:35.158060",
+    "next_update": "2026-03-17",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ENS, Esquema Nacional de Seguridad. Qué es y por qué lo necesitas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/ISO-IEC-27001.jpg",
+      "title": "¿Cómo realizar la transición de ISO 14001 2004 a ISO 14001 2015?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/ISO-14001.jpg",
       "image_exists": true,
-      "text": "Esquema Nacional de Seguridad El Esquema Nacional de Seguridad (ENS), tiene como objetivo la definición de los requerimientos…",
+      "text": "Transición de ISO 14001 2004 a ISO 14001 2015 Hoy en día ninguna organización se puede permitir el…",
       "news_priority": 1,
-      "selected_date": "2026-03-13T08:15:38.623278",
-      "rotation_id": "2026-03-13-1"
+      "selected_date": "2026-03-16T08:27:35.157979",
+      "rotation_id": "2026-03-16-1"
     },
     {
-      "title": "ISO 39001 ¿Qué organizaciones pueden implantarla?¿Cuáles son sus beneficios?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/12/iso-39001-6.jpg",
+      "title": "¿Cuándo es necesario automatizar el Sistema de Gestión?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/03/Nuevo-proyecto-34.jpg",
       "image_exists": true,
-      "text": "ISO 39001  La norma internacional ISO 39001 permite que las organizaciones que quieren trabajar respetando este estándar, se…",
+      "text": "Sistema de Gestión Los sistemas de gestión son una conocida herramienta diseñada para que las organizaciones desarrollen su…",
       "news_priority": 2,
-      "selected_date": "2026-03-13T08:15:38.623288",
-      "rotation_id": "2026-03-13-2"
+      "selected_date": "2026-03-16T08:27:35.157985",
+      "rotation_id": "2026-03-16-2"
     },
     {
-      "title": "ISOTools – Revista Empresa Excelente",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/img-post-revista-feb18.jpg",
+      "title": "El tratamiento de los riesgos corporativos según la norma ISO 31000",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/iStock_000057211470_Large.jpg",
       "image_exists": true,
-      "text": "EMPRESA EXCELENTE Este mes presentamos el segundo número de la Revista Empresa Excelente del año 2018. Como no…",
+      "text": "El riesgo corporativo según la ISO 31000 La norma ISO 31000 intenta satisfacer la necesidad de las organizaciones de contar con…",
       "news_priority": 3,
-      "selected_date": "2026-03-13T08:15:38.623290",
-      "rotation_id": "2026-03-13-3"
+      "selected_date": "2026-03-16T08:27:35.157988",
+      "rotation_id": "2026-03-16-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-13T08:15:38.623414",
-    "next_rotation": "2026-03-14T08:15:38.623414",
+    "selected_at": "2026-03-16T08:27:35.158060",
+    "next_rotation": "2026-03-17T08:27:35.158060",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
