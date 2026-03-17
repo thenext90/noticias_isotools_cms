@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-16",
-    "generated_at": "2026-03-16T08:27:35.158060",
-    "next_update": "2026-03-17",
+    "generated_date": "2026-03-17",
+    "generated_at": "2026-03-17T08:19:12.250321",
+    "next_update": "2026-03-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo realizar la transición de ISO 14001 2004 a ISO 14001 2015?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/ISO-14001.jpg",
+      "title": "¿Qué proceso seguir con la norma ISO 31022?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/ISO-31022-1.jpg",
       "image_exists": true,
-      "text": "Transición de ISO 14001 2004 a ISO 14001 2015 Hoy en día ninguna organización se puede permitir el…",
+      "text": "ISO 31022 La nueva ISO 31022 pretende ofrecernos una guía con la que poder gestionar los riesgos legales.…",
       "news_priority": 1,
-      "selected_date": "2026-03-16T08:27:35.157979",
-      "rotation_id": "2026-03-16-1"
+      "selected_date": "2026-03-17T08:19:12.250248",
+      "rotation_id": "2026-03-17-1"
     },
     {
-      "title": "¿Cuándo es necesario automatizar el Sistema de Gestión?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/03/Nuevo-proyecto-34.jpg",
+      "title": "Gestión documental en Sistemas Integrados ISO",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/07/documents.jpg",
       "image_exists": true,
-      "text": "Sistema de Gestión Los sistemas de gestión son una conocida herramienta diseñada para que las organizaciones desarrollen su…",
+      "text": "Sistemas integrados Con el enfoque basado en procesos de los sistemas gestión integrados, el protagonismo no debe estar…",
       "news_priority": 2,
-      "selected_date": "2026-03-16T08:27:35.157985",
-      "rotation_id": "2026-03-16-2"
+      "selected_date": "2026-03-17T08:19:12.250254",
+      "rotation_id": "2026-03-17-2"
     },
     {
-      "title": "El tratamiento de los riesgos corporativos según la norma ISO 31000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/iStock_000057211470_Large.jpg",
+      "title": "ISOTools – Revista Empresa Excelente marzo 2018",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/04/img-post-revista-marzo2018.jpg",
       "image_exists": true,
-      "text": "El riesgo corporativo según la ISO 31000 La norma ISO 31000 intenta satisfacer la necesidad de las organizaciones de contar con…",
+      "text": "EMPRESA EXCELENTE Este mes presentamos la Revista Empresa Excelente del mes de marzo del año 2018. Seguimos…",
       "news_priority": 3,
-      "selected_date": "2026-03-16T08:27:35.157988",
-      "rotation_id": "2026-03-16-3"
+      "selected_date": "2026-03-17T08:19:12.250256",
+      "rotation_id": "2026-03-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-16T08:27:35.158060",
-    "next_rotation": "2026-03-17T08:27:35.158060",
+    "selected_at": "2026-03-17T08:19:12.250321",
+    "next_rotation": "2026-03-18T08:19:12.250321",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
