@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-17",
-    "generated_at": "2026-03-17T08:19:12.250321",
-    "next_update": "2026-03-18",
+    "generated_date": "2026-03-18",
+    "generated_at": "2026-03-18T08:18:48.629040",
+    "next_update": "2026-03-19",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Qué proceso seguir con la norma ISO 31022?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/ISO-31022-1.jpg",
+      "title": "ISO 9001 : Beneficios de su implantación en el sector de la construcción",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/Construcción.jpg",
       "image_exists": true,
-      "text": "ISO 31022 La nueva ISO 31022 pretende ofrecernos una guía con la que poder gestionar los riesgos legales.…",
+      "text": "ISO 9001 es una norma con aplicación en las organizaciones del sector de la construcción, ya que estas consideran que…",
       "news_priority": 1,
-      "selected_date": "2026-03-17T08:19:12.250248",
-      "rotation_id": "2026-03-17-1"
+      "selected_date": "2026-03-18T08:18:48.628943",
+      "rotation_id": "2026-03-18-1"
     },
     {
-      "title": "Gestión documental en Sistemas Integrados ISO",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/07/documents.jpg",
-      "image_exists": true,
-      "text": "Sistemas integrados Con el enfoque basado en procesos de los sistemas gestión integrados, el protagonismo no debe estar…",
+      "title": "La empresa QMA S.A. ya forma parte de los clientes de ISOTools",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Damos la bienvenida a la empresa colombiana como parte de nuestro grupo de clientes.\n\n\n\n\n\nConsultores del quipo de ISOTools visitaron la semana pasada a QMA S.A. para ayudarles en el proceso de automatización del sistema de gestión c...",
       "news_priority": 2,
-      "selected_date": "2026-03-17T08:19:12.250254",
-      "rotation_id": "2026-03-17-2"
+      "selected_date": "2026-03-18T08:18:48.628950",
+      "rotation_id": "2026-03-18-2"
     },
     {
-      "title": "ISOTools – Revista Empresa Excelente marzo 2018",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/04/img-post-revista-marzo2018.jpg",
-      "image_exists": true,
-      "text": "EMPRESA EXCELENTE Este mes presentamos la Revista Empresa Excelente del mes de marzo del año 2018. Seguimos…",
+      "title": "ISOTools herramienta para dar cumplimiento a la norma UNE 150008",
+      "image_url": null,
+      "image_exists": false,
+      "text": "ISOTools herramienta informática líder en innovación adaptada para dar cumplimiento a la norma UNE 150008:2008, para poder realizar…",
       "news_priority": 3,
-      "selected_date": "2026-03-17T08:19:12.250256",
-      "rotation_id": "2026-03-17-3"
+      "selected_date": "2026-03-18T08:18:48.628953",
+      "rotation_id": "2026-03-18-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-17T08:19:12.250321",
-    "next_rotation": "2026-03-18T08:19:12.250321",
+    "selected_at": "2026-03-18T08:18:48.629040",
+    "next_rotation": "2026-03-19T08:18:48.629040",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
