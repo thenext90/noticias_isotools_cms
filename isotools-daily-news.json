@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-18",
-    "generated_at": "2026-03-18T08:18:48.629040",
-    "next_update": "2026-03-19",
+    "generated_date": "2026-03-19",
+    "generated_at": "2026-03-19T08:17:08.685397",
+    "next_update": "2026-03-20",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 9001 : Beneficios de su implantación en el sector de la construcción",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/Construcción.jpg",
+      "title": "Definiciones del Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/08/SG-SST-1.jpg",
       "image_exists": true,
-      "text": "ISO 9001 es una norma con aplicación en las organizaciones del sector de la construcción, ya que estas consideran que…",
+      "text": "SG-SST A la hora de implementar un Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST),…",
       "news_priority": 1,
-      "selected_date": "2026-03-18T08:18:48.628943",
-      "rotation_id": "2026-03-18-1"
+      "selected_date": "2026-03-19T08:17:08.685315",
+      "rotation_id": "2026-03-19-1"
     },
     {
-      "title": "La empresa QMA S.A. ya forma parte de los clientes de ISOTools",
+      "title": "La Norma Técnica Colombiana 5808  sobre “Servicios de traducción. Requisitos para la prestación del servicio”",
       "image_url": null,
       "image_exists": false,
-      "text": "Damos la bienvenida a la empresa colombiana como parte de nuestro grupo de clientes.\n\n\n\n\n\nConsultores del quipo de ISOTools visitaron la semana pasada a QMA S.A. para ayudarles en el proceso de automatización del sistema de gestión c...",
+      "text": "Durante la historia de la civilización de nuestro planeta ha sido muy valioso el trabajo realizado por traductores…",
       "news_priority": 2,
-      "selected_date": "2026-03-18T08:18:48.628950",
-      "rotation_id": "2026-03-18-2"
+      "selected_date": "2026-03-19T08:17:08.685321",
+      "rotation_id": "2026-03-19-2"
     },
     {
-      "title": "ISOTools herramienta para dar cumplimiento a la norma UNE 150008",
-      "image_url": null,
-      "image_exists": false,
-      "text": "ISOTools herramienta informática líder en innovación adaptada para dar cumplimiento a la norma UNE 150008:2008, para poder realizar…",
+      "title": "Planificación de la formación del personal en centros educativos (segunda parte)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/08/Formacion-del-personall.webp",
+      "image_exists": true,
+      "text": "Formación del personal En la primera parte de este artículo publicado el 8 de agosto de 2008, hacía…",
       "news_priority": 3,
-      "selected_date": "2026-03-18T08:18:48.628953",
-      "rotation_id": "2026-03-18-3"
+      "selected_date": "2026-03-19T08:17:08.685323",
+      "rotation_id": "2026-03-19-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-18T08:18:48.629040",
-    "next_rotation": "2026-03-19T08:18:48.629040",
+    "selected_at": "2026-03-19T08:17:08.685397",
+    "next_rotation": "2026-03-20T08:17:08.685397",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
