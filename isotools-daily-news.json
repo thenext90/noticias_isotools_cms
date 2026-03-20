@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-19",
-    "generated_at": "2026-03-19T08:17:08.685397",
-    "next_update": "2026-03-20",
+    "generated_date": "2026-03-20",
+    "generated_at": "2026-03-20T08:15:57.141203",
+    "next_update": "2026-03-21",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Definiciones del Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/08/SG-SST-1.jpg",
+      "title": "Resumen de la ISO 45001:2018 Numerales y estructura",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/12/Resumen-ISO-45001.webp",
       "image_exists": true,
-      "text": "SG-SST A la hora de implementar un Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST),…",
+      "text": "Resumen de la ISO 45001 La normativa ISO 45001 se refiere a la norma internacional de seguridad y…",
       "news_priority": 1,
-      "selected_date": "2026-03-19T08:17:08.685315",
-      "rotation_id": "2026-03-19-1"
+      "selected_date": "2026-03-20T08:15:57.141117",
+      "rotation_id": "2026-03-20-1"
     },
     {
-      "title": "La Norma Técnica Colombiana 5808  sobre “Servicios de traducción. Requisitos para la prestación del servicio”",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Durante la historia de la civilización de nuestro planeta ha sido muy valioso el trabajo realizado por traductores…",
-      "news_priority": 2,
-      "selected_date": "2026-03-19T08:17:08.685321",
-      "rotation_id": "2026-03-19-2"
-    },
-    {
-      "title": "Planificación de la formación del personal en centros educativos (segunda parte)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/08/Formacion-del-personall.webp",
+      "title": "¿Es fundamental gestionar los riesgos en las empresas turísticas según la ISO 31000?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/ISO-310003.jpg",
       "image_exists": true,
-      "text": "Formación del personal En la primera parte de este artículo publicado el 8 de agosto de 2008, hacía…",
+      "text": "ISO 31000 La norma internacional ISO 31000 tiene como objetivo gestionar la seguridad y los riesgos. Las organizaciones…",
+      "news_priority": 2,
+      "selected_date": "2026-03-20T08:15:57.141123",
+      "rotation_id": "2026-03-20-2"
+    },
+    {
+      "title": "Certificado ISO 9001: Mejorando la calidad y el éxito empresarial",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/05/certificado-ISO-9001.webp",
+      "image_exists": true,
+      "text": "Certificado ISO 9001 En el mundo empresarial actual, la búsqueda de la excelencia y la satisfacción del cliente…",
       "news_priority": 3,
-      "selected_date": "2026-03-19T08:17:08.685323",
-      "rotation_id": "2026-03-19-3"
+      "selected_date": "2026-03-20T08:15:57.141126",
+      "rotation_id": "2026-03-20-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-19T08:17:08.685397",
-    "next_rotation": "2026-03-20T08:17:08.685397",
+    "selected_at": "2026-03-20T08:15:57.141203",
+    "next_rotation": "2026-03-21T08:15:57.141203",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
