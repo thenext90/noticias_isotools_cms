@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-20",
-    "generated_at": "2026-03-20T08:15:57.141203",
-    "next_update": "2026-03-21",
+    "generated_date": "2026-03-23",
+    "generated_at": "2026-03-23T08:23:48.635452",
+    "next_update": "2026-03-24",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Resumen de la ISO 45001:2018 Numerales y estructura",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/12/Resumen-ISO-45001.webp",
+      "title": "Actualidad en compliance: nueva ISO/TS 37008:2023",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/06/ISOTS-370082023.png",
       "image_exists": true,
-      "text": "Resumen de la ISO 45001 La normativa ISO 45001 se refiere a la norma internacional de seguridad y…",
+      "text": "La nueva norma ISO/TS 37008:2023 ofrece orientación y recomendaciones detalladas a cualquier tipo de...",
       "news_priority": 1,
-      "selected_date": "2026-03-20T08:15:57.141117",
-      "rotation_id": "2026-03-20-1"
+      "selected_date": "2026-03-23T08:23:48.635356",
+      "rotation_id": "2026-03-23-1"
     },
     {
-      "title": "¿Es fundamental gestionar los riesgos en las empresas turísticas según la ISO 31000?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/ISO-310003.jpg",
+      "title": "Semana de la Calidad 2015",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/09/Semana-de-la-Calidad-2015.jpg",
       "image_exists": true,
-      "text": "ISO 31000 La norma internacional ISO 31000 tiene como objetivo gestionar la seguridad y los riesgos. Las organizaciones…",
+      "text": "ISOTools Perú Desde el año 1991, el Comité de Gestión de la Calidad lleva celebrando en Perú la Semana…",
       "news_priority": 2,
-      "selected_date": "2026-03-20T08:15:57.141123",
-      "rotation_id": "2026-03-20-2"
+      "selected_date": "2026-03-23T08:23:48.635363",
+      "rotation_id": "2026-03-23-2"
     },
     {
-      "title": "Certificado ISO 9001: Mejorando la calidad y el éxito empresarial",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/05/certificado-ISO-9001.webp",
+      "title": "Publicado el nuevo borrador la norma ISO DIS 22301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/ISO-DIS-22301.jpg",
       "image_exists": true,
-      "text": "Certificado ISO 9001 En el mundo empresarial actual, la búsqueda de la excelencia y la satisfacción del cliente…",
+      "text": "ISO DIS 22301 La norma ISO DIS 22301 especifica la estructura y los requisitos que se deben tener…",
       "news_priority": 3,
-      "selected_date": "2026-03-20T08:15:57.141126",
-      "rotation_id": "2026-03-20-3"
+      "selected_date": "2026-03-23T08:23:48.635365",
+      "rotation_id": "2026-03-23-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-20T08:15:57.141203",
-    "next_rotation": "2026-03-21T08:15:57.141203",
+    "selected_at": "2026-03-23T08:23:48.635452",
+    "next_rotation": "2026-03-24T08:23:48.635452",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
