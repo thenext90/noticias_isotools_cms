@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-23",
-    "generated_at": "2026-03-23T08:23:48.635452",
-    "next_update": "2026-03-24",
+    "generated_date": "2026-03-24",
+    "generated_at": "2026-03-24T08:19:28.541185",
+    "next_update": "2026-03-25",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Actualidad en compliance: nueva ISO/TS 37008:2023",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/06/ISOTS-370082023.png",
+      "title": "ISOTools festeja las Fiestas Patrias de 2023 en Chile",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/09/fiestas_chile.jpg",
       "image_exists": true,
-      "text": "La nueva norma ISO/TS 37008:2023 ofrece orientación y recomendaciones detalladas a cualquier tipo de...",
+      "text": "El espíritu de las Fiestas Patrias de Chile se extendió más allá de los hogares y las calles este año, llegando...",
       "news_priority": 1,
-      "selected_date": "2026-03-23T08:23:48.635356",
-      "rotation_id": "2026-03-23-1"
+      "selected_date": "2026-03-24T08:19:28.541089",
+      "rotation_id": "2026-03-24-1"
     },
     {
-      "title": "Semana de la Calidad 2015",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/09/Semana-de-la-Calidad-2015.jpg",
+      "title": "Software para la preparacion y respuesta ante emergencia ISO 14001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/Preparacion-y-respuesta-ante-emergencia-ISO-14001.webp",
       "image_exists": true,
-      "text": "ISOTools Perú Desde el año 1991, el Comité de Gestión de la Calidad lleva celebrando en Perú la Semana…",
+      "text": "En el contexto actual de aumento de riesgos ambientales y regulatorios, la Preparación y respuesta ante emergencia ISO…",
       "news_priority": 2,
-      "selected_date": "2026-03-23T08:23:48.635363",
-      "rotation_id": "2026-03-23-2"
+      "selected_date": "2026-03-24T08:19:28.541095",
+      "rotation_id": "2026-03-24-2"
     },
     {
-      "title": "Publicado el nuevo borrador la norma ISO DIS 22301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/ISO-DIS-22301.jpg",
+      "title": "La excelencia española celebra su 25 aniversario",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/06/Excelencia.jpg",
       "image_exists": true,
-      "text": "ISO DIS 22301 La norma ISO DIS 22301 especifica la estructura y los requisitos que se deben tener…",
+      "text": "Excelencia El Club Excelencia en Gestión es una organización sin ánimo de lucro cuyo objetivo es el de…",
       "news_priority": 3,
-      "selected_date": "2026-03-23T08:23:48.635365",
-      "rotation_id": "2026-03-23-3"
+      "selected_date": "2026-03-24T08:19:28.541098",
+      "rotation_id": "2026-03-24-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-23T08:23:48.635452",
-    "next_rotation": "2026-03-24T08:23:48.635452",
+    "selected_at": "2026-03-24T08:19:28.541185",
+    "next_rotation": "2026-03-25T08:19:28.541185",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
