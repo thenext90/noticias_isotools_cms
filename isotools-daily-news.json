@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-24",
-    "generated_at": "2026-03-24T08:19:28.541185",
-    "next_update": "2026-03-25",
+    "generated_date": "2026-03-25",
+    "generated_at": "2026-03-25T08:19:00.489910",
+    "next_update": "2026-03-26",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools festeja las Fiestas Patrias de 2023 en Chile",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/09/fiestas_chile.jpg",
+      "title": "Vídeo – ISO 14001: La estructura de la norma y su relación con otras normas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/multimedia-14001-general.jpg",
       "image_exists": true,
-      "text": "El espíritu de las Fiestas Patrias de Chile se extendió más allá de los hogares y las calles este año, llegando...",
+      "text": "ISO 14001 Como podemos encontrar en la introducción de la norma ISO 14001, las normas internacionales sobre gestión…",
       "news_priority": 1,
-      "selected_date": "2026-03-24T08:19:28.541089",
-      "rotation_id": "2026-03-24-1"
+      "selected_date": "2026-03-25T08:19:00.489799",
+      "rotation_id": "2026-03-25-1"
     },
     {
-      "title": "Software para la preparacion y respuesta ante emergencia ISO 14001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/Preparacion-y-respuesta-ante-emergencia-ISO-14001.webp",
-      "image_exists": true,
-      "text": "En el contexto actual de aumento de riesgos ambientales y regulatorios, la Preparación y respuesta ante emergencia ISO…",
+      "title": "Responsabilidad Social: ¿Cuál es el papel de la sociedad?",
+      "image_url": null,
+      "image_exists": false,
+      "text": "La Responsabilidad Social está tomando relevancia en los últimos tiempos en el ámbito empresarial. La RSE  ha motivado…",
       "news_priority": 2,
-      "selected_date": "2026-03-24T08:19:28.541095",
-      "rotation_id": "2026-03-24-2"
+      "selected_date": "2026-03-25T08:19:00.489808",
+      "rotation_id": "2026-03-25-2"
     },
     {
-      "title": "La excelencia española celebra su 25 aniversario",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/06/Excelencia.jpg",
-      "image_exists": true,
-      "text": "Excelencia El Club Excelencia en Gestión es una organización sin ánimo de lucro cuyo objetivo es el de…",
+      "title": "ISOTools destaca las empresas galardonadas al premio Buenas Prácticas Laborales 2012",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/REMIO.jpg",
+      "image_exists": false,
+      "text": "La semana pasada tuvo lugar la entrega de premios organizada por el ministerio de trabajo de Perú.Las siete empresas más cuidadosas con los derechos de los trabajadores, fueron galardonadas con elpremio Buenas Prácticas Laborales 2012 de Perú.De entre las categorías de las que consta el premio, destaca la dePrevención de riesgos en salud y seguridad laboralcuyo galardonado ha sido la empresaVotorantim Metais Cajamarquilla S.A.dada lacalidadde los programas deseguridad y salud laboralque ha implementado la organización.Numerosos aspectos han sido tenidos en cuenta por el jurado:alcance, participación, impacto, relevancia, equidad, creatividad y originalidad, inversión social de la empresa, sostenibilidad, visión de Responsabilidad Social Empresarial, el cumplimiento de la ley, la replicabilidad, reconocimiento, premios y lascertificaciones obtenidas.DesdeISOToolsdamos la enhorabuena a los premiados.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2026-03-24T08:19:28.541098",
-      "rotation_id": "2026-03-24-3"
+      "selected_date": "2026-03-25T08:19:00.489810",
+      "rotation_id": "2026-03-25-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-24T08:19:28.541185",
-    "next_rotation": "2026-03-25T08:19:28.541185",
+    "selected_at": "2026-03-25T08:19:00.489910",
+    "next_rotation": "2026-03-26T08:19:00.489910",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
