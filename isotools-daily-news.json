@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-25",
-    "generated_at": "2026-03-25T08:19:00.489910",
-    "next_update": "2026-03-26",
+    "generated_date": "2026-03-26",
+    "generated_at": "2026-03-26T08:22:01.203207",
+    "next_update": "2026-03-27",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Vídeo – ISO 14001: La estructura de la norma y su relación con otras normas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/multimedia-14001-general.jpg",
-      "image_exists": true,
-      "text": "ISO 14001 Como podemos encontrar en la introducción de la norma ISO 14001, las normas internacionales sobre gestión…",
+      "title": "ISOTools informa sobre el Encuentro de Responsabilidad Social Empresarial de Colombia",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Encuentro%20de%20Responsabilidad%20Social%20Empresarial%20Worldcob%20colombia.jpg",
+      "image_exists": false,
+      "text": "Bogotá será sede de uno de los eventos sobre RSE que Worldcob organiza por toda Latinoamérica.El día 21 de noviembre, es la fecha establecida para la celebración delEncuentro de Responsabilidad Social Empresarialde Colombia, un evento que busca extender el concepto deempresa socialmente responsable.El organizador de este evento es la certificadoraWorldcob CSR, la cual reunirá a importantes personalidades del campo de laResponsabilidad Social del paíspara afrontar este tema desde tres puntos de vista:Las Relaciones LaboralesLas Relaciones SocialesEl Medio AmbienteEl acto tendrá lugar en el Auditorio Kennedy de la Cámara de Comercio de Bogotá a las dos de la tarde, se extenderá hasta las ochoy participarán, entre otros,Victor Hugo Malagón Basto, Gerente de RSE,Asociación Nacional de Empresarios de Colombia ANDIy Juan Carlos Herrera González, director deConstructores de Responsabilidad y Ética OrganizacionalCREO.Para más información haga clicaquí.Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2026-03-25T08:19:00.489799",
-      "rotation_id": "2026-03-25-1"
+      "selected_date": "2026-03-26T08:22:01.203094",
+      "rotation_id": "2026-03-26-1"
     },
     {
-      "title": "Responsabilidad Social: ¿Cuál es el papel de la sociedad?",
-      "image_url": null,
-      "image_exists": false,
-      "text": "La Responsabilidad Social está tomando relevancia en los últimos tiempos en el ámbito empresarial. La RSE  ha motivado…",
+      "title": "ISOTools desarrolla alianzas estratégicas con consultoras argentinas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2008/05/ISOToollls.webp",
+      "image_exists": true,
+      "text": "ISOTools ISOTools ha realizado diferentes encuentros con consultoras del país argentino durante la semana del 12 al 16…",
       "news_priority": 2,
-      "selected_date": "2026-03-25T08:19:00.489808",
-      "rotation_id": "2026-03-25-2"
+      "selected_date": "2026-03-26T08:22:01.203103",
+      "rotation_id": "2026-03-26-2"
     },
     {
-      "title": "ISOTools destaca las empresas galardonadas al premio Buenas Prácticas Laborales 2012",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/REMIO.jpg",
-      "image_exists": false,
-      "text": "La semana pasada tuvo lugar la entrega de premios organizada por el ministerio de trabajo de Perú.Las siete empresas más cuidadosas con los derechos de los trabajadores, fueron galardonadas con elpremio Buenas Prácticas Laborales 2012 de Perú.De entre las categorías de las que consta el premio, destaca la dePrevención de riesgos en salud y seguridad laboralcuyo galardonado ha sido la empresaVotorantim Metais Cajamarquilla S.A.dada lacalidadde los programas deseguridad y salud laboralque ha implementado la organización.Numerosos aspectos han sido tenidos en cuenta por el jurado:alcance, participación, impacto, relevancia, equidad, creatividad y originalidad, inversión social de la empresa, sostenibilidad, visión de Responsabilidad Social Empresarial, el cumplimiento de la ley, la replicabilidad, reconocimiento, premios y lascertificaciones obtenidas.DesdeISOToolsdamos la enhorabuena a los premiados.Más informaciónaquí",
+      "title": "Evolución de los estándares de calidad desde ISO 9002",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/08/28-agosto.jpg",
+      "image_exists": true,
+      "text": "ISO 9001 Sistemas de Gestión de Calidad Cada vez son más las empresas preocupadas por ofrecer servicios y…",
       "news_priority": 3,
-      "selected_date": "2026-03-25T08:19:00.489810",
-      "rotation_id": "2026-03-25-3"
+      "selected_date": "2026-03-26T08:22:01.203105",
+      "rotation_id": "2026-03-26-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-25T08:19:00.489910",
-    "next_rotation": "2026-03-26T08:19:00.489910",
+    "selected_at": "2026-03-26T08:22:01.203207",
+    "next_rotation": "2026-03-27T08:22:01.203207",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
