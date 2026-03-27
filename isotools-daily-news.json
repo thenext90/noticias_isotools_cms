@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-26",
-    "generated_at": "2026-03-26T08:22:01.203207",
-    "next_update": "2026-03-27",
+    "generated_date": "2026-03-27",
+    "generated_at": "2026-03-27T08:19:59.079873",
+    "next_update": "2026-03-28",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools informa sobre el Encuentro de Responsabilidad Social Empresarial de Colombia",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Encuentro%20de%20Responsabilidad%20Social%20Empresarial%20Worldcob%20colombia.jpg",
+      "title": "Seminario 19 de julio organizado por Spirit en Buenos Aires",
+      "image_url": null,
       "image_exists": false,
-      "text": "Bogotá será sede de uno de los eventos sobre RSE que Worldcob organiza por toda Latinoamérica.El día 21 de noviembre, es la fecha establecida para la celebración delEncuentro de Responsabilidad Social Empresarialde Colombia, un evento que busca extender el concepto deempresa socialmente responsable.El organizador de este evento es la certificadoraWorldcob CSR, la cual reunirá a importantes personalidades del campo de laResponsabilidad Social del paíspara afrontar este tema desde tres puntos de vista:Las Relaciones LaboralesLas Relaciones SocialesEl Medio AmbienteEl acto tendrá lugar en el Auditorio Kennedy de la Cámara de Comercio de Bogotá a las dos de la tarde, se extenderá hasta las ochoy participarán, entre otros,Victor Hugo Malagón Basto, Gerente de RSE,Asociación Nacional de Empresarios de Colombia ANDIy Juan Carlos Herrera González, director deConstructores de Responsabilidad y Ética OrganizacionalCREO.Para más información haga clicaquí.Más informaciónaquí",
+      "text": "El próximo martes 19 de julio se celebrará en la ciudad de Buenos Aires un Seminario Abierto organizado por el partner de ISOTools Spirit Solution. \n\tEl evento tendrá lugar en la Bolsa de Cereales de la capital de Argentina entre las 9:00 y 14...",
       "news_priority": 1,
-      "selected_date": "2026-03-26T08:22:01.203094",
-      "rotation_id": "2026-03-26-1"
+      "selected_date": "2026-03-27T08:19:59.079720",
+      "rotation_id": "2026-03-27-1"
     },
     {
-      "title": "ISOTools desarrolla alianzas estratégicas con consultoras argentinas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2008/05/ISOToollls.webp",
+      "title": "Diferencias y similitudes entre la norma ISO 9001 e ISO 37001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/11/ISO-37001.jpg",
       "image_exists": true,
-      "text": "ISOTools ISOTools ha realizado diferentes encuentros con consultoras del país argentino durante la semana del 12 al 16…",
+      "text": "ISO 9001 e ISO 37001 Siendo la corrupción un problema de gran envergadura, la ISO 37001 surge con…",
       "news_priority": 2,
-      "selected_date": "2026-03-26T08:22:01.203103",
-      "rotation_id": "2026-03-26-2"
+      "selected_date": "2026-03-27T08:19:59.079728",
+      "rotation_id": "2026-03-27-2"
     },
     {
-      "title": "Evolución de los estándares de calidad desde ISO 9002",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/08/28-agosto.jpg",
+      "title": "Responsable HSE: Razones para automatizar la gestión de riesgo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/09/Responsable-HSE-1.jpg",
       "image_exists": true,
-      "text": "ISO 9001 Sistemas de Gestión de Calidad Cada vez son más las empresas preocupadas por ofrecer servicios y…",
+      "text": "Responsable HSE Muchas de las personas que encarnan la figura del responsable HSE y del responsable TI tienen…",
       "news_priority": 3,
-      "selected_date": "2026-03-26T08:22:01.203105",
-      "rotation_id": "2026-03-26-3"
+      "selected_date": "2026-03-27T08:19:59.079731",
+      "rotation_id": "2026-03-27-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-26T08:22:01.203207",
-    "next_rotation": "2026-03-27T08:22:01.203207",
+    "selected_at": "2026-03-27T08:19:59.079873",
+    "next_rotation": "2026-03-28T08:19:59.079873",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
