@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-27",
-    "generated_at": "2026-03-27T08:19:59.079873",
-    "next_update": "2026-03-28",
+    "generated_date": "2026-03-29",
+    "generated_at": "2026-03-29T19:02:45.271902",
+    "next_update": "2026-03-30",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Seminario 19 de julio organizado por Spirit en Buenos Aires",
+      "title": "ISOTools en la revista PYME como una de las Herramientas más vanguardistas para la Gestión de la Calidad",
       "image_url": null,
       "image_exists": false,
-      "text": "El próximo martes 19 de julio se celebrará en la ciudad de Buenos Aires un Seminario Abierto organizado por el partner de ISOTools Spirit Solution. \n\tEl evento tendrá lugar en la Bolsa de Cereales de la capital de Argentina entre las 9:00 y 14...",
+      "text": "Presentamos el artículo  « Cómo alcanzar un nivel de ventas de clase mundial»D. Luis Lamas Maupomé, Director Comercial de nuestro partner enMéxico QB Consulting, nos muestra el artículo publicado en larevista PYME.Este artículo ofrece una serie de reflexiones y puntos indispensables para aumentar el volumen de ventas. Entre ellos y en posición destacada se encuentra la importancia de la gestión de la calidad en el contexto de las ventas. Es aquí donde se hace especial mención aISOToolscomo plataforma tecnológica de éxito internacional para la mejora contínua.Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2026-03-27T08:19:59.079720",
-      "rotation_id": "2026-03-27-1"
+      "selected_date": "2026-03-29T19:02:45.271811",
+      "rotation_id": "2026-03-29-1"
     },
     {
-      "title": "Diferencias y similitudes entre la norma ISO 9001 e ISO 37001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/11/ISO-37001.jpg",
+      "title": "Características, herramientas e indicadores de calidad  en los servicios de salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/iStock_000036587120_Large.jpg",
       "image_exists": true,
-      "text": "ISO 9001 e ISO 37001 Siendo la corrupción un problema de gran envergadura, la ISO 37001 surge con…",
+      "text": "Modelos de gestión En los últimos años, el usuario de los servicios de salud de países en creciente desarrollo como Colombia,…",
       "news_priority": 2,
-      "selected_date": "2026-03-27T08:19:59.079728",
-      "rotation_id": "2026-03-27-2"
+      "selected_date": "2026-03-29T19:02:45.271820",
+      "rotation_id": "2026-03-29-2"
     },
     {
-      "title": "Responsable HSE: Razones para automatizar la gestión de riesgo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/09/Responsable-HSE-1.jpg",
+      "title": "ISO 37120, la norma que mejorará las ciudades",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/ISO-37120.jpg",
       "image_exists": true,
-      "text": "Responsable HSE Muchas de las personas que encarnan la figura del responsable HSE y del responsable TI tienen…",
+      "text": "ISO 37120 La población de la mayoría de las ciudades de todo el mundo está experimentando un rápido…",
       "news_priority": 3,
-      "selected_date": "2026-03-27T08:19:59.079731",
-      "rotation_id": "2026-03-27-3"
+      "selected_date": "2026-03-29T19:02:45.271822",
+      "rotation_id": "2026-03-29-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-27T08:19:59.079873",
-    "next_rotation": "2026-03-28T08:19:59.079873",
+    "selected_at": "2026-03-29T19:02:45.271902",
+    "next_rotation": "2026-03-30T19:02:45.271902",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
