@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-03-30",
-    "generated_at": "2026-03-30T07:47:46.791190",
+    "generated_at": "2026-03-30T08:37:01.485525",
     "next_update": "2026-03-31",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Algunos ejemplos de acciones correctivas en Gestión de Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/01/ejemplos-de-acciones-correctivas.jpg",
+      "title": "ISOTools anuncia la fecha del Día Mundial de la Alimentación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/03/Dia-Mundial-de-la-Alimentacion.webp",
       "image_exists": true,
-      "text": "Gestión de Calidad Aunque cada empresa tenga unas prioridades y unos objetivos concretos, la norma ISO 9001 proporciona…",
+      "text": "Día Mundial de la Alimentación La FAO celebrará el evento el día 16 de octubre. 870 Millones de…",
       "news_priority": 1,
-      "selected_date": "2026-03-30T07:47:46.791087",
+      "selected_date": "2026-03-30T08:37:01.485419",
       "rotation_id": "2026-03-30-1"
     },
     {
-      "title": "Metodología Lean para la mejora continua. Introducción",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/06/metodologia-lean640-300x2251.jpg",
+      "title": "Factores de riesgo ambiental: evaluación y estrategias de respuesta",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/factores-de-riesgo-ambiental-evaluacion-y-estrategias-de-respuesta.jpg",
       "image_exists": true,
-      "text": "Metodología Lean En otras ocasiones hemos hablado de la cadena de valor como herramienta para la gestión por…",
+      "text": "Identificar los factores de riesgo ambiental es un proceso esencial para las empresas comprometidas con la gestión ambiental.…",
       "news_priority": 2,
-      "selected_date": "2026-03-30T07:47:46.791096",
+      "selected_date": "2026-03-30T08:37:01.485427",
       "rotation_id": "2026-03-30-2"
     },
     {
-      "title": "Norma ISO 22000: Garantía de seguridad alimentaria",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/normas-ISO-para-alimentos.jpg",
-      "image_exists": true,
-      "text": "¿Para qué sirve la ISO 22000? La norma ISO 22000 es la norma internacional de sistemas de gestión de seguridad…",
+      "title": "ISOTools junto con Corporación Q realizará una presentación en Guayaquil, Ecuador",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Evento organizado por Corporación Q junto con ISOTools, tendrá lugar el próximo 19 de Agosto en Guayaquil, Ecuador.…",
       "news_priority": 3,
-      "selected_date": "2026-03-30T07:47:46.791099",
+      "selected_date": "2026-03-30T08:37:01.485430",
       "rotation_id": "2026-03-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-30T07:47:46.791190",
-    "next_rotation": "2026-03-31T07:47:46.791190",
+    "selected_at": "2026-03-30T08:37:01.485525",
+    "next_rotation": "2026-03-31T08:37:01.485525",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
