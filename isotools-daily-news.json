@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-29",
-    "generated_at": "2026-03-29T19:02:45.271902",
-    "next_update": "2026-03-30",
+    "generated_date": "2026-03-30",
+    "generated_at": "2026-03-30T07:47:46.791190",
+    "next_update": "2026-03-31",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools en la revista PYME como una de las Herramientas más vanguardistas para la Gestión de la Calidad",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Presentamos el artículo  « Cómo alcanzar un nivel de ventas de clase mundial»D. Luis Lamas Maupomé, Director Comercial de nuestro partner enMéxico QB Consulting, nos muestra el artículo publicado en larevista PYME.Este artículo ofrece una serie de reflexiones y puntos indispensables para aumentar el volumen de ventas. Entre ellos y en posición destacada se encuentra la importancia de la gestión de la calidad en el contexto de las ventas. Es aquí donde se hace especial mención aISOToolscomo plataforma tecnológica de éxito internacional para la mejora contínua.Más informaciónaquí",
+      "title": "Algunos ejemplos de acciones correctivas en Gestión de Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/01/ejemplos-de-acciones-correctivas.jpg",
+      "image_exists": true,
+      "text": "Gestión de Calidad Aunque cada empresa tenga unas prioridades y unos objetivos concretos, la norma ISO 9001 proporciona…",
       "news_priority": 1,
-      "selected_date": "2026-03-29T19:02:45.271811",
-      "rotation_id": "2026-03-29-1"
+      "selected_date": "2026-03-30T07:47:46.791087",
+      "rotation_id": "2026-03-30-1"
     },
     {
-      "title": "Características, herramientas e indicadores de calidad  en los servicios de salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/iStock_000036587120_Large.jpg",
+      "title": "Metodología Lean para la mejora continua. Introducción",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/06/metodologia-lean640-300x2251.jpg",
       "image_exists": true,
-      "text": "Modelos de gestión En los últimos años, el usuario de los servicios de salud de países en creciente desarrollo como Colombia,…",
+      "text": "Metodología Lean En otras ocasiones hemos hablado de la cadena de valor como herramienta para la gestión por…",
       "news_priority": 2,
-      "selected_date": "2026-03-29T19:02:45.271820",
-      "rotation_id": "2026-03-29-2"
+      "selected_date": "2026-03-30T07:47:46.791096",
+      "rotation_id": "2026-03-30-2"
     },
     {
-      "title": "ISO 37120, la norma que mejorará las ciudades",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/ISO-37120.jpg",
+      "title": "Norma ISO 22000: Garantía de seguridad alimentaria",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/normas-ISO-para-alimentos.jpg",
       "image_exists": true,
-      "text": "ISO 37120 La población de la mayoría de las ciudades de todo el mundo está experimentando un rápido…",
+      "text": "¿Para qué sirve la ISO 22000? La norma ISO 22000 es la norma internacional de sistemas de gestión de seguridad…",
       "news_priority": 3,
-      "selected_date": "2026-03-29T19:02:45.271822",
-      "rotation_id": "2026-03-29-3"
+      "selected_date": "2026-03-30T07:47:46.791099",
+      "rotation_id": "2026-03-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-29T19:02:45.271902",
-    "next_rotation": "2026-03-30T19:02:45.271902",
+    "selected_at": "2026-03-30T07:47:46.791190",
+    "next_rotation": "2026-03-31T07:47:46.791190",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
