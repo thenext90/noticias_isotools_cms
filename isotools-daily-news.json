@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-30",
-    "generated_at": "2026-03-30T08:37:01.485525",
-    "next_update": "2026-03-31",
+    "generated_date": "2026-03-31",
+    "generated_at": "2026-03-31T08:28:00.796344",
+    "next_update": "2026-04-01",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools anuncia la fecha del Día Mundial de la Alimentación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/03/Dia-Mundial-de-la-Alimentacion.webp",
+      "title": "Fijar el objetivo y el campo de aplicación de la OHSAS 18001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/OHSAS-18001.png",
       "image_exists": true,
-      "text": "Día Mundial de la Alimentación La FAO celebrará el evento el día 16 de octubre. 870 Millones de…",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 1,
-      "selected_date": "2026-03-30T08:37:01.485419",
-      "rotation_id": "2026-03-30-1"
+      "selected_date": "2026-03-31T08:28:00.796266",
+      "rotation_id": "2026-03-31-1"
     },
     {
-      "title": "Factores de riesgo ambiental: evaluación y estrategias de respuesta",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/factores-de-riesgo-ambiental-evaluacion-y-estrategias-de-respuesta.jpg",
+      "title": "Metodologías Lean. Lean Service",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/08/evento-kaizen-action-group-mejoras-rapidas-300x3001.png",
       "image_exists": true,
-      "text": "Identificar los factores de riesgo ambiental es un proceso esencial para las empresas comprometidas con la gestión ambiental.…",
+      "text": "Lean Service Esta semana traemos otro nuevo capítulo sobre la metodología Lean, en concreto, Lean aplicado a los…",
       "news_priority": 2,
-      "selected_date": "2026-03-30T08:37:01.485427",
-      "rotation_id": "2026-03-30-2"
+      "selected_date": "2026-03-31T08:28:00.796272",
+      "rotation_id": "2026-03-31-2"
     },
     {
-      "title": "ISOTools junto con Corporación Q realizará una presentación en Guayaquil, Ecuador",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Evento organizado por Corporación Q junto con ISOTools, tendrá lugar el próximo 19 de Agosto en Guayaquil, Ecuador.…",
+      "title": "La Seguridad y Salud en el Trabajo en el mundo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/04/Seguridad-y-Salud-en-el-Trabajo.jpg",
+      "image_exists": true,
+      "text": "Seguridad y Salud en el Trabajo Empresas de todo el mundo están cada vez van involucradas en el…",
       "news_priority": 3,
-      "selected_date": "2026-03-30T08:37:01.485430",
-      "rotation_id": "2026-03-30-3"
+      "selected_date": "2026-03-31T08:28:00.796275",
+      "rotation_id": "2026-03-31-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-30T08:37:01.485525",
-    "next_rotation": "2026-03-31T08:37:01.485525",
+    "selected_at": "2026-03-31T08:28:00.796344",
+    "next_rotation": "2026-04-01T08:28:00.796344",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
