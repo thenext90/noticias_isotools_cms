@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-03-31",
-    "generated_at": "2026-03-31T08:28:00.796344",
-    "next_update": "2026-04-01",
+    "generated_date": "2026-04-01",
+    "generated_at": "2026-04-01T08:32:36.238411",
+    "next_update": "2026-04-02",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Fijar el objetivo y el campo de aplicación de la OHSAS 18001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/OHSAS-18001.png",
+      "title": "ISO 45001 Requisitos para Implementar un Sistema de Gestión de SST",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/ISO-45001-requisitos.jpg",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
+      "text": "La ISO 45001 establece el marco para implementar un sistema de gestión de seguridad y salud en el trabajo (SG-SST)...",
       "news_priority": 1,
-      "selected_date": "2026-03-31T08:28:00.796266",
-      "rotation_id": "2026-03-31-1"
+      "selected_date": "2026-04-01T08:32:36.238272",
+      "rotation_id": "2026-04-01-1"
     },
     {
-      "title": "Metodologías Lean. Lean Service",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/08/evento-kaizen-action-group-mejoras-rapidas-300x3001.png",
+      "title": "Evolución de la norma ISO 9001: de 1987 a 2015",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/iso-9001.jpg",
       "image_exists": true,
-      "text": "Lean Service Esta semana traemos otro nuevo capítulo sobre la metodología Lean, en concreto, Lean aplicado a los…",
+      "text": "Desde su primera publicación en 1987, la ISO 9001 ha experimentado una evolución constante para adaptarse a los…",
       "news_priority": 2,
-      "selected_date": "2026-03-31T08:28:00.796272",
-      "rotation_id": "2026-03-31-2"
+      "selected_date": "2026-04-01T08:32:36.238281",
+      "rotation_id": "2026-04-01-2"
     },
     {
-      "title": "La Seguridad y Salud en el Trabajo en el mundo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/04/Seguridad-y-Salud-en-el-Trabajo.jpg",
+      "title": "ISOTools presenta junto a HACCP Chile las soluciones tecnológicas para la Gestión de la Inocuidad Alimentaria",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/02/Gestion-de-la-Inocuidad-Alimentaria.png",
       "image_exists": true,
-      "text": "Seguridad y Salud en el Trabajo Empresas de todo el mundo están cada vez van involucradas en el…",
+      "text": "El distendido evento se celebró el pasado 6 de diciembre en el Hotel Atton Las Condes de Santiago de Chile...",
       "news_priority": 3,
-      "selected_date": "2026-03-31T08:28:00.796275",
-      "rotation_id": "2026-03-31-3"
+      "selected_date": "2026-04-01T08:32:36.238284",
+      "rotation_id": "2026-04-01-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-03-31T08:28:00.796344",
-    "next_rotation": "2026-04-01T08:28:00.796344",
+    "selected_at": "2026-04-01T08:32:36.238411",
+    "next_rotation": "2026-04-02T08:32:36.238411",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
