@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-01",
-    "generated_at": "2026-04-01T08:32:36.238411",
-    "next_update": "2026-04-02",
+    "generated_date": "2026-04-02",
+    "generated_at": "2026-04-02T08:25:56.998300",
+    "next_update": "2026-04-03",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 45001 Requisitos para Implementar un Sistema de Gestión de SST",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/ISO-45001-requisitos.jpg",
-      "image_exists": true,
-      "text": "La ISO 45001 establece el marco para implementar un sistema de gestión de seguridad y salud en el trabajo (SG-SST)...",
+      "title": "ISOTools destaca el coloquio-mesa redonda Desafíos de la Responsabilidad Social",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Facultad%20de%20Derecho%20de%20la%20Universidad%20Complutense%20de%20Madrid.jpg",
+      "image_exists": false,
+      "text": "El evento tendrá lugar en la Facultad de Derecho de la Universidad Complutense de Madrid.El coloquio-mesa redonda Desafíos de la Responsabilidad Socialreunirá a expertos enResponsabilidad Socialde todo el mundo.Tendrá lugar el próximo día16 de eneroen elSalón de Grados de la Facultad de Derechode laUniversidad Complutense de Madrid.Como en las ediciones anteriores, este coloquio promete ser un exitoso evento en el que se darán a conocerlas nuevas tendenciasen materia deResponsabilidad Socialy se debatirá sobre cual es lalabor de empresario y trabajador en este campo.De momento es poca la información de la que disponemos sobre este evento pero le seguiremos informando a través de la página deISOTools.Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2026-04-01T08:32:36.238272",
-      "rotation_id": "2026-04-01-1"
+      "selected_date": "2026-04-02T08:25:56.998213",
+      "rotation_id": "2026-04-02-1"
     },
     {
-      "title": "Evolución de la norma ISO 9001: de 1987 a 2015",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/iso-9001.jpg",
+      "title": "Alianza de ISOTools Excellence con BRM Consultores de Chile",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/12/Alianza-ISO.jpg",
       "image_exists": true,
-      "text": "Desde su primera publicación en 1987, la ISO 9001 ha experimentado una evolución constante para adaptarse a los…",
+      "text": "ISOTools Estamos terminando el año, y en ISOTools las novedades se sigue sucediendo. En este caso, seguimos aportando…",
       "news_priority": 2,
-      "selected_date": "2026-04-01T08:32:36.238281",
-      "rotation_id": "2026-04-01-2"
+      "selected_date": "2026-04-02T08:25:56.998220",
+      "rotation_id": "2026-04-02-2"
     },
     {
-      "title": "ISOTools presenta junto a HACCP Chile las soluciones tecnológicas para la Gestión de la Inocuidad Alimentaria",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/02/Gestion-de-la-Inocuidad-Alimentaria.png",
+      "title": "¿Qué es la norma ISO 9001 y para qué sirve?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/02/¿Que-es-la-norma-ISO-9001-y-para-que-sirve_.jpg",
       "image_exists": true,
-      "text": "El distendido evento se celebró el pasado 6 de diciembre en el Hotel Atton Las Condes de Santiago de Chile...",
+      "text": "En el mundo empresarial actual, la calidad es un factor crucial para el éxito y la competitividad...",
       "news_priority": 3,
-      "selected_date": "2026-04-01T08:32:36.238284",
-      "rotation_id": "2026-04-01-3"
+      "selected_date": "2026-04-02T08:25:56.998222",
+      "rotation_id": "2026-04-02-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-01T08:32:36.238411",
-    "next_rotation": "2026-04-02T08:32:36.238411",
+    "selected_at": "2026-04-02T08:25:56.998300",
+    "next_rotation": "2026-04-03T08:25:56.998300",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
