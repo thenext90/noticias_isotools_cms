@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-02",
-    "generated_at": "2026-04-02T08:25:56.998300",
-    "next_update": "2026-04-03",
+    "generated_date": "2026-04-03",
+    "generated_at": "2026-04-03T08:22:07.774154",
+    "next_update": "2026-04-04",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools destaca el coloquio-mesa redonda Desafíos de la Responsabilidad Social",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Facultad%20de%20Derecho%20de%20la%20Universidad%20Complutense%20de%20Madrid.jpg",
-      "image_exists": false,
-      "text": "El evento tendrá lugar en la Facultad de Derecho de la Universidad Complutense de Madrid.El coloquio-mesa redonda Desafíos de la Responsabilidad Socialreunirá a expertos enResponsabilidad Socialde todo el mundo.Tendrá lugar el próximo día16 de eneroen elSalón de Grados de la Facultad de Derechode laUniversidad Complutense de Madrid.Como en las ediciones anteriores, este coloquio promete ser un exitoso evento en el que se darán a conocerlas nuevas tendenciasen materia deResponsabilidad Socialy se debatirá sobre cual es lalabor de empresario y trabajador en este campo.De momento es poca la información de la que disponemos sobre este evento pero le seguiremos informando a través de la página deISOTools.Más informaciónaquí",
+      "title": "¿Por qué es importante obtener el certificado ISO 9001 2015 en su organización?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/ISO-9001.jpg",
+      "image_exists": true,
+      "text": "ISO 9001 Cuando una organización se plantea el hecho de certificar su Sistema de Gestión de Calidad según…",
       "news_priority": 1,
-      "selected_date": "2026-04-02T08:25:56.998213",
-      "rotation_id": "2026-04-02-1"
+      "selected_date": "2026-04-03T08:22:07.774073",
+      "rotation_id": "2026-04-03-1"
     },
     {
-      "title": "Alianza de ISOTools Excellence con BRM Consultores de Chile",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/12/Alianza-ISO.jpg",
-      "image_exists": true,
-      "text": "ISOTools Estamos terminando el año, y en ISOTools las novedades se sigue sucediendo. En este caso, seguimos aportando…",
+      "title": "Plaza Salud, arranca su proceso para la Certificación de Calidad con ISOTools",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Plaza-Salud.jpg",
+      "image_exists": false,
+      "text": "Este centro se convierte en el primero del sector salud mexicano en trabajar con ISOTools en México.El pasado 5 de octubre, Jorge Romero director deISOTools México, fue invitado aPlaza Salud, a dar el banderazo de salida para iniciar el proceso de certificación y entregó los protocolos para el arranque de laAutomatizaciónde su Sistema de Gestión de Calidad.Plaza Saludes el primer cliente queISOTools Méxicoatiende en el Sector Salud. Es un orgullo para nosotros contar con este tipo de usuarios, preocupados en el cumplimiento de las normas de calidad, que les permitirá certificarse con las máximas medidas de los procesos en los cuidados de la salud.Desde sus inicios en el 2010,Plaza Saludbrinda servicios, tanto médicos como de análisis clínicos, para el cuidado de la mujer y de los niños. Además da asistencia médica a más de 5.000 usuarios de la Colonia Santa María la Rivera, en México, D.F., lugar en donde se encuentra ubicado este Centro.Con la implementación delSistema de Calidad, esta institución dará una máxima eficiencia y una mejor atención para el paciente y por supuesto será mejor reconocido en su ramo, esta Plaza “existirá como antecedente de otras que serán abiertas en un futuro”; comentó muy entusiasta, el Dr. Alberto Gaytan, Socio Director de la Plaza Salud.Enlace con laweb.Más informaciónaquí",
       "news_priority": 2,
-      "selected_date": "2026-04-02T08:25:56.998220",
-      "rotation_id": "2026-04-02-2"
+      "selected_date": "2026-04-03T08:22:07.774079",
+      "rotation_id": "2026-04-03-2"
     },
     {
-      "title": "¿Qué es la norma ISO 9001 y para qué sirve?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/02/¿Que-es-la-norma-ISO-9001-y-para-que-sirve_.jpg",
+      "title": "ISOTools – Revista Empresa Excelente junio 2016",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/06/img-post-revista-junio.jpg",
       "image_exists": true,
-      "text": "En el mundo empresarial actual, la calidad es un factor crucial para el éxito y la competitividad...",
+      "text": "EMPRESA EXCELENTE Ya puedes descargar la revista EMPRESA EXCELENTE del mes de junio de 2016, en la que encontrarás…",
       "news_priority": 3,
-      "selected_date": "2026-04-02T08:25:56.998222",
-      "rotation_id": "2026-04-02-3"
+      "selected_date": "2026-04-03T08:22:07.774082",
+      "rotation_id": "2026-04-03-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-02T08:25:56.998300",
-    "next_rotation": "2026-04-03T08:25:56.998300",
+    "selected_at": "2026-04-03T08:22:07.774154",
+    "next_rotation": "2026-04-04T08:22:07.774154",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
