@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-06",
-    "generated_at": "2026-04-06T08:36:48.140892",
-    "next_update": "2026-04-07",
+    "generated_date": "2026-04-07",
+    "generated_at": "2026-04-07T08:31:16.315267",
+    "next_update": "2026-04-08",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 37301 – Apartado 5.1 No existe compliance sin liderazgo y compromiso",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/11/ISO-37301-4.jpg",
+      "title": "Seguridad industrial ¿Cuáles son las causas más comunes que generan accidentes?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/seguridad-industrial.jpg",
       "image_exists": true,
-      "text": "ISO 37301 ¿Qué habría sido de los hunos sin la dirección del hábil Atila? Probablemente habrían pasado a…",
+      "text": "Seguridad industrial En el artículo de hoy queremos exponer un manual sobre seguridad industrial. Dicho manual se ha establecido…",
       "news_priority": 1,
-      "selected_date": "2026-04-06T08:36:48.140814",
-      "rotation_id": "2026-04-06-1"
+      "selected_date": "2026-04-07T08:31:16.315152",
+      "rotation_id": "2026-04-07-1"
     },
     {
-      "title": "Como convertir la autoevaluación del EFQM en planes de mejora (parte II)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/12/EFQM.webp",
+      "title": "Principales claves para gestionar la calidad en la salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/calidad-salud.jpg",
       "image_exists": true,
-      "text": "EFQM En este segundo artículo (aquí podemos ver el primero) propongo llevar a cabo planes de mejora analizando…",
+      "text": "El sistema sanitario: un complejo modelo de organización El sistema sanitario, como toda organización, consta de una estructura…",
       "news_priority": 2,
-      "selected_date": "2026-04-06T08:36:48.140820",
-      "rotation_id": "2026-04-06-2"
+      "selected_date": "2026-04-07T08:31:16.315159",
+      "rotation_id": "2026-04-07-2"
     },
     {
-      "title": "Software ISOTools para la Gestión de la Calidad ayuda a implementar las cláusulas de evaluación del desempeño y mejora de la norma ISO 9001:2015",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/09/Software-ISOTools-para-la-Gestion-de-la-Calidad.jpg",
+      "title": "Principales características del sistema de gestión de documentos ISO",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/11/sistema-de-gestión-de-documentos-ISO.jpeg",
       "image_exists": true,
-      "text": "Software ISOTools para la Gestión de la Calidad Con la última actualización de la norma ISO 9001:2015 son…",
+      "text": "Los requisitos de las normas 9001, 14001 y 27001, hacen que el sistema de gestión de documentos ISO…",
       "news_priority": 3,
-      "selected_date": "2026-04-06T08:36:48.140822",
-      "rotation_id": "2026-04-06-3"
+      "selected_date": "2026-04-07T08:31:16.315162",
+      "rotation_id": "2026-04-07-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-06T08:36:48.140892",
-    "next_rotation": "2026-04-07T08:36:48.140892",
+    "selected_at": "2026-04-07T08:31:16.315267",
+    "next_rotation": "2026-04-08T08:31:16.315267",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
