@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-07",
-    "generated_at": "2026-04-07T08:31:16.315267",
-    "next_update": "2026-04-08",
+    "generated_date": "2026-04-08",
+    "generated_at": "2026-04-08T08:30:00.232422",
+    "next_update": "2026-04-09",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Seguridad industrial ¿Cuáles son las causas más comunes que generan accidentes?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/seguridad-industrial.jpg",
+      "title": "ISO 9001:2015: Por qué hacer auditorías internas de calidad en digital",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/auditorías-internas-de-calidad-en-digital.jpg",
       "image_exists": true,
-      "text": "Seguridad industrial En el artículo de hoy queremos exponer un manual sobre seguridad industrial. Dicho manual se ha establecido…",
+      "text": "ISO 9001:2015 Auditorías internas de calidad La reputación de una empresa depende de la calidad de los productos…",
       "news_priority": 1,
-      "selected_date": "2026-04-07T08:31:16.315152",
-      "rotation_id": "2026-04-07-1"
+      "selected_date": "2026-04-08T08:30:00.232302",
+      "rotation_id": "2026-04-08-1"
     },
     {
-      "title": "Principales claves para gestionar la calidad en la salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/calidad-salud.jpg",
+      "title": "¿Qué retos plantea la nueva versión de ISO 9001 para las empresas?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/retos-plantea-la-nueva-versión-de-ISO-9001.jpg",
       "image_exists": true,
-      "text": "El sistema sanitario: un complejo modelo de organización El sistema sanitario, como toda organización, consta de una estructura…",
+      "text": "Norma ISO 9001: Sistema de Gestión de Calidad Focalizar los esfuerzos en temas de calidad y coordinar acciones…",
       "news_priority": 2,
-      "selected_date": "2026-04-07T08:31:16.315159",
-      "rotation_id": "2026-04-07-2"
+      "selected_date": "2026-04-08T08:30:00.232311",
+      "rotation_id": "2026-04-08-2"
     },
     {
-      "title": "Principales características del sistema de gestión de documentos ISO",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/11/sistema-de-gestión-de-documentos-ISO.jpeg",
+      "title": "¿Cómo adquirir bienes o contratar según las disposiciones del SG-SST?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/11/SG-SST.jpg",
       "image_exists": true,
-      "text": "Los requisitos de las normas 9001, 14001 y 27001, hacen que el sistema de gestión de documentos ISO…",
+      "text": "SG-SST La organización debe establecer y mantener un procedimiento para adquisiciones, con el fin de garantizar que se…",
       "news_priority": 3,
-      "selected_date": "2026-04-07T08:31:16.315162",
-      "rotation_id": "2026-04-07-3"
+      "selected_date": "2026-04-08T08:30:00.232313",
+      "rotation_id": "2026-04-08-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-07T08:31:16.315267",
-    "next_rotation": "2026-04-08T08:31:16.315267",
+    "selected_at": "2026-04-08T08:30:00.232422",
+    "next_rotation": "2026-04-09T08:30:00.232422",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
