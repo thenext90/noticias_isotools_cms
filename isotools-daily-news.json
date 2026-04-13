@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-10",
-    "generated_at": "2026-04-10T08:36:17.732667",
-    "next_update": "2026-04-11",
+    "generated_date": "2026-04-13",
+    "generated_at": "2026-04-13T08:47:25.596011",
+    "next_update": "2026-04-14",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cobrando implementa ISO 9001 e ISO 27001 con ISOTools",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/02/ISO-9001.webp",
+      "title": "Ventajas de automatizar procesos en Vigilancia de la Salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/04/vigilancia-de-la-salud.jpg",
       "image_exists": true,
-      "text": "ISO 9001 Cobrando apuesta por ISOTools para optimizar sus Sistemas de Gestión de Calidad y de Seguridad de…",
+      "text": "Vigilancia de la Salud En las organizaciones, la evolución que adoptan los riesgos laborales en materia de seguridad…",
       "news_priority": 1,
-      "selected_date": "2026-04-10T08:36:17.732593",
-      "rotation_id": "2026-04-10-1"
+      "selected_date": "2026-04-13T08:47:25.595939",
+      "rotation_id": "2026-04-13-1"
     },
     {
-      "title": "Caso de Exito: YAVIC S.A. Soluciones ISOTools para la gestión de la calidad.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/post-yavic.jpg",
+      "title": "La norma ISO 45001 queda paralizada tras no alcanzar los suficientes votos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/02/isO-45001.gif",
       "image_exists": true,
-      "text": "No Text Found",
+      "text": "ISO 45001 El estándar ISO 45001, o mejor dicho su primer borrador, fue sometido el pasado mes de…",
       "news_priority": 2,
-      "selected_date": "2026-04-10T08:36:17.732599",
-      "rotation_id": "2026-04-10-2"
+      "selected_date": "2026-04-13T08:47:25.595944",
+      "rotation_id": "2026-04-13-2"
     },
     {
-      "title": "¿Cómo puede ayudar el gestor documental a la dirección de proyectos?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/04/Dirección-de-proyectos.jpg",
+      "title": "Gestión de riesgos de IA con ISO 42001: fundamentos y buenas prácticas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/gestion-de-riesgos-de-ia-con-iso-42001-fundamentos-y-buenas-practicas.jpg",
       "image_exists": true,
-      "text": "Dirección de proyectos La gestión documental comprende un conjunto de procesos que permiten controlar de manera eficaz y…",
+      "text": "La gestión de riesgos de IA se ha consolidado como prioridad estratégica para las organizaciones que integran sistemas…",
       "news_priority": 3,
-      "selected_date": "2026-04-10T08:36:17.732601",
-      "rotation_id": "2026-04-10-3"
+      "selected_date": "2026-04-13T08:47:25.595946",
+      "rotation_id": "2026-04-13-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-10T08:36:17.732667",
-    "next_rotation": "2026-04-11T08:36:17.732667",
+    "selected_at": "2026-04-13T08:47:25.596011",
+    "next_rotation": "2026-04-14T08:47:25.596011",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
