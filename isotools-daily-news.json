@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-13",
-    "generated_at": "2026-04-13T08:47:25.596011",
-    "next_update": "2026-04-14",
+    "generated_date": "2026-04-14",
+    "generated_at": "2026-04-14T08:38:44.058225",
+    "next_update": "2026-04-15",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Ventajas de automatizar procesos en Vigilancia de la Salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/04/vigilancia-de-la-salud.jpg",
+      "title": "La ISO 22002-1 sustituye a la norma PAS 220",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/01/iso22000.jpg",
       "image_exists": true,
-      "text": "Vigilancia de la Salud En las organizaciones, la evolución que adoptan los riesgos laborales en materia de seguridad…",
+      "text": "ISO 22000 Publicly Available Specification PAS 220 es un programa de requisitos previos a considerar para el apoyo…",
       "news_priority": 1,
-      "selected_date": "2026-04-13T08:47:25.595939",
-      "rotation_id": "2026-04-13-1"
+      "selected_date": "2026-04-14T08:38:44.058124",
+      "rotation_id": "2026-04-14-1"
     },
     {
-      "title": "La norma ISO 45001 queda paralizada tras no alcanzar los suficientes votos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/02/isO-45001.gif",
+      "title": "La TRIPLE META «Triple Aim» eje estratégico para la mejora continua en el sector salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/06/11.png",
       "image_exists": true,
-      "text": "ISO 45001 El estándar ISO 45001, o mejor dicho su primer borrador, fue sometido el pasado mes de…",
+      "text": "Este año el Centro de Gestión Hospitalaria ha inaugurado su XXI edición del Foro Internacional y 1º Encuentro…",
       "news_priority": 2,
-      "selected_date": "2026-04-13T08:47:25.595944",
-      "rotation_id": "2026-04-13-2"
+      "selected_date": "2026-04-14T08:38:44.058132",
+      "rotation_id": "2026-04-14-2"
     },
     {
-      "title": "Gestión de riesgos de IA con ISO 42001: fundamentos y buenas prácticas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/gestion-de-riesgos-de-ia-con-iso-42001-fundamentos-y-buenas-practicas.jpg",
+      "title": "HACCP, partner de ISOTools, será la primera empresa en realizar control alimentario para Junaeb",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/08/Control-alimentario.png",
       "image_exists": true,
-      "text": "La gestión de riesgos de IA se ha consolidado como prioridad estratégica para las organizaciones que integran sistemas…",
+      "text": "HACCP, partner de ISOTools, será la primera empresa en realizar control alimentario para Junaeb...",
       "news_priority": 3,
-      "selected_date": "2026-04-13T08:47:25.595946",
-      "rotation_id": "2026-04-13-3"
+      "selected_date": "2026-04-14T08:38:44.058134",
+      "rotation_id": "2026-04-14-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-13T08:47:25.596011",
-    "next_rotation": "2026-04-14T08:47:25.596011",
+    "selected_at": "2026-04-14T08:38:44.058225",
+    "next_rotation": "2026-04-15T08:38:44.058225",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
