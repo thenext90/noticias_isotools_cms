@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-14",
-    "generated_at": "2026-04-14T08:38:44.058225",
-    "next_update": "2026-04-15",
+    "generated_date": "2026-04-15",
+    "generated_at": "2026-04-15T08:38:39.903072",
+    "next_update": "2026-04-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "La ISO 22002-1 sustituye a la norma PAS 220",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/01/iso22000.jpg",
+      "title": "La formación en sistemas de gestión, la clave del éxito de muchas organizaciones",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/02/Formación-en-sistemas-de-gestión.jpg",
       "image_exists": true,
-      "text": "ISO 22000 Publicly Available Specification PAS 220 es un programa de requisitos previos a considerar para el apoyo…",
+      "text": "Formación en sistemas de gestión La Organización para la Cooperación y el Desarrollo Económicos en su informe anual…",
       "news_priority": 1,
-      "selected_date": "2026-04-14T08:38:44.058124",
-      "rotation_id": "2026-04-14-1"
+      "selected_date": "2026-04-15T08:38:39.902945",
+      "rotation_id": "2026-04-15-1"
     },
     {
-      "title": "La TRIPLE META «Triple Aim» eje estratégico para la mejora continua en el sector salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/06/11.png",
+      "title": "ISO/IEC 20000:2011. Calidad en la Gestión de los servicios de Tecnologías de la Información (SGSTI)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/02/2.png",
       "image_exists": true,
-      "text": "Este año el Centro de Gestión Hospitalaria ha inaugurado su XXI edición del Foro Internacional y 1º Encuentro…",
+      "text": "ISO/IEC 20000:2011 La ISO 20000:2011, es un estándar de reconocimiento internacional en gestión de los servicios de TI.…",
       "news_priority": 2,
-      "selected_date": "2026-04-14T08:38:44.058132",
-      "rotation_id": "2026-04-14-2"
+      "selected_date": "2026-04-15T08:38:39.902955",
+      "rotation_id": "2026-04-15-2"
     },
     {
-      "title": "HACCP, partner de ISOTools, será la primera empresa en realizar control alimentario para Junaeb",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/08/Control-alimentario.png",
+      "title": "¿Cuáles son los controles de la nueva ISO 42001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/ISO-42001-3.jpg",
       "image_exists": true,
-      "text": "HACCP, partner de ISOTools, será la primera empresa en realizar control alimentario para Junaeb...",
+      "text": "La ISO/IEC 42001 establece un marco integral para la gestión de la inteligencia artificial (IA) en las organizaciones...",
       "news_priority": 3,
-      "selected_date": "2026-04-14T08:38:44.058134",
-      "rotation_id": "2026-04-14-3"
+      "selected_date": "2026-04-15T08:38:39.902957",
+      "rotation_id": "2026-04-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-14T08:38:44.058225",
-    "next_rotation": "2026-04-15T08:38:44.058225",
+    "selected_at": "2026-04-15T08:38:39.903072",
+    "next_rotation": "2026-04-16T08:38:39.903072",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
