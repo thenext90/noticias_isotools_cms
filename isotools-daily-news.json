@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-16",
-    "generated_at": "2026-04-16T08:38:43.504956",
-    "next_update": "2026-04-17",
+    "generated_date": "2026-04-17",
+    "generated_at": "2026-04-17T08:38:57.671317",
+    "next_update": "2026-04-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Autoevaluación a través del Modelo de Excelencia Empresarial EFQM",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/05/Excelencia-Empresarial.jpg",
+      "title": "¿Qué son los CTN o Comités Técnicos de Normalización de normas ISO?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/02/CTN.png",
       "image_exists": true,
-      "text": "Excelencia Empresarial El diseño de cualquier Programa de Gestión de la Calidad Total (GCT) para alcanzar la excelencia…",
+      "text": "La normalización es un proceso fundamental para garantizar la calidad, seguridad y eficiencia de productos, servicios y sistemas...",
       "news_priority": 1,
-      "selected_date": "2026-04-16T08:38:43.504878",
-      "rotation_id": "2026-04-16-1"
+      "selected_date": "2026-04-17T08:38:57.671209",
+      "rotation_id": "2026-04-17-1"
     },
     {
-      "title": "Seguridad Industrial: Uno de los objetivo de la integración de sistemas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/08/Seguridad-Industrial.jpg",
-      "image_exists": true,
-      "text": "Seguridad Industrial Los productos y servicios industriales son tan comunes en nuestra sociedad actual que se puede caer…",
+      "title": "ISOTools participa en el 1º Foro Internacional de la Organización para la Excelencia en la Salud de Colombia – antiguo CGH – enfocado a la triple meta",
+      "image_url": null,
+      "image_exists": false,
+      "text": "El Institute For Healthcare Improvement - Instituto para el Mejoramiento de la Salud (IHI) y Centro de Gestión Hospitalaria, hoy Organización para la Excelencia en Salud, se han unido estos días en Cartagena de Indias para comp...",
       "news_priority": 2,
-      "selected_date": "2026-04-16T08:38:43.504884",
-      "rotation_id": "2026-04-16-2"
+      "selected_date": "2026-04-17T08:38:57.671218",
+      "rotation_id": "2026-04-17-2"
     },
     {
-      "title": "¿Como tratar una queja según ISO 9001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/Como-tratar-una-queja.jpg",
+      "title": "ISO 45001: Garantizando la Salud y Seguridad Laboral en tu empresa",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/01/ISO-45001.jpg",
       "image_exists": true,
-      "text": "En cualquier empresa, recibir una queja de un cliente puede ser una oportunidad para mejorar...",
+      "text": "La seguridad y salud laboral son aspectos cruciales para el éxito y sostenibilidad de cualquier empresa. En este sentido, la norma ISO 45001...",
       "news_priority": 3,
-      "selected_date": "2026-04-16T08:38:43.504886",
-      "rotation_id": "2026-04-16-3"
+      "selected_date": "2026-04-17T08:38:57.671221",
+      "rotation_id": "2026-04-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-16T08:38:43.504956",
-    "next_rotation": "2026-04-17T08:38:43.504956",
+    "selected_at": "2026-04-17T08:38:57.671317",
+    "next_rotation": "2026-04-18T08:38:57.671317",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
