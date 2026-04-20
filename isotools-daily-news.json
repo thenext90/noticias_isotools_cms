@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-17",
-    "generated_at": "2026-04-17T08:38:57.671317",
-    "next_update": "2026-04-18",
+    "generated_date": "2026-04-20",
+    "generated_at": "2026-04-20T08:50:51.854797",
+    "next_update": "2026-04-21",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Qué son los CTN o Comités Técnicos de Normalización de normas ISO?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/02/CTN.png",
+      "title": "SGSI: ¿Cómo optimizar las auditorías internas?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/10/SGSI.jpg",
       "image_exists": true,
-      "text": "La normalización es un proceso fundamental para garantizar la calidad, seguridad y eficiencia de productos, servicios y sistemas...",
+      "text": "SGSI Los Sistemas de Gestión de Seguridad de la Información, también conocidos como SGSI, deben contemplar la ejecución…",
       "news_priority": 1,
-      "selected_date": "2026-04-17T08:38:57.671209",
-      "rotation_id": "2026-04-17-1"
+      "selected_date": "2026-04-20T08:50:51.854698",
+      "rotation_id": "2026-04-20-1"
     },
     {
-      "title": "ISOTools participa en el 1º Foro Internacional de la Organización para la Excelencia en la Salud de Colombia – antiguo CGH – enfocado a la triple meta",
-      "image_url": null,
+      "title": "ISOTools les invita a participar en el II Foro Internacional ISO 20000",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/2ForumISO20000__.jpg",
       "image_exists": false,
-      "text": "El Institute For Healthcare Improvement - Instituto para el Mejoramiento de la Salud (IHI) y Centro de Gestión Hospitalaria, hoy Organización para la Excelencia en Salud, se han unido estos días en Cartagena de Indias para comp...",
+      "text": "Los próximos 8 y 9 de marzo se celebrará la segunda edición del Foro Internacional ISO 20000.Tras el éxito de la primera edición del foro y elauge de estos estándares en nuestro país, en esta segunda edición, se pretende mostrar las novedades y tendencias en materia deGestión de los Servicios ITILeISO 20000, así como dar a conocer la experiencia de las empresas ya implementadas.El evento tendrá lugar enBarcelona y Madridlos días8 y 9 de marzo, respectivamente, y va dirigido a profesionales del ámbito de la ISO 20000 y de la Gestión de los Servicios TI.La participación es gratuita, previa inscripción, y supone una buena oportunidad para compartir experiencias y conocimiento. DesdeISOToolsles animamos a participar en dicho acontecimiento.Consultar más información.Más informaciónaquí",
       "news_priority": 2,
-      "selected_date": "2026-04-17T08:38:57.671218",
-      "rotation_id": "2026-04-17-2"
+      "selected_date": "2026-04-20T08:50:51.854704",
+      "rotation_id": "2026-04-20-2"
     },
     {
-      "title": "ISO 45001: Garantizando la Salud y Seguridad Laboral en tu empresa",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/01/ISO-45001.jpg",
+      "title": "ISO 42001: cómo implementar un Sistema de Gestión de Inteligencia Artificial en tu empresa",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/iso-42001-como-implementar-un-sistema-de-gestion-de-inteligencia-artificial-en-tu-empresa.jpg",
       "image_exists": true,
-      "text": "La seguridad y salud laboral son aspectos cruciales para el éxito y sostenibilidad de cualquier empresa. En este sentido, la norma ISO 45001...",
+      "text": "Implementar un Sistema de Gestión de Inteligencia Artificial es una estrategia efectiva para no quedarse atrás una carrera…",
       "news_priority": 3,
-      "selected_date": "2026-04-17T08:38:57.671221",
-      "rotation_id": "2026-04-17-3"
+      "selected_date": "2026-04-20T08:50:51.854706",
+      "rotation_id": "2026-04-20-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-17T08:38:57.671317",
-    "next_rotation": "2026-04-18T08:38:57.671317",
+    "selected_at": "2026-04-20T08:50:51.854797",
+    "next_rotation": "2026-04-21T08:50:51.854797",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
