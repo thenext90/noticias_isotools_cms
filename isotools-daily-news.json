@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-20",
-    "generated_at": "2026-04-20T08:50:51.854797",
-    "next_update": "2026-04-21",
+    "generated_date": "2026-04-21",
+    "generated_at": "2026-04-21T08:42:25.157690",
+    "next_update": "2026-04-22",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "SGSI: ¿Cómo optimizar las auditorías internas?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/10/SGSI.jpg",
+      "title": "Cuantificación de la huella de carbono: nueva ISO 14067: 2018",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/09/Huella-de-carbono.jpg",
       "image_exists": true,
-      "text": "SGSI Los Sistemas de Gestión de Seguridad de la Información, también conocidos como SGSI, deben contemplar la ejecución…",
+      "text": "Huella de Carbono Existen numerosos estudios, artículos e información varia, que presentan la reducción de la huella de…",
       "news_priority": 1,
-      "selected_date": "2026-04-20T08:50:51.854698",
-      "rotation_id": "2026-04-20-1"
+      "selected_date": "2026-04-21T08:42:25.157600",
+      "rotation_id": "2026-04-21-1"
     },
     {
-      "title": "ISOTools les invita a participar en el II Foro Internacional ISO 20000",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/2ForumISO20000__.jpg",
-      "image_exists": false,
-      "text": "Los próximos 8 y 9 de marzo se celebrará la segunda edición del Foro Internacional ISO 20000.Tras el éxito de la primera edición del foro y elauge de estos estándares en nuestro país, en esta segunda edición, se pretende mostrar las novedades y tendencias en materia deGestión de los Servicios ITILeISO 20000, así como dar a conocer la experiencia de las empresas ya implementadas.El evento tendrá lugar enBarcelona y Madridlos días8 y 9 de marzo, respectivamente, y va dirigido a profesionales del ámbito de la ISO 20000 y de la Gestión de los Servicios TI.La participación es gratuita, previa inscripción, y supone una buena oportunidad para compartir experiencias y conocimiento. DesdeISOToolsles animamos a participar en dicho acontecimiento.Consultar más información.Más informaciónaquí",
-      "news_priority": 2,
-      "selected_date": "2026-04-20T08:50:51.854704",
-      "rotation_id": "2026-04-20-2"
-    },
-    {
-      "title": "ISO 42001: cómo implementar un Sistema de Gestión de Inteligencia Artificial en tu empresa",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/iso-42001-como-implementar-un-sistema-de-gestion-de-inteligencia-artificial-en-tu-empresa.jpg",
+      "title": "¿Cuáles son las ventajas de la norma ISO 37001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/01/ISO-37001.jpg",
       "image_exists": true,
-      "text": "Implementar un Sistema de Gestión de Inteligencia Artificial es una estrategia efectiva para no quedarse atrás una carrera…",
+      "text": "Ventajas de la norma ISO 37001 La norma ISO 37001 establece un sistema de gestión para la prevención…",
+      "news_priority": 2,
+      "selected_date": "2026-04-21T08:42:25.157607",
+      "rotation_id": "2026-04-21-2"
+    },
+    {
+      "title": "La UNE 93200 en el Ministro de Administración Pública de República Dominicana",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/05/UNE-93200-.jpg",
+      "image_exists": true,
+      "text": "UNE 93200 El objetivo de la norma UNE 93200 2008 se encarga de especificar todos los requisitos mínimos…",
       "news_priority": 3,
-      "selected_date": "2026-04-20T08:50:51.854706",
-      "rotation_id": "2026-04-20-3"
+      "selected_date": "2026-04-21T08:42:25.157609",
+      "rotation_id": "2026-04-21-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-20T08:50:51.854797",
-    "next_rotation": "2026-04-21T08:50:51.854797",
+    "selected_at": "2026-04-21T08:42:25.157690",
+    "next_rotation": "2026-04-22T08:42:25.157690",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
