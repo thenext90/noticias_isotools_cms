@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-21",
-    "generated_at": "2026-04-21T08:42:25.157690",
-    "next_update": "2026-04-22",
+    "generated_date": "2026-04-22",
+    "generated_at": "2026-04-22T08:40:31.394174",
+    "next_update": "2026-04-23",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cuantificación de la huella de carbono: nueva ISO 14067: 2018",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/09/Huella-de-carbono.jpg",
+      "title": "5 Beneficios Ambientales de Implementar ISO 14001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/Beneficios-Ambientales.png",
       "image_exists": true,
-      "text": "Huella de Carbono Existen numerosos estudios, artículos e información varia, que presentan la reducción de la huella de…",
+      "text": "La ISO 14001 es una norma internacional de gestión ambiental que establece los requisitos...",
       "news_priority": 1,
-      "selected_date": "2026-04-21T08:42:25.157600",
-      "rotation_id": "2026-04-21-1"
+      "selected_date": "2026-04-22T08:40:31.394086",
+      "rotation_id": "2026-04-22-1"
     },
     {
-      "title": "¿Cuáles son las ventajas de la norma ISO 37001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/01/ISO-37001.jpg",
+      "title": "Nueva ISO 9001-2015: La organización y el entorno según el  borrador.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/01/img_10ene.jpg",
       "image_exists": true,
-      "text": "Ventajas de la norma ISO 37001 La norma ISO 37001 establece un sistema de gestión para la prevención…",
+      "text": "ISO 9001 El borrador de la Nueva ISO 9001 versión 2015 tiene en cuenta a la organización y el entorno.…",
       "news_priority": 2,
-      "selected_date": "2026-04-21T08:42:25.157607",
-      "rotation_id": "2026-04-21-2"
+      "selected_date": "2026-04-22T08:40:31.394092",
+      "rotation_id": "2026-04-22-2"
     },
     {
-      "title": "La UNE 93200 en el Ministro de Administración Pública de República Dominicana",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/05/UNE-93200-.jpg",
+      "title": "¿Cuál es el funcionamiento del Anexo SL?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/03/Anexo-SL.jpg",
       "image_exists": true,
-      "text": "UNE 93200 El objetivo de la norma UNE 93200 2008 se encarga de especificar todos los requisitos mínimos…",
+      "text": "Anexo SL En algún momento habrás oído hablar sobre el Anexo SL o la estructura de alto nivel.…",
       "news_priority": 3,
-      "selected_date": "2026-04-21T08:42:25.157609",
-      "rotation_id": "2026-04-21-3"
+      "selected_date": "2026-04-22T08:40:31.394094",
+      "rotation_id": "2026-04-22-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-21T08:42:25.157690",
-    "next_rotation": "2026-04-22T08:42:25.157690",
+    "selected_at": "2026-04-22T08:40:31.394174",
+    "next_rotation": "2026-04-23T08:40:31.394174",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
