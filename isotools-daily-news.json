@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-22",
-    "generated_at": "2026-04-22T08:40:31.394174",
-    "next_update": "2026-04-23",
+    "generated_date": "2026-04-23",
+    "generated_at": "2026-04-23T08:41:12.658572",
+    "next_update": "2026-04-24",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "5 Beneficios Ambientales de Implementar ISO 14001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/04/Beneficios-Ambientales.png",
+      "title": "¿Cómo realizar la transición de ISO 14001 2004 a ISO 14001 2015?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/ISO-14001.jpg",
       "image_exists": true,
-      "text": "La ISO 14001 es una norma internacional de gestión ambiental que establece los requisitos...",
+      "text": "Transición de ISO 14001 2004 a ISO 14001 2015 Hoy en día ninguna organización se puede permitir el…",
       "news_priority": 1,
-      "selected_date": "2026-04-22T08:40:31.394086",
-      "rotation_id": "2026-04-22-1"
+      "selected_date": "2026-04-23T08:41:12.658483",
+      "rotation_id": "2026-04-23-1"
     },
     {
-      "title": "Nueva ISO 9001-2015: La organización y el entorno según el  borrador.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/01/img_10ene.jpg",
+      "title": "¿Cuáles son los métodos utilizados para integrar sistemas de gestión?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/Integrar-Sistemas-de-Gestión.jpg",
       "image_exists": true,
-      "text": "ISO 9001 El borrador de la Nueva ISO 9001 versión 2015 tiene en cuenta a la organización y el entorno.…",
+      "text": "Integrar Sistemas de Gestión Las nuevas normas ISO como puede ser la ISO 9001 2015, la ISO 14001…",
       "news_priority": 2,
-      "selected_date": "2026-04-22T08:40:31.394092",
-      "rotation_id": "2026-04-22-2"
+      "selected_date": "2026-04-23T08:41:12.658490",
+      "rotation_id": "2026-04-23-2"
     },
     {
-      "title": "¿Cuál es el funcionamiento del Anexo SL?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/03/Anexo-SL.jpg",
-      "image_exists": true,
-      "text": "Anexo SL En algún momento habrás oído hablar sobre el Anexo SL o la estructura de alto nivel.…",
+      "title": "La Norma Técnica Colombiana 5808  sobre “Servicios de traducción. Requisitos para la prestación del servicio”",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Durante la historia de la civilización de nuestro planeta ha sido muy valioso el trabajo realizado por traductores…",
       "news_priority": 3,
-      "selected_date": "2026-04-22T08:40:31.394094",
-      "rotation_id": "2026-04-22-3"
+      "selected_date": "2026-04-23T08:41:12.658493",
+      "rotation_id": "2026-04-23-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-22T08:40:31.394174",
-    "next_rotation": "2026-04-23T08:40:31.394174",
+    "selected_at": "2026-04-23T08:41:12.658572",
+    "next_rotation": "2026-04-24T08:41:12.658572",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
