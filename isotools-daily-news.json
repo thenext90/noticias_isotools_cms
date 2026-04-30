@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-04-30",
-    "generated_at": "2026-04-30T08:51:02.002039",
+    "generated_at": "2026-04-30T09:55:24.344909",
     "next_update": "2026-05-01",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cumplimiento Normativo ISO: La innovación de Grupo ESG Innova",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/11/ISO-1.jpg",
-      "image_exists": true,
-      "text": "Hoy, 30 de noviembre, el Grupo ESG Innova, con la participación destacada de ISOTools, celebra el ESG Innova Summit III...",
+      "title": "Seminario Taller: Automatización eficaz de sistemas de gestión junto con Corporación Q y Centro de Educación Continua (ESPOL)",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Seminario taller para gestión con uso de plataformas tecnológicas Propósito: Proporcionar una hoja de ruta y buenas prácticas…",
       "news_priority": 1,
-      "selected_date": "2026-04-30T08:51:02.001953",
+      "selected_date": "2026-04-30T09:55:24.344823",
       "rotation_id": "2026-04-30-1"
     },
     {
-      "title": "¿Cómo implementar un plan de continuidad de negocio?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/Cómo-implementar-un-plan-de-continuidad-de-negocio.jpg",
+      "title": "Gestión de contratistas en la industria petrolera. ¿Qué debo tener en cuenta?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/09/Contratistas-en-la-industria-petrolera.jpg",
       "image_exists": true,
-      "text": "ISO 22301 ISO 22301 es un estándar que proporciona a las organizaciones el marco de acción para garantizar…",
+      "text": "Contratistas en la industria petrolera La industria petrolera por excelencia, ha sido un pilar fundamental de las economías…",
       "news_priority": 2,
-      "selected_date": "2026-04-30T08:51:02.001960",
+      "selected_date": "2026-04-30T09:55:24.344830",
       "rotation_id": "2026-04-30-2"
     },
     {
-      "title": "Día mundial del medio ambiente: «Vuélvete salvaje por la vida»",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/06/Dia-Mundial-del-Medio-Ambiente.jpg",
+      "title": "Calidad 4.0 un paso más en la mejora continua de las organizaciones",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/11/Calidad-4.0.jpg",
       "image_exists": true,
-      "text": "Día mundial del medio ambiente El día 5 de Junio, se celebró el Día Mundial del Medio Ambiente, el…",
+      "text": "Calidad 4.0 En los últimos años se han llevado a cabo importantes avances en los campos de la…",
       "news_priority": 3,
-      "selected_date": "2026-04-30T08:51:02.001963",
+      "selected_date": "2026-04-30T09:55:24.344832",
       "rotation_id": "2026-04-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-30T08:51:02.002039",
-    "next_rotation": "2026-05-01T08:51:02.002039",
+    "selected_at": "2026-04-30T09:55:24.344909",
+    "next_rotation": "2026-05-01T09:55:24.344909",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
