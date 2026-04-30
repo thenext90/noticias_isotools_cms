@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-29",
-    "generated_at": "2026-04-29T08:51:09.591769",
-    "next_update": "2026-04-30",
+    "generated_date": "2026-04-30",
+    "generated_at": "2026-04-30T08:51:02.002039",
+    "next_update": "2026-05-01",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Indicadores que pueden predecir el riesgo de accidentes",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/03/Riesgo-de-accidentes.jpg",
+      "title": "Cumplimiento Normativo ISO: La innovación de Grupo ESG Innova",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/11/ISO-1.jpg",
       "image_exists": true,
-      "text": "Riesgo de accidentes Independientemente del ámbito en el que opera una organización, encontraremos riesgos de accidentes, frente a…",
+      "text": "Hoy, 30 de noviembre, el Grupo ESG Innova, con la participación destacada de ISOTools, celebra el ESG Innova Summit III...",
       "news_priority": 1,
-      "selected_date": "2026-04-29T08:51:09.591657",
-      "rotation_id": "2026-04-29-1"
+      "selected_date": "2026-04-30T08:51:02.001953",
+      "rotation_id": "2026-04-30-1"
     },
     {
-      "title": "Revista Empresa Excelente abril 2023",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/04/plantilla-destacada-post-revista-2.jpg",
+      "title": "¿Cómo implementar un plan de continuidad de negocio?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/Cómo-implementar-un-plan-de-continuidad-de-negocio.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE En este mes de mayo os presentamos una nueva edición de la revista Empresa Excelente.…",
+      "text": "ISO 22301 ISO 22301 es un estándar que proporciona a las organizaciones el marco de acción para garantizar…",
       "news_priority": 2,
-      "selected_date": "2026-04-29T08:51:09.591666",
-      "rotation_id": "2026-04-29-2"
+      "selected_date": "2026-04-30T08:51:02.001960",
+      "rotation_id": "2026-04-30-2"
     },
     {
-      "title": "ISOTools visita a su cliente  el Instituto Miquel Marti i Pol de Barcelona.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/insti%20subir.GIF",
-      "image_exists": false,
-      "text": "Cada día son más los centros que incorporan la Herramienta Gestión de Faltas.El pasado lunes 3 de octubreISOToolsse desplazó hasta Cornellà de Llobregat (Barcelona), para poner en marcha el proyecto de gestión de faltas y revisión del estado de ISOTools en elInstituto Miquel Marti i Pol.Este centro, que ofrece formación en Educación Secundaria, Bachillerato y Ciclos Formativos de grado medio y superior, ya había apostado por ISOTools para facilitar sugestión de gestión de la calidad, laexcelenciay laestrategia. Pero satisfechos con el uso de la Herramienta en su versión para laCalidad en la Gestión Educativa, ha decidido incorporar la “Herramienta Gestión de Faltas”, para lograr el control de la asistencia del alumnado y la comunicación a los familiares.Más informaciónaquí",
+      "title": "Día mundial del medio ambiente: «Vuélvete salvaje por la vida»",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/06/Dia-Mundial-del-Medio-Ambiente.jpg",
+      "image_exists": true,
+      "text": "Día mundial del medio ambiente El día 5 de Junio, se celebró el Día Mundial del Medio Ambiente, el…",
       "news_priority": 3,
-      "selected_date": "2026-04-29T08:51:09.591668",
-      "rotation_id": "2026-04-29-3"
+      "selected_date": "2026-04-30T08:51:02.001963",
+      "rotation_id": "2026-04-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-29T08:51:09.591769",
-    "next_rotation": "2026-04-30T08:51:09.591769",
+    "selected_at": "2026-04-30T08:51:02.002039",
+    "next_rotation": "2026-05-01T08:51:02.002039",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
