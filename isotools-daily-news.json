@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-04-30",
-    "generated_at": "2026-04-30T09:55:24.344909",
-    "next_update": "2026-05-01",
+    "generated_date": "2026-05-01",
+    "generated_at": "2026-05-01T08:44:24.444607",
+    "next_update": "2026-05-02",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Seminario Taller: Automatización eficaz de sistemas de gestión junto con Corporación Q y Centro de Educación Continua (ESPOL)",
+      "title": "ISO 22000 : ¿Cuál es el papel de las administraciones públicas?",
       "image_url": null,
       "image_exists": false,
-      "text": "Seminario taller para gestión con uso de plataformas tecnológicas Propósito: Proporcionar una hoja de ruta y buenas prácticas…",
+      "text": "ISO 22000 es la norma empleada para implantar un  Sistemas de Gestión de Seguridad Alimentaria en las organizaciones que tienen…",
       "news_priority": 1,
-      "selected_date": "2026-04-30T09:55:24.344823",
-      "rotation_id": "2026-04-30-1"
+      "selected_date": "2026-05-01T08:44:24.444534",
+      "rotation_id": "2026-05-01-1"
     },
     {
-      "title": "Gestión de contratistas en la industria petrolera. ¿Qué debo tener en cuenta?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/09/Contratistas-en-la-industria-petrolera.jpg",
+      "title": "Manuales en pdf sobre el proceso de implementación de OHSAS 18001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/Manuales-en-pdf-sobre-el-proceso-de-implementación-de-OSHAS-18001.jpg",
       "image_exists": true,
-      "text": "Contratistas en la industria petrolera La industria petrolera por excelencia, ha sido un pilar fundamental de las economías…",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 2,
-      "selected_date": "2026-04-30T09:55:24.344830",
-      "rotation_id": "2026-04-30-2"
+      "selected_date": "2026-05-01T08:44:24.444540",
+      "rotation_id": "2026-05-01-2"
     },
     {
-      "title": "Calidad 4.0 un paso más en la mejora continua de las organizaciones",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/11/Calidad-4.0.jpg",
+      "title": "Beneficios de automatizar la gestión de la calidad y excelencia en centros educativos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/automatizar-la-gestión-de-la-calidad-y-excelencia.jpg",
       "image_exists": true,
-      "text": "Calidad 4.0 En los últimos años se han llevado a cabo importantes avances en los campos de la…",
+      "text": "Automatizar la gestión de la calidad y excelencia en centros educativos ISOTools Educación permite automatizar la gestión de…",
       "news_priority": 3,
-      "selected_date": "2026-04-30T09:55:24.344832",
-      "rotation_id": "2026-04-30-3"
+      "selected_date": "2026-05-01T08:44:24.444543",
+      "rotation_id": "2026-05-01-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-04-30T09:55:24.344909",
-    "next_rotation": "2026-05-01T09:55:24.344909",
+    "selected_at": "2026-05-01T08:44:24.444607",
+    "next_rotation": "2026-05-02T08:44:24.444607",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
