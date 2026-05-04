@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-02",
-    "generated_at": "2026-05-02T13:24:48.352017",
-    "next_update": "2026-05-03",
+    "generated_date": "2026-05-04",
+    "generated_at": "2026-05-04T08:54:56.988964",
+    "next_update": "2026-05-05",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Elementos claves de la certificación ISO 22000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/11/ISO-22000.jpg",
+      "title": "ISOTools – Revista Empresa Excelente noviembre 2016",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/12/img-post-revista-noviembre.jpg",
       "image_exists": true,
-      "text": "Norma ISO 22000 Al llevar a cabo una perspectiva general de la norma ISO 22000 para los Sistemas…",
+      "text": "EMPRESA EXCELENTE Ya puedes descargar la revista EMPRESA EXCELENTE del mes de noviembre de 2016, en la que encontrarás…",
       "news_priority": 1,
-      "selected_date": "2026-05-02T13:24:48.351926",
-      "rotation_id": "2026-05-02-1"
+      "selected_date": "2026-05-04T08:54:56.988858",
+      "rotation_id": "2026-05-04-1"
     },
     {
-      "title": "ISO 14001: Los planes de formación para un Sistema de Gestión Ambiental",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/ISO-14001-012.gif",
+      "title": "ISO 28219 2017: El etiquetado con códigos de barras también está normalizado",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/06/ISO-28219-2017.jpg",
       "image_exists": true,
-      "text": "Norma ISO 14001 Para implementar un Sistema de Gestión Ambiental fundamentado en la norma ISO 14001, la dirección…",
+      "text": "ISO 28219 2017 La Organización Internacional de Estandarización con sede en Ginebra con 164 países miembros, crea sus…",
       "news_priority": 2,
-      "selected_date": "2026-05-02T13:24:48.351933",
-      "rotation_id": "2026-05-02-2"
+      "selected_date": "2026-05-04T08:54:56.988867",
+      "rotation_id": "2026-05-04-2"
     },
     {
-      "title": "ISO 19011: ¿Cómo realizar la implementación de un programa de auditoría?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/ISO-19011-3.jpg",
+      "title": "Quality Experts junto con ISOTools realizan una jornada el próximo 1 de Abril",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/07/quality-300x2491.jpg",
       "image_exists": true,
-      "text": "ISO 19011 Cuando se establece un programa de auditoría, según la norma ISO 19011, y se han determinado…",
+      "text": "Quality Experts Quality Experts Consultores (QEC), especialistas en Sistemas de Gestión y Representante en Chile de ISOTools, tiene…",
       "news_priority": 3,
-      "selected_date": "2026-05-02T13:24:48.351935",
-      "rotation_id": "2026-05-02-3"
+      "selected_date": "2026-05-04T08:54:56.988870",
+      "rotation_id": "2026-05-04-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-02T13:24:48.352017",
-    "next_rotation": "2026-05-03T13:24:48.352017",
+    "selected_at": "2026-05-04T08:54:56.988964",
+    "next_rotation": "2026-05-05T08:54:56.988964",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
