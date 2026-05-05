@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-04",
-    "generated_at": "2026-05-04T08:54:56.988964",
-    "next_update": "2026-05-05",
+    "generated_date": "2026-05-05",
+    "generated_at": "2026-05-05T08:50:08.030301",
+    "next_update": "2026-05-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools – Revista Empresa Excelente noviembre 2016",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/12/img-post-revista-noviembre.jpg",
+      "title": "Vistalegre finaliza su formación de ISOTools",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2008/03/ISOToolss-s.webp",
       "image_exists": true,
-      "text": "EMPRESA EXCELENTE Ya puedes descargar la revista EMPRESA EXCELENTE del mes de noviembre de 2016, en la que encontrarás…",
+      "text": "ISOTools El pasado 7 de marzo se concluyó la formación dada a Vistalegre, para la adaptación de su…",
       "news_priority": 1,
-      "selected_date": "2026-05-04T08:54:56.988858",
-      "rotation_id": "2026-05-04-1"
+      "selected_date": "2026-05-05T08:50:08.030197",
+      "rotation_id": "2026-05-05-1"
     },
     {
-      "title": "ISO 28219 2017: El etiquetado con códigos de barras también está normalizado",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/06/ISO-28219-2017.jpg",
+      "title": "Las claves para elaborar un plan de emergencias y contingencias de HSE",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/Plan-de-emergencias-y-contingencias-de-HSE.jpg",
       "image_exists": true,
-      "text": "ISO 28219 2017 La Organización Internacional de Estandarización con sede en Ginebra con 164 países miembros, crea sus…",
+      "text": "Plan de emergencias y contingencias de HSE La pandemia que estamos viviendo a nivel mundial, que afecta a…",
       "news_priority": 2,
-      "selected_date": "2026-05-04T08:54:56.988867",
-      "rotation_id": "2026-05-04-2"
+      "selected_date": "2026-05-05T08:50:08.030205",
+      "rotation_id": "2026-05-05-2"
     },
     {
-      "title": "Quality Experts junto con ISOTools realizan una jornada el próximo 1 de Abril",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/07/quality-300x2491.jpg",
+      "title": "¿Cómo puede ayudarte un software en la Gestión de contratistas/CAE?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/Gestión-de-contratistas-CAE.jpg",
       "image_exists": true,
-      "text": "Quality Experts Quality Experts Consultores (QEC), especialistas en Sistemas de Gestión y Representante en Chile de ISOTools, tiene…",
+      "text": "Gestión de contratistas / CAE Es muy posible que la digitalización haya llegado a su organización hace bastante…",
       "news_priority": 3,
-      "selected_date": "2026-05-04T08:54:56.988870",
-      "rotation_id": "2026-05-04-3"
+      "selected_date": "2026-05-05T08:50:08.030207",
+      "rotation_id": "2026-05-05-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-04T08:54:56.988964",
-    "next_rotation": "2026-05-05T08:54:56.988964",
+    "selected_at": "2026-05-05T08:50:08.030301",
+    "next_rotation": "2026-05-06T08:50:08.030301",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
