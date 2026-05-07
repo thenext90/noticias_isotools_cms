@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-06",
-    "generated_at": "2026-05-06T08:54:51.360589",
-    "next_update": "2026-05-07",
+    "generated_date": "2026-05-07",
+    "generated_at": "2026-05-07T08:58:27.270263",
+    "next_update": "2026-05-08",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Como definir el alcance en ISO 9001 2015",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/12/ISO-9001-2015-1.jpg",
+      "title": "Resiliencia VS BurnOut. Como afrontar una situación límite en el entorno laboral",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/Síndrome-de-Burnout.jpg",
       "image_exists": true,
-      "text": "ISO 9001 2015 Para determinar el alcance del Sistema de Gestión de Calidad según la norma ISO 9001…",
+      "text": "Resiliencia VS Síndrome de Burnout En la actualidad, el estrés laboral es un fenómeno que está incrementándose en…",
       "news_priority": 1,
-      "selected_date": "2026-05-06T08:54:51.360465",
-      "rotation_id": "2026-05-06-1"
+      "selected_date": "2026-05-07T08:58:27.270188",
+      "rotation_id": "2026-05-07-1"
     },
     {
-      "title": "Priorizando la Seguridad y Salud Laboral con ISO45001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/ISO45001.jpg",
-      "image_exists": true,
-      "text": "Las empresas dedican gran parte de sus esfuerzos a mejorar la gestión de la seguridad y la salud en el entorno laboral. Es entonces...",
+      "title": "ISOTools resalta la gran repercusión del próximo Encuentro de Responsabilidad Social Empresarial.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/RSEperu.jpg",
+      "image_exists": false,
+      "text": "La Cámara de Comercio de Lima será sede del Encuentro de Responsabilidad Social Empresarial el próximo 17 de octubre.Se trata de uno más de los numerososeventos sobre Responsabilidad Socialelaborado mensualmente por la World Confederation of Businesses(WORLDCOB),organización fuertemente comprometida con lapromoción de la implicación empresarial en la cultura socialmente responsable.El mes de Octubre será el turno para Perú, en la cámara de comercio de Lima donde se realizarán cuatro conferencias sobreRSEy su desarrollo en el ámbito laboral, social yambientaly sobre los beneficios  de sucertificaciónmedianteestándares internacionales.El próximo Encuentro deResponsabilidad Socialtiene un gran atractivo para la multitud de negocios de Perú y del resto del mundo, los cuales buscan entrar en contacto con empresas con similares intereses, para poder enriquecer así sus conocimientos sobrebuenas prácticas empresariales.El evento cuenta con la participación de importantes conferencistas comoJaime Zavala, ex Ministro de Trabajo, Jorge Melo Vega, Gerente General de Responde y Pierre Claudio Foy, Gerente y socio del Estudio JurídicoFoy & Valdez.Para mayor información, pueden acceder awww.worldcob-csr.comMás informaciónaquí",
       "news_priority": 2,
-      "selected_date": "2026-05-06T08:54:51.360474",
-      "rotation_id": "2026-05-06-2"
+      "selected_date": "2026-05-07T08:58:27.270195",
+      "rotation_id": "2026-05-07-2"
     },
     {
-      "title": "Metodologías para la gestión del riesgo en las organizaciones",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/29.png",
+      "title": "La nueva ISO 31022, un nuevo estándar para la gestión de riesgos legales",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/ISO-31022.jpg",
       "image_exists": true,
-      "text": "Riesgos La concepción del riesgo empresarial ha modificado, ya no es sólo aquella combinación de la probabilidad de…",
+      "text": "ISO 31022 La nueva ISO 31000 2018 sobre Gestión de Riesgos, ha sido publicada. La norma ha sido…",
       "news_priority": 3,
-      "selected_date": "2026-05-06T08:54:51.360476",
-      "rotation_id": "2026-05-06-3"
+      "selected_date": "2026-05-07T08:58:27.270197",
+      "rotation_id": "2026-05-07-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-06T08:54:51.360589",
-    "next_rotation": "2026-05-07T08:54:51.360589",
+    "selected_at": "2026-05-07T08:58:27.270263",
+    "next_rotation": "2026-05-08T08:58:27.270263",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
