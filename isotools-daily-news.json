@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-07",
-    "generated_at": "2026-05-07T08:58:27.270263",
-    "next_update": "2026-05-08",
+    "generated_date": "2026-05-08",
+    "generated_at": "2026-05-08T08:36:47.628942",
+    "next_update": "2026-05-09",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Resiliencia VS BurnOut. Como afrontar una situación límite en el entorno laboral",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/Síndrome-de-Burnout.jpg",
+      "title": "Gestión documental eficaz en centros educativos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/09/Gestion-documental.webp",
       "image_exists": true,
-      "text": "Resiliencia VS Síndrome de Burnout En la actualidad, el estrés laboral es un fenómeno que está incrementándose en…",
+      "text": "Gestión documental Debido al innumerable papeleo que cada día se lleva a cabo en los centros educativos, estos…",
       "news_priority": 1,
-      "selected_date": "2026-05-07T08:58:27.270188",
-      "rotation_id": "2026-05-07-1"
+      "selected_date": "2026-05-08T08:36:47.628818",
+      "rotation_id": "2026-05-08-1"
     },
     {
-      "title": "ISOTools resalta la gran repercusión del próximo Encuentro de Responsabilidad Social Empresarial.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/RSEperu.jpg",
-      "image_exists": false,
-      "text": "La Cámara de Comercio de Lima será sede del Encuentro de Responsabilidad Social Empresarial el próximo 17 de octubre.Se trata de uno más de los numerososeventos sobre Responsabilidad Socialelaborado mensualmente por la World Confederation of Businesses(WORLDCOB),organización fuertemente comprometida con lapromoción de la implicación empresarial en la cultura socialmente responsable.El mes de Octubre será el turno para Perú, en la cámara de comercio de Lima donde se realizarán cuatro conferencias sobreRSEy su desarrollo en el ámbito laboral, social yambientaly sobre los beneficios  de sucertificaciónmedianteestándares internacionales.El próximo Encuentro deResponsabilidad Socialtiene un gran atractivo para la multitud de negocios de Perú y del resto del mundo, los cuales buscan entrar en contacto con empresas con similares intereses, para poder enriquecer así sus conocimientos sobrebuenas prácticas empresariales.El evento cuenta con la participación de importantes conferencistas comoJaime Zavala, ex Ministro de Trabajo, Jorge Melo Vega, Gerente General de Responde y Pierre Claudio Foy, Gerente y socio del Estudio JurídicoFoy & Valdez.Para mayor información, pueden acceder awww.worldcob-csr.comMás informaciónaquí",
-      "news_priority": 2,
-      "selected_date": "2026-05-07T08:58:27.270195",
-      "rotation_id": "2026-05-07-2"
-    },
-    {
-      "title": "La nueva ISO 31022, un nuevo estándar para la gestión de riesgos legales",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/ISO-31022.jpg",
+      "title": "COVID-19: ¿Cómo retornar al trabajo de forma segura?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/06/COVID-19.jpg",
       "image_exists": true,
-      "text": "ISO 31022 La nueva ISO 31000 2018 sobre Gestión de Riesgos, ha sido publicada. La norma ha sido…",
+      "text": "COVID–19 Sin duda alguna, es la pregunta que más gente se está realizando ahora que parece que el…",
+      "news_priority": 2,
+      "selected_date": "2026-05-08T08:36:47.628828",
+      "rotation_id": "2026-05-08-2"
+    },
+    {
+      "title": "Automatización y cumplimiento del Decreto 1072 de 2015 (Colombia)",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/06/Decreto-1072-de-2015.jpg",
+      "image_exists": true,
+      "text": "Decreto 1072 de 2015 En muchos de nuestros artículos, se habla acerca de las diferentes reglamentaciones existentes respecto…",
       "news_priority": 3,
-      "selected_date": "2026-05-07T08:58:27.270197",
-      "rotation_id": "2026-05-07-3"
+      "selected_date": "2026-05-08T08:36:47.628830",
+      "rotation_id": "2026-05-08-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-07T08:58:27.270263",
-    "next_rotation": "2026-05-08T08:58:27.270263",
+    "selected_at": "2026-05-08T08:36:47.628942",
+    "next_rotation": "2026-05-09T08:36:47.628942",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
