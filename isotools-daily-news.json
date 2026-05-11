@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-08",
-    "generated_at": "2026-05-08T08:36:47.628942",
-    "next_update": "2026-05-09",
+    "generated_date": "2026-05-11",
+    "generated_at": "2026-05-11T09:16:12.928695",
+    "next_update": "2026-05-12",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Gestión documental eficaz en centros educativos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/09/Gestion-documental.webp",
+      "title": "Distintos enfoques para un curso sobre ISO 9001 para los Sistemas de Gestión de la Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/Distintos-enfoques-para-un-curso-sobre-gestión-de-calidad-ISO-9001.jpg",
       "image_exists": true,
-      "text": "Gestión documental Debido al innumerable papeleo que cada día se lleva a cabo en los centros educativos, estos…",
+      "text": "ISO 9001: Sistemas de Gestión de Calidad Uno de los objetivos de la norma ISO 9001 es que…",
       "news_priority": 1,
-      "selected_date": "2026-05-08T08:36:47.628818",
-      "rotation_id": "2026-05-08-1"
+      "selected_date": "2026-05-11T09:16:12.928585",
+      "rotation_id": "2026-05-11-1"
     },
     {
-      "title": "COVID-19: ¿Cómo retornar al trabajo de forma segura?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/06/COVID-19.jpg",
+      "title": "ISO 22301 Contexto de la organización, liderazgo y planificación en la Continuidad de Negocio",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/08/contexto-de-la-organizacion-liderazgo-y-planificacion.gif",
       "image_exists": true,
-      "text": "COVID–19 Sin duda alguna, es la pregunta que más gente se está realizando ahora que parece que el…",
+      "text": "ISO 22301 Gestión de Continuidad de Negocio La ISO 22301 Gestión de Continuidad de Negocio define las acciones…",
       "news_priority": 2,
-      "selected_date": "2026-05-08T08:36:47.628828",
-      "rotation_id": "2026-05-08-2"
+      "selected_date": "2026-05-11T09:16:12.928595",
+      "rotation_id": "2026-05-11-2"
     },
     {
-      "title": "Automatización y cumplimiento del Decreto 1072 de 2015 (Colombia)",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/06/Decreto-1072-de-2015.jpg",
+      "title": "Los requisitos fundamentales de la ISO/TS 16949 en el sector automotor",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/06/Blog-General_09.png",
       "image_exists": true,
-      "text": "Decreto 1072 de 2015 En muchos de nuestros artículos, se habla acerca de las diferentes reglamentaciones existentes respecto…",
+      "text": "ISO/TS 16949 Las empresas del sector automotor implantan en sus organizaciones la norma ISO/TS 16949 para poder conseguir…",
       "news_priority": 3,
-      "selected_date": "2026-05-08T08:36:47.628830",
-      "rotation_id": "2026-05-08-3"
+      "selected_date": "2026-05-11T09:16:12.928597",
+      "rotation_id": "2026-05-11-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-08T08:36:47.628942",
-    "next_rotation": "2026-05-09T08:36:47.628942",
+    "selected_at": "2026-05-11T09:16:12.928695",
+    "next_rotation": "2026-05-12T09:16:12.928695",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
