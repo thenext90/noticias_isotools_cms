@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-05-12",
-    "generated_at": "2026-05-12T04:02:51.124005",
+    "generated_at": "2026-05-12T04:09:16.187207",
     "next_update": "2026-05-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "La seguridad alimentaria a examen por la Unión Europea",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/06/Seguridad-alimentariaaaa.webp",
-      "image_exists": true,
-      "text": "Seguridad alimentaria La UE prevé una mejora de la reciente normativa europea sobre seguridad alimentaria. El objetivo principal…",
+      "title": "¿Qué son los Eurocódigos Estructurales?",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Los Eurocódigos estructurales son principalmente un conjunto de normas europeas de carácter voluntario. Son encargadas por la Comisión Europea…",
       "news_priority": 1,
-      "selected_date": "2026-05-12T04:02:51.123887",
+      "selected_date": "2026-05-12T04:09:16.187112",
       "rotation_id": "2026-05-12-1"
     },
     {
-      "title": "Guía sobre la Responsabilidad Social Corporativa, norma ISO 26000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/03/34.png",
+      "title": "Revista Empresa Excelente octubre 2022",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/10/plantilla-destacada-post-revista.jpg",
       "image_exists": true,
-      "text": "Responsabilidad Social Siga estas recomendaciones y conseguirá implementar la Norma ISO 26000 de forma sencilla y eficaz. La…",
+      "text": "REVISTA EMPRESA EXCELENTE En este mes de noviembre os presentamos una nueva edición de la revista Empresa Excelente.…",
       "news_priority": 2,
-      "selected_date": "2026-05-12T04:02:51.123900",
+      "selected_date": "2026-05-12T04:09:16.187119",
       "rotation_id": "2026-05-12-2"
     },
     {
-      "title": "ISOTools les informa de la celebración de la entrega del Premio Iberoamericano de la Calidad 2012",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/remio%20Iberoamericano%20de%20la%20Calidad%202012.JPG",
+      "title": "Ganador del Premio México de Ciencia y Tecnología: Juan Carlos Castilla.",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20WEb%20General_19062013.png",
       "image_exists": false,
-      "text": "Madrid será sede el próximo mes de febrero de la entrega del galardón otorgado por Fundibeq.Tras la entrega del Premio Oro el pasado 15 de noviembreFundibeqhace entrega delPremio plata Iberoamericano de la Calidad 2012.Este galardón trata de favorecer a las organizacionespequeñas, medianas y grandesque implementan prácticas deGestión de la Calidad,tanto en el ámbitopúblico como el privado.Los galardonados son los siguientes:Empresa Privada Grande:- CONSEJO PROFESIONAL DE CIENCIAS ECONÓMICAS DE BUENOS AIRES (Argentina)- GRUPO EDUCATIVO MARÍN (Argentina)- SEGUROS BOLÍVAR (Colombia)- BANESTO (España)- TELEATENTO DEL PERÚ SAC (Perú)Empresa Privada Mediana:- WILUG LTDA (Chile)- COLEGIO BASE (España)- CERTUS LABORATORIO CLÍNICO (México)Administración Pública Pequeña:- ESCUELA PRIMARIA PROF. PABLO LIVAS, SECRETARÍA DE EDUCACIÓN DEL ESTADO DENUEVO LEÓN (México)Para obtener más información sobre este evento que se celebrará el próximo 11 de febrero en Madrid (España) haga clicaquí.Más informaciónaquí",
+      "text": "El científico de la Pontificia Universidad de Chile es premiado por su aportación a la protección de ecosistemas.Juan Carlos Castilla ha sido el ganador delPremio México de Ciencia y Tecnologíapor sus aportaciones a la protección de los ecosistemas marinos, para las cuales ha obtenido la participación de las comunidades pesqueras y la industria.El científico, especialista en ecología marina, de la Pontificia Universidad de Chile, desarrolló un paradigma nuevo sobre la coexistencia entre seres humanos y el ambiente costero. Dicho paradigma esta basado en un programa de ecomanejo de recursos costeros, que abarca el establecimiento de áreas marinas protegidas.El consejo que entregaba el premio estaba presidido por Enrique Cabrero Mendoza, titular delConsejo Nacional de Ciencia y Tecnología (Conacyt), y vicepresidido por Jorge Flores Valdés, coordinador general delConsejo Consultivo de Ciencias de la Presidencia de la República.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2026-05-12T04:02:51.123902",
+      "selected_date": "2026-05-12T04:09:16.187122",
       "rotation_id": "2026-05-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-12T04:02:51.124005",
-    "next_rotation": "2026-05-13T04:02:51.124005",
+    "selected_at": "2026-05-12T04:09:16.187207",
+    "next_rotation": "2026-05-13T04:09:16.187207",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
