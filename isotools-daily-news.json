@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-05-12",
-    "generated_at": "2026-05-12T04:09:16.187207",
+    "generated_at": "2026-05-12T04:10:22.264958",
     "next_update": "2026-05-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Qué son los Eurocódigos Estructurales?",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Los Eurocódigos estructurales son principalmente un conjunto de normas europeas de carácter voluntario. Son encargadas por la Comisión Europea…",
+      "title": "¿Cuáles son los controles de la nueva ISO 42001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/ISO-42001-3.jpg",
+      "image_exists": true,
+      "text": "La ISO/IEC 42001 establece un marco integral para la gestión de la inteligencia artificial (IA) en las organizaciones...",
       "news_priority": 1,
-      "selected_date": "2026-05-12T04:09:16.187112",
+      "selected_date": "2026-05-12T04:10:22.264878",
       "rotation_id": "2026-05-12-1"
     },
     {
-      "title": "Revista Empresa Excelente octubre 2022",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/10/plantilla-destacada-post-revista.jpg",
+      "title": "Funciones del responsable HSEQ para una gestión eficiente de riesgos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/07/Responsable-HSEQ.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE En este mes de noviembre os presentamos una nueva edición de la revista Empresa Excelente.…",
+      "text": "Responsable HSEQ Un responsable HSEQ es la persona que se encarga de realizar la gestión de la salud,…",
       "news_priority": 2,
-      "selected_date": "2026-05-12T04:09:16.187119",
+      "selected_date": "2026-05-12T04:10:22.264884",
       "rotation_id": "2026-05-12-2"
     },
     {
-      "title": "Ganador del Premio México de Ciencia y Tecnología: Juan Carlos Castilla.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Noticia%20WEb%20General_19062013.png",
-      "image_exists": false,
-      "text": "El científico de la Pontificia Universidad de Chile es premiado por su aportación a la protección de ecosistemas.Juan Carlos Castilla ha sido el ganador delPremio México de Ciencia y Tecnologíapor sus aportaciones a la protección de los ecosistemas marinos, para las cuales ha obtenido la participación de las comunidades pesqueras y la industria.El científico, especialista en ecología marina, de la Pontificia Universidad de Chile, desarrolló un paradigma nuevo sobre la coexistencia entre seres humanos y el ambiente costero. Dicho paradigma esta basado en un programa de ecomanejo de recursos costeros, que abarca el establecimiento de áreas marinas protegidas.El consejo que entregaba el premio estaba presidido por Enrique Cabrero Mendoza, titular delConsejo Nacional de Ciencia y Tecnología (Conacyt), y vicepresidido por Jorge Flores Valdés, coordinador general delConsejo Consultivo de Ciencias de la Presidencia de la República.Más informaciónaquí",
+      "title": "Inocuidad alimentaria según FSSC Food Safety System Certification 22000",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/Inocuidad-alimentariaa.png",
+      "image_exists": true,
+      "text": "La seguridad alimentaria es una preocupación mundial, no solo por la importancia para la salud pública, sino también por su impacto en el comercio internacional...",
       "news_priority": 3,
-      "selected_date": "2026-05-12T04:09:16.187122",
+      "selected_date": "2026-05-12T04:10:22.264886",
       "rotation_id": "2026-05-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-12T04:09:16.187207",
-    "next_rotation": "2026-05-13T04:09:16.187207",
+    "selected_at": "2026-05-12T04:10:22.264958",
+    "next_rotation": "2026-05-13T04:10:22.264958",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
