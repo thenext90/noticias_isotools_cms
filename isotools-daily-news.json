@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-05-12",
-    "generated_at": "2026-05-12T04:10:22.264958",
+    "generated_at": "2026-05-12T09:02:43.581347",
     "next_update": "2026-05-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cuáles son los controles de la nueva ISO 42001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/05/ISO-42001-3.jpg",
+      "title": "Beneficios de ISO 27001:2022: factores clave del proyecto",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/Beneficios-de-ISO-27001-2022-factores-clave-del-proyecto.jpg",
       "image_exists": true,
-      "text": "La ISO/IEC 42001 establece un marco integral para la gestión de la inteligencia artificial (IA) en las organizaciones...",
+      "text": "Conocer los beneficios de ISO 27001:2022 es una estrategia efectiva para convencer a la Alta Dirección, de cualquier…",
       "news_priority": 1,
-      "selected_date": "2026-05-12T04:10:22.264878",
+      "selected_date": "2026-05-12T09:02:43.581254",
       "rotation_id": "2026-05-12-1"
     },
     {
-      "title": "Hidrometalurgia de Codelco Salvador genera economía circular mediante reutilización de residuos industriales",
-      "image_url": "https://www.geobarra.cl/ffot/ff02.jpg",
+      "title": "ISO 22301: Buenas prácticas para la continuidad de negocio",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/img-post.jpg",
       "image_exists": true,
-      "text": "La superintendencia de Hidrometalurgia de Codelco Salvador vendió 531 toneladas de residuos industriales generando ingresos por $747 millones La iniciativa fue ejecutada por GEOBARRA empresa especialista en gestión de residuos en el marco de la estrategia de economía circular de la cuprífera estatal.",
+      "text": "ISO 22301 La Gestión de la Continuidad del Negocio basada en la norma ISO22301 se centra en la…",
       "news_priority": 2,
-      "selected_date": "2026-05-12T04:10:22.264884",
+      "selected_date": "2026-05-12T09:02:43.581262",
       "rotation_id": "2026-05-12-2"
     },
     {
-      "title": "Inocuidad alimentaria según FSSC Food Safety System Certification 22000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/Inocuidad-alimentariaa.png",                                                                                                                                                                                                                                        
+      "title": "ISO 15189: Sistema de Gestión de la Calidad en Laboratorios Clínicos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/ISO-15189.jpg",
       "image_exists": true,
-      "text": "La seguridad alimentaria es una preocupación mundial, no solo por la importancia para la salud pública, sino también por su impacto en el comercio internacional...",
+      "text": "ISO 15189 La ISO 15189 incluye todos los requisitos que los Laboratorios Clínicos encargados de analizar las muestras…",
       "news_priority": 3,
-      "selected_date": "2026-05-12T04:10:22.264886",
+      "selected_date": "2026-05-12T09:02:43.581265",
       "rotation_id": "2026-05-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-12T04:10:22.264958",
-    "next_rotation": "2026-05-13T04:10:22.264958",
+    "selected_at": "2026-05-12T09:02:43.581347",
+    "next_rotation": "2026-05-13T09:02:43.581347",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
