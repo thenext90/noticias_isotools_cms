@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-11",
-    "generated_at": "2026-05-11T09:16:12.928695",
-    "next_update": "2026-05-12",
+    "generated_date": "2026-05-12",
+    "generated_at": "2026-05-12T04:01:19.979190",
+    "next_update": "2026-05-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Distintos enfoques para un curso sobre ISO 9001 para los Sistemas de Gestión de la Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/Distintos-enfoques-para-un-curso-sobre-gestión-de-calidad-ISO-9001.jpg",
+      "title": "ISO 45001: la primera norma Internacional de ISO para la Seguridad y Salud en el Trabajo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/10/ISO-45001.jpg",
       "image_exists": true,
-      "text": "ISO 9001: Sistemas de Gestión de Calidad Uno de los objetivos de la norma ISO 9001 es que…",
+      "text": "Norma Internacional de ISO La unificación internacional de las normas en materia de Seguridad y Salud en el…",
       "news_priority": 1,
-      "selected_date": "2026-05-11T09:16:12.928585",
-      "rotation_id": "2026-05-11-1"
+      "selected_date": "2026-05-12T04:01:19.979116",
+      "rotation_id": "2026-05-12-1"
     },
     {
-      "title": "ISO 22301 Contexto de la organización, liderazgo y planificación en la Continuidad de Negocio",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/08/contexto-de-la-organizacion-liderazgo-y-planificacion.gif",
+      "title": "Revista Empresa Excelente diciembre 2020",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/12/port-diciembre-2020-e1608293743704.png",
       "image_exists": true,
-      "text": "ISO 22301 Gestión de Continuidad de Negocio La ISO 22301 Gestión de Continuidad de Negocio define las acciones…",
+      "text": "REVISTA EMPRESA EXCELENTE Como cada primer jueves del mes, publicamos un nuevo número de la Revista Empresa Excelente.…",
       "news_priority": 2,
-      "selected_date": "2026-05-11T09:16:12.928595",
-      "rotation_id": "2026-05-11-2"
+      "selected_date": "2026-05-12T04:01:19.979121",
+      "rotation_id": "2026-05-12-2"
     },
     {
-      "title": "Los requisitos fundamentales de la ISO/TS 16949 en el sector automotor",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/06/Blog-General_09.png",
+      "title": "Cómo planificar la implementación de un Sistema de Gestión",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/04/Sistema-de-Gestion.jpg",
       "image_exists": true,
-      "text": "ISO/TS 16949 Las empresas del sector automotor implantan en sus organizaciones la norma ISO/TS 16949 para poder conseguir…",
+      "text": "Sistema de Gestión Hoy por hoy, en un mercado tan volátil y donde las exigencias de los clientes…",
       "news_priority": 3,
-      "selected_date": "2026-05-11T09:16:12.928597",
-      "rotation_id": "2026-05-11-3"
+      "selected_date": "2026-05-12T04:01:19.979124",
+      "rotation_id": "2026-05-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-11T09:16:12.928695",
-    "next_rotation": "2026-05-12T09:16:12.928695",
+    "selected_at": "2026-05-12T04:01:19.979190",
+    "next_rotation": "2026-05-13T04:01:19.979190",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
