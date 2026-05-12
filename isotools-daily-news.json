@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-05-12",
-    "generated_at": "2026-05-12T04:01:19.979190",
+    "generated_at": "2026-05-12T04:02:51.124005",
     "next_update": "2026-05-13",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 45001: la primera norma Internacional de ISO para la Seguridad y Salud en el Trabajo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/10/ISO-45001.jpg",
+      "title": "La seguridad alimentaria a examen por la Unión Europea",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/06/Seguridad-alimentariaaaa.webp",
       "image_exists": true,
-      "text": "Norma Internacional de ISO La unificación internacional de las normas en materia de Seguridad y Salud en el…",
+      "text": "Seguridad alimentaria La UE prevé una mejora de la reciente normativa europea sobre seguridad alimentaria. El objetivo principal…",
       "news_priority": 1,
-      "selected_date": "2026-05-12T04:01:19.979116",
+      "selected_date": "2026-05-12T04:02:51.123887",
       "rotation_id": "2026-05-12-1"
     },
     {
-      "title": "Revista Empresa Excelente diciembre 2020",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/12/port-diciembre-2020-e1608293743704.png",
+      "title": "Guía sobre la Responsabilidad Social Corporativa, norma ISO 26000",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/03/34.png",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Como cada primer jueves del mes, publicamos un nuevo número de la Revista Empresa Excelente.…",
+      "text": "Responsabilidad Social Siga estas recomendaciones y conseguirá implementar la Norma ISO 26000 de forma sencilla y eficaz. La…",
       "news_priority": 2,
-      "selected_date": "2026-05-12T04:01:19.979121",
+      "selected_date": "2026-05-12T04:02:51.123900",
       "rotation_id": "2026-05-12-2"
     },
     {
-      "title": "Cómo planificar la implementación de un Sistema de Gestión",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/04/Sistema-de-Gestion.jpg",
-      "image_exists": true,
-      "text": "Sistema de Gestión Hoy por hoy, en un mercado tan volátil y donde las exigencias de los clientes…",
+      "title": "ISOTools les informa de la celebración de la entrega del Premio Iberoamericano de la Calidad 2012",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/remio%20Iberoamericano%20de%20la%20Calidad%202012.JPG",
+      "image_exists": false,
+      "text": "Madrid será sede el próximo mes de febrero de la entrega del galardón otorgado por Fundibeq.Tras la entrega del Premio Oro el pasado 15 de noviembreFundibeqhace entrega delPremio plata Iberoamericano de la Calidad 2012.Este galardón trata de favorecer a las organizacionespequeñas, medianas y grandesque implementan prácticas deGestión de la Calidad,tanto en el ámbitopúblico como el privado.Los galardonados son los siguientes:Empresa Privada Grande:- CONSEJO PROFESIONAL DE CIENCIAS ECONÓMICAS DE BUENOS AIRES (Argentina)- GRUPO EDUCATIVO MARÍN (Argentina)- SEGUROS BOLÍVAR (Colombia)- BANESTO (España)- TELEATENTO DEL PERÚ SAC (Perú)Empresa Privada Mediana:- WILUG LTDA (Chile)- COLEGIO BASE (España)- CERTUS LABORATORIO CLÍNICO (México)Administración Pública Pequeña:- ESCUELA PRIMARIA PROF. PABLO LIVAS, SECRETARÍA DE EDUCACIÓN DEL ESTADO DENUEVO LEÓN (México)Para obtener más información sobre este evento que se celebrará el próximo 11 de febrero en Madrid (España) haga clicaquí.Más informaciónaquí",
       "news_priority": 3,
-      "selected_date": "2026-05-12T04:01:19.979124",
+      "selected_date": "2026-05-12T04:02:51.123902",
       "rotation_id": "2026-05-12-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-12T04:01:19.979190",
-    "next_rotation": "2026-05-13T04:01:19.979190",
+    "selected_at": "2026-05-12T04:02:51.124005",
+    "next_rotation": "2026-05-13T04:02:51.124005",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
