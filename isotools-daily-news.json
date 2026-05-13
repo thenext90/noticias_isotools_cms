@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-12",
-    "generated_at": "2026-05-12T09:02:43.581347",
-    "next_update": "2026-05-13",
+    "generated_date": "2026-05-13",
+    "generated_at": "2026-05-13T09:07:00.042854",
+    "next_update": "2026-05-14",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Beneficios de ISO 27001:2022: factores clave del proyecto",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/Beneficios-de-ISO-27001-2022-factores-clave-del-proyecto.jpg",
+      "title": "ISOTools – Revista Empresa Excelente febrero 2018",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/img-post-revista-feb18.jpg",
       "image_exists": true,
-      "text": "Conocer los beneficios de ISO 27001:2022 es una estrategia efectiva para convencer a la Alta Dirección, de cualquier…",
+      "text": "EMPRESA EXCELENTE Este mes presentamos el segundo número de la Revista Empresa Excelente del año 2018. Como no…",
       "news_priority": 1,
-      "selected_date": "2026-05-12T09:02:43.581254",
-      "rotation_id": "2026-05-12-1"
+      "selected_date": "2026-05-13T09:07:00.042756",
+      "rotation_id": "2026-05-13-1"
     },
     {
-      "title": "ISO 22301: Buenas prácticas para la continuidad de negocio",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/img-post.jpg",
+      "title": "Caso de Éxito: AXXA PHARMA. Soluciones ISOTools para la gestión de Calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/12/post-axxa.jpg",
       "image_exists": true,
-      "text": "ISO 22301 La Gestión de la Continuidad del Negocio basada en la norma ISO22301 se centra en la…",
+      "text": "Axxa Pharma es una empresa realmente comprometida con la mejora continua que tiene por bandera la certificación de…",
       "news_priority": 2,
-      "selected_date": "2026-05-12T09:02:43.581262",
-      "rotation_id": "2026-05-12-2"
+      "selected_date": "2026-05-13T09:07:00.042764",
+      "rotation_id": "2026-05-13-2"
     },
     {
-      "title": "ISO 15189: Sistema de Gestión de la Calidad en Laboratorios Clínicos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/ISO-15189.jpg",
-      "image_exists": true,
-      "text": "ISO 15189 La ISO 15189 incluye todos los requisitos que los Laboratorios Clínicos encargados de analizar las muestras…",
+      "title": "Entrevista al CEO de ISOTools Excellence",
+      "image_url": null,
+      "image_exists": false,
+      "text": "En esta primera entrevista, presentamos a Miguel Martín, CEO de ISOTools Excellence. ISOTools nace hace 16 años como…",
       "news_priority": 3,
-      "selected_date": "2026-05-12T09:02:43.581265",
-      "rotation_id": "2026-05-12-3"
+      "selected_date": "2026-05-13T09:07:00.042767",
+      "rotation_id": "2026-05-13-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-12T09:02:43.581347",
-    "next_rotation": "2026-05-13T09:02:43.581347",
+    "selected_at": "2026-05-13T09:07:00.042854",
+    "next_rotation": "2026-05-14T09:07:00.042854",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
