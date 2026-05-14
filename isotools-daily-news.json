@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-13",
-    "generated_at": "2026-05-13T09:07:00.042854",
-    "next_update": "2026-05-14",
+    "generated_date": "2026-05-14",
+    "generated_at": "2026-05-14T09:01:19.640725",
+    "next_update": "2026-05-15",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools – Revista Empresa Excelente febrero 2018",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/03/img-post-revista-feb18.jpg",
+      "title": "La repercusión de la ISO 17025 en el sector turismo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/ISO-17025.jpg",
       "image_exists": true,
-      "text": "EMPRESA EXCELENTE Este mes presentamos el segundo número de la Revista Empresa Excelente del año 2018. Como no…",
+      "text": "El estándar ISO 17025 proporciona los requisitos que los laboratorios de ensayo y calibración deben de llevar a…",
       "news_priority": 1,
-      "selected_date": "2026-05-13T09:07:00.042756",
-      "rotation_id": "2026-05-13-1"
+      "selected_date": "2026-05-14T09:01:19.640577",
+      "rotation_id": "2026-05-14-1"
     },
     {
-      "title": "Caso de Éxito: AXXA PHARMA. Soluciones ISOTools para la gestión de Calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/12/post-axxa.jpg",
+      "title": "Evaluación del impacto ambiental según la norma ISO 14001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/iStock_000003517631_Large.jpg",
       "image_exists": true,
-      "text": "Axxa Pharma es una empresa realmente comprometida con la mejora continua que tiene por bandera la certificación de…",
+      "text": "La evaluación del impacto ambiental bajo la norma ISO 14001 permite a las empresas gestionar de forma sistemática…",
       "news_priority": 2,
-      "selected_date": "2026-05-13T09:07:00.042764",
-      "rotation_id": "2026-05-13-2"
+      "selected_date": "2026-05-14T09:01:19.640587",
+      "rotation_id": "2026-05-14-2"
     },
     {
-      "title": "Entrevista al CEO de ISOTools Excellence",
-      "image_url": null,
-      "image_exists": false,
-      "text": "En esta primera entrevista, presentamos a Miguel Martín, CEO de ISOTools Excellence. ISOTools nace hace 16 años como…",
+      "title": "ISO 27000 y las auditorías de los controles del sistema de seguridad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/ISO-27000.webp",
+      "image_exists": true,
+      "text": "ISO 27000 La norma internacional y voluntaria ISO 27001 2007 proporciona una guía para el diseño, implantación, desarrollo,…",
       "news_priority": 3,
-      "selected_date": "2026-05-13T09:07:00.042767",
-      "rotation_id": "2026-05-13-3"
+      "selected_date": "2026-05-14T09:01:19.640590",
+      "rotation_id": "2026-05-14-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-13T09:07:00.042854",
-    "next_rotation": "2026-05-14T09:07:00.042854",
+    "selected_at": "2026-05-14T09:01:19.640725",
+    "next_rotation": "2026-05-15T09:01:19.640725",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
