@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-14",
-    "generated_at": "2026-05-14T09:01:19.640725",
-    "next_update": "2026-05-15",
+    "generated_date": "2026-05-15",
+    "generated_at": "2026-05-15T09:09:59.204417",
+    "next_update": "2026-05-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "La repercusión de la ISO 17025 en el sector turismo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/04/ISO-17025.jpg",
+      "title": "Cómo implementar la ISO 31000 en la gestión de riesgos de tu empresa",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/03/ISO-31000.jpg",
       "image_exists": true,
-      "text": "El estándar ISO 17025 proporciona los requisitos que los laboratorios de ensayo y calibración deben de llevar a…",
+      "text": "Implementar un sistema de gestión de riesgos basado en ISO 31000 implica seguir una serie de pasos estructurados…",
       "news_priority": 1,
-      "selected_date": "2026-05-14T09:01:19.640577",
-      "rotation_id": "2026-05-14-1"
+      "selected_date": "2026-05-15T09:09:59.204297",
+      "rotation_id": "2026-05-15-1"
     },
     {
-      "title": "Evaluación del impacto ambiental según la norma ISO 14001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/10/iStock_000003517631_Large.jpg",
+      "title": "ISO 9001:2015 y las funciones de los Representantes de Dirección",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/08/iso9001.jpg",
       "image_exists": true,
-      "text": "La evaluación del impacto ambiental bajo la norma ISO 14001 permite a las empresas gestionar de forma sistemática…",
+      "text": "ISO 9001:2015 Las funciones de los directivos de las organizaciones se han modificado y continuaran cambiando durante la…",
       "news_priority": 2,
-      "selected_date": "2026-05-14T09:01:19.640587",
-      "rotation_id": "2026-05-14-2"
+      "selected_date": "2026-05-15T09:09:59.204306",
+      "rotation_id": "2026-05-15-2"
     },
     {
-      "title": "ISO 27000 y las auditorías de los controles del sistema de seguridad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/ISO-27000.webp",
+      "title": "Resiliencia organizacional con el nuevo estándar ISO 22316",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/ISO-22316.jpg",
       "image_exists": true,
-      "text": "ISO 27000 La norma internacional y voluntaria ISO 27001 2007 proporciona una guía para el diseño, implantación, desarrollo,…",
+      "text": "ISO 22316 La resiliencia es la clave para cualquier empresa que quiera prosperar en un mundo en constante…",
       "news_priority": 3,
-      "selected_date": "2026-05-14T09:01:19.640590",
-      "rotation_id": "2026-05-14-3"
+      "selected_date": "2026-05-15T09:09:59.204309",
+      "rotation_id": "2026-05-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-14T09:01:19.640725",
-    "next_rotation": "2026-05-15T09:01:19.640725",
+    "selected_at": "2026-05-15T09:09:59.204417",
+    "next_rotation": "2026-05-16T09:09:59.204417",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
