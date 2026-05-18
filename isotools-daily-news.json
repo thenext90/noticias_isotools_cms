@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-15",
-    "generated_at": "2026-05-15T09:09:59.204417",
-    "next_update": "2026-05-16",
+    "generated_date": "2026-05-18",
+    "generated_at": "2026-05-18T09:18:06.149958",
+    "next_update": "2026-05-19",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cómo implementar la ISO 31000 en la gestión de riesgos de tu empresa",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/03/ISO-31000.jpg",
+      "title": "¿Cómo ayuda la ISO 45001 en la Prevención de Riesgos Laborales?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/11/Ayuda-la-ISO-45001-en-la-Prevencion-de-Riesgos-Laborales.webp",
       "image_exists": true,
-      "text": "Implementar un sistema de gestión de riesgos basado en ISO 31000 implica seguir una serie de pasos estructurados…",
+      "text": "Prevención de Riesgos Laborales La Seguridad y Salud en el trabajo es un tema fundamental en toda organización,…",
       "news_priority": 1,
-      "selected_date": "2026-05-15T09:09:59.204297",
-      "rotation_id": "2026-05-15-1"
+      "selected_date": "2026-05-18T09:18:06.149847",
+      "rotation_id": "2026-05-18-1"
     },
     {
-      "title": "ISO 9001:2015 y las funciones de los Representantes de Dirección",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/08/iso9001.jpg",
-      "image_exists": true,
-      "text": "ISO 9001:2015 Las funciones de los directivos de las organizaciones se han modificado y continuaran cambiando durante la…",
+      "title": "Premio a la Calidad para los trabajadores de la Empresa de Diseño de Las Tunas",
+      "image_url": null,
+      "image_exists": false,
+      "text": "El Premio a la Calidad 2012 fue recibido por los trabajadores de la empresa de Diseño e Ingeniería…",
       "news_priority": 2,
-      "selected_date": "2026-05-15T09:09:59.204306",
-      "rotation_id": "2026-05-15-2"
+      "selected_date": "2026-05-18T09:18:06.149855",
+      "rotation_id": "2026-05-18-2"
     },
     {
-      "title": "Resiliencia organizacional con el nuevo estándar ISO 22316",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/06/ISO-22316.jpg",
+      "title": "Descubre todo sobre el Software ISO & Perfomance management, camina hacia la excelencia",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/destacada-plataforma.jpg",
       "image_exists": true,
-      "text": "ISO 22316 La resiliencia es la clave para cualquier empresa que quiera prosperar en un mundo en constante…",
+      "text": "Plataforma Tecnológica ISOTools Este potente software ISO para la gestión de sistemas de gestión normalizados y modelos de excelencia, es…",
       "news_priority": 3,
-      "selected_date": "2026-05-15T09:09:59.204309",
-      "rotation_id": "2026-05-15-3"
+      "selected_date": "2026-05-18T09:18:06.149858",
+      "rotation_id": "2026-05-18-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-15T09:09:59.204417",
-    "next_rotation": "2026-05-16T09:09:59.204417",
+    "selected_at": "2026-05-18T09:18:06.149958",
+    "next_rotation": "2026-05-19T09:18:06.149958",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
