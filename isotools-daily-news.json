@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-18",
-    "generated_at": "2026-05-18T09:18:06.149958",
-    "next_update": "2026-05-19",
+    "generated_date": "2026-05-19",
+    "generated_at": "2026-05-19T11:18:38.274967",
+    "next_update": "2026-05-20",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo ayuda la ISO 45001 en la Prevención de Riesgos Laborales?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/11/Ayuda-la-ISO-45001-en-la-Prevencion-de-Riesgos-Laborales.webp",
+      "title": "Obtener la certificación ISO 42001: 6 pasos clave para lograrlo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/02/obtener-la-certificacion-iso-42001-6-pasos-clave-para-lograrlo.png",
       "image_exists": true,
-      "text": "Prevención de Riesgos Laborales La Seguridad y Salud en el trabajo es un tema fundamental en toda organización,…",
+      "text": "Obtener la certificación ISO 42001 es el paso que sigue tras la implementación exitosa de un sistema de…",
       "news_priority": 1,
-      "selected_date": "2026-05-18T09:18:06.149847",
-      "rotation_id": "2026-05-18-1"
+      "selected_date": "2026-05-19T11:18:38.274824",
+      "rotation_id": "2026-05-19-1"
     },
     {
-      "title": "Premio a la Calidad para los trabajadores de la Empresa de Diseño de Las Tunas",
+      "title": "«Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria» de la mano de nuestro partner HACCP Chile",
       "image_url": null,
       "image_exists": false,
-      "text": "El Premio a la Calidad 2012 fue recibido por los trabajadores de la empresa de Diseño e Ingeniería…",
+      "text": "Los próximos 7 y 12 de julio se celebrará en el Centro de convenciones de B`nai B`rith y en el Hotel Manquehue de Santiago de Chile el evento titulado «Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria» \n\tTras el acuerdo establecid...",
       "news_priority": 2,
-      "selected_date": "2026-05-18T09:18:06.149855",
-      "rotation_id": "2026-05-18-2"
+      "selected_date": "2026-05-19T11:18:38.274835",
+      "rotation_id": "2026-05-19-2"
     },
     {
-      "title": "Descubre todo sobre el Software ISO & Perfomance management, camina hacia la excelencia",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/destacada-plataforma.jpg",
+      "title": "OHSAS 18001 Origen y evolución",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/07/multimedia-18001-general.jpg",
       "image_exists": true,
-      "text": "Plataforma Tecnológica ISOTools Este potente software ISO para la gestión de sistemas de gestión normalizados y modelos de excelencia, es…",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 3,
-      "selected_date": "2026-05-18T09:18:06.149858",
-      "rotation_id": "2026-05-18-3"
+      "selected_date": "2026-05-19T11:18:38.274837",
+      "rotation_id": "2026-05-19-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-18T09:18:06.149958",
-    "next_rotation": "2026-05-19T09:18:06.149958",
+    "selected_at": "2026-05-19T11:18:38.274967",
+    "next_rotation": "2026-05-20T11:18:38.274967",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
