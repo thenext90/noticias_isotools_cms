@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-19",
-    "generated_at": "2026-05-19T11:18:38.274967",
-    "next_update": "2026-05-20",
+    "generated_date": "2026-05-20",
+    "generated_at": "2026-05-20T10:50:53.885349",
+    "next_update": "2026-05-21",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Obtener la certificación ISO 42001: 6 pasos clave para lograrlo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/02/obtener-la-certificacion-iso-42001-6-pasos-clave-para-lograrlo.png",
+      "title": "I Summit ISOTools: Incorporar la Sostenibilidad a la Estrategia Corporativa de tu Organización",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/MicrosoftTeams-image-4.jpg",
       "image_exists": true,
-      "text": "Obtener la certificación ISO 42001 es el paso que sigue tras la implementación exitosa de un sistema de…",
+      "text": "I Summit de ISOTools  ISOTools Excellence, como parte del Grupo ESGinnova, organiza el próximo 30 de marzo su…",
       "news_priority": 1,
-      "selected_date": "2026-05-19T11:18:38.274824",
-      "rotation_id": "2026-05-19-1"
+      "selected_date": "2026-05-20T10:50:53.885229",
+      "rotation_id": "2026-05-20-1"
     },
     {
-      "title": "«Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria» de la mano de nuestro partner HACCP Chile",
+      "title": "Entrevista a la Coordinadora de la Escuela Europea de Excelencia",
       "image_url": null,
       "image_exists": false,
-      "text": "Los próximos 7 y 12 de julio se celebrará en el Centro de convenciones de B`nai B`rith y en el Hotel Manquehue de Santiago de Chile el evento titulado «Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria» \n\tTras el acuerdo establecid...",
+      "text": "¿Qué es la Escuela Europea de Excelencia? La Escuela Europea de Excelencia es un Organismo Técnico de Capacitación…",
       "news_priority": 2,
-      "selected_date": "2026-05-19T11:18:38.274835",
-      "rotation_id": "2026-05-19-2"
+      "selected_date": "2026-05-20T10:50:53.885237",
+      "rotation_id": "2026-05-20-2"
     },
     {
-      "title": "OHSAS 18001 Origen y evolución",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/07/multimedia-18001-general.jpg",
+      "title": "Caso de Éxito: Plaza Salud. Automatización del Sistema ISO 9001:2008",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/02/post-plazasalud.jpg",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
+      "text": "En días pasados La Plaza Salud, obtuvo la certificación ISO 9001 \r\n\tCulmina el esfuerzo de los trabajadores y directivos de La Plaza Salud, alcanzando la certificación en calidad ISO 9001 por la Certificadora GCC, contado con ISOTools como Herr...",
       "news_priority": 3,
-      "selected_date": "2026-05-19T11:18:38.274837",
-      "rotation_id": "2026-05-19-3"
+      "selected_date": "2026-05-20T10:50:53.885240",
+      "rotation_id": "2026-05-20-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-19T11:18:38.274967",
-    "next_rotation": "2026-05-20T11:18:38.274967",
+    "selected_at": "2026-05-20T10:50:53.885349",
+    "next_rotation": "2026-05-21T10:50:53.885349",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
