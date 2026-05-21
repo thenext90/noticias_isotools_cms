@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-20",
-    "generated_at": "2026-05-20T10:50:53.885349",
-    "next_update": "2026-05-21",
+    "generated_date": "2026-05-21",
+    "generated_at": "2026-05-21T11:26:44.733884",
+    "next_update": "2026-05-22",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "I Summit ISOTools: Incorporar la Sostenibilidad a la Estrategia Corporativa de tu Organización",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/03/MicrosoftTeams-image-4.jpg",
+      "title": "ISO 27001 y 27002: similitudes",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/ISO-27001-y-27002_-diferencias.jpg",
       "image_exists": true,
-      "text": "I Summit de ISOTools  ISOTools Excellence, como parte del Grupo ESGinnova, organiza el próximo 30 de marzo su…",
+      "text": "Las normas ISO 27001 e ISO 27002, pertenecientes a la familia ISO 27000, desempeñan un papel fundamental...",
       "news_priority": 1,
-      "selected_date": "2026-05-20T10:50:53.885229",
-      "rotation_id": "2026-05-20-1"
+      "selected_date": "2026-05-21T11:26:44.733806",
+      "rotation_id": "2026-05-21-1"
     },
     {
-      "title": "Entrevista a la Coordinadora de la Escuela Europea de Excelencia",
+      "title": "Èxit rotund a la I Jornada d’Excel · lència a l´Educació patrocinada per ISOTools",
       "image_url": null,
       "image_exists": false,
-      "text": "¿Qué es la Escuela Europea de Excelencia? La Escuela Europea de Excelencia es un Organismo Técnico de Capacitación…",
+      "text": "El jueves 26 de abril, tuvo lugar la I Jornada de Excelencia para Centros Educativos en Barcelona, organizada…",
       "news_priority": 2,
-      "selected_date": "2026-05-20T10:50:53.885237",
-      "rotation_id": "2026-05-20-2"
+      "selected_date": "2026-05-21T11:26:44.733813",
+      "rotation_id": "2026-05-21-2"
     },
     {
-      "title": "Caso de Éxito: Plaza Salud. Automatización del Sistema ISO 9001:2008",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/02/post-plazasalud.jpg",
+      "title": "¿Qué certificaciones puedes conseguir en la serie ISO 9000?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/07/iStock_000053699518_Large.jpg",
       "image_exists": true,
-      "text": "En días pasados La Plaza Salud, obtuvo la certificación ISO 9001 \r\n\tCulmina el esfuerzo de los trabajadores y directivos de La Plaza Salud, alcanzando la certificación en calidad ISO 9001 por la Certificadora GCC, contado con ISOTools como Herr...",
+      "text": "La familia de las normas ISO 9000 Las normas de la serie ISO 9000 fueron establecidas por la…",
       "news_priority": 3,
-      "selected_date": "2026-05-20T10:50:53.885240",
-      "rotation_id": "2026-05-20-3"
+      "selected_date": "2026-05-21T11:26:44.733815",
+      "rotation_id": "2026-05-21-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-20T10:50:53.885349",
-    "next_rotation": "2026-05-21T10:50:53.885349",
+    "selected_at": "2026-05-21T11:26:44.733884",
+    "next_rotation": "2026-05-22T11:26:44.733884",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
