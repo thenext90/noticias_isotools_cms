@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-22",
-    "generated_at": "2026-05-22T10:51:34.694715",
-    "next_update": "2026-05-23",
+    "generated_date": "2026-05-25",
+    "generated_at": "2026-05-25T11:53:13.278280",
+    "next_update": "2026-05-26",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cuáles son los beneficios económicos que proporciona la OHSAS 18001?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/06/Blog-General_03.jpg",
+      "title": "Modelos de calidad: ISO 9000 vs EFQM 2020. Diferencias y alineación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/03/Modelos-de-calidad.jpg",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
+      "text": "Modelos de calidad En el siguiente artículo llevaremos a cabo una comparación de dos de los modelos de…",
       "news_priority": 1,
-      "selected_date": "2026-05-22T10:51:34.694631",
-      "rotation_id": "2026-05-22-1"
+      "selected_date": "2026-05-25T11:53:13.278195",
+      "rotation_id": "2026-05-25-1"
     },
     {
-      "title": "Auditorías Energéticas obligatorias con ISO 50001 en grandes empresas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/02/Auditoria-energética.jpg",
+      "title": "ISOTools – Revista Empresa Excelente septiembre 2016",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/10/img-revista-septiembre-post.jpg",
       "image_exists": true,
-      "text": "Auditoría energética obligatoria En España, el viernes 12 de febrero se produjo la publicación de un Real Decreto…",
+      "text": "EMPRESA EXCELENTE Ya puedes descargar la revista EMPRESA EXCELENTE del mes de septiembre de 2016, en la que encontrarás…",
       "news_priority": 2,
-      "selected_date": "2026-05-22T10:51:34.694637",
-      "rotation_id": "2026-05-22-2"
+      "selected_date": "2026-05-25T11:53:13.278203",
+      "rotation_id": "2026-05-25-2"
     },
     {
-      "title": "El Colegio Virgen del Carmen de Córdoba ya está trabajando con ISOTools.",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Virgen-del-Carmen.jpg",
-      "image_exists": false,
-      "text": "Certificados en ISO 9001 y en proceso de implantación del Modelo EFQM.ElColegio Virgen del Carmenes uno de los colegios de más prestigio de Córdoba (España), en el que se imparten los niveles educativos de Infantil, Primaria, Secundaria, Bachillerato y Educación Especial.Esta Institución ha dado prioridad desde sus inicios a la innovación y calidad en sus servicios. Fue en el año 2004 cuando obtuvieron elCertificado de CalidadISO 9001.Este nuevo enfoque incrementó el interés por la Gestión hacia laExcelencia Educativay actualmente el Colegio Virgen del Carmen está trabajando para la presentación de la Memoria en elModelo EFQM de Excelencia.En este contexto, el Colegio ha escogido trabajar con la Herramienta ISOTools como vía para la automatización y la implementación de ambos sistemas.Por parte deISOTools, han sido múltiples las visitas al centro para conocer más a fondo el Sistema de Gestión de Calidad con el que trabajan, así como para ofrecer formación al personal y comenzar a trabajar lo antes posible conISOTools.La relación con la responsable de calidad del centro, Dña. Mónica Santiago ha sido muy cercana y nos ha transmitido su entusiasmo por las posibilidades y facilidades que les va a aportar la HerramientaISOToolsen materia deGestión de la Excelencia.Más informaciónaquí",
+      "title": "El rol de ISO 42001 e ISO 27001 en sistemas de IA robustos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/El-rol-de-iso-42001-e-iso-27001-en-sistemas-de-ia-robustos.jpg",
+      "image_exists": true,
+      "text": "Los sistemas de IA contribuyen al desarrollo de diversas industrias tecnológicas, pero también de empresas de todos los…",
       "news_priority": 3,
-      "selected_date": "2026-05-22T10:51:34.694639",
-      "rotation_id": "2026-05-22-3"
+      "selected_date": "2026-05-25T11:53:13.278205",
+      "rotation_id": "2026-05-25-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-22T10:51:34.694715",
-    "next_rotation": "2026-05-23T10:51:34.694715",
+    "selected_at": "2026-05-25T11:53:13.278280",
+    "next_rotation": "2026-05-26T11:53:13.278280",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
