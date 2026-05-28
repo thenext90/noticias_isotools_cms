@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-27",
-    "generated_at": "2026-05-27T09:14:33.643959",
-    "next_update": "2026-05-28",
+    "generated_date": "2026-05-28",
+    "generated_at": "2026-05-28T09:21:30.529159",
+    "next_update": "2026-05-29",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools le aconseja que no se pierda la Semana PYME de México",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Desde el día 8 de agosto está teniendo lugar la semana PYME de México, el evento empresarial más importante del país\n\n\n\n\n\nEnfocada a informarle sobre las oportunidades y soluciones que necesita para iniciar o fortalecer su empresa, la Semana PYME ...",
+      "title": "Politica de teletrabajo ISO 27001: formas de minimizar riesgos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/Politica-de-teletrabajo-ISO-27001.webp",
+      "image_exists": true,
+      "text": "La ISO 27001, estándar internacional para la gestión de la seguridad de la información, ha evolucionado para mantenerse alineada...",
       "news_priority": 1,
-      "selected_date": "2026-05-27T09:14:33.643864",
-      "rotation_id": "2026-05-27-1"
+      "selected_date": "2026-05-28T09:21:30.529043",
+      "rotation_id": "2026-05-28-1"
     },
     {
-      "title": "Encuentro de ISOTools con la Universidad de Valparaíso – Chile",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2008/05/ISOSSSTols.webp",
+      "title": "ISO 9001: Cómo gestionan las pymes los Riesgos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/iso-9001-22.gif",
       "image_exists": true,
-      "text": "ISOTools El pasado 7 de Mayo ISOTools se reunió en la sede central de la Universidad de Valparaíso…",
+      "text": "ISO 9001 Basándonos en el concepto de riesgos, tanto en el borrador de la ISO 9001 como el…",
       "news_priority": 2,
-      "selected_date": "2026-05-27T09:14:33.643872",
-      "rotation_id": "2026-05-27-2"
+      "selected_date": "2026-05-28T09:21:30.529052",
+      "rotation_id": "2026-05-28-2"
     },
     {
-      "title": "Cómo llevar a cabo la implementación de sistemas integrados",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/08/sistemas-integrados-2.jpg",
+      "title": "ISO 31000 Gestión de Riesgos: ¿Cuáles son sus directrices?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/07/Gestión-de-riesgos.jpg",
       "image_exists": true,
-      "text": "Sistemas Integrados Integrar sistemas supone unificar criterios de actuación, procesos y recursos empleados de los distintos sistemas existentes,…",
+      "text": "Gestión de Riesgos Las amenazas, incertidumbres y riesgos a los que se encuentran sometidas las actividades que realizan…",
       "news_priority": 3,
-      "selected_date": "2026-05-27T09:14:33.643875",
-      "rotation_id": "2026-05-27-3"
+      "selected_date": "2026-05-28T09:21:30.529055",
+      "rotation_id": "2026-05-28-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-27T09:14:33.643959",
-    "next_rotation": "2026-05-28T09:14:33.643959",
+    "selected_at": "2026-05-28T09:21:30.529159",
+    "next_rotation": "2026-05-29T09:21:30.529159",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
