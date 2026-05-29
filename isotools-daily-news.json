@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-05-28",
-    "generated_at": "2026-05-28T09:21:30.529159",
-    "next_update": "2026-05-29",
+    "generated_date": "2026-05-29",
+    "generated_at": "2026-05-29T09:16:13.301760",
+    "next_update": "2026-05-30",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Politica de teletrabajo ISO 27001: formas de minimizar riesgos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/01/Politica-de-teletrabajo-ISO-27001.webp",
+      "title": "Revista Empresa Excelente mayo 2022",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/05/plantilla-destacada-post-revista-1.jpg",
       "image_exists": true,
-      "text": "La ISO 27001, estándar internacional para la gestión de la seguridad de la información, ha evolucionado para mantenerse alineada...",
+      "text": "REVISTA EMPRESA EXCELENTE En este inicio del mes de junio queremos presentarles la nueva edición de nuestra revista…",
       "news_priority": 1,
-      "selected_date": "2026-05-28T09:21:30.529043",
-      "rotation_id": "2026-05-28-1"
+      "selected_date": "2026-05-29T09:16:13.301664",
+      "rotation_id": "2026-05-29-1"
     },
     {
-      "title": "ISO 9001: Cómo gestionan las pymes los Riesgos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/12/iso-9001-22.gif",
+      "title": "¿Cuánto cuesta la certificación ISO 9001?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/01/proyecto-de-implementación-ISO-9001.jpg",
       "image_exists": true,
-      "text": "ISO 9001 Basándonos en el concepto de riesgos, tanto en el borrador de la ISO 9001 como el…",
+      "text": "La implementación de la norma ISO 9001 varía en función de factores como el tamaño de la empresa,…",
       "news_priority": 2,
-      "selected_date": "2026-05-28T09:21:30.529052",
-      "rotation_id": "2026-05-28-2"
+      "selected_date": "2026-05-29T09:16:13.301671",
+      "rotation_id": "2026-05-29-2"
     },
     {
-      "title": "ISO 31000 Gestión de Riesgos: ¿Cuáles son sus directrices?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/07/Gestión-de-riesgos.jpg",
-      "image_exists": true,
-      "text": "Gestión de Riesgos Las amenazas, incertidumbres y riesgos a los que se encuentran sometidas las actividades que realizan…",
+      "title": "Corporación Q nuevo Partners de ISOTools en Ecuador",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Corporación Q está formado por un equipo especializado que brinda soluciones integrales y automatizadas a sus clientes en…",
       "news_priority": 3,
-      "selected_date": "2026-05-28T09:21:30.529055",
-      "rotation_id": "2026-05-28-3"
+      "selected_date": "2026-05-29T09:16:13.301674",
+      "rotation_id": "2026-05-29-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-05-28T09:21:30.529159",
-    "next_rotation": "2026-05-29T09:21:30.529159",
+    "selected_at": "2026-05-29T09:16:13.301760",
+    "next_rotation": "2026-05-30T09:16:13.301760",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
