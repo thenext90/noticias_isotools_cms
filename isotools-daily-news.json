@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-01",
-    "generated_at": "2026-06-01T09:55:57.867945",
-    "next_update": "2026-06-02",
+    "generated_date": "2026-06-02",
+    "generated_at": "2026-06-02T09:32:42.445936",
+    "next_update": "2026-06-03",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Vídeo – OHSAS 18001 Objeto y campo de aplicación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/08/multimedia-18001-general.jpg",
+      "title": "ISOTools desarrolla alianzas estratégicas con consultoras en Brasil",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2010/02/IIIIISOTools.webp",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
+      "text": "ISOTools ISOTools ha realizado diferentes encuentros con consultoras del país brasileño en São Paulo y Río de Janeiro…",
       "news_priority": 1,
-      "selected_date": "2026-06-01T09:55:57.867866",
-      "rotation_id": "2026-06-01-1"
+      "selected_date": "2026-06-02T09:32:42.445827",
+      "rotation_id": "2026-06-02-1"
     },
     {
-      "title": "La familia de normas ISO 27000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/01/21-enero-ISO-27000.png",
+      "title": "Éxito en la presentación de ISOTools realizada en Bogotá para automatización de Sistemas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2011/12/Automatizacion-de-Sistemas.webp",
       "image_exists": true,
-      "text": "ISO 27000 La Organización Internacional de Estandarización (ISO) recoge un extenso número de normas dentro de la familia de ISO 27000.…",
+      "text": "Automatización de Sistemas La jornada titulada como Soluciones Tecnológicas para la Mejora Continua en la Gestión de las…",
       "news_priority": 2,
-      "selected_date": "2026-06-01T09:55:57.867872",
-      "rotation_id": "2026-06-01-2"
+      "selected_date": "2026-06-02T09:32:42.445834",
+      "rotation_id": "2026-06-02-2"
     },
     {
-      "title": "Un paso más cerca de la nueva norma ISO 17025",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/07/ISO-17025-1.jpg",
+      "title": "Certificación de la norma ISO 42001: proceso a seguir paso a paso",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/certificacion-de-la-norma-iso-42001-proceso-a-seguir-paso-a-paso.jpg",
       "image_exists": true,
-      "text": "ISO 17025 La norma ISO 17025 fue desarrollada en sus inicios con el objetivo de determinar una serie…",
+      "text": "La certificación de la norma ISO 42001 garantiza que la gestión de sistemas de Inteligencia Artificial de una…",
       "news_priority": 3,
-      "selected_date": "2026-06-01T09:55:57.867874",
-      "rotation_id": "2026-06-01-3"
+      "selected_date": "2026-06-02T09:32:42.445837",
+      "rotation_id": "2026-06-02-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-01T09:55:57.867945",
-    "next_rotation": "2026-06-02T09:55:57.867945",
+    "selected_at": "2026-06-02T09:32:42.445936",
+    "next_rotation": "2026-06-03T09:32:42.445936",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
