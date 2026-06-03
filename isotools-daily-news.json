@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-02",
-    "generated_at": "2026-06-02T09:32:42.445936",
-    "next_update": "2026-06-03",
+    "generated_date": "2026-06-03",
+    "generated_at": "2026-06-03T09:42:35.381943",
+    "next_update": "2026-06-04",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools desarrolla alianzas estratégicas con consultoras en Brasil",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2010/02/IIIIISOTools.webp",
+      "title": "Cómo evaluar el buen gobierno municipal",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/05/UNE-66182.jpg",
       "image_exists": true,
-      "text": "ISOTools ISOTools ha realizado diferentes encuentros con consultoras del país brasileño en São Paulo y Río de Janeiro…",
+      "text": "UNE 66182 La norma UNE 66182 ofrece una metodología asequible y práctica a los gobiernos locales con el…",
       "news_priority": 1,
-      "selected_date": "2026-06-02T09:32:42.445827",
-      "rotation_id": "2026-06-02-1"
+      "selected_date": "2026-06-03T09:42:35.381839",
+      "rotation_id": "2026-06-03-1"
     },
     {
-      "title": "Éxito en la presentación de ISOTools realizada en Bogotá para automatización de Sistemas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2011/12/Automatizacion-de-Sistemas.webp",
+      "title": "Revista Empresa Excelente julio 2022",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/07/plantilla-destacada-post-revista-1.jpg",
       "image_exists": true,
-      "text": "Automatización de Sistemas La jornada titulada como Soluciones Tecnológicas para la Mejora Continua en la Gestión de las…",
+      "text": "REVISTA EMPRESA EXCELENTE Al inicio de este mes de agosto queremos presentarles una nueva edición de la revista…",
       "news_priority": 2,
-      "selected_date": "2026-06-02T09:32:42.445834",
-      "rotation_id": "2026-06-02-2"
+      "selected_date": "2026-06-03T09:42:35.381847",
+      "rotation_id": "2026-06-03-2"
     },
     {
-      "title": "Certificación de la norma ISO 42001: proceso a seguir paso a paso",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/certificacion-de-la-norma-iso-42001-proceso-a-seguir-paso-a-paso.jpg",
+      "title": "ISO 9001: ¿Cómo documentar un Sistema de Gestión de la Calidad?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/11/iso90.gif",
       "image_exists": true,
-      "text": "La certificación de la norma ISO 42001 garantiza que la gestión de sistemas de Inteligencia Artificial de una…",
+      "text": "ISO 9001 ISO 9001 solicita un Sistema de Gestión de la Calidad documentado, y no en cambio un sistema…",
       "news_priority": 3,
-      "selected_date": "2026-06-02T09:32:42.445837",
-      "rotation_id": "2026-06-02-3"
+      "selected_date": "2026-06-03T09:42:35.381850",
+      "rotation_id": "2026-06-03-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-02T09:32:42.445936",
-    "next_rotation": "2026-06-03T09:32:42.445936",
+    "selected_at": "2026-06-03T09:42:35.381943",
+    "next_rotation": "2026-06-04T09:42:35.381943",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
