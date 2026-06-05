@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-04",
-    "generated_at": "2026-06-04T09:24:35.712286",
-    "next_update": "2026-06-05",
+    "generated_date": "2026-06-05",
+    "generated_at": "2026-06-05T09:14:25.534586",
+    "next_update": "2026-06-06",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cuarta entrega de la revista mensual EMPRESA EXCELENTE",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Un nuevo número de nuestra revista mensual con la actualidad y artículos de interés sobre la calidad y…",
-      "news_priority": 1,
-      "selected_date": "2026-06-04T09:24:35.712207",
-      "rotation_id": "2026-06-04-1"
-    },
-    {
-      "title": "Desarrollo y ejecución para llevar a cabo auditorías virtuales",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/03/Auditorías-virtuales.jpg",
+      "title": "Soluciones en la Gestión HSEQ/SSOMA",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/09/soluciones-en-la-Gestion-HSEQ-SSOMA.jpg",
       "image_exists": true,
-      "text": "Auditorías virtuales Sin esperarlo, el mundo ha comenzado a vivir un proceso de cambio brutal relacionado con la…",
-      "news_priority": 2,
-      "selected_date": "2026-06-04T09:24:35.712213",
-      "rotation_id": "2026-06-04-2"
+      "text": "Gestión HSEQ/SSOMA Las soluciones en la gestión HSEQ/SSOMA aportan una optimización y eficacia tanto en los sistemas de…",
+      "news_priority": 1,
+      "selected_date": "2026-06-05T09:14:25.534450",
+      "rotation_id": "2026-06-05-1"
     },
     {
-      "title": "ISOTools capacita a socios aliados de Argentina",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/MAriano.jpg",
-      "image_exists": false,
-      "text": "La presentación de novedades de ISOTools y los productos estratégicos fueron el objetivo de la formación.El pasado mes de enero, el Sr.Mariano Tempone, consultor del equipo deISOTools Argentina, visitó la sede deISOTools Españapara recibir formación.Durante una semana, compartimos oficinas con Mariano Tempone, con el objetivo de reforzar la formación de nuestro socio argentino respecto a los productos estratégicos deISOTools(ISO 9001,ISO 14001,ISO 18001,ISO 22000, etc.). y para presentar las mejoras incorporadas recientemente a la herramienta, como ISOTools Mobile.Más informaciónaquí",
+      "title": "¿Emergencias en el teletrabajo? Te damos 12 claves para resolverlas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/teletrabajo.jpg",
+      "image_exists": true,
+      "text": "Teletrabajo La tecnología ha hecho que esta pandemia transcurra con menos precariedad que en épocas de la peste…",
+      "news_priority": 2,
+      "selected_date": "2026-06-05T09:14:25.534460",
+      "rotation_id": "2026-06-05-2"
+    },
+    {
+      "title": "Implantación de la norma ISO 9004",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/ISO-9004.webp",
+      "image_exists": true,
+      "text": "ISO 9004 La finalidad de la ISO 9004 sobre la “Gestión para el éxito sostenido de una organización”,…",
       "news_priority": 3,
-      "selected_date": "2026-06-04T09:24:35.712215",
-      "rotation_id": "2026-06-04-3"
+      "selected_date": "2026-06-05T09:14:25.534462",
+      "rotation_id": "2026-06-05-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-04T09:24:35.712286",
-    "next_rotation": "2026-06-05T09:24:35.712286",
+    "selected_at": "2026-06-05T09:14:25.534586",
+    "next_rotation": "2026-06-06T09:14:25.534586",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
