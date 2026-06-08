@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-05",
-    "generated_at": "2026-06-05T09:14:25.534586",
-    "next_update": "2026-06-06",
+    "generated_date": "2026-06-08",
+    "generated_at": "2026-06-08T09:41:38.373800",
+    "next_update": "2026-06-09",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Soluciones en la Gestión HSEQ/SSOMA",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/09/soluciones-en-la-Gestion-HSEQ-SSOMA.jpg",
-      "image_exists": true,
-      "text": "Gestión HSEQ/SSOMA Las soluciones en la gestión HSEQ/SSOMA aportan una optimización y eficacia tanto en los sistemas de…",
+      "title": "Evento «Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria» de la mano de nuestro partner HACCP Chile",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Los próximos 7 y 12 de julio se celebrará en el Centro de convenciones de B`nai B`rith y en el Hotel Manquehue de Santiago de Chile el evento titulado «Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria» \n\tTras el acuerdo establecid...",
       "news_priority": 1,
-      "selected_date": "2026-06-05T09:14:25.534450",
-      "rotation_id": "2026-06-05-1"
+      "selected_date": "2026-06-08T09:41:38.373637",
+      "rotation_id": "2026-06-08-1"
     },
     {
-      "title": "¿Emergencias en el teletrabajo? Te damos 12 claves para resolverlas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/teletrabajo.jpg",
+      "title": "Nueva ISO 9001-2015: La organización y el entorno según el  borrador.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/01/img_10ene.jpg",
       "image_exists": true,
-      "text": "Teletrabajo La tecnología ha hecho que esta pandemia transcurra con menos precariedad que en épocas de la peste…",
+      "text": "ISO 9001 El borrador de la Nueva ISO 9001 versión 2015 tiene en cuenta a la organización y el entorno.…",
       "news_priority": 2,
-      "selected_date": "2026-06-05T09:14:25.534460",
-      "rotation_id": "2026-06-05-2"
+      "selected_date": "2026-06-08T09:41:38.373648",
+      "rotation_id": "2026-06-08-2"
     },
     {
-      "title": "Implantación de la norma ISO 9004",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/11/ISO-9004.webp",
+      "title": "Tendencias para la Transformación digital en HSE",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/06/Transformacion-digital-en-HSE.jpg",
       "image_exists": true,
-      "text": "ISO 9004 La finalidad de la ISO 9004 sobre la “Gestión para el éxito sostenido de una organización”,…",
+      "text": "Transformación digital en HSE La transformación digital en HSE ha sido un paso muy importante. Gracias a ella…",
       "news_priority": 3,
-      "selected_date": "2026-06-05T09:14:25.534462",
-      "rotation_id": "2026-06-05-3"
+      "selected_date": "2026-06-08T09:41:38.373651",
+      "rotation_id": "2026-06-08-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-05T09:14:25.534586",
-    "next_rotation": "2026-06-06T09:14:25.534586",
+    "selected_at": "2026-06-08T09:41:38.373800",
+    "next_rotation": "2026-06-09T09:41:38.373800",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
