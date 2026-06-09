@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-08",
-    "generated_at": "2026-06-08T09:41:38.373800",
-    "next_update": "2026-06-09",
+    "generated_date": "2026-06-09",
+    "generated_at": "2026-06-09T09:14:09.348385",
+    "next_update": "2026-06-10",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Evento «Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria» de la mano de nuestro partner HACCP Chile",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Los próximos 7 y 12 de julio se celebrará en el Centro de convenciones de B`nai B`rith y en el Hotel Manquehue de Santiago de Chile el evento titulado «Herramientas de Apoyo para la Gestión de la Inocuidad Alimentaria» \n\tTras el acuerdo establecid...",
+      "title": "ISO 22301 Aspectos básicos de un Sistema de Gestión para la Continuidad del negocio",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/02/ISO-22301.jpg",
+      "image_exists": true,
+      "text": "Sistema de Gestión para la Continuidad del negocio En la actualidad las organizaciones se enfrentan a escenarios muy…",
       "news_priority": 1,
-      "selected_date": "2026-06-08T09:41:38.373637",
-      "rotation_id": "2026-06-08-1"
+      "selected_date": "2026-06-09T09:14:09.348280",
+      "rotation_id": "2026-06-09-1"
     },
     {
-      "title": "Nueva ISO 9001-2015: La organización y el entorno según el  borrador.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/01/img_10ene.jpg",
+      "title": "Los stakeholders de un centro educativo",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/02/centro-educativo.jpg",
       "image_exists": true,
-      "text": "ISO 9001 El borrador de la Nueva ISO 9001 versión 2015 tiene en cuenta a la organización y el entorno.…",
+      "text": "Centro educativo El proceso para establecer quienes son los stakeholders o partes interesadas en un centro educativo no…",
       "news_priority": 2,
-      "selected_date": "2026-06-08T09:41:38.373648",
-      "rotation_id": "2026-06-08-2"
+      "selected_date": "2026-06-09T09:14:09.348288",
+      "rotation_id": "2026-06-09-2"
     },
     {
-      "title": "Tendencias para la Transformación digital en HSE",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/06/Transformacion-digital-en-HSE.jpg",
+      "title": "La certificación ISO 50001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/06/ISO-50001.jpg",
       "image_exists": true,
-      "text": "Transformación digital en HSE La transformación digital en HSE ha sido un paso muy importante. Gracias a ella…",
+      "text": "Certificación ISO 50001 Cuando hablamos de Sistema de Gestión Energética (SGE) hacemos referencia a aquella parte del Sistema…",
       "news_priority": 3,
-      "selected_date": "2026-06-08T09:41:38.373651",
-      "rotation_id": "2026-06-08-3"
+      "selected_date": "2026-06-09T09:14:09.348291",
+      "rotation_id": "2026-06-09-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-08T09:41:38.373800",
-    "next_rotation": "2026-06-09T09:41:38.373800",
+    "selected_at": "2026-06-09T09:14:09.348385",
+    "next_rotation": "2026-06-10T09:14:09.348385",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
