@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-09",
-    "generated_at": "2026-06-09T09:14:09.348385",
-    "next_update": "2026-06-10",
+    "generated_date": "2026-06-10",
+    "generated_at": "2026-06-10T09:19:48.349495",
+    "next_update": "2026-06-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 22301 Aspectos básicos de un Sistema de Gestión para la Continuidad del negocio",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/02/ISO-22301.jpg",
+      "title": "OHSAS 18001: Requisitos legales y otros requisitos de la norma",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/blog-general-31.gif",
       "image_exists": true,
-      "text": "Sistema de Gestión para la Continuidad del negocio En la actualidad las organizaciones se enfrentan a escenarios muy…",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 1,
-      "selected_date": "2026-06-09T09:14:09.348280",
-      "rotation_id": "2026-06-09-1"
+      "selected_date": "2026-06-10T09:19:48.349357",
+      "rotation_id": "2026-06-10-1"
     },
     {
-      "title": "Los stakeholders de un centro educativo",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/02/centro-educativo.jpg",
+      "title": "ISO 20400: Nuevo estándar para la compra sostenible",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/ISO-20400.jpg",
       "image_exists": true,
-      "text": "Centro educativo El proceso para establecer quienes son los stakeholders o partes interesadas en un centro educativo no…",
+      "text": "ISO 20400 La norma ISO 20400, estándar sobre compra sostenible, sustituye a la BS 8903:2010. La nueva norma…",
       "news_priority": 2,
-      "selected_date": "2026-06-09T09:14:09.348288",
-      "rotation_id": "2026-06-09-2"
+      "selected_date": "2026-06-10T09:19:48.349367",
+      "rotation_id": "2026-06-10-2"
     },
     {
-      "title": "La certificación ISO 50001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/06/ISO-50001.jpg",
+      "title": "Soborno y cohecho. Diferencias y contexto de actuación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/Soborno.jpg",
       "image_exists": true,
-      "text": "Certificación ISO 50001 Cuando hablamos de Sistema de Gestión Energética (SGE) hacemos referencia a aquella parte del Sistema…",
+      "text": "Soborno Como ya se ha visto, dentro de la corrupción se encontrarían el soborno y la extorsión. Dentro…",
       "news_priority": 3,
-      "selected_date": "2026-06-09T09:14:09.348291",
-      "rotation_id": "2026-06-09-3"
+      "selected_date": "2026-06-10T09:19:48.349370",
+      "rotation_id": "2026-06-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-09T09:14:09.348385",
-    "next_rotation": "2026-06-10T09:14:09.348385",
+    "selected_at": "2026-06-10T09:19:48.349495",
+    "next_rotation": "2026-06-11T09:19:48.349495",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
