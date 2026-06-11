@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-10",
-    "generated_at": "2026-06-10T09:19:48.349495",
-    "next_update": "2026-06-11",
+    "generated_date": "2026-06-11",
+    "generated_at": "2026-06-11T09:35:26.414859",
+    "next_update": "2026-06-12",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "OHSAS 18001: Requisitos legales y otros requisitos de la norma",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/blog-general-31.gif",
+      "title": "Software ISOTools COVID: ¿Cómo gestionar la vuelta al trabajo de forma segura?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/Software-ISOTools-COVID.jpg",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
+      "text": "Software ISOTools COVID Nuestro cliente César Matos, Gerente de QHSE de la compañía Talma, nos cuenta como ellos…",
       "news_priority": 1,
-      "selected_date": "2026-06-10T09:19:48.349357",
-      "rotation_id": "2026-06-10-1"
+      "selected_date": "2026-06-11T09:35:26.414771",
+      "rotation_id": "2026-06-11-1"
     },
     {
-      "title": "ISO 20400: Nuevo estándar para la compra sostenible",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/04/ISO-20400.jpg",
+      "title": "¿Qué es la Huella Ambiental y cómo se mide?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/que-es-la-huella-ambiental-y-como-se-mide.jpg",
       "image_exists": true,
-      "text": "ISO 20400 La norma ISO 20400, estándar sobre compra sostenible, sustituye a la BS 8903:2010. La nueva norma…",
+      "text": "La Huella Ambiental es uno de los indicadores que más reconocen las personas en todos los ámbitos. Se…",
       "news_priority": 2,
-      "selected_date": "2026-06-10T09:19:48.349367",
-      "rotation_id": "2026-06-10-2"
+      "selected_date": "2026-06-11T09:35:26.414777",
+      "rotation_id": "2026-06-11-2"
     },
     {
-      "title": "Soborno y cohecho. Diferencias y contexto de actuación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/Soborno.jpg",
+      "title": "Caso de Éxito: APROSUB. Soluciones ISOTools para la Gestión Integrada  de Calidad y Planificación Estratégica en entidades del tercer sector",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/01/post-aprosub.jpg",
       "image_exists": true,
-      "text": "Soborno Como ya se ha visto, dentro de la corrupción se encontrarían el soborno y la extorsión. Dentro…",
+      "text": "La Asociación en favor de las personas con discapacidad intelectual APROSUB comenzó sus esfuerzos por promover la integración…",
       "news_priority": 3,
-      "selected_date": "2026-06-10T09:19:48.349370",
-      "rotation_id": "2026-06-10-3"
+      "selected_date": "2026-06-11T09:35:26.414778",
+      "rotation_id": "2026-06-11-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-10T09:19:48.349495",
-    "next_rotation": "2026-06-11T09:19:48.349495",
+    "selected_at": "2026-06-11T09:35:26.414859",
+    "next_rotation": "2026-06-12T09:35:26.414859",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
