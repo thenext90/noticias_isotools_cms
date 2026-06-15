@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-12",
-    "generated_at": "2026-06-12T09:30:14.948362",
-    "next_update": "2026-06-13",
+    "generated_date": "2026-06-15",
+    "generated_at": "2026-06-15T10:12:44.383106",
+    "next_update": "2026-06-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "8 Cosas que debe saber antes de seleccionar un proveedor de software de gestión de calidad",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/08/seleccionar-un-proveedor-de-software-de-gestion-de-calidad.jpg",
-      "image_exists": true,
-      "text": "La importancia de seleccionar un proveedor de software de gestión de calidad Realizar una implementación exitosa de un…",
+      "title": "Programa de ayudas en el País Vasco para la promoción de la implantación y mejora de los sistemas de gestión, sostenibilidad e  innovación de las empresas del sector de la edificación residencial.",
+      "image_url": null,
+      "image_exists": false,
+      "text": "La ORDEN de 27 de julio de 2011 del Consejero de Vivienda, Obras Públicas y Transportes, es la que regula estas ayudas para el ejercicio 2011.Estas ayudas se encuentra dentro del programa Eraikal Trece, iniciativa del Departamento de Vivienda, Obras Públicas y Transportes para la promoción de lagestión de calidad, medio ambiente y prevención de riesgos laborales, fomento de la sostenibilidad y apoyo a la innovaciónen las empresas del sector de la edificación residencial de la CAPV.El programa pretende promover en las empresas del sector:- Implantación, certificación e integración de sistemas de gestión basados en las normasISO 9001,ISO 14001, UNE 150301, UNE 166002 yOHSAS 18001.- Implantación y certificación de sistemas de gestión basados en las normasISO/IEC 17025y 17020.-Mejora continua,excelenciaeinnovación, entre otros.Más informaciónaquí",
       "news_priority": 1,
-      "selected_date": "2026-06-12T09:30:14.948259",
-      "rotation_id": "2026-06-12-1"
+      "selected_date": "2026-06-15T10:12:44.382999",
+      "rotation_id": "2026-06-15-1"
     },
     {
-      "title": "Contaminación acústica. Muestreo, medición y evaluación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/05/Contaminación-acústica.jpg",
+      "title": "Vídeo – ISO 9001 Definiciones y prólogo de la norma",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/multimedia-9001-general.jpg",
       "image_exists": true,
-      "text": "Contaminación acústica Lo primero que debemos saber es que es contaminación acústica. Son los sonidos indeseados que representan…",
+      "text": "ISO 9001 ISO 9001 es una norma muy implantada en organizaciones de todo el mundo. Las organizaciones que…",
       "news_priority": 2,
-      "selected_date": "2026-06-12T09:30:14.948266",
-      "rotation_id": "2026-06-12-2"
+      "selected_date": "2026-06-15T10:12:44.383006",
+      "rotation_id": "2026-06-15-2"
     },
     {
-      "title": "ISO 44001: Alianzas Colaborativas para el ODS 17",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/ISO-44001.png",
+      "title": "Ciberseguridad en el Control Industrial. Marco ISA/IEC 62443",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/09/CISO-Ciberseguridad.webp",
       "image_exists": true,
-      "text": "La ISO 44001 es una norma internacional diseñada para ayudar a las organizaciones a construir relaciones colaborativas efectivas y...",
+      "text": "Ciberseguridad e Industria La ciberseguridad en el control industrial es un tema de gran importancia para la industria…",
       "news_priority": 3,
-      "selected_date": "2026-06-12T09:30:14.948269",
-      "rotation_id": "2026-06-12-3"
+      "selected_date": "2026-06-15T10:12:44.383008",
+      "rotation_id": "2026-06-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-12T09:30:14.948362",
-    "next_rotation": "2026-06-13T09:30:14.948362",
+    "selected_at": "2026-06-15T10:12:44.383106",
+    "next_rotation": "2026-06-16T10:12:44.383106",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
