@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-16",
-    "generated_at": "2026-06-16T09:51:39.758893",
-    "next_update": "2026-06-17",
+    "generated_date": "2026-06-17",
+    "generated_at": "2026-06-17T09:43:36.739846",
+    "next_update": "2026-06-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Existe relación entre la ISO 19600 y la gestión de Gobierno Corporativo?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/10/Norma-ISO-19600.jpg",
+      "title": "Asamblea General de ISO 2018: normas internacionales para los ODS",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/09/Asamblea-General-de-ISO-2018.jpg",
       "image_exists": true,
-      "text": "Norma ISO 19600 La norma ISO 19600 es la norma internacional sobre Sistemas de Gestión del Compliance y,…",
+      "text": "Asamblea General de ISO 2018 La Asamblea General de ISO 2018 que se celebra este año en Ginebra,…",
       "news_priority": 1,
-      "selected_date": "2026-06-16T09:51:39.758793",
-      "rotation_id": "2026-06-16-1"
+      "selected_date": "2026-06-17T09:43:36.739753",
+      "rotation_id": "2026-06-17-1"
     },
     {
-      "title": "Software para sistemas de gestión integrados: funciones principales y criterios de selección",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/03/software-para-sistemas-de-gestion-integrados-funciones-principales-y-criterios-de-seleccion.png",
+      "title": "Cómo ha mejorado la ISO 45001 los SIG",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/10/ISO-45001.jpg",
       "image_exists": true,
-      "text": "La evolución de las operaciones empresariales progresa a un ritmo vertiginoso. Con ella cobra especial relevancia la gestión…",
+      "text": "Cómo ha mejorado la ISO 45001 los SIG En la actualidad, la seguridad y salud en el trabajo…",
       "news_priority": 2,
-      "selected_date": "2026-06-16T09:51:39.758800",
-      "rotation_id": "2026-06-16-2"
+      "selected_date": "2026-06-17T09:43:36.739760",
+      "rotation_id": "2026-06-17-2"
     },
     {
-      "title": "Preguntas Frecuentes sobre la nueva ISO 22000",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/nueva-ISO-22000.jpg",
+      "title": "Formación Oficial Certificada ISOTools para Partners",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/Banner_-Certificado_ISOTools.jpg",
       "image_exists": true,
-      "text": "Nueva ISO 22000 Parece ser que, tras 13 años de espera, ya se ha confirmado que tendremos una…",
+      "text": "Formación Oficial Certificada ISOTools para Partners Las visiones globales y transversales son un valor añadido en los planteamientos…",
       "news_priority": 3,
-      "selected_date": "2026-06-16T09:51:39.758803",
-      "rotation_id": "2026-06-16-3"
+      "selected_date": "2026-06-17T09:43:36.739763",
+      "rotation_id": "2026-06-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-16T09:51:39.758893",
-    "next_rotation": "2026-06-17T09:51:39.758893",
+    "selected_at": "2026-06-17T09:43:36.739846",
+    "next_rotation": "2026-06-18T09:43:36.739846",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
