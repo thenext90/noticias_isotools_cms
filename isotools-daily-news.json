@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-17",
-    "generated_at": "2026-06-17T09:43:36.739846",
-    "next_update": "2026-06-18",
+    "generated_date": "2026-06-18",
+    "generated_at": "2026-06-18T09:35:13.016708",
+    "next_update": "2026-06-19",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Asamblea General de ISO 2018: normas internacionales para los ODS",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/09/Asamblea-General-de-ISO-2018.jpg",
-      "image_exists": true,
-      "text": "Asamblea General de ISO 2018 La Asamblea General de ISO 2018 que se celebra este año en Ginebra,…",
+      "title": "Evento Soluciones Tecnológicas para la MEJORA CONTINUA en la Gestión de Calidad,  en  Panamá.",
+      "image_url": null,
+      "image_exists": false,
+      "text": "En el encuentro se trataron temas como la alianza con IBSA o el éxito de YAVIC  S.A\n\nEl pasado martes 14 de mayo se celebró el evento “Soluciones Tecnológicas para la MEJORA CONTINUA en la Gestión de Calidad” en el hot...",
       "news_priority": 1,
-      "selected_date": "2026-06-17T09:43:36.739753",
-      "rotation_id": "2026-06-17-1"
+      "selected_date": "2026-06-18T09:35:13.016610",
+      "rotation_id": "2026-06-18-1"
     },
     {
-      "title": "Cómo ha mejorado la ISO 45001 los SIG",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/10/ISO-45001.jpg",
+      "title": "Reseña e-book sobre la norma ISO 22301 y la continuidad del negocio",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/03/ISO-22301.jpg",
       "image_exists": true,
-      "text": "Cómo ha mejorado la ISO 45001 los SIG En la actualidad, la seguridad y salud en el trabajo…",
+      "text": "ISO 22301 La actual situación empresarial provoca que en ningún caso, las organizaciones que tengan la intención de…",
       "news_priority": 2,
-      "selected_date": "2026-06-17T09:43:36.739760",
-      "rotation_id": "2026-06-17-2"
+      "selected_date": "2026-06-18T09:35:13.016617",
+      "rotation_id": "2026-06-18-2"
     },
     {
-      "title": "Formación Oficial Certificada ISOTools para Partners",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/02/Banner_-Certificado_ISOTools.jpg",
+      "title": "Los modelos de sistemas de gestión y el desarrollo sostenible",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/08/Los-modelos-de-sistemas-de-gestion-y-el-desarrollo-sostenible.jpg",
       "image_exists": true,
-      "text": "Formación Oficial Certificada ISOTools para Partners Las visiones globales y transversales son un valor añadido en los planteamientos…",
+      "text": "Modelos de sistemas de gestión y el desarrollo sostenible Los modelos de sistemas de gestión y el desarrollo…",
       "news_priority": 3,
-      "selected_date": "2026-06-17T09:43:36.739763",
-      "rotation_id": "2026-06-17-3"
+      "selected_date": "2026-06-18T09:35:13.016620",
+      "rotation_id": "2026-06-18-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-17T09:43:36.739846",
-    "next_rotation": "2026-06-18T09:43:36.739846",
+    "selected_at": "2026-06-18T09:35:13.016708",
+    "next_rotation": "2026-06-19T09:35:13.016708",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
