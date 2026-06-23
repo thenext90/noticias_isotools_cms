@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-22",
-    "generated_at": "2026-06-22T10:06:09.144075",
-    "next_update": "2026-06-23",
+    "generated_date": "2026-06-23",
+    "generated_at": "2026-06-23T09:13:41.570309",
+    "next_update": "2026-06-24",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Cómo adquirir bienes o contratar según las disposiciones del SG-SST?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/11/SG-SST.jpg",
+      "title": "ISO 19600:2015 para Sistemas de Gestión de Compliance",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/03/ISO-19600.jpg",
       "image_exists": true,
-      "text": "SG-SST La organización debe establecer y mantener un procedimiento para adquisiciones, con el fin de garantizar que se…",
+      "text": "ISO 19600 A finales del año 2015, el Organismo Internacional sobre Normalización (ISO) publicó la versión final de…",
       "news_priority": 1,
-      "selected_date": "2026-06-22T10:06:09.143967",
-      "rotation_id": "2026-06-22-1"
+      "selected_date": "2026-06-23T09:13:41.570198",
+      "rotation_id": "2026-06-23-1"
     },
     {
-      "title": "ISO 27001: Pasos para la implantación de la política de seguridad y los procedimientos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/02/ISO-27001-20.gif",
-      "image_exists": true,
-      "text": "Norma ISO 27001 Durante la lectura de este post conocerá mejor cómo debe realizar una política o un…",
+      "title": "ISOTools le recomienda la asistencia al Simposio internacional FUNSEAM 2013",
+      "image_url": "https://www.isotools.org//app/noticias/fotos/Simposio%20internacional%20FUNSEAM%202013%20Barcelona.png",
+      "image_exists": false,
+      "text": "El evento tendrá lugar el próximo día 28 de enero en el Parc Científic de Barcelona.El Simposio internacional FUNSEAM 2013será un punto de encuentro para debatir las nuevas tendencias en materia deResponsabilidad Social Corporativa,Medio Ambientey Sostenibilidad Energética.Este evento, organizado por laFundación para la Sostenibilidad Energética y Ambiental, FUNSEAM, pretende crear un dialogo entre los nuevos modelos de mercado en el cual se propondrán líneas de trabajo enfocadas a laregulación de la sostenibilidad y la eficiencia energética en todos los sectores.Este mismo contenido será también enfocado desde laperspectiva latinoamericana, dada la relevancia que las prácticas de aumento de la eficiencia energética y protección delMedio Ambienteestán tomando en los países de Centroamérica y Sudamérica.Para obtener más información haga clicaquí.Más informaciónaquí",
       "news_priority": 2,
-      "selected_date": "2026-06-22T10:06:09.143976",
-      "rotation_id": "2026-06-22-2"
+      "selected_date": "2026-06-23T09:13:41.570207",
+      "rotation_id": "2026-06-23-2"
     },
     {
-      "title": "Eventos ISOTools Excellence: Una apuesta por la Calidad a través de la ISO 9001:2015.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/03/^BD1929A27E71AEA25E8096AE4439732AA42AB1C495BF2EB4BB^pimgpsh_fullsize_distr.jpg",
+      "title": "Ley de Ciberresiliencia de la UE: nuevo hito en la Ciberseguridad Europea",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/12/ley-de-ciberresiliencia-de-la-ue-nuevo-hito-en-la-ciberseguridad-europea.jpg",
       "image_exists": true,
-      "text": "ISO 9001:2015 Durante el mes de marzo de 2015, ISOTools Excellence tiene organizada una agenda de eventos desde…",
+      "text": "La Ley de Ciberresiliencia (CRA, por sus iniciales en inglés) es la obligación regulatoria y legal más reciente…",
       "news_priority": 3,
-      "selected_date": "2026-06-22T10:06:09.143978",
-      "rotation_id": "2026-06-22-3"
+      "selected_date": "2026-06-23T09:13:41.570209",
+      "rotation_id": "2026-06-23-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-22T10:06:09.144075",
-    "next_rotation": "2026-06-23T10:06:09.144075",
+    "selected_at": "2026-06-23T09:13:41.570309",
+    "next_rotation": "2026-06-24T09:13:41.570309",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
