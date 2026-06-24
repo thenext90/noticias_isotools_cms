@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-23",
-    "generated_at": "2026-06-23T09:13:41.570309",
-    "next_update": "2026-06-24",
+    "generated_date": "2026-06-24",
+    "generated_at": "2026-06-24T09:12:17.703069",
+    "next_update": "2026-06-25",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISO 19600:2015 para Sistemas de Gestión de Compliance",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/03/ISO-19600.jpg",
+      "title": "ISOTools recibe la visita de la Dirección Regional de Educación Primaria y Secundaria de Grecia",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/04/MicrosoftTeams-image-38.jpg",
       "image_exists": true,
-      "text": "ISO 19600 A finales del año 2015, el Organismo Internacional sobre Normalización (ISO) publicó la versión final de…",
+      "text": "Dirección Regional de Educación Primaria y Secundaria A lo largo del día de ayer, jueves 27 de abril,…",
       "news_priority": 1,
-      "selected_date": "2026-06-23T09:13:41.570198",
-      "rotation_id": "2026-06-23-1"
+      "selected_date": "2026-06-24T09:12:17.702998",
+      "rotation_id": "2026-06-24-1"
     },
     {
-      "title": "ISOTools le recomienda la asistencia al Simposio internacional FUNSEAM 2013",
-      "image_url": "https://www.isotools.org//app/noticias/fotos/Simposio%20internacional%20FUNSEAM%202013%20Barcelona.png",
-      "image_exists": false,
-      "text": "El evento tendrá lugar el próximo día 28 de enero en el Parc Científic de Barcelona.El Simposio internacional FUNSEAM 2013será un punto de encuentro para debatir las nuevas tendencias en materia deResponsabilidad Social Corporativa,Medio Ambientey Sostenibilidad Energética.Este evento, organizado por laFundación para la Sostenibilidad Energética y Ambiental, FUNSEAM, pretende crear un dialogo entre los nuevos modelos de mercado en el cual se propondrán líneas de trabajo enfocadas a laregulación de la sostenibilidad y la eficiencia energética en todos los sectores.Este mismo contenido será también enfocado desde laperspectiva latinoamericana, dada la relevancia que las prácticas de aumento de la eficiencia energética y protección delMedio Ambienteestán tomando en los países de Centroamérica y Sudamérica.Para obtener más información haga clicaquí.Más informaciónaquí",
-      "news_priority": 2,
-      "selected_date": "2026-06-23T09:13:41.570207",
-      "rotation_id": "2026-06-23-2"
-    },
-    {
-      "title": "Ley de Ciberresiliencia de la UE: nuevo hito en la Ciberseguridad Europea",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/12/ley-de-ciberresiliencia-de-la-ue-nuevo-hito-en-la-ciberseguridad-europea.jpg",
+      "title": "Planeación Estratégica: claves de éxito en los Sistemas de Gestión",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/01/Planeacion-estrategica.jpg",
       "image_exists": true,
-      "text": "La Ley de Ciberresiliencia (CRA, por sus iniciales en inglés) es la obligación regulatoria y legal más reciente…",
+      "text": "La planeación estratégica es un proceso que tiende a ser intrincado y complejo, no existe una recet...",
+      "news_priority": 2,
+      "selected_date": "2026-06-24T09:12:17.703003",
+      "rotation_id": "2026-06-24-2"
+    },
+    {
+      "title": "Etapas del proceso de evaluación de riesgos en la gestión HSE",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/evaluación-de-riesgos.jpg",
+      "image_exists": true,
+      "text": "Evaluación de riesgos El artículo de hoy tratará sobre las etapas de la evaluación de riesgos, uno de…",
       "news_priority": 3,
-      "selected_date": "2026-06-23T09:13:41.570209",
-      "rotation_id": "2026-06-23-3"
+      "selected_date": "2026-06-24T09:12:17.703005",
+      "rotation_id": "2026-06-24-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-23T09:13:41.570309",
-    "next_rotation": "2026-06-24T09:13:41.570309",
+    "selected_at": "2026-06-24T09:12:17.703069",
+    "next_rotation": "2026-06-25T09:12:17.703069",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
