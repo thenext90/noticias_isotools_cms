@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-24",
-    "generated_at": "2026-06-24T09:12:17.703069",
-    "next_update": "2026-06-25",
+    "generated_date": "2026-06-25",
+    "generated_at": "2026-06-25T09:11:30.759053",
+    "next_update": "2026-06-26",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools recibe la visita de la Dirección Regional de Educación Primaria y Secundaria de Grecia",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/04/MicrosoftTeams-image-38.jpg",
+      "title": "La Transformación Digital HSE para el manejo del plan de emergencias y contingencias",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/Plan-de-emergencias-y-contingencias.jpg",
       "image_exists": true,
-      "text": "Dirección Regional de Educación Primaria y Secundaria A lo largo del día de ayer, jueves 27 de abril,…",
+      "text": "Plan de emergencias y contingencias Durante el artículo de hoy queremos ofrecer herramientas para estructurar, redactar e implementar…",
       "news_priority": 1,
-      "selected_date": "2026-06-24T09:12:17.702998",
-      "rotation_id": "2026-06-24-1"
+      "selected_date": "2026-06-25T09:11:30.758895",
+      "rotation_id": "2026-06-25-1"
     },
     {
-      "title": "Planeación Estratégica: claves de éxito en los Sistemas de Gestión",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/01/Planeacion-estrategica.jpg",
+      "title": "Las aportaciones que genera la ISO 9001 al sector energético.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/05/14.jpg",
       "image_exists": true,
-      "text": "La planeación estratégica es un proceso que tiende a ser intrincado y complejo, no existe una recet...",
+      "text": "Actualmente, las empresas se ven presionadas por la sociedad por ello llevan a cabo la implantación de principios…",
       "news_priority": 2,
-      "selected_date": "2026-06-24T09:12:17.703003",
-      "rotation_id": "2026-06-24-2"
+      "selected_date": "2026-06-25T09:11:30.758907",
+      "rotation_id": "2026-06-25-2"
     },
     {
-      "title": "Etapas del proceso de evaluación de riesgos en la gestión HSE",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/evaluación-de-riesgos.jpg",
+      "title": "Proceso de auditoría ISO 14001: etapas, requisitos y consejos clave",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/proceso-de-auditoria-iso-14001-etapa-requisitos-y-consejos-clave.jpg",
       "image_exists": true,
-      "text": "Evaluación de riesgos El artículo de hoy tratará sobre las etapas de la evaluación de riesgos, uno de…",
+      "text": "Contar con un sistema de gestión ambiental eficaz es esencial no solo para garantizar la sostenibilidad operativa, sino…",
       "news_priority": 3,
-      "selected_date": "2026-06-24T09:12:17.703005",
-      "rotation_id": "2026-06-24-3"
+      "selected_date": "2026-06-25T09:11:30.758910",
+      "rotation_id": "2026-06-25-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-24T09:12:17.703069",
-    "next_rotation": "2026-06-25T09:12:17.703069",
+    "selected_at": "2026-06-25T09:11:30.759053",
+    "next_rotation": "2026-06-26T09:11:30.759053",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
