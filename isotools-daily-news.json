@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-25",
-    "generated_at": "2026-06-25T09:11:30.759053",
-    "next_update": "2026-06-26",
+    "generated_date": "2026-06-26",
+    "generated_at": "2026-06-26T09:11:29.516575",
+    "next_update": "2026-06-27",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "La Transformación Digital HSE para el manejo del plan de emergencias y contingencias",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/Plan-de-emergencias-y-contingencias.jpg",
+      "title": "Fundamentos y objetivos de una ley de Riesgos Laborales",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/Fundamentos-y-objetivos-de-una-ley-de-Riesgos-Laborales.jpg",
       "image_exists": true,
-      "text": "Plan de emergencias y contingencias Durante el artículo de hoy queremos ofrecer herramientas para estructurar, redactar e implementar…",
+      "text": "Norma OSHAS 18001: Gestión de Seguridad en el Trabajo De origen británico, OSHAS 18001 es un estándar que…",
       "news_priority": 1,
-      "selected_date": "2026-06-25T09:11:30.758895",
-      "rotation_id": "2026-06-25-1"
+      "selected_date": "2026-06-26T09:11:29.516486",
+      "rotation_id": "2026-06-26-1"
     },
     {
-      "title": "Las aportaciones que genera la ISO 9001 al sector energético.",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/05/14.jpg",
+      "title": "No conformidad ISO 14001: cómo gestionar los proveedores",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/09/gestion-de-proveedores-ISO-14001.jpg",
       "image_exists": true,
-      "text": "Actualmente, las empresas se ven presionadas por la sociedad por ello llevan a cabo la implantación de principios…",
+      "text": "Esta Norma 14001 es un estándar internacional, que establece los requerimientos para un sistema de gestión ambiental...",
       "news_priority": 2,
-      "selected_date": "2026-06-25T09:11:30.758907",
-      "rotation_id": "2026-06-25-2"
+      "selected_date": "2026-06-26T09:11:29.516492",
+      "rotation_id": "2026-06-26-2"
     },
     {
-      "title": "Proceso de auditoría ISO 14001: etapas, requisitos y consejos clave",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/proceso-de-auditoria-iso-14001-etapa-requisitos-y-consejos-clave.jpg",
+      "title": "Los 17 indicadores de calidad ambiental imprescindibles",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/07/iStock_000045865096_Large.jpg",
       "image_exists": true,
-      "text": "Contar con un sistema de gestión ambiental eficaz es esencial no solo para garantizar la sostenibilidad operativa, sino…",
+      "text": "Calidad medioambiental La creciente preocupación social por los aspectos medioambientales hace que las organizaciones que basan su desarrollo y crecimiento en la…",
       "news_priority": 3,
-      "selected_date": "2026-06-25T09:11:30.758910",
-      "rotation_id": "2026-06-25-3"
+      "selected_date": "2026-06-26T09:11:29.516495",
+      "rotation_id": "2026-06-26-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-25T09:11:30.759053",
-    "next_rotation": "2026-06-26T09:11:30.759053",
+    "selected_at": "2026-06-26T09:11:29.516575",
+    "next_rotation": "2026-06-27T09:11:29.516575",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
