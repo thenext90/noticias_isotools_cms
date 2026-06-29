@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-26",
-    "generated_at": "2026-06-26T09:11:29.516575",
-    "next_update": "2026-06-27",
+    "generated_date": "2026-06-29",
+    "generated_at": "2026-06-29T09:41:28.957584",
+    "next_update": "2026-06-30",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Fundamentos y objetivos de una ley de Riesgos Laborales",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/Fundamentos-y-objetivos-de-una-ley-de-Riesgos-Laborales.jpg",
+      "title": "Gestión de riesgos de IA con ISO 42001: fundamentos y buenas prácticas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/gestion-de-riesgos-de-ia-con-iso-42001-fundamentos-y-buenas-practicas.jpg",
       "image_exists": true,
-      "text": "Norma OSHAS 18001: Gestión de Seguridad en el Trabajo De origen británico, OSHAS 18001 es un estándar que…",
+      "text": "La gestión de riesgos de IA se ha consolidado como prioridad estratégica para las organizaciones que integran sistemas…",
       "news_priority": 1,
-      "selected_date": "2026-06-26T09:11:29.516486",
-      "rotation_id": "2026-06-26-1"
+      "selected_date": "2026-06-29T09:41:28.957467",
+      "rotation_id": "2026-06-29-1"
     },
     {
-      "title": "No conformidad ISO 14001: cómo gestionar los proveedores",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/09/gestion-de-proveedores-ISO-14001.jpg",
+      "title": "El modelo de gestión de compliance según la ISO 37301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/06/ISO-37301.jpg",
       "image_exists": true,
-      "text": "Esta Norma 14001 es un estándar internacional, que establece los requerimientos para un sistema de gestión ambiental...",
+      "text": "ISO 37301 El modelo de gestión de cumplimiento basado en la norma ISO 37301 fue publicado durante 2021,…",
       "news_priority": 2,
-      "selected_date": "2026-06-26T09:11:29.516492",
-      "rotation_id": "2026-06-26-2"
+      "selected_date": "2026-06-29T09:41:28.957476",
+      "rotation_id": "2026-06-29-2"
     },
     {
-      "title": "Los 17 indicadores de calidad ambiental imprescindibles",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/07/iStock_000045865096_Large.jpg",
+      "title": "Resiliencia VS BurnOut. Como afrontar una situación límite en el entorno laboral",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/Síndrome-de-Burnout.jpg",
       "image_exists": true,
-      "text": "Calidad medioambiental La creciente preocupación social por los aspectos medioambientales hace que las organizaciones que basan su desarrollo y crecimiento en la…",
+      "text": "Resiliencia VS Síndrome de Burnout En la actualidad, el estrés laboral es un fenómeno que está incrementándose en…",
       "news_priority": 3,
-      "selected_date": "2026-06-26T09:11:29.516495",
-      "rotation_id": "2026-06-26-3"
+      "selected_date": "2026-06-29T09:41:28.957478",
+      "rotation_id": "2026-06-29-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-26T09:11:29.516575",
-    "next_rotation": "2026-06-27T09:11:29.516575",
+    "selected_at": "2026-06-29T09:41:28.957584",
+    "next_rotation": "2026-06-30T09:41:28.957584",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
