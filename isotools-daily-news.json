@@ -4,7 +4,7 @@
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
     "generated_date": "2026-06-30",
-    "generated_at": "2026-06-30T09:12:26.362672",
+    "generated_at": "2026-06-30T20:23:12.994442",
     "next_update": "2026-07-01",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Conclusiones EVENTO Soluciones Tecnológicas para la MEJORA CONTINUA en la Gestión de las Empresas por ISOTools",
-      "image_url": null,
-      "image_exists": false,
-      "text": "Ayer, 23 de mayo de 2012, tuvo lugar la Jornada formativa “Soluciones Tecnológicas para la MEJORA CONTINUA en…",
+      "title": "Food Safety: estandarización de la Inocuidad Alimentaria",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/04/ISO-14001-20.png",
+      "image_exists": true,
+      "text": "La regulación, control y gestión de la seguridad alimentaria durante la fabricación, procesamiento, distribución y consumo se puede automatizar con la Plataforma Tecnológica ISOTools. \r\n\tEn la actualidad, la Inocuidad Alimentaria va tomando mayor r...",
       "news_priority": 1,
-      "selected_date": "2026-06-30T09:12:26.362581",
+      "selected_date": "2026-06-30T20:23:12.994348",
       "rotation_id": "2026-06-30-1"
     },
     {
-      "title": "Éxito en la presentación de ISOTools realizada en Bogotá para automatización de Sistemas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2011/12/Automatizacion-de-Sistemas.webp",
+      "title": "ISO 14001: Costos asociados a una gestión ambiental inadecuada",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/iso14001.gif",
       "image_exists": true,
-      "text": "Automatización de Sistemas La jornada titulada como Soluciones Tecnológicas para la Mejora Continua en la Gestión de las…",
+      "text": "Norma ISO 14001 La ISO 14001 para los Sistemas de Gestión Medio Ambiental o SGMA, se convierte en…",
       "news_priority": 2,
-      "selected_date": "2026-06-30T09:12:26.362588",
+      "selected_date": "2026-06-30T20:23:12.994356",
       "rotation_id": "2026-06-30-2"
     },
     {
-      "title": "Revista Empresa Excelente octubre 2019",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/11/POST-REVISTA-OCTUBRE-2019.jpg",
+      "title": "Aspecto clave en la planificación de un Sistema de Continuidad de Negocio, según ISO DIS 22301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/ISO-DIS-22301-3.jpg",
       "image_exists": true,
-      "text": "REVISTA EMPRESA EXCELENTE Volvemos un mes más con el nuevo número de la Revista Empresa Excelente. En esta…",
+      "text": "ISO DIS 22301 Planificar es un concepto antagónico a improvisar, y consiste en estar preparado para poder responder…",
       "news_priority": 3,
-      "selected_date": "2026-06-30T09:12:26.362591",
+      "selected_date": "2026-06-30T20:23:12.994358",
       "rotation_id": "2026-06-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-30T09:12:26.362672",
-    "next_rotation": "2026-07-01T09:12:26.362672",
+    "selected_at": "2026-06-30T20:23:12.994442",
+    "next_rotation": "2026-07-01T20:23:12.994442",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
