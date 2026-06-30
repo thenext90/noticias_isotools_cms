@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-29",
-    "generated_at": "2026-06-29T09:41:28.957584",
-    "next_update": "2026-06-30",
+    "generated_date": "2026-06-30",
+    "generated_at": "2026-06-30T09:12:26.362672",
+    "next_update": "2026-07-01",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Gestión de riesgos de IA con ISO 42001: fundamentos y buenas prácticas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/07/gestion-de-riesgos-de-ia-con-iso-42001-fundamentos-y-buenas-practicas.jpg",
-      "image_exists": true,
-      "text": "La gestión de riesgos de IA se ha consolidado como prioridad estratégica para las organizaciones que integran sistemas…",
+      "title": "Conclusiones EVENTO Soluciones Tecnológicas para la MEJORA CONTINUA en la Gestión de las Empresas por ISOTools",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Ayer, 23 de mayo de 2012, tuvo lugar la Jornada formativa “Soluciones Tecnológicas para la MEJORA CONTINUA en…",
       "news_priority": 1,
-      "selected_date": "2026-06-29T09:41:28.957467",
-      "rotation_id": "2026-06-29-1"
+      "selected_date": "2026-06-30T09:12:26.362581",
+      "rotation_id": "2026-06-30-1"
     },
     {
-      "title": "El modelo de gestión de compliance según la ISO 37301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/06/ISO-37301.jpg",
+      "title": "Éxito en la presentación de ISOTools realizada en Bogotá para automatización de Sistemas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2011/12/Automatizacion-de-Sistemas.webp",
       "image_exists": true,
-      "text": "ISO 37301 El modelo de gestión de cumplimiento basado en la norma ISO 37301 fue publicado durante 2021,…",
+      "text": "Automatización de Sistemas La jornada titulada como Soluciones Tecnológicas para la Mejora Continua en la Gestión de las…",
       "news_priority": 2,
-      "selected_date": "2026-06-29T09:41:28.957476",
-      "rotation_id": "2026-06-29-2"
+      "selected_date": "2026-06-30T09:12:26.362588",
+      "rotation_id": "2026-06-30-2"
     },
     {
-      "title": "Resiliencia VS BurnOut. Como afrontar una situación límite en el entorno laboral",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/08/Síndrome-de-Burnout.jpg",
+      "title": "Revista Empresa Excelente octubre 2019",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/11/POST-REVISTA-OCTUBRE-2019.jpg",
       "image_exists": true,
-      "text": "Resiliencia VS Síndrome de Burnout En la actualidad, el estrés laboral es un fenómeno que está incrementándose en…",
+      "text": "REVISTA EMPRESA EXCELENTE Volvemos un mes más con el nuevo número de la Revista Empresa Excelente. En esta…",
       "news_priority": 3,
-      "selected_date": "2026-06-29T09:41:28.957478",
-      "rotation_id": "2026-06-29-3"
+      "selected_date": "2026-06-30T09:12:26.362591",
+      "rotation_id": "2026-06-30-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-29T09:41:28.957584",
-    "next_rotation": "2026-06-30T09:41:28.957584",
+    "selected_at": "2026-06-30T09:12:26.362672",
+    "next_rotation": "2026-07-01T09:12:26.362672",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
