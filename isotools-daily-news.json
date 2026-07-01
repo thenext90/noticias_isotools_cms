@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-06-30",
-    "generated_at": "2026-06-30T20:23:12.994442",
-    "next_update": "2026-07-01",
+    "generated_date": "2026-07-01",
+    "generated_at": "2026-07-01T09:13:20.798791",
+    "next_update": "2026-07-02",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Food Safety: estandarización de la Inocuidad Alimentaria",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/04/ISO-14001-20.png",
+      "title": "Revista Empresa Excelente octubre 2020",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/11/blog-revista-octubre.jpg",
       "image_exists": true,
-      "text": "La regulación, control y gestión de la seguridad alimentaria durante la fabricación, procesamiento, distribución y consumo se puede automatizar con la Plataforma Tecnológica ISOTools. \r\n\tEn la actualidad, la Inocuidad Alimentaria va tomando mayor r...",
+      "text": "REVISTA EMPRESA EXCELENTE Como cada primer jueves del mes, publicamos un nuevo número de la Revista Empresa Excelente.…",
       "news_priority": 1,
-      "selected_date": "2026-06-30T20:23:12.994348",
-      "rotation_id": "2026-06-30-1"
+      "selected_date": "2026-07-01T09:13:20.798709",
+      "rotation_id": "2026-07-01-1"
     },
     {
-      "title": "ISO 14001: Costos asociados a una gestión ambiental inadecuada",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/10/iso14001.gif",
+      "title": "OHSAS 18001: Importancia de los procesos de comunicación, participación y consulta",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/11/OHSAS.gif",
       "image_exists": true,
-      "text": "Norma ISO 14001 La ISO 14001 para los Sistemas de Gestión Medio Ambiental o SGMA, se convierte en…",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 2,
-      "selected_date": "2026-06-30T20:23:12.994356",
-      "rotation_id": "2026-06-30-2"
+      "selected_date": "2026-07-01T09:13:20.798715",
+      "rotation_id": "2026-07-01-2"
     },
     {
-      "title": "Aspecto clave en la planificación de un Sistema de Continuidad de Negocio, según ISO DIS 22301",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/03/ISO-DIS-22301-3.jpg",
+      "title": "Como convertir la autoevaluación con el Modelo EFQM en planes de mejora",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/12/Modelo-EFQM.webp",
       "image_exists": true,
-      "text": "ISO DIS 22301 Planificar es un concepto antagónico a improvisar, y consiste en estar preparado para poder responder…",
+      "text": "Modelo EFQM La filosofía del Modelo EFQM nos propone que pensemos cómo somos de excelentes en nuestra organización…",
       "news_priority": 3,
-      "selected_date": "2026-06-30T20:23:12.994358",
-      "rotation_id": "2026-06-30-3"
+      "selected_date": "2026-07-01T09:13:20.798717",
+      "rotation_id": "2026-07-01-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-06-30T20:23:12.994442",
-    "next_rotation": "2026-07-01T20:23:12.994442",
+    "selected_at": "2026-07-01T09:13:20.798791",
+    "next_rotation": "2026-07-02T09:13:20.798791",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
