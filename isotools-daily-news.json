@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-02",
-    "generated_at": "2026-07-02T09:08:41.523686",
-    "next_update": "2026-07-03",
+    "generated_date": "2026-07-03",
+    "generated_at": "2026-07-03T09:07:30.930076",
+    "next_update": "2026-07-04",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "ISOTools: principales características del software para administrar Sistemas de Gestión y Modelos de Excelencia",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/11/software-para-administrar-Sistemas-de-Gestión-y-Modelos-de-Excelencia.jpg",
+      "title": "Calidad PUCP–ASQ: Segundo Congreso Internacional",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/08/Calidad.webp",
       "image_exists": true,
-      "text": "Software para administrar Sistemas de Gestión y Modelos de Excelencia: ISOTools ISOTools es una software para administrar Sistemas de…",
+      "text": "Calidad En los pasados días 13 y 14 de agosto se celebró el Segundo Congreso Internacional sobre Calidad…",
       "news_priority": 1,
-      "selected_date": "2026-07-02T09:08:41.523606",
-      "rotation_id": "2026-07-02-1"
+      "selected_date": "2026-07-03T09:07:30.929941",
+      "rotation_id": "2026-07-03-1"
     },
     {
-      "title": "¿Qué significa UNE-EN ISO 9001 2015?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/08/UNE-EN-ISO-9001-2015.jpg",
+      "title": "Revista Empresa Excelente septiembre 2022",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/09/plantilla-destacada-post-revista.jpg",
       "image_exists": true,
-      "text": "La UNE-EN ISO 9001 2015 es una de las normas de gestión de calidad más reconocidas y utilizadas a nivel mundial. Representa...",
+      "text": "REVISTA EMPRESA EXCELENTE En este mes de octubre les presentamos la nueva edición de la revista Empresa Excelente.…",
       "news_priority": 2,
-      "selected_date": "2026-07-02T09:08:41.523613",
-      "rotation_id": "2026-07-02-2"
+      "selected_date": "2026-07-03T09:07:30.929950",
+      "rotation_id": "2026-07-03-2"
     },
     {
-      "title": "5 de junio Día Mundial del Medio Ambiente",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/06/Día-Mundial-del-Medio-Ambiente.png",
+      "title": "5 principales definiciones ISO 45001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/definiciones-ISO-45001.png",
       "image_exists": true,
-      "text": "Día Mundial del Medio Ambiente Como cada año, el 5 de junio se celebra el Día Mundial del…",
+      "text": "La norma ISO 45001 es el estándar internacional para la gestión de la seguridad y salud en el trabajo (SST), cuyo objetivo es prevenir...",
       "news_priority": 3,
-      "selected_date": "2026-07-02T09:08:41.523616",
-      "rotation_id": "2026-07-02-3"
+      "selected_date": "2026-07-03T09:07:30.929953",
+      "rotation_id": "2026-07-03-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-02T09:08:41.523686",
-    "next_rotation": "2026-07-03T09:08:41.523686",
+    "selected_at": "2026-07-03T09:07:30.930076",
+    "next_rotation": "2026-07-04T09:07:30.930076",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
