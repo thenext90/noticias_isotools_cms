@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-04",
-    "generated_at": "2026-07-04T15:11:40.332397",
-    "next_update": "2026-07-05",
+    "generated_date": "2026-07-06",
+    "generated_at": "2026-07-06T09:26:15.652894",
+    "next_update": "2026-07-07",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Anatomía de un indicador de calidad: cuáles son sus componentes",
-      "image_url": "https://isotools.org/wp-content/uploads/2026/06/Anatomia-de-un-indicador-de-calidad.webp",
+      "title": "IV Congreso Ibero-Americano de Seguridad Vial",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/09/seguridad-vial.jpg",
       "image_exists": true,
-      "text": "Diseñar bien la anatomía de un indicador de calidad garantiza decisiones objetivas, coherentes con la estrategia y alineadas…",
+      "text": "Seguridad Vial Ya faltan pocos días para que dé comienzo el IV Congreso Ibero-Americano de Seguridad Vial  que…",
       "news_priority": 1,
-      "selected_date": "2026-07-04T15:11:40.332307",
-      "rotation_id": "2026-07-04-1"
+      "selected_date": "2026-07-06T09:26:15.652770",
+      "rotation_id": "2026-07-06-1"
     },
     {
-      "title": "Guía de implementación de ISO 22301",
-      "image_url": "https://isotools.org/wp-content/uploads/2026/05/Implementacion-de-ISO-22301.webp",
+      "title": "La Norma ISO 27001. Monográfico PDF. La importancia de la Gestión de la Seguridad de la Información",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/Monográfico-ISO-27001-ISOTools.jpg",
       "image_exists": true,
-      "text": "La implementación de ISO 22301 te permite asegurar la continuidad de negocio frente a incidentes críticos, reducir el…",
+      "text": "ISO 27001 Hoy en día la preocupación por garantizar la protección ante ataques relacionados con la seguridad de…",
       "news_priority": 2,
-      "selected_date": "2026-07-04T15:11:40.332314",
-      "rotation_id": "2026-07-04-2"
+      "selected_date": "2026-07-06T09:26:15.652780",
+      "rotation_id": "2026-07-06-2"
     },
     {
-      "title": "Todo lo que necesitas saber sobre indicadores de calidad",
-      "image_url": "https://isotools.org/wp-content/uploads/2026/05/Indicadores-de-calidaddd.webp",
+      "title": "Un ejemplo sobre cómo elaborar el plan de calidad de un proyecto",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/06/9.-estrategias-cambio.jpg",
       "image_exists": true,
-      "text": "Los indicadores de calidad transforman datos dispersos en decisiones claras que mejoran procesos, productos y servicios. Bien diseñados,…",
+      "text": "Sistemas de Gestión de Calidad La detección de fallos, obstáculos e inconvenientes suele ser el punto de giro…",
       "news_priority": 3,
-      "selected_date": "2026-07-04T15:11:40.332316",
-      "rotation_id": "2026-07-04-3"
+      "selected_date": "2026-07-06T09:26:15.652782",
+      "rotation_id": "2026-07-06-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-04T15:11:40.332397",
-    "next_rotation": "2026-07-05T15:11:40.332397",
+    "selected_at": "2026-07-06T09:26:15.652894",
+    "next_rotation": "2026-07-07T09:26:15.652894",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
