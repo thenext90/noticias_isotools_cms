@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-07",
-    "generated_at": "2026-07-07T09:11:22.073660",
-    "next_update": "2026-07-08",
+    "generated_date": "2026-07-08",
+    "generated_at": "2026-07-08T08:55:15.537945",
+    "next_update": "2026-07-09",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "OES, imparte Diplomado en Acreditación para Instituciones de servicios de Salud",
-      "image_url": null,
-      "image_exists": false,
-      "text": "OES, Organización para la Excelencia de la Salud de Colombia, junto con la Universidad del Rosario e ISOTools…",
+      "title": "¿Qué es la ISO 3166?",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2016/08/ISO-3166.jpg",
+      "image_exists": true,
+      "text": "ISO 3166 La ISO 3166 es un estándar internacional para los códigos de país y los códigos para…",
       "news_priority": 1,
-      "selected_date": "2026-07-07T09:11:22.073570",
-      "rotation_id": "2026-07-07-1"
+      "selected_date": "2026-07-08T08:55:15.537849",
+      "rotation_id": "2026-07-08-1"
     },
     {
-      "title": "Estructura y ventajas de la integración de Sistemas de Gestión",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/11/estructura-y-ventajas-de-la-integracion-de-sistemas-de-gestion.jpg",
+      "title": "Normas ISO para la Gestión de Riesgos Corporativos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/normas-riesgos-corporativos.jpg",
       "image_exists": true,
-      "text": "Integración de Sistemas de Gestión La integración de Sistemas de Gestión más habitual tiende a darse entre los…",
+      "text": "Gestión de Riesgos Corporativos El riesgo, como lo conocemos actualmente, es una palabra que deriva de la palabra…",
       "news_priority": 2,
-      "selected_date": "2026-07-07T09:11:22.073577",
-      "rotation_id": "2026-07-07-2"
+      "selected_date": "2026-07-08T08:55:15.537857",
+      "rotation_id": "2026-07-08-2"
     },
     {
-      "title": "ISO 45003: ¿Qué es, qué tiene que ver con la salud mental y por qué es tan importante su publicación?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/10/ISO-45003.jpg",
+      "title": "ISOTools Colombia participa en el XV Congreso de Riesgo para el Sector Solidario",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/Congreso-de-Riesgo-para-el-Sector-Solidario.png",
       "image_exists": true,
-      "text": "El bienestar de los empleados se ha convertido en un tema central para las organizaciones, y cada vez toma más...",
+      "text": "Congreso de Riesgo para el Sector Solidario ISOTools Colombia participará en el Congreso de Riesgo para el Sector…",
       "news_priority": 3,
-      "selected_date": "2026-07-07T09:11:22.073579",
-      "rotation_id": "2026-07-07-3"
+      "selected_date": "2026-07-08T08:55:15.537860",
+      "rotation_id": "2026-07-08-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-07T09:11:22.073660",
-    "next_rotation": "2026-07-08T09:11:22.073660",
+    "selected_at": "2026-07-08T08:55:15.537945",
+    "next_rotation": "2026-07-09T08:55:15.537945",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
