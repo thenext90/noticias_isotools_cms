@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-08",
-    "generated_at": "2026-07-08T08:55:15.537945",
-    "next_update": "2026-07-09",
+    "generated_date": "2026-07-09",
+    "generated_at": "2026-07-09T09:14:55.762031",
+    "next_update": "2026-07-10",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Qué es la ISO 3166?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2016/08/ISO-3166.jpg",
+      "title": "Día Mundial de la Calidad 2017",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/11/calidad.jpg",
       "image_exists": true,
-      "text": "ISO 3166 La ISO 3166 es un estándar internacional para los códigos de país y los códigos para…",
+      "text": "Calidad El Día Mundial de la Calidad, es un evento celebrado cada segundo jueves de noviembre desde 1995,…",
       "news_priority": 1,
-      "selected_date": "2026-07-08T08:55:15.537849",
-      "rotation_id": "2026-07-08-1"
+      "selected_date": "2026-07-09T09:14:55.761920",
+      "rotation_id": "2026-07-09-1"
     },
     {
-      "title": "Normas ISO para la Gestión de Riesgos Corporativos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2022/01/normas-riesgos-corporativos.jpg",
+      "title": "Sistema de Gestión de Inteligencia Artificial (SGIA): definición y componentes clave",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/sistema-de-gestion-de-inteligencia-artificial-sgia-definicion-y-componentes-clave.jpg",
       "image_exists": true,
-      "text": "Gestión de Riesgos Corporativos El riesgo, como lo conocemos actualmente, es una palabra que deriva de la palabra…",
+      "text": "Sistema de Gestión de Inteligencia Artificial Las organizaciones que utilizan tecnologías de IA, de un modo u otro,…",
       "news_priority": 2,
-      "selected_date": "2026-07-08T08:55:15.537857",
-      "rotation_id": "2026-07-08-2"
+      "selected_date": "2026-07-09T09:14:55.761929",
+      "rotation_id": "2026-07-09-2"
     },
     {
-      "title": "ISOTools Colombia participa en el XV Congreso de Riesgo para el Sector Solidario",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2019/07/Congreso-de-Riesgo-para-el-Sector-Solidario.png",
+      "title": "Preparación y Ruta Crítica para la Acreditación en Salud",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/18001-11.jpg",
       "image_exists": true,
-      "text": "Congreso de Riesgo para el Sector Solidario ISOTools Colombia participará en el Congreso de Riesgo para el Sector…",
+      "text": "Acreditación Prepararse y acometer el proceso para lograr la Acreditación en Salud es una decisión voluntaria que se…",
       "news_priority": 3,
-      "selected_date": "2026-07-08T08:55:15.537860",
-      "rotation_id": "2026-07-08-3"
+      "selected_date": "2026-07-09T09:14:55.761931",
+      "rotation_id": "2026-07-09-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-08T08:55:15.537945",
-    "next_rotation": "2026-07-09T08:55:15.537945",
+    "selected_at": "2026-07-09T09:14:55.762031",
+    "next_rotation": "2026-07-10T09:14:55.762031",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
