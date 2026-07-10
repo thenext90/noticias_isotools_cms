@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-09",
-    "generated_at": "2026-07-09T09:14:55.762031",
-    "next_update": "2026-07-10",
+    "generated_date": "2026-07-10",
+    "generated_at": "2026-07-10T09:09:28.719537",
+    "next_update": "2026-07-11",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Día Mundial de la Calidad 2017",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2017/11/calidad.jpg",
+      "title": "ISO 9001 versión 2015 y la política de calidad",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/12/ISO-9001-version-2015.webp",
       "image_exists": true,
-      "text": "Calidad El Día Mundial de la Calidad, es un evento celebrado cada segundo jueves de noviembre desde 1995,…",
+      "text": "ISO 9001 versión 2015 En el borrador de la Nueva ISO 9001:2015 observamos como incorpora una política de calidad que…",
       "news_priority": 1,
-      "selected_date": "2026-07-09T09:14:55.761920",
-      "rotation_id": "2026-07-09-1"
+      "selected_date": "2026-07-10T09:09:28.719465",
+      "rotation_id": "2026-07-10-1"
     },
     {
-      "title": "Sistema de Gestión de Inteligencia Artificial (SGIA): definición y componentes clave",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/sistema-de-gestion-de-inteligencia-artificial-sgia-definicion-y-componentes-clave.jpg",
+      "title": "Elementos del plan de contingencia según ISO 22301",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2019/06/ISO-22301.jpg",
       "image_exists": true,
-      "text": "Sistema de Gestión de Inteligencia Artificial Las organizaciones que utilizan tecnologías de IA, de un modo u otro,…",
+      "text": "Plan de contingencia Existe la posibilidad de que, en un determinado momento, una organización, independientemente de su tamaño,…",
       "news_priority": 2,
-      "selected_date": "2026-07-09T09:14:55.761929",
-      "rotation_id": "2026-07-09-2"
+      "selected_date": "2026-07-10T09:09:28.719470",
+      "rotation_id": "2026-07-10-2"
     },
     {
-      "title": "Preparación y Ruta Crítica para la Acreditación en Salud",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2012/07/18001-11.jpg",
+      "title": "ISOTools – Revista Empresa Excelente diciembre 2016",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2017/01/revista-diciembre-2016.jpg",
       "image_exists": true,
-      "text": "Acreditación Prepararse y acometer el proceso para lograr la Acreditación en Salud es una decisión voluntaria que se…",
+      "text": "EMPRESA EXCELENTE Ya puedes descargar la revista EMPRESA EXCELENTE del mes de diciembre de 2016, en la que encontrarás…",
       "news_priority": 3,
-      "selected_date": "2026-07-09T09:14:55.761931",
-      "rotation_id": "2026-07-09-3"
+      "selected_date": "2026-07-10T09:09:28.719473",
+      "rotation_id": "2026-07-10-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-09T09:14:55.762031",
-    "next_rotation": "2026-07-10T09:14:55.762031",
+    "selected_at": "2026-07-10T09:09:28.719537",
+    "next_rotation": "2026-07-11T09:09:28.719537",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
