@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-13",
-    "generated_at": "2026-07-13T09:09:38.463617",
-    "next_update": "2026-07-14",
+    "generated_date": "2026-07-14",
+    "generated_at": "2026-07-14T08:46:56.874247",
+    "next_update": "2026-07-15",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "¿Qué valores añadidos supone la nueva norma ISO 9001:2015?",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/norma-ISO-9001.jpg",
+      "title": "Cómo poner en marcha un plan de seguridad de la información en las empresas",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/iStock_000071806251_Large.jpg",
       "image_exists": true,
-      "text": "Norma ISO 9001: Sistema de Gestión de Calidad ISO 9001 es el estándar que fija los requisitos mínimos…",
+      "text": "La información es uno de los más preciados activos de cualquier empresa, por lo que debe ser protegida…",
       "news_priority": 1,
-      "selected_date": "2026-07-13T09:09:38.463512",
-      "rotation_id": "2026-07-13-1"
+      "selected_date": "2026-07-14T08:46:56.874157",
+      "rotation_id": "2026-07-14-1"
     },
     {
-      "title": "Metodologías Lean. Lean Service",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2013/08/evento-kaizen-action-group-mejoras-rapidas-300x3001.png",
+      "title": "El enfoque de ISO 45001: Análisis de Riesgos y Oportunidades",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2023/12/enfoque-de-ISO-45001.jpg",
       "image_exists": true,
-      "text": "Lean Service Esta semana traemos otro nuevo capítulo sobre la metodología Lean, en concreto, Lean aplicado a los…",
+      "text": "En el mundo empresarial actual, la seguridad y la salud ocupacional son prioridades clave para garantizar el bienestar de...",
       "news_priority": 2,
-      "selected_date": "2026-07-13T09:09:38.463521",
-      "rotation_id": "2026-07-13-2"
+      "selected_date": "2026-07-14T08:46:56.874164",
+      "rotation_id": "2026-07-14-2"
     },
     {
-      "title": "Sanciones de la Ley de IA de la UE: el alto coste del incumplimiento",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2025/04/sanciones-de-la-ley-de-ia-de-la-ue-el-alto-coste-del-incumplimiento.jpg",
+      "title": "Integración de sistemas ISO 9001, ISO 14001 y OHSAS 18001 en el sector hidrocarburos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/Integración-de-sistemas-ISO.jpg",
       "image_exists": true,
-      "text": "La Ley de IA de la Unión Europea es pionera en el mundo en su clase y se…",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 3,
-      "selected_date": "2026-07-13T09:09:38.463523",
-      "rotation_id": "2026-07-13-3"
+      "selected_date": "2026-07-14T08:46:56.874166",
+      "rotation_id": "2026-07-14-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-13T09:09:38.463617",
-    "next_rotation": "2026-07-14T09:09:38.463617",
+    "selected_at": "2026-07-14T08:46:56.874247",
+    "next_rotation": "2026-07-15T08:46:56.874247",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
