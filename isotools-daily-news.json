@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-14",
-    "generated_at": "2026-07-14T08:46:56.874247",
-    "next_update": "2026-07-15",
+    "generated_date": "2026-07-15",
+    "generated_at": "2026-07-15T08:49:54.144045",
+    "next_update": "2026-07-16",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Cómo poner en marcha un plan de seguridad de la información en las empresas",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/12/iStock_000071806251_Large.jpg",
+      "title": "Preguntas Frecuentes sobre la nueva ISO 22000",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/nueva-ISO-22000.jpg",
       "image_exists": true,
-      "text": "La información es uno de los más preciados activos de cualquier empresa, por lo que debe ser protegida…",
+      "text": "Nueva ISO 22000 Parece ser que, tras 13 años de espera, ya se ha confirmado que tendremos una…",
       "news_priority": 1,
-      "selected_date": "2026-07-14T08:46:56.874157",
-      "rotation_id": "2026-07-14-1"
+      "selected_date": "2026-07-15T08:49:54.143953",
+      "rotation_id": "2026-07-15-1"
     },
     {
-      "title": "El enfoque de ISO 45001: Análisis de Riesgos y Oportunidades",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2023/12/enfoque-de-ISO-45001.jpg",
+      "title": "ISO 4074 para preservativos",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/05/ISO4074.jpg",
       "image_exists": true,
-      "text": "En el mundo empresarial actual, la seguridad y la salud ocupacional son prioridades clave para garantizar el bienestar de...",
+      "text": "ISO 4074:2002 El preservativo es un método de protección sexual que previene tanto de embarazos no deseados como…",
       "news_priority": 2,
-      "selected_date": "2026-07-14T08:46:56.874164",
-      "rotation_id": "2026-07-14-2"
+      "selected_date": "2026-07-15T08:49:54.143960",
+      "rotation_id": "2026-07-15-2"
     },
     {
-      "title": "Integración de sistemas ISO 9001, ISO 14001 y OHSAS 18001 en el sector hidrocarburos",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/07/Integración-de-sistemas-ISO.jpg",
+      "title": "ISO/IEC 27005:2018, la norma que reducirá el riesgo de brechas en la seguridad informática",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/ISO_IEC-27005_2018.jpg",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
+      "text": "ISO/IEC 27005:2018 Hoy en día, en nuestro mundo hiperconectado e impulsado por la tecnología, las brechas de seguridad…",
       "news_priority": 3,
-      "selected_date": "2026-07-14T08:46:56.874166",
-      "rotation_id": "2026-07-14-3"
+      "selected_date": "2026-07-15T08:49:54.143963",
+      "rotation_id": "2026-07-15-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-14T08:46:56.874247",
-    "next_rotation": "2026-07-15T08:46:56.874247",
+    "selected_at": "2026-07-15T08:49:54.144045",
+    "next_rotation": "2026-07-16T08:49:54.144045",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
