@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-15",
-    "generated_at": "2026-07-15T08:49:54.144045",
-    "next_update": "2026-07-16",
+    "generated_date": "2026-07-16",
+    "generated_at": "2026-07-16T08:49:52.667454",
+    "next_update": "2026-07-17",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Corfo Los Lagos focaliza apoyos a empresas regionales con certificación ISO",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsT_v1JF79c9DimhKHDPVFfSJMGCKjGUneBXfPIdn2EQ&s=10",
+      "title": "COVID-19: Generar confianza durante la recuperación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/COVID-19....jpg",
       "image_exists": true,
-      "text": "Corfo Los Lagos aprobo fondos FOCAL 2026 para que PyMEs regionales se certifiquen en normas de gestión con cofinanciamiento estatal.",
+      "text": "COVID-19 La confianza es un concepto que se encuentra inherente en los seres humanos, en nuestras relaciones personales,…",
       "news_priority": 1,
-      "selected_date": "2026-07-15T08:49:54.143953",
-      "rotation_id": "2026-07-15-1"
+      "selected_date": "2026-07-16T08:49:52.667354",
+      "rotation_id": "2026-07-16-1"
     },
     {
-      "title": "Hoja de ruta para fortalecer la minería chilena 2026-2030",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS77xa_DuZEd3MUqLfQhs8nj-GVIIE9mPqjGQYb-Y7Oug&s=10",
+      "title": "Fijar el objetivo y el campo de aplicación de la OHSAS 18001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/OHSAS-18001.png",
       "image_exists": true,
-      "text": "Plan de Minería 2026-2030 en Chile impulsa estándares ISO para sostenibilidad, seguridad y eficiencia en la industria.",
+      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
       "news_priority": 2,
-      "selected_date": "2026-07-15T08:49:54.143960",
-      "rotation_id": "2026-07-15-2"
+      "selected_date": "2026-07-16T08:49:52.667361",
+      "rotation_id": "2026-07-16-2"
     },
     {
-      "title": "Hacia la nueva ISO 9001:2026 — cambios y preparación para PyMEs",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/08/ISO_IEC-27005_2018.jpg",
+      "title": "Ley de Ciberresiliencia de la UE: nuevo hito en la Ciberseguridad Europea",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/12/ley-de-ciberresiliencia-de-la-ue-nuevo-hito-en-la-ciberseguridad-europea.jpg",
       "image_exists": true,
-      "text": "ISO 9001:2026 renueva su estructura Anexo SL con enfoque en gestión de riesgos y adaptabilidad para PyMEs. Publicación prevista para septiembre 2026.",
+      "text": "La Ley de Ciberresiliencia (CRA, por sus iniciales en inglés) es la obligación regulatoria y legal más reciente…",
       "news_priority": 3,
-      "selected_date": "2026-07-15T08:49:54.143963",
-      "rotation_id": "2026-07-15-3"
+      "selected_date": "2026-07-16T08:49:52.667364",
+      "rotation_id": "2026-07-16-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-15T08:49:54.144045",
-    "next_rotation": "2026-07-16T08:49:54.144045",
+    "selected_at": "2026-07-16T08:49:52.667454",
+    "next_rotation": "2026-07-17T08:49:52.667454",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
