@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-16",
-    "generated_at": "2026-07-16T08:49:52.667454",
-    "next_update": "2026-07-17",
+    "generated_date": "2026-07-17",
+    "generated_at": "2026-07-17T08:47:04.734174",
+    "next_update": "2026-07-18",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "COVID-19: Generar confianza durante la recuperación",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2020/07/COVID-19....jpg",
+      "title": "Esta semana se celebra el Día Mundial de la Calidad del 2018",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2018/11/Día-Mundial-de-la-Calidad.jpg",
       "image_exists": true,
-      "text": "COVID-19 La confianza es un concepto que se encuentra inherente en los seres humanos, en nuestras relaciones personales,…",
+      "text": "Día Mundial de la Calidad El Día Mundial de la Calidad se lleva a cabo desde hace aproximadamente…",
       "news_priority": 1,
-      "selected_date": "2026-07-16T08:49:52.667354",
-      "rotation_id": "2026-07-16-1"
+      "selected_date": "2026-07-17T08:47:04.734098",
+      "rotation_id": "2026-07-17-1"
     },
     {
-      "title": "Fijar el objetivo y el campo de aplicación de la OHSAS 18001",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/02/OHSAS-18001.png",
+      "title": "Mejores prácticas para el cumplimiento en HSE",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2021/05/HSE-1.jpg",
       "image_exists": true,
-      "text": "La norma OHSAS 18001 ya no está vigente y fue reemplazada por la ISO 45001",
+      "text": "HSE Es bastante habitual que las organizaciones cuenten con sistemas HSE con el objetivo proteger la salud, seguridad…",
       "news_priority": 2,
-      "selected_date": "2026-07-16T08:49:52.667361",
-      "rotation_id": "2026-07-16-2"
+      "selected_date": "2026-07-17T08:47:04.734106",
+      "rotation_id": "2026-07-17-2"
     },
     {
-      "title": "Ley de Ciberresiliencia de la UE: nuevo hito en la Ciberseguridad Europea",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/12/ley-de-ciberresiliencia-de-la-ue-nuevo-hito-en-la-ciberseguridad-europea.jpg",
-      "image_exists": true,
-      "text": "La Ley de Ciberresiliencia (CRA, por sus iniciales en inglés) es la obligación regulatoria y legal más reciente…",
+      "title": "Marco de cooperación FISO – ISOTools – SPIRIT: Caso de colaboración mutua.",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Se han cumplido ya cinco meses desde que las organizaciones FISO, ISOTools y SPIRIT solaparon sus áreas de…",
       "news_priority": 3,
-      "selected_date": "2026-07-16T08:49:52.667364",
-      "rotation_id": "2026-07-16-3"
+      "selected_date": "2026-07-17T08:47:04.734108",
+      "rotation_id": "2026-07-17-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-16T08:49:52.667454",
-    "next_rotation": "2026-07-17T08:49:52.667454",
+    "selected_at": "2026-07-17T08:47:04.734174",
+    "next_rotation": "2026-07-18T08:47:04.734174",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
