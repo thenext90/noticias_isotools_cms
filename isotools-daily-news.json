@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-17",
-    "generated_at": "2026-07-17T08:47:04.734174",
-    "next_update": "2026-07-18",
+    "generated_date": "2026-07-20",
+    "generated_at": "2026-07-20T09:07:05.107287",
+    "next_update": "2026-07-21",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Esta semana se celebra el Día Mundial de la Calidad del 2018",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2018/11/Día-Mundial-de-la-Calidad.jpg",
+      "title": "Criterios del modelo EFQM. Criterio 7: Resultados en las personas.",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2013/12/resultados-personasEFQM.jpg",
       "image_exists": true,
-      "text": "Día Mundial de la Calidad El Día Mundial de la Calidad se lleva a cabo desde hace aproximadamente…",
+      "text": "Modelo EFQM El modelo de Excelencia EFQM es un instrumento útil que ayuda a las empresas a constituir…",
       "news_priority": 1,
-      "selected_date": "2026-07-17T08:47:04.734098",
-      "rotation_id": "2026-07-17-1"
+      "selected_date": "2026-07-20T09:07:05.107190",
+      "rotation_id": "2026-07-20-1"
     },
     {
-      "title": "Mejores prácticas para el cumplimiento en HSE",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2021/05/HSE-1.jpg",
+      "title": "Vídeo – ISO 14001: Objeto y campo de aplicación",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/07/multimedia-14001-general.jpg",
       "image_exists": true,
-      "text": "HSE Es bastante habitual que las organizaciones cuenten con sistemas HSE con el objetivo proteger la salud, seguridad…",
+      "text": "ISO 14001 Dentro de la norma ISO 14001 tenemos los requisitos necesarios para establecer un Sistema de Gestión…",
       "news_priority": 2,
-      "selected_date": "2026-07-17T08:47:04.734106",
-      "rotation_id": "2026-07-17-2"
+      "selected_date": "2026-07-20T09:07:05.107197",
+      "rotation_id": "2026-07-20-2"
     },
     {
-      "title": "Marco de cooperación FISO – ISOTools – SPIRIT: Caso de colaboración mutua.",
+      "title": "UNE – EN ISO 22716: Buenas Prácticas de Fabricación de Productos Cosméticos",
       "image_url": null,
       "image_exists": false,
-      "text": "Se han cumplido ya cinco meses desde que las organizaciones FISO, ISOTools y SPIRIT solaparon sus áreas de…",
+      "text": "Toda empresa comprometida con el fin de eliminar y prevenir los fallos en el proceso de calidad y…",
       "news_priority": 3,
-      "selected_date": "2026-07-17T08:47:04.734108",
-      "rotation_id": "2026-07-17-3"
+      "selected_date": "2026-07-20T09:07:05.107200",
+      "rotation_id": "2026-07-20-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-17T08:47:04.734174",
-    "next_rotation": "2026-07-18T08:47:04.734174",
+    "selected_at": "2026-07-20T09:07:05.107287",
+    "next_rotation": "2026-07-21T09:07:05.107287",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
