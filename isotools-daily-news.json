@@ -33,15 +33,15 @@
       "selected_date": "2026-07-23T08:56:18.064197",
       "rotation_id": "2026-07-23-1"
     },
-    {
-      "title": "ISOTools – Revista Empresa Excelente junio 2015",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2015/07/junio-2015.jpg",
-      "image_exists": true,
-      "text": "EMPRESA EXCELENTE En la sexta edición de la revista EMPRESA EXCELENTE le presentamos un diseño renovado enfocado a facilitar la…",
-      "news_priority": 2,
-      "selected_date": "2026-07-23T08:56:18.064210",
-      "rotation_id": "2026-07-23-2"
-    },
+     {
+  "title": "ISO 14001:2026: nueva versión publicada oficialmente por ISO",
+  "image_url": "https://esltd.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-28-112048-1024x680.png",
+  "image_exists": true,
+  "text": "La norma ISO 14001:2026 ha sido publicada oficialmente por la Organización Internacional de Normalización, sustituyendo a la versión de 2015 e incorporando mayor exigencia en resiliencia climática, biodiversidad y gestión basada en datos…",
+  "news_priority": 2,
+  "selected_date": "2026-07-23T08:56:18.064210",
+  "rotation_id": "2026-07-23-2"
+   }
     {
       "title": "5 claves del nuevo marco sobre conflicto de interés: ISO 37009",
       "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/ISO-37009-.png",
