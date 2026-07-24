@@ -3,9 +3,9 @@
     "title": "ISOTools - Noticias Diarias",
     "description": "Selección diaria de 3 artículos destacados sobre normas ISO",
     "source": "ISOTools Corporate Blog (isotools.us)",
-    "generated_date": "2026-07-23",
-    "generated_at": "2026-07-23T08:56:18.064310",
-    "next_update": "2026-07-24",
+    "generated_date": "2026-07-24",
+    "generated_at": "2026-07-24T08:54:37.071027",
+    "next_update": "2026-07-25",
     "total_articles": 3,
     "rotation_type": "daily_random_selection",
     "version": "1.0.0",
@@ -25,36 +25,36 @@
   },
   "daily_news": [
     {
-      "title": "Evita sanciones administrativas con ISO 27001: cumplimiento legal",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2014/07/ISO-27001.jpg",
+      "title": "Nueva ISO 14001:2015 y los cambios producidos en la evaluación del desempeño ambiental",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2014/06/BLOG-GENERAL_20_06_2014.jpg",
       "image_exists": true,
-      "text": "Actualmente, donde la información se ha transformado en uno de los componentes más...",
+      "text": "ISO 14001 Estudiando los cambios más significativos que se van a realizar en la nueva ISO 14001:2015 vemos…",
       "news_priority": 1,
-      "selected_date": "2026-07-23T08:56:18.064197",
-      "rotation_id": "2026-07-23-1"
+      "selected_date": "2026-07-24T08:54:37.070928",
+      "rotation_id": "2026-07-24-1"
     },
     {
-      "title": "ISO 14001:2026: nueva versión publicada oficialmente por ISO",
-      "image_url": "https://esltd.co.uk/wp-content/uploads/2026/04/Screenshot-2026-04-28-112048-1024x680.png",
-      "image_exists": true,
-      "text": "La norma ISO 14001:2026 ha sido publicada oficialmente por la Organización Internacional de Normalización, sustituyendo a la versión de 2015 e incorporando mayor exigencia en resiliencia climática, biodiversidad y gestión basada en datos…",
+      "title": "Premio Nacional de Calidad para algunas empresas de Camagüey",
+      "image_url": null,
+      "image_exists": false,
+      "text": "Las entidades Comercializadora de Combustibles CUPET y la de Investigaciones y Proyectos Hidráulicos ya han sido reconocidas en…",
       "news_priority": 2,
-      "selected_date": "2026-07-23T08:56:18.064210",
-      "rotation_id": "2026-07-23-2"
+      "selected_date": "2026-07-24T08:54:37.070935",
+      "rotation_id": "2026-07-24-2"
     },
     {
-      "title": "5 claves del nuevo marco sobre conflicto de interés: ISO 37009",
-      "image_url": "https://www.isotools.us/wp-content/uploads/2024/11/ISO-37009-.png",
+      "title": "Cómo definir los objetivos y planes en ISO 45001",
+      "image_url": "https://www.isotools.us/wp-content/uploads/2024/09/Como-definir-los-objetivos-y-planes-en-ISO-45001-1.jpg",
       "image_exists": true,
-      "text": "La transparencia y la ética son dos pilares muy importantes en lo que respecta al éxito y la sostenibilidad de las empresas. La norma ISO...",
+      "text": "La definición de objetivos y planes en ISO 45001 es una tarea que implica mayor responsabilidad que la…",
       "news_priority": 3,
-      "selected_date": "2026-07-23T08:56:18.064213",
-      "rotation_id": "2026-07-23-3"
+      "selected_date": "2026-07-24T08:54:37.070937",
+      "rotation_id": "2026-07-24-3"
     }
   ],
   "generation_info": {
-    "selected_at": "2026-07-23T08:56:18.064310",
-    "next_rotation": "2026-07-24T08:56:18.064310",
+    "selected_at": "2026-07-24T08:54:37.071027",
+    "next_rotation": "2026-07-25T08:54:37.071027",
     "algorithm": "python_random_sample",
     "total_available_articles": 2915,
     "rotation_guaranteed": true
